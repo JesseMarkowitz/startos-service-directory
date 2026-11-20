@@ -13,7 +13,7 @@
       "packages": 109
     },
     "h0mer": {
-      "error": "URLError: <urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1127)>",
+      "error": "URLError: <urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1011)>",
       "keptPackages": 0,
       "ok": false
     },
@@ -420,7 +420,7 @@
       ],
       "registries": {},
       "replaces": "—",
-      "short": "Automatically find and sync subtitles for your TV shows and movies",
+      "short": "Bazarr for StartOS",
       "title": "Bazarr",
       "upstreamRepo": "https://github.com/morpheus65535/bazarr"
     },
@@ -755,7 +755,7 @@
       "registries": {
         "community": "#roots:29.4:2",
         "community-beta": "#roots:29.4:3",
-        "mempool-guide": "#knots:29.5.0:5",
+        "mempool-guide": "#knots:29.5.0:6",
         "paulscode": "#knotssha:31.2:2",
         "start9": "32.1:1",
         "start9-beta": "32.1:1"
@@ -2405,7 +2405,7 @@
       ],
       "registries": {},
       "replaces": "Google Find My Device",
-      "short": "Self-hosted server for the FMD (Find My Device) Android app",
+      "short": "StartOS package for FMD Server",
       "title": "FMD Server",
       "upstreamRepo": "https://gitlab.com/fmd-foss/fmd-server"
     },
@@ -3365,7 +3365,7 @@
       ],
       "registries": {},
       "replaces": "Evernote, Joplin Cloud",
-      "short": "Self-hosted sync server for the Joplin note-taking app",
+      "short": "Joplin Server for StartOS",
       "title": "Joplin Server",
       "upstreamRepo": "https://github.com/laurent22/joplin"
     },
@@ -5486,6 +5486,20 @@
       "short": null,
       "title": "Proof of Basis",
       "upstreamRepo": "https://github.com/DeGrandis/proof-of-basis"
+    },
+    "proto-fleet": {
+      "categories": [],
+      "id": "proto-fleet",
+      "lastPush": "2026-11-20",
+      "license": "Apache-2.0",
+      "otherRepos": [],
+      "packageRepos": [
+        "https://github.com/Start9Labs/proto-fleet-startos"
+      ],
+      "registries": {},
+      "short": "StartOS package for Proto Fleet",
+      "title": "Proto Fleet",
+      "upstreamRepo": "https://github.com/block/proto-fleet"
     },
     "prowlarr": {
       "categories": [

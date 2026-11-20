@@ -634,7 +634,7 @@
       "title": "Roblosats Coordinator",
       "upstreamRepo": "https://github.com/Kilombino/roblosats"
     },
-    "pushedAt": "2026-11-20T14:00:55Z"
+    "pushedAt": "2026-11-20T16:28:14Z"
   },
   "Kilombino/roblosats-startos": {
     "kind": "v04",
@@ -645,7 +645,7 @@
       "title": "Roblosats",
       "upstreamRepo": "https://github.com/Kilombino/roblosats"
     },
-    "pushedAt": "2026-11-20T09:08:43Z"
+    "pushedAt": "2026-11-20T16:21:24Z"
   },
   "Kilombino/thunderhub-xbt-startos": {
     "kind": "v04",
@@ -1105,7 +1105,7 @@
       "title": "Bark Wallet",
       "upstreamRepo": "https://gitlab.com/ark-bitcoin/bark-web"
     },
-    "pushedAt": "2026-11-20T15:02:21Z"
+    "pushedAt": "2026-11-20T16:45:45Z"
   },
   "Start9Labs/bazarr-startos": {
     "kind": "v04",
@@ -1226,7 +1226,7 @@
       "title": "Discourse",
       "upstreamRepo": "https://github.com/discourse/discourse"
     },
-    "pushedAt": "2026-11-20T15:14:24Z"
+    "pushedAt": "2026-11-20T16:45:52Z"
   },
   "Start9Labs/documenso-startos": {
     "kind": "v04",
@@ -1358,7 +1358,7 @@
       "title": "Frappe Helpdesk",
       "upstreamRepo": "https://github.com/frappe/helpdesk"
     },
-    "pushedAt": "2026-11-20T15:03:36Z"
+    "pushedAt": "2026-11-20T16:46:07Z"
   },
   "Start9Labs/ghost-startos": {
     "kind": "v04",
@@ -1380,7 +1380,7 @@
       "title": "Gitea Runner",
       "upstreamRepo": "https://gitea.com/gitea/runner"
     },
-    "pushedAt": "2026-11-20T15:11:36Z"
+    "pushedAt": "2026-11-20T16:45:54Z"
   },
   "Start9Labs/helix-home-startos": {
     "kind": "v04",
@@ -1689,6 +1689,17 @@
       "upstreamRepo": "https://github.com/PrimalHQ/primal-web-app"
     },
     "pushedAt": "2026-10-08T04:35:21Z"
+  },
+  "Start9Labs/proto-fleet-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "proto-fleet",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/Start9Labs/proto-fleet-startos",
+      "title": "Proto Fleet",
+      "upstreamRepo": "https://github.com/block/proto-fleet"
+    },
+    "pushedAt": "2026-11-20T16:28:02Z"
   },
   "Start9Labs/prowlarr-startos": {
     "kind": "v04",
@@ -4023,7 +4034,7 @@
       "title": "MakeMKV",
       "upstreamRepo": "https://github.com/jlesage/docker-makemkv"
     },
-    "pushedAt": "2026-11-20T04:23:15Z"
+    "pushedAt": "2026-11-20T16:50:43Z"
   },
   "sovsender/pia-startos": {
     "kind": "v04",
@@ -4210,7 +4221,7 @@
       "title": "Jumble",
       "upstreamRepo": "https://github.com/CodyTseng/jumble"
     },
-    "pushedAt": "2026-11-20T15:58:24Z"
+    "pushedAt": "2026-11-20T16:38:40Z"
   },
   "stupleb/lifttrace-startos": {
     "kind": "v04",
