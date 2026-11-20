@@ -1,0 +1,272 @@
+{
+  "__categories__": [
+    "AI",
+    "Bitcoin",
+    "Data",
+    "Developer Tools",
+    "Featured",
+    "Lightning"
+  ],
+  "agent-wallet": {
+    "categories": [
+      "AI",
+      "Bitcoin",
+      "Featured",
+      "Lightning"
+    ],
+    "license": "MIT",
+    "marketingUrl": "https://github.com/paulscode/agent-wallet",
+    "packageRepo": "https://github.com/paulscode/agent-wallet-startos",
+    "short": "A self-custodial Bitcoin & Lightning wallet with an automation API",
+    "title": "Agent Wallet",
+    "upstreamRepo": "https://github.com/paulscode/agent-wallet",
+    "version": "0.4.18:4"
+  },
+  "bitcoind": {
+    "categories": [
+      "Bitcoin",
+      "Featured"
+    ],
+    "license": "MIT",
+    "marketingUrl": "https://github.com/paulscode/knots-sha256",
+    "packageRepo": "https://github.com/paulscode/knots-sha256-startos",
+    "short": "Bitcoin Knots for the SHA256 chain: a Bitcoin full node with Knots' policy controls, consensus-identical to Bitcoin Core",
+    "title": "Bitcoin Knots (SHA256)",
+    "upstreamRepo": "https://github.com/paulscode/knots-sha256",
+    "version": "#knotssha:31.2:2"
+  },
+  "cesspool-pruned": {
+    "categories": [
+      "Bitcoin"
+    ],
+    "license": "MIT",
+    "marketingUrl": "https://cesspool.lol/",
+    "packageRepo": "https://github.com/paulscode/cesspool-pruned-startos",
+    "short": "Bitcoin water quality, block by block: every block graded for spam, from your own node",
+    "title": "Cesspool Pruned",
+    "upstreamRepo": "https://github.com/jasonsopko/cesspool",
+    "version": "0.1.0:0"
+  },
+  "datum": {
+    "categories": [],
+    "license": "mit",
+    "marketingUrl": "https://ocean.xyz/",
+    "packageRepo": "https://github.com/paulscode/datum-gateway-sha256-startos",
+    "short": "Make block templates and issue work to your miners",
+    "title": "Datum Gateway (SHA256)",
+    "upstreamRepo": "https://github.com/paulscode/datum_gateway",
+    "version": "0.5.1-beta:11"
+  },
+  "datum-blake2b": {
+    "categories": [
+      "Bitcoin",
+      "Featured"
+    ],
+    "license": "MIT",
+    "marketingUrl": "https://ocean.xyz/",
+    "packageRepo": "https://github.com/paulscode/datum-blake2b-startos",
+    "short": "Solo mine the BLAKE2b chain with a Sia-style ASIC you already own",
+    "title": "Datum Gateway (BLAKE2b) Companion",
+    "upstreamRepo": "https://github.com/OCEAN-xyz/datum_gateway",
+    "version": "1.1.3:0"
+  },
+  "datum-sha256": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://ocean.xyz/",
+    "packageRepo": "https://github.com/paulscode/datum-sha256-startos",
+    "short": "Mine the SHA256 chain with your own block templates, on a node that never enforces BIP-110",
+    "title": "Datum Gateway (SHA256) Companion",
+    "upstreamRepo": "https://github.com/OCEAN-xyz/datum_gateway",
+    "version": "1.0.0:5"
+  },
+  "electrs-pruned": {
+    "categories": [
+      "Bitcoin",
+      "Featured"
+    ],
+    "license": "MIT",
+    "marketingUrl": "https://github.com/romanz/electrs/",
+    "packageRepo": "https://github.com/paulscode/electrs-pruned-startos",
+    "short": "An efficient re-implementation of Electrum Server in Rust, for pruned Bitcoin nodes",
+    "title": "Electrs Pruned",
+    "upstreamRepo": "https://github.com/romanz/electrs",
+    "version": "0.11.1:48"
+  },
+  "frigate-blake2b-companion": {
+    "categories": [
+      "Bitcoin"
+    ],
+    "license": "Apache-2.0",
+    "marketingUrl": "https://github.com/sparrowwallet/frigate",
+    "packageRepo": "https://github.com/paulscode/frigate-blake2b-companion-startos",
+    "short": "Silent Payments Electrum server that runs on a pruned node",
+    "title": "Frigate Electrum Server (BLAKE2b) Companion",
+    "upstreamRepo": "https://github.com/sparrowwallet/frigate",
+    "version": "1.6.1:0"
+  },
+  "frigate-sha256-companion": {
+    "categories": [
+      "Bitcoin"
+    ],
+    "license": "Apache-2.0",
+    "marketingUrl": "https://github.com/sparrowwallet/frigate",
+    "packageRepo": "https://github.com/paulscode/frigate-sha256-companion-startos",
+    "short": "Silent Payments Electrum server that runs on a pruned node",
+    "title": "Frigate Electrum Server (SHA256) Companion",
+    "upstreamRepo": "https://github.com/sparrowwallet/frigate",
+    "version": "1.6.1:0"
+  },
+  "fulcrum-pruned": {
+    "categories": [
+      "Bitcoin"
+    ],
+    "license": "GPL-3.0",
+    "marketingUrl": "https://github.com/cculianu/Fulcrum",
+    "packageRepo": "https://github.com/paulscode/fulcrum-pruned",
+    "short": "A fast Electrum server for a pruned node, on the SHA256 or the BLAKE2b chain.",
+    "title": "Fulcrum Pruned",
+    "upstreamRepo": "https://github.com/cculianu/Fulcrum",
+    "version": "2.1.4:1"
+  },
+  "gitlab": {
+    "categories": [
+      "Developer Tools",
+      "Featured"
+    ],
+    "license": "MIT",
+    "marketingUrl": "https://about.gitlab.com/",
+    "packageRepo": "https://github.com/paulscode/gitlab-startos",
+    "short": "Self-hosted Git forge with merge requests, issue tracking and CI/CD",
+    "title": "GitLab",
+    "upstreamRepo": "https://gitlab.com/gitlab-org/omnibus-gitlab",
+    "version": "19.2.2:1"
+  },
+  "gitlab-runner": {
+    "categories": [
+      "Developer Tools",
+      "Featured"
+    ],
+    "license": "MIT",
+    "marketingUrl": "https://docs.gitlab.com/runner/",
+    "packageRepo": "https://github.com/paulscode/gitlab-runner-startos",
+    "short": "Runs CI/CD jobs for the GitLab on this server",
+    "title": "GitLab Runner",
+    "upstreamRepo": "https://gitlab.com/gitlab-org/gitlab-runner",
+    "version": "19.2.2:0"
+  },
+  "hashgg": {
+    "categories": [
+      "Bitcoin",
+      "Featured"
+    ],
+    "license": "mit",
+    "marketingUrl": "https://github.com/paulscode/hashgg",
+    "packageRepo": "https://github.com/paulscode/hashgg",
+    "short": "Expose Datum Gateway to the internet via playit.gg",
+    "title": "HashGG",
+    "upstreamRepo": "https://github.com/playit-cloud/playit-agent",
+    "version": "0.7.2:6"
+  },
+  "hashgg-companion": {
+    "categories": [],
+    "license": "mit",
+    "marketingUrl": "https://github.com/paulscode/hashgg",
+    "packageRepo": "https://github.com/paulscode/hashgg",
+    "short": "Expose the Companion Datum Gateway to the internet, alongside HashGG",
+    "title": "HashGG Companion",
+    "upstreamRepo": "https://github.com/playit-cloud/playit-agent",
+    "version": "0.7.2:6"
+  },
+  "key-value-copy": {
+    "categories": [
+      "Data",
+      "Featured"
+    ],
+    "license": "MIT",
+    "marketingUrl": "https://github.com/paulscode/key-value-copy",
+    "packageRepo": "https://github.com/paulscode/key-value-copy",
+    "short": "Secure key-value storage with encrypted export/import",
+    "title": "Key Value Copy",
+    "upstreamRepo": "https://github.com/paulscode/key-value-copy",
+    "version": "1.1.1:3"
+  },
+  "knots-blake2b": {
+    "categories": [
+      "Bitcoin",
+      "Featured"
+    ],
+    "license": "MIT",
+    "marketingUrl": "https://bitcoinknots.org/",
+    "packageRepo": "https://github.com/paulscode/knots-blake2b-startos",
+    "short": "A Bitcoin Knots node on the BLAKE2b chain, pruned so it fits alongside another",
+    "title": "Bitcoin Knots (BLAKE2b) Companion",
+    "upstreamRepo": "https://github.com/bitcoinknots/bitcoin",
+    "version": "29.5.0:1"
+  },
+  "knots-prerdts": {
+    "categories": [
+      "Bitcoin",
+      "Featured"
+    ],
+    "license": "MIT",
+    "marketingUrl": "https://github.com/paulscode/knots-sha256",
+    "packageRepo": "https://github.com/paulscode/knots-prerdts-startos",
+    "short": "A pruned Bitcoin Knots node for the SHA256 chain, to run beside your main node",
+    "title": "Bitcoin Knots (SHA256) Companion",
+    "upstreamRepo": "https://github.com/paulscode/knots-sha256",
+    "version": "#knotsprerdts:31.2:0"
+  },
+  "lightning-fork": {
+    "categories": [
+      "Bitcoin",
+      "Featured",
+      "Lightning"
+    ],
+    "license": "MIT",
+    "marketingUrl": "https://github.com/paulscode/lightning-fork",
+    "packageRepo": "https://github.com/paulscode/lightning-fork-startos",
+    "short": "A Lightning Network node for the Bitcoin BLAKE2b chain, forked from LND",
+    "title": "Lightning Fork",
+    "upstreamRepo": "https://github.com/paulscode/lightning-fork",
+    "version": "0.21.8-beta.24.1:0"
+  },
+  "mempool-pruned": {
+    "categories": [
+      "Bitcoin"
+    ],
+    "license": "AGPL",
+    "marketingUrl": "https://mempool.space/",
+    "packageRepo": "https://github.com/paulscode/mempool-pruned-startos",
+    "short": "Be your own explorer® with The Mempool Open Source Project®",
+    "title": "Mempool Pruned",
+    "upstreamRepo": "https://github.com/mempool/mempool",
+    "version": "3.3.2:1"
+  },
+  "pickhash": {
+    "categories": [
+      "Bitcoin",
+      "Featured"
+    ],
+    "license": "mit",
+    "marketingUrl": "https://github.com/paulscode/pickhash",
+    "packageRepo": "https://github.com/paulscode/pickhash",
+    "short": "Rent Bitcoin hashrate on your own terms",
+    "title": "Pickhash",
+    "upstreamRepo": "https://github.com/paulscode/pickhash",
+    "version": "0.1.8:1"
+  },
+  "serper": {
+    "categories": [
+      "AI",
+      "Featured"
+    ],
+    "license": "MIT",
+    "marketingUrl": "https://paulscode.com/",
+    "packageRepo": "https://github.com/paulscode/serper-startos",
+    "short": "Self-sovereign Serper-compatible search API - own your AI's search capability.",
+    "title": "Serper Clone",
+    "upstreamRepo": "https://github.com/paulscode/searxng-serper-bridge",
+    "version": "1.0.1:4"
+  }
+}

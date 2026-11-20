@@ -1,0 +1,10 @@
+{
+  "description": "The open registry for StartOS. Each service is maintained by its own developer.\n\nTo list a service of your own, follow the [packaging guide](https://docs.start9.com/packaging); help is in the [service packaging room](https://matrix.to/#/#dev-service-packaging:matrix.start9labs.com) on Matrix.",
+  "icon": "community.png",
+  "name": "Community Registry",
+  "signers": [
+    "Start9",
+    "drbonez",
+    "matthill"
+  ]
+}

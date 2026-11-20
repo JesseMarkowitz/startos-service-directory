@@ -1,0 +1,13 @@
+{
+  "__categories__": [],
+  "haven": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://github.com/barrydeen/haven",
+    "packageRepo": "https://github.com/Letdown2491/haven-kit-startos",
+    "short": "High Availability Vault for Events on Nostr",
+    "title": "HAVEN",
+    "upstreamRepo": "https://github.com/barrydeen/haven",
+    "version": "1.2.2:6"
+  }
+}

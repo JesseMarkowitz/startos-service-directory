@@ -1,0 +1,10 @@
+{
+  "description": "The primary registry for StartOS, run by Start9.\n\nEvery service here is **maintained**, **recommended**, and **supported** by Start9.",
+  "icon": "start9.png",
+  "name": "Start9 Registry",
+  "signers": [
+    "Start9",
+    "drbonez",
+    "matthill"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "description": null,
+  "icon": "mempool-guide.jpg",
+  "name": "Bitcoin",
+  "signers": [
+    "horizon",
+    "kyle"
+  ]
+}

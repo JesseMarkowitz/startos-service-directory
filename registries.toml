@@ -1,0 +1,75 @@
+# Registries the refresh script queries. Order here is the order they appear in the README.
+# `url` is the address you would add under Marketplace > registries in StartOS.
+# A registry that fails to answer keeps its last good snapshot (data/registry-snapshot/).
+
+[[registry]]
+slug = "start9"
+name = "Start9 Registry"
+url = "https://registry.start9.com/"
+operator = "Start9"
+
+[[registry]]
+slug = "start9-beta"
+name = "Start9 Beta Registry"
+url = "https://beta-registry.start9.com/"
+operator = "Start9"
+
+[[registry]]
+slug = "community"
+name = "Start9 Community Registry"
+url = "https://community-registry.start9.com/"
+operator = "Start9"
+
+[[registry]]
+slug = "community-beta"
+name = "Start9 Community Beta Registry"
+url = "https://community-beta-registry.start9.com/"
+operator = "Start9"
+
+[[registry]]
+slug = "paulscode"
+name = "PaulsCode"
+url = "https://start9.paulscode.com/"
+operator = "3rdParty"
+
+[[registry]]
+slug = "testnet4"
+name = "registry.testnet4.info"
+url = "https://registry.testnet4.info/"
+operator = "3rdParty"
+
+[[registry]]
+slug = "atoll"
+name = "Atoll Registry"
+url = "https://start9.bobodread.com/"
+operator = "3rdParty"
+
+[[registry]]
+slug = "mempool-guide"
+name = "start9.mempool.guide"
+url = "https://start9.mempool.guide/"
+operator = "3rdParty"
+
+[[registry]]
+slug = "spacesops"
+name = "SpacesOps Registry"
+url = "https://registry.spacesops.com/"
+operator = "3rdParty"
+
+[[registry]]
+slug = "zsapping"
+name = "zsapping.net"
+url = "https://registry.zsapping.net/"
+operator = "3rdParty"
+
+[[registry]]
+slug = "sdbitcoiners"
+name = "SD Bitcoiners Registry"
+url = "https://registry.sdbitcoiners.com/"
+operator = "3rdParty"
+
+[[registry]]
+slug = "h0mer"
+name = "h0mer-registry"
+url = "https://registry.start9.pl/"
+operator = "3rdParty"

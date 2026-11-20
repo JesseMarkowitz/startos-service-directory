@@ -1,0 +1,23 @@
+{
+  "__categories__": [],
+  "mirall-relay": {
+    "categories": [],
+    "license": "AGPL-3.0-or-later",
+    "marketingUrl": "https://mirall.app/",
+    "packageRepo": "https://github.com/ok/mirall-relay-startos",
+    "short": "A blind relay for Mirall peer-to-peer connections",
+    "title": "Mirall Relay",
+    "upstreamRepo": "https://github.com/ok/mirall-relay",
+    "version": "0.4.2:1"
+  },
+  "obsidian-livesync": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://github.com/vrtmrz/obsidian-livesync",
+    "packageRepo": "https://github.com/ok/obsidian-livesync-startos",
+    "short": "Sync server for the Obsidian Self-hosted LiveSync plugin",
+    "title": "Obsidian LiveSync",
+    "upstreamRepo": "https://github.com/vrtmrz/obsidian-livesync",
+    "version": "1.0.50:0"
+  }
+}

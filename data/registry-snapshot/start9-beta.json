@@ -1,0 +1,963 @@
+{
+  "__categories__": [],
+  "actual-budget": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://actualbudget.org/",
+    "packageRepo": "https://github.com/Start9Labs/actual-budget-startos",
+    "short": "A local-first personal finance app",
+    "title": "Actual Budget",
+    "upstreamRepo": "https://github.com/actualbudget/actual",
+    "version": "26.11.0:0"
+  },
+  "albyhub": {
+    "categories": [],
+    "license": "Apache-2.0",
+    "marketingUrl": "https://albyhub.com/",
+    "packageRepo": "https://github.com/Start9Labs/albyhub-startos",
+    "short": "Self-custodial Lightning wallet with integrated node",
+    "title": "Alby Hub",
+    "upstreamRepo": "https://github.com/getAlby/hub",
+    "version": "1.24.8:0"
+  },
+  "am-i-exposed": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://am-i.exposed/",
+    "packageRepo": "https://github.com/Start9Labs/am-i-exposed-startos",
+    "short": "Bitcoin privacy scanner - find out what the blockchain reveals about you",
+    "title": "Am I Exposed?",
+    "upstreamRepo": "https://github.com/Copexit/am-i-exposed",
+    "version": "0.43.3:0"
+  },
+  "audiobookshelf": {
+    "categories": [],
+    "license": "GPL-3.0",
+    "marketingUrl": "https://www.audiobookshelf.org/",
+    "packageRepo": "https://github.com/Start9Labs/audiobookshelf-startos",
+    "short": "Self-hosted audiobook and podcast server",
+    "title": "Audiobookshelf",
+    "upstreamRepo": "https://github.com/advplyr/audiobookshelf",
+    "version": "2.38.0:0"
+  },
+  "bark-web": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://second.tech/",
+    "packageRepo": "https://github.com/Start9Labs/bark-web-startos",
+    "short": "Self-custodial Ark wallet for fast Bitcoin payments",
+    "title": "Bark Wallet",
+    "upstreamRepo": "https://gitlab.com/ark-bitcoin/bark-web",
+    "version": "0.11.0:2"
+  },
+  "beszel": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://beszel.dev/",
+    "packageRepo": "https://github.com/Start9Labs/beszel-startos",
+    "short": "Lightweight server monitoring with Docker stats, historical data, and alerts.",
+    "title": "Beszel",
+    "upstreamRepo": "https://github.com/henrygd/beszel",
+    "version": "0.21.2:0"
+  },
+  "bitcoind": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://bitcoincore.org/",
+    "packageRepo": "https://github.com/Start9Labs/bitcoin-core-startos",
+    "short": "A Bitcoin Full Node by Bitcoin Core",
+    "title": "Bitcoin Core",
+    "upstreamRepo": "https://github.com/bitcoin/bitcoin",
+    "version": "32.1:1"
+  },
+  "btcpayserver": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://btcpayserver.org/",
+    "packageRepo": "https://github.com/Start9Labs/btcpayserver-startos",
+    "short": "Bitcoin and cryptocurrency payment processor and POS system.",
+    "title": "BTCPay Server",
+    "upstreamRepo": "https://github.com/btcpayserver/btcpayserver",
+    "version": "2.4.7:5"
+  },
+  "byparr": {
+    "categories": [],
+    "license": "GPL-3.0",
+    "marketingUrl": "https://github.com/ThePhaseless/Byparr",
+    "packageRepo": "https://github.com/Start9Labs/byparr-startos",
+    "short": "Gets Prowlarr past Cloudflare challenges on protected indexers",
+    "title": "Byparr",
+    "upstreamRepo": "https://github.com/ThePhaseless/Byparr",
+    "version": "3.1.1:0"
+  },
+  "c-lightning": {
+    "categories": [],
+    "license": "mit",
+    "marketingUrl": "https://blockstream.com/lightning",
+    "packageRepo": "https://github.com/Start9Labs/cln-startos",
+    "short": "An implementation of the Lightning Network protocol by Blockstream.",
+    "title": "Core Lightning",
+    "upstreamRepo": "https://github.com/ElementsProject/lightning",
+    "version": "26.6.10:7"
+  },
+  "cal-diy": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://cal.diy/",
+    "packageRepo": "https://github.com/Start9Labs/cal-diy-startos",
+    "short": "Open source scheduling infrastructure",
+    "title": "Cal.diy",
+    "upstreamRepo": "https://github.com/calcom/cal.diy",
+    "version": "6.2.0:14"
+  },
+  "changedetection": {
+    "categories": [],
+    "license": "Apache-2.0",
+    "marketingUrl": "https://changedetection.io/",
+    "packageRepo": "https://github.com/Start9Labs/changedetection-startos",
+    "short": "Website change monitoring and notifications",
+    "title": "ChangeDetection.io",
+    "upstreamRepo": "https://github.com/dgtlmoon/changedetection.io",
+    "version": "0.70.2:1"
+  },
+  "collabora-online": {
+    "categories": [],
+    "license": "MPL-2.0",
+    "marketingUrl": "https://www.collaboraonline.com/",
+    "packageRepo": "https://github.com/Start9Labs/collabora-online-startos",
+    "short": "The office suite behind Nextcloud Office",
+    "title": "Collabora Online",
+    "upstreamRepo": "https://github.com/CollaboraOnline/online",
+    "version": "26.4.6.1.1:0"
+  },
+  "coturn": {
+    "categories": [],
+    "license": "BSD-3-Clause",
+    "marketingUrl": "https://github.com/coturn/coturn",
+    "packageRepo": "https://github.com/Start9Labs/coturn-startos",
+    "short": "TURN/STUN relay server for real-time communication",
+    "title": "Coturn",
+    "upstreamRepo": "https://github.com/coturn/coturn",
+    "version": "4.19.2:0"
+  },
+  "cryptpad": {
+    "categories": [],
+    "license": "AGPL-3.0",
+    "marketingUrl": "https://cryptpad.org/",
+    "packageRepo": "https://github.com/Start9Labs/cryptpad-startos",
+    "short": "End-to-end encrypted collaborative office suite",
+    "title": "CryptPad",
+    "upstreamRepo": "https://github.com/cryptpad/cryptpad",
+    "version": "2026.10.1:0"
+  },
+  "datum": {
+    "categories": [],
+    "license": "mit",
+    "marketingUrl": "https://ocean.xyz/",
+    "packageRepo": "https://github.com/Start9Labs/datum-gateway-startos",
+    "short": "Make block templates and issue work to your miners",
+    "title": "Datum Gateway",
+    "upstreamRepo": "https://github.com/ocean-xyz/datum-gateway",
+    "version": "0.5.1-beta:2"
+  },
+  "discourse": {
+    "categories": [],
+    "license": "GPL-2.0",
+    "marketingUrl": "https://www.discourse.org/",
+    "packageRepo": "https://github.com/Start9Labs/discourse-startos",
+    "short": "Forum and community discussion platform",
+    "title": "Discourse",
+    "upstreamRepo": "https://github.com/discourse/discourse",
+    "version": "2026.11.0-latest.1:0"
+  },
+  "documenso": {
+    "categories": [],
+    "license": "AGPL-3.0",
+    "marketingUrl": "https://documenso.com/",
+    "packageRepo": "https://github.com/Start9Labs/documenso-startos",
+    "short": "Open-source document signing",
+    "title": "Documenso",
+    "upstreamRepo": "https://github.com/documenso/documenso",
+    "version": "2.22.0:0"
+  },
+  "docuseal": {
+    "categories": [],
+    "license": "AGPL-3.0",
+    "marketingUrl": "https://www.docuseal.com/",
+    "packageRepo": "https://github.com/Start9Labs/docuseal-startos",
+    "short": "Open-source document signing platform",
+    "title": "DocuSeal",
+    "upstreamRepo": "https://github.com/docusealco/docuseal",
+    "version": "3.3.8:0"
+  },
+  "easyappointments": {
+    "categories": [],
+    "license": "GPL-3.0",
+    "marketingUrl": "https://easyappointments.org/",
+    "packageRepo": "https://github.com/Start9Labs/easyappointments-startos",
+    "short": "Online appointment booking for a team",
+    "title": "Easy!Appointments",
+    "upstreamRepo": "https://github.com/alextselegidis/easyappointments",
+    "version": "1.6.1:0"
+  },
+  "eclair": {
+    "categories": [],
+    "license": "Apache-2.0",
+    "marketingUrl": "https://acinq.co/",
+    "packageRepo": "https://github.com/Start9Labs/eclair-startos",
+    "short": "A Scala implementation of the Lightning Network",
+    "title": "Eclair",
+    "upstreamRepo": "https://github.com/ACINQ/eclair",
+    "version": "0.14.6:5"
+  },
+  "electrs": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://github.com/romanz/electrs/",
+    "packageRepo": "https://github.com/Start9Labs/electrs-startos",
+    "short": "An efficient re-implementation of Electrum Server in Rust",
+    "title": "Electrs",
+    "upstreamRepo": "https://github.com/romanz/electrs",
+    "version": "0.12.1:2"
+  },
+  "element-web": {
+    "categories": [],
+    "license": "AGPL-3.0",
+    "marketingUrl": "https://github.com/Start9Labs/element-web/blob/master/docs/fork.md",
+    "packageRepo": "https://github.com/Start9Labs/element-web-startos",
+    "short": "Start9's fork of Element Web: the Matrix client, built to be installed on a phone.",
+    "title": "Element Web (Start9 fork)",
+    "upstreamRepo": "https://github.com/Start9Labs/element-web",
+    "version": "1.12.35.1:1"
+  },
+  "erpnext": {
+    "categories": [],
+    "license": "GPL-3.0",
+    "marketingUrl": "https://frappe.io/erpnext",
+    "packageRepo": "https://github.com/Start9Labs/erpnext-startos",
+    "short": "Accounting and business management for small companies",
+    "title": "ERPNext",
+    "upstreamRepo": "https://github.com/frappe/erpnext",
+    "version": "16.60.0:0"
+  },
+  "filebrowser": {
+    "categories": [],
+    "license": "Apache-2.0",
+    "marketingUrl": "https://filebrowser.org/",
+    "packageRepo": "https://github.com/Start9Labs/filebrowser-startos",
+    "short": "No longer maintained. Cloud data storage and sharing",
+    "title": "File Browser (unsupported)",
+    "upstreamRepo": "https://github.com/filebrowser/filebrowser",
+    "version": "2.63.23:6"
+  },
+  "firefly-iii": {
+    "categories": [],
+    "license": "AGPL-3.0",
+    "marketingUrl": "https://firefly-iii.org/",
+    "packageRepo": "https://github.com/Start9Labs/firefly-iii-startos",
+    "short": "Double-entry personal finance manager",
+    "title": "Firefly III",
+    "upstreamRepo": "https://github.com/firefly-iii/firefly-iii",
+    "version": "6.7.9:2"
+  },
+  "forgejo": {
+    "categories": [],
+    "license": "GPL-3.0-or-later",
+    "marketingUrl": "https://forgejo.org/",
+    "packageRepo": "https://github.com/Start9Labs/forgejo-startos",
+    "short": "A painless self-hosted Git service",
+    "title": "Forgejo",
+    "upstreamRepo": "https://codeberg.org/forgejo/forgejo",
+    "version": "17.0.2:0"
+  },
+  "forgejo-runner": {
+    "categories": [],
+    "license": "GPL-3.0-or-later",
+    "marketingUrl": "https://forgejo.org/",
+    "packageRepo": "https://github.com/Start9Labs/forgejo-runner-startos",
+    "short": "A CI/CD runner for Forgejo Actions",
+    "title": "Forgejo Runner",
+    "upstreamRepo": "https://code.forgejo.org/forgejo/runner",
+    "version": "13.2.2:0"
+  },
+  "frappe-helpdesk": {
+    "categories": [],
+    "license": "AGPL-3.0",
+    "marketingUrl": "https://frappe.io/helpdesk",
+    "packageRepo": "https://github.com/Start9Labs/frappe-helpdesk-startos",
+    "short": "Customer support ticketing with an email inbox and knowledge base",
+    "title": "Frappe Helpdesk",
+    "upstreamRepo": "https://github.com/frappe/helpdesk",
+    "version": "16.2.0:0"
+  },
+  "fulcrum": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://github.com/cculianu/Fulcrum",
+    "packageRepo": "https://github.com/Start9Labs/fulcrum-startos",
+    "short": "A fast and efficient Electrum server that connects to your Bitcoin node.",
+    "title": "Fulcrum",
+    "upstreamRepo": "https://github.com/cculianu/Fulcrum",
+    "version": "2.1.4:5"
+  },
+  "garage": {
+    "categories": [],
+    "license": "AGPL-3.0",
+    "marketingUrl": "https://garagehq.deuxfleurs.fr/",
+    "packageRepo": "https://github.com/Start9Labs/garage-startos",
+    "short": "S3-compatible object storage for self-hosted deployments",
+    "title": "Garage",
+    "upstreamRepo": "https://git.deuxfleurs.fr/Deuxfleurs/garage",
+    "version": "2.5.0:0"
+  },
+  "ghost": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://ghost.org/",
+    "packageRepo": "https://github.com/Start9Labs/ghost-startos",
+    "short": "A self-hosted blogging platform",
+    "title": "Ghost",
+    "upstreamRepo": "https://github.com/TryGhost/ghost",
+    "version": "6.78.0:0"
+  },
+  "gitea": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://gitea.com/",
+    "packageRepo": "https://github.com/Start9Labs/gitea-startos",
+    "short": "A painless self-hosted Git service",
+    "title": "Gitea",
+    "upstreamRepo": "https://github.com/go-gitea/gitea",
+    "version": "28.4.0:0"
+  },
+  "gitea-runner": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://gitea.com/",
+    "packageRepo": "https://github.com/Start9Labs/gitea-runner-startos",
+    "short": "A CI/CD runner for Gitea Actions",
+    "title": "Gitea Runner",
+    "upstreamRepo": "https://gitea.com/gitea/runner",
+    "version": "6.0.0:0"
+  },
+  "home-assistant": {
+    "categories": [],
+    "license": "Apache-2.0",
+    "marketingUrl": "https://homeassistant.io/",
+    "packageRepo": "https://github.com/Start9Labs/home-assistant-startos",
+    "short": "Open source home automation that puts local control and privacy first",
+    "title": "Home Assistant",
+    "upstreamRepo": "https://github.com/home-assistant/core",
+    "version": "2026.11.2:0"
+  },
+  "i2pd": {
+    "categories": [],
+    "license": "BSD-3-Clause",
+    "marketingUrl": "https://i2pd.website/",
+    "packageRepo": "https://github.com/Start9Labs/i2pd-startos",
+    "short": "Peer-to-peer network for I2P services and decentralized applications",
+    "title": "I2Pd",
+    "upstreamRepo": "https://github.com/PurpleI2P/i2pd",
+    "version": "3.0.0:1"
+  },
+  "immich": {
+    "categories": [],
+    "license": "AGPL-3.0",
+    "marketingUrl": "https://immich.app/",
+    "packageRepo": "https://github.com/Start9Labs/immich-startos",
+    "short": "High-performance self-hosted photo and video management",
+    "title": "Immich",
+    "upstreamRepo": "https://github.com/immich-app/immich",
+    "version": "3.4.1:0"
+  },
+  "jam-v2": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://jamapp.org/",
+    "packageRepo": "https://github.com/Start9Labs/jam-v2-startos",
+    "short": "CoinJoin wallet powered by JoinMarket",
+    "title": "Jam V2",
+    "upstreamRepo": "https://github.com/joinmarket-webui/jam",
+    "version": "2.0.0-beta.4:1"
+  },
+  "jellyfin": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://jellyfin.org/",
+    "packageRepo": "https://github.com/Start9Labs/jellyfin-startos",
+    "short": "The Free Software Media System",
+    "title": "Jellyfin",
+    "upstreamRepo": "https://github.com/jellyfin/jellyfin",
+    "version": "12.4:5"
+  },
+  "jitsi": {
+    "categories": [],
+    "license": "Apache-2.0",
+    "marketingUrl": "https://jitsi.org/",
+    "packageRepo": "https://github.com/Start9Labs/jitsi-startos",
+    "short": "Self-hosted video conferencing with Jitsi Meet",
+    "title": "Jitsi Meet",
+    "upstreamRepo": "https://github.com/jitsi/docker-jitsi-meet",
+    "version": "2.0.11509:3"
+  },
+  "karakeep": {
+    "categories": [],
+    "license": "AGPL-3.0",
+    "marketingUrl": "https://karakeep.com/",
+    "packageRepo": "https://github.com/Start9Labs/karakeep-startos",
+    "short": "A self-hostable bookmark-everything app",
+    "title": "Karakeep",
+    "upstreamRepo": "https://github.com/karakeep-app/karakeep",
+    "version": "0.35.0:1"
+  },
+  "lidarr": {
+    "categories": [],
+    "license": "GPL-3.0",
+    "marketingUrl": "https://lidarr.audio/",
+    "packageRepo": "https://github.com/Start9Labs/lidarr-startos",
+    "short": "Automatically find, download, and organize music",
+    "title": "Lidarr",
+    "upstreamRepo": "https://github.com/Lidarr/Lidarr",
+    "version": "3.1.6.5079:2"
+  },
+  "lightning-terminal": {
+    "categories": [],
+    "license": "mit",
+    "marketingUrl": "https://lightning.engineering/",
+    "packageRepo": "https://github.com/Start9Labs/lightning-terminal-startos",
+    "short": "Your home for Lightning liquidity",
+    "title": "Lightning Terminal",
+    "upstreamRepo": "https://github.com/lightninglabs/lightning-terminal",
+    "version": "0.17.11:0"
+  },
+  "linkwarden": {
+    "categories": [],
+    "license": "AGPL-3.0-only",
+    "marketingUrl": "https://linkwarden.app/",
+    "packageRepo": "https://github.com/Start9Labs/linkwarden-startos",
+    "short": "Self-hosted, collaborative bookmark manager with link archiving (screenshots, PDFs, readability) and full-text search.",
+    "title": "Linkwarden",
+    "upstreamRepo": "https://github.com/linkwarden/linkwarden",
+    "version": "2.17.0:0"
+  },
+  "llama-cpp": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://github.com/ggml-org/llama.cpp",
+    "packageRepo": "https://github.com/Start9Labs/llama-cpp-startos",
+    "short": "OpenAI-compatible LLM inference server (llama.cpp)",
+    "title": "llama.cpp",
+    "upstreamRepo": "https://github.com/ggml-org/llama.cpp",
+    "version": "12110:0"
+  },
+  "lnbits": {
+    "categories": [],
+    "license": "mit",
+    "marketingUrl": "https://lnbits.com/",
+    "packageRepo": "https://github.com/Start9Labs/lnbits-startos",
+    "short": "A Bitcoin Lightning wallet and accounts system.",
+    "title": "LNbits",
+    "upstreamRepo": "https://github.com/lnbits/lnbits",
+    "version": "1.7.1:1"
+  },
+  "lnd": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://lightning.engineering/",
+    "packageRepo": "https://github.com/Start9Labs/lnd-startos",
+    "short": "A complete implementation of a Lightning Network node by Lightning Labs",
+    "title": "LND",
+    "upstreamRepo": "https://github.com/lightningnetwork/lnd",
+    "version": "0.21.8-beta:2"
+  },
+  "mattermost": {
+    "categories": [],
+    "license": "other",
+    "marketingUrl": "https://mattermost.com/",
+    "packageRepo": "https://github.com/Start9Labs/mattermost-startos",
+    "short": "Open source team collaboration and messaging platform",
+    "title": "Mattermost",
+    "upstreamRepo": "https://github.com/mattermost/mattermost",
+    "version": "12.1.0:1"
+  },
+  "memos": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://usememos.com/",
+    "packageRepo": "https://github.com/Start9Labs/memos-startos",
+    "short": "Self-hosted, lightweight note-taking service. Markdown-native, SQLite-backed, and fully yours.",
+    "title": "Memos",
+    "upstreamRepo": "https://github.com/usememos/memos",
+    "version": "26.11.1:0"
+  },
+  "mempool": {
+    "categories": [],
+    "license": "AGPL",
+    "marketingUrl": "https://mempool.space/",
+    "packageRepo": "https://github.com/Start9Labs/mempool-startos",
+    "short": "Be your own explorer® with The Mempool Open Source Project®",
+    "title": "Mempool",
+    "upstreamRepo": "https://github.com/mempool/mempool",
+    "version": "3.3.2:8"
+  },
+  "minecraft": {
+    "categories": [],
+    "license": "Apache-2.0",
+    "marketingUrl": "https://www.minecraft.net/",
+    "packageRepo": "https://github.com/Start9Labs/minecraft-startos",
+    "short": "Java Edition Minecraft server with web-based management",
+    "title": "Minecraft Server",
+    "upstreamRepo": "https://github.com/itzg/docker-minecraft-server",
+    "version": "26.3:3"
+  },
+  "miniflux": {
+    "categories": [],
+    "license": "Apache-2.0",
+    "marketingUrl": "https://miniflux.app/",
+    "packageRepo": "https://github.com/Start9Labs/miniflux-startos",
+    "short": "Minimalist and opinionated self-hosted RSS/Atom feed reader",
+    "title": "Miniflux",
+    "upstreamRepo": "https://github.com/miniflux/v2",
+    "version": "2.3.5:1"
+  },
+  "n8n": {
+    "categories": [],
+    "license": "Sustainable Use License",
+    "marketingUrl": "https://n8n.io/",
+    "packageRepo": "https://github.com/Start9Labs/n8n-startos",
+    "short": "Self-hosted workflow automation with AI",
+    "title": "n8n",
+    "upstreamRepo": "https://github.com/n8n-io/n8n",
+    "version": "2.48.6:0"
+  },
+  "navidrome": {
+    "categories": [],
+    "license": "GPL-3.0",
+    "marketingUrl": "https://www.navidrome.org/",
+    "packageRepo": "https://github.com/Start9Labs/navidrome-startos",
+    "short": "Self-hosted music streaming server with a Subsonic-compatible API.",
+    "title": "Navidrome",
+    "upstreamRepo": "https://github.com/navidrome/navidrome",
+    "version": "0.64.2:5"
+  },
+  "nextcloud": {
+    "categories": [],
+    "license": "gpl",
+    "marketingUrl": "https://nextcloud.com/",
+    "packageRepo": "https://github.com/Start9Labs/nextcloud-startos",
+    "short": "A safe home for all your data",
+    "title": "Nextcloud",
+    "upstreamRepo": "https://github.com/nextcloud/docker",
+    "version": "35.0.3:3"
+  },
+  "nextcloud-talk-hpb": {
+    "categories": [],
+    "license": "AGPL-3.0",
+    "marketingUrl": "https://nextcloud-talk.readthedocs.io/en/latest/quick-install/",
+    "packageRepo": "https://github.com/Start9Labs/nextcloud-talk-hpb-startos",
+    "short": "Group video calls for Nextcloud Talk",
+    "title": "Nextcloud Talk HPB",
+    "upstreamRepo": "https://github.com/strukturag/nextcloud-spreed-signaling",
+    "version": "2.2.0:1"
+  },
+  "nextexplorer": {
+    "categories": [],
+    "license": "GPL-3.0-only",
+    "marketingUrl": "https://explorer.nxz.ai/",
+    "packageRepo": "https://github.com/Start9Labs/nextexplorer-startos",
+    "short": "Browse, preview, and share your files from a browser",
+    "title": "NextExplorer",
+    "upstreamRepo": "https://github.com/nxzai/NextExplorer",
+    "version": "4.0.1:2"
+  },
+  "node-red": {
+    "categories": [],
+    "license": "Apache-2.0",
+    "marketingUrl": "https://nodered.org/",
+    "packageRepo": "https://github.com/Start9Labs/node-red-startos",
+    "short": "Wire together devices, APIs, and online services in a visual browser editor.",
+    "title": "Node-RED",
+    "upstreamRepo": "https://github.com/node-red/node-red",
+    "version": "5.0.10:0"
+  },
+  "nostr-rs-relay": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://nostr.com/",
+    "packageRepo": "https://github.com/Start9Labs/nostr-rs-relay-startos",
+    "short": "A Nostr relay, written in Rust",
+    "title": "Nostr RS Relay",
+    "upstreamRepo": "https://sr.ht/~gheartsfield/nostr-rs-relay",
+    "version": "0.10.0:8"
+  },
+  "ntfy": {
+    "categories": [],
+    "license": "Apache-2.0",
+    "marketingUrl": "https://ntfy.sh/",
+    "packageRepo": "https://github.com/Start9Labs/ntfy-startos",
+    "short": "Self-hosted push notification service",
+    "title": "NTFY",
+    "upstreamRepo": "https://github.com/binwiederhier/ntfy",
+    "version": "2.38.1:0"
+  },
+  "nzbget": {
+    "categories": [],
+    "license": "GPL-2.0",
+    "marketingUrl": "https://nzbget.com/",
+    "packageRepo": "https://github.com/Start9Labs/nzbget-startos",
+    "short": "Efficient Usenet downloader",
+    "title": "NZBGet",
+    "upstreamRepo": "https://github.com/nzbgetcom/nzbget",
+    "version": "26.3:1"
+  },
+  "ollama": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://ollama.com/",
+    "packageRepo": "https://github.com/Start9Labs/ollama-startos",
+    "short": "Chat & build with open models",
+    "title": "Ollama",
+    "upstreamRepo": "https://github.com/ollama/ollama",
+    "version": "0.40.16:0"
+  },
+  "open-webui": {
+    "categories": [],
+    "license": "custom",
+    "marketingUrl": "https://docs.openwebui.com/",
+    "packageRepo": "https://github.com/Start9Labs/open-webui-startos",
+    "short": "Self-hosted AI platform designed to operate entirely offline",
+    "title": "Open WebUI",
+    "upstreamRepo": "https://github.com/open-webui/open-webui",
+    "version": "0.13.4:1"
+  },
+  "owncast": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://owncast.online/",
+    "packageRepo": "https://github.com/Start9Labs/owncast-startos",
+    "short": "Self-hosted live streaming with chat",
+    "title": "Owncast",
+    "upstreamRepo": "https://github.com/owncast/owncast",
+    "version": "0.3.0:0"
+  },
+  "owntracks-recorder": {
+    "categories": [],
+    "license": "GPL-2.0-or-later",
+    "marketingUrl": "https://owntracks.org/",
+    "packageRepo": "https://github.com/Start9Labs/owntracks-recorder-startos",
+    "short": "Self-hosted location tracking for the OwnTracks apps",
+    "title": "OwnTracks Recorder",
+    "upstreamRepo": "https://github.com/owntracks/recorder",
+    "version": "1.0.7:0"
+  },
+  "paperless-ngx": {
+    "categories": [],
+    "license": "GPL-3.0",
+    "marketingUrl": "https://docs.paperless-ngx.com/",
+    "packageRepo": "https://github.com/Start9Labs/paperless-ngx-startos",
+    "short": "Self-hosted document management system",
+    "title": "Paperless-ngx",
+    "upstreamRepo": "https://github.com/paperless-ngx/paperless-ngx",
+    "version": "3.5.1:0"
+  },
+  "papra": {
+    "categories": [],
+    "license": "AGPL-3.0",
+    "marketingUrl": "https://papra.app/",
+    "packageRepo": "https://github.com/Start9Labs/papra-startos",
+    "short": "Minimalist document management and archiving",
+    "title": "Papra",
+    "upstreamRepo": "https://github.com/papra-hq/papra",
+    "version": "26.7.1:0"
+  },
+  "peertube": {
+    "categories": [],
+    "license": "AGPL-3.0",
+    "marketingUrl": "https://joinpeertube.org/",
+    "packageRepo": "https://github.com/Start9Labs/peertube-startos",
+    "short": "Federated video hosting and live streaming with peer-to-peer playback",
+    "title": "PeerTube",
+    "upstreamRepo": "https://github.com/Chocobozzz/PeerTube",
+    "version": "8.3.2:0"
+  },
+  "pocket-id": {
+    "categories": [],
+    "license": "BSD-2-Clause",
+    "marketingUrl": "https://pocket-id.org/",
+    "packageRepo": "https://github.com/Start9Labs/pocket-id-startos",
+    "short": "A simple OIDC provider that lets users sign in with passkeys",
+    "title": "Pocket ID",
+    "upstreamRepo": "https://github.com/pocket-id/pocket-id",
+    "version": "2.19.3:0"
+  },
+  "primal-web": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://primal.net/",
+    "packageRepo": "https://github.com/Start9Labs/primal-web-startos",
+    "short": "Fast, polished web client for the Nostr protocol",
+    "title": "Primal",
+    "upstreamRepo": "https://github.com/PrimalHQ/primal-web-app",
+    "version": "3.0.122:1"
+  },
+  "prowlarr": {
+    "categories": [],
+    "license": "GPL-3.0",
+    "marketingUrl": "https://prowlarr.com/",
+    "packageRepo": "https://github.com/Start9Labs/prowlarr-startos",
+    "short": "Indexer manager for Sonarr, Radarr and other media apps",
+    "title": "Prowlarr",
+    "upstreamRepo": "https://github.com/Prowlarr/Prowlarr",
+    "version": "3.0.2.5780:1"
+  },
+  "public-pool": {
+    "categories": [],
+    "license": "GPL",
+    "marketingUrl": "https://web.public-pool.io/",
+    "packageRepo": "https://github.com/Start9Labs/public-pool-startos",
+    "short": "Open source Bitcoin mining pool.",
+    "title": "Public Pool",
+    "upstreamRepo": "https://github.com/benjamin-wilson/public-pool",
+    "version": "0.2.5:27"
+  },
+  "qbittorrent": {
+    "categories": [],
+    "license": "GPL-2.0",
+    "marketingUrl": "https://www.qbittorrent.org/",
+    "packageRepo": "https://github.com/Start9Labs/qbittorrent-startos",
+    "short": "BitTorrent client with a web interface",
+    "title": "qBittorrent",
+    "upstreamRepo": "https://github.com/qbittorrent/qBittorrent",
+    "version": "5.3.0:7"
+  },
+  "radarr": {
+    "categories": [],
+    "license": "GPL-3.0",
+    "marketingUrl": "https://radarr.video/",
+    "packageRepo": "https://github.com/Start9Labs/radarr-startos",
+    "short": "Movie collection manager",
+    "title": "Radarr",
+    "upstreamRepo": "https://github.com/Radarr/Radarr",
+    "version": "7.0.3.10918:0"
+  },
+  "radicale": {
+    "categories": [],
+    "license": "GPL-3.0-or-later",
+    "marketingUrl": "https://radicale.org/",
+    "packageRepo": "https://github.com/Start9Labs/radicale-startos",
+    "short": "CalDAV and CardDAV server with browser-based sharing",
+    "title": "Radicale",
+    "upstreamRepo": "https://github.com/Kozea/Radicale",
+    "version": "3.9.2:0"
+  },
+  "ride-the-lightning": {
+    "categories": [],
+    "license": "mit",
+    "marketingUrl": "https://ridethelightning.info/",
+    "packageRepo": "https://github.com/Start9Labs/ride-the-lightning-startos",
+    "short": "A web user interface for managing lightning nodes",
+    "title": "Ride The Lightning",
+    "upstreamRepo": "https://github.com/Ride-The-Lightning/RTL",
+    "version": "0.15.17:1"
+  },
+  "rustdesk-server": {
+    "categories": [],
+    "license": "AGPL-3.0",
+    "marketingUrl": "https://rustdesk.com/",
+    "packageRepo": "https://github.com/Start9Labs/rustdesk-server-startos",
+    "short": "Your own ID and relay server for RustDesk remote desktop",
+    "title": "RustDesk Server",
+    "upstreamRepo": "https://github.com/rustdesk/rustdesk-server",
+    "version": "1.1.16:4"
+  },
+  "searxng": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://docs.searxng.org/",
+    "packageRepo": "https://github.com/Start9Labs/searxng-startos",
+    "short": "Privacy-preserving internet metasearch engine.",
+    "title": "SearXNG",
+    "upstreamRepo": "https://github.com/searxng/searxng",
+    "version": "2026.11.14:0"
+  },
+  "shelfarr": {
+    "categories": [],
+    "license": "GPL-3.0",
+    "marketingUrl": "https://shelfarr.org/",
+    "packageRepo": "https://github.com/Start9Labs/shelfarr-startos",
+    "short": "Request, download, and organize ebooks and audiobooks",
+    "title": "Shelfarr",
+    "upstreamRepo": "https://github.com/Pedro-Revez-Silva/shelfarr",
+    "version": "2026.11.16.1:2"
+  },
+  "simplex": {
+    "categories": [],
+    "license": "AGPL-3.0",
+    "marketingUrl": "https://simplex.chat/",
+    "packageRepo": "https://github.com/Start9Labs/simplex-startos",
+    "short": "Freedom & security of your communications",
+    "title": "SimpleX Server",
+    "upstreamRepo": "https://github.com/simplex-chat/simplexmq",
+    "version": "7.1.0:0"
+  },
+  "snowflake": {
+    "categories": [],
+    "license": "BSD-3-Clause",
+    "marketingUrl": "https://snowflake.torproject.org/",
+    "packageRepo": "https://github.com/Start9Labs/snowflake-startos",
+    "short": "Help censored users reach Tor by running a Snowflake proxy",
+    "title": "Snowflake",
+    "upstreamRepo": "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake",
+    "version": "2.15.4:0"
+  },
+  "sonarr": {
+    "categories": [],
+    "license": "GPL-3.0",
+    "marketingUrl": "https://sonarr.tv/",
+    "packageRepo": "https://github.com/Start9Labs/sonarr-startos",
+    "short": "Automatically find, download, and organize TV shows",
+    "title": "Sonarr",
+    "upstreamRepo": "https://github.com/Sonarr/Sonarr",
+    "version": "4.0.20.3014:9"
+  },
+  "spliit": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://spliit.app/",
+    "packageRepo": "https://github.com/Start9Labs/spliit-startos",
+    "short": "Free and open source expense sharing app",
+    "title": "Spliit",
+    "upstreamRepo": "https://github.com/spliit-app/spliit",
+    "version": "1.30.0:2"
+  },
+  "stalwart": {
+    "categories": [],
+    "license": "AGPL-3.0",
+    "marketingUrl": "https://stalw.art/",
+    "packageRepo": "https://github.com/Start9Labs/stalwart-startos",
+    "short": "All-in-one mail and collaboration server",
+    "title": "Stalwart",
+    "upstreamRepo": "https://github.com/stalwartlabs/stalwart",
+    "version": "1.1.1:0"
+  },
+  "start9-pages": {
+    "categories": [],
+    "license": "mit",
+    "marketingUrl": "https://github.com/Start9Labs/start9-pages-startos",
+    "packageRepo": "https://github.com/Start9Labs/start9-pages-startos",
+    "short": "Self-host static websites",
+    "title": "Start9 Pages",
+    "upstreamRepo": "https://github.com/Start9Labs/start9-pages-startos",
+    "version": "1.1.0:2"
+  },
+  "startos-registry": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://github.com/Start9Labs/start-technologies/",
+    "packageRepo": "https://github.com/Start9Labs/startos-registry-startos",
+    "short": "Host independent StartOS package registries",
+    "title": "StartOS Registry",
+    "upstreamRepo": "https://github.com/Start9Labs/start-technologies",
+    "version": "1.6.0:0"
+  },
+  "stirling-pdf": {
+    "categories": [],
+    "license": "MIT AND LicenseRef-Stirling-PDF-User-License",
+    "marketingUrl": "https://stirlingpdf.com/",
+    "packageRepo": "https://github.com/Start9Labs/stirling-pdf-startos",
+    "short": "Self-hosted tools to edit, convert, and OCR your PDFs",
+    "title": "Stirling PDF",
+    "upstreamRepo": "https://github.com/Stirling-Tools/Stirling-PDF",
+    "version": "3.4.0:0"
+  },
+  "stratum-v2": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://stratumprotocol.org/",
+    "packageRepo": "https://github.com/Start9Labs/stratum-v2-startos",
+    "short": "Connect SV1 miners to Stratum V2 pools",
+    "title": "Stratum V2",
+    "upstreamRepo": "https://github.com/stratum-mining/sv2-apps",
+    "version": "0.9.2:2"
+  },
+  "stratum-v2-pool": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://stratumprotocol.org/",
+    "packageRepo": "https://github.com/Start9Labs/stratum-v2-pool-startos",
+    "short": "Run your own Stratum V2 mining pool",
+    "title": "Stratum V2 Pool",
+    "upstreamRepo": "https://github.com/stratum-mining/sv2-apps",
+    "version": "0.9.2:1"
+  },
+  "synapse": {
+    "categories": [],
+    "license": "AGPL-3.0",
+    "marketingUrl": "https://matrix.org/",
+    "packageRepo": "https://github.com/Start9Labs/synapse-startos",
+    "short": "A battle-tested implementation of Matrix, the killer of all messaging apps.",
+    "title": "Synapse",
+    "upstreamRepo": "https://github.com/element-hq/synapse",
+    "version": "1.165.0:0"
+  },
+  "tor": {
+    "categories": [],
+    "license": "BSD-3-Clause",
+    "marketingUrl": "https://www.torproject.org/",
+    "packageRepo": "https://github.com/Start9Labs/tor-startos",
+    "short": "Anonymity network for onion services and private browsing",
+    "title": "Tor",
+    "upstreamRepo": "https://gitlab.torproject.org/tpo/core/tor",
+    "version": "0.4.9.17:1"
+  },
+  "tor-relay": {
+    "categories": [],
+    "license": "BSD-3-Clause",
+    "marketingUrl": "https://community.torproject.org/relay/",
+    "packageRepo": "https://github.com/Start9Labs/tor-relay-startos",
+    "short": "Run a non-exit Tor relay or an obfs4 bridge",
+    "title": "Tor Relay",
+    "upstreamRepo": "https://gitlab.torproject.org/tpo/core/tor",
+    "version": "0.4.9.17:2"
+  },
+  "uptime-kuma": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://github.com/louislam/uptime-kuma",
+    "packageRepo": "https://github.com/Start9Labs/uptime-kuma-startos",
+    "short": "Uptime Kuma - A fancy self-hosted monitoring tool",
+    "title": "Uptime Kuma",
+    "upstreamRepo": "https://github.com/louislam/uptime-kuma",
+    "version": "2.5.12:0"
+  },
+  "vaultwarden": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://github.com/dani-garcia/vaultwarden/",
+    "packageRepo": "https://github.com/Start9Labs/vaultwarden-startos",
+    "short": "Secure password management",
+    "title": "Vaultwarden",
+    "upstreamRepo": "https://github.com/dani-garcia/vaultwarden",
+    "version": "1.37.5:1"
+  },
+  "vikunja": {
+    "categories": [],
+    "license": "AGPL-3.0",
+    "marketingUrl": "https://vikunja.io/",
+    "packageRepo": "https://github.com/Start9Labs/vikunja-startos",
+    "short": "Self-hosted to-do list, project, and team task manager",
+    "title": "Vikunja",
+    "upstreamRepo": "https://github.com/go-vikunja/vikunja",
+    "version": "2.8.0:1"
+  },
+  "vllm": {
+    "categories": [],
+    "license": "Apache-2.0",
+    "marketingUrl": "https://docs.vllm.ai/",
+    "packageRepo": "https://github.com/Start9Labs/vllm-startos",
+    "short": "High-throughput LLM inference engine with OpenAI-compatible API",
+    "title": "vLLM",
+    "upstreamRepo": "https://github.com/vllm-project/vllm",
+    "version": "0.34.0:0"
+  }
+}

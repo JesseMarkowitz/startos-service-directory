@@ -1,0 +1,8 @@
+{
+  "description": "Maintained by [remcoros](https://github.com/remcoros).\n\nPersonal StartOS registry with general services and testnet4 packages. Support is best-effort through the issue tracker linked by each package.",
+  "icon": "testnet4.png",
+  "name": "registry.testnet4.info",
+  "signers": [
+    "github.com/remcoros"
+  ]
+}

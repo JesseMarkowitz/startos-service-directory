@@ -1,0 +1,1264 @@
+# Hand-written fields merged into the generated list. Keys are package ids.
+#   replaces = "..."   open-source alternative to (use "—" when nothing fits)
+#   note     = "..."   shown under it in the README
+#   upstream = "..."   overrides a missing or wrong upstream repo
+#   exclude  = "why"   hides the entry
+# "# unsure" and "# exclude?" lines are review flags from the first draft.
+
+# unsure: no description; purpose not clear from name
+[2fiat-commander]
+replaces = "—"
+
+[act-runner]
+replaces = "GitHub Actions runners"
+
+[actual-budget]
+replaces = "YNAB"
+
+[adarkroom-graphics]
+replaces = "—"
+
+[adguard-home]
+replaces = "NextDNS"
+
+[agent-wallet]
+replaces = "—"
+
+[airtrail]
+replaces = "Flighty, TripIt"
+
+[albyhub]
+replaces = "—"
+
+[am-i-exposed]
+replaces = "—"
+
+# exclude?: modded duplicate of am-i-exposed
+[am-i-exposed-modded]
+replaces = "—"
+
+[anytype-sync]
+replaces = "—"
+
+[archivebox]
+replaces = "Pocket, Raindrop.io"
+
+[ashigaru-desktop]
+replaces = "—"
+
+[atoll-recovery]
+replaces = "—"
+
+[audiobookshelf]
+replaces = "Audible"
+
+[authentik]
+replaces = "Okta, Auth0"
+
+[axeos-monitor-aio]
+replaces = "—"
+
+[azerothcore]
+replaces = "—"
+
+[balanceofsatoshis]
+replaces = "—"
+
+[bark-web]
+replaces = "—"
+
+[bazarr]
+replaces = "—"
+
+[bch-asicseer]
+replaces = "—"
+
+[bch-elopool]
+replaces = "—"
+
+[bch-explorer]
+replaces = "—"
+
+[bchd]
+replaces = "—"
+
+[beets-flask]
+replaces = "—"
+
+[bentopdf]
+replaces = "Adobe Acrobat, Smallpdf"
+
+[beszel]
+replaces = "Datadog"
+
+[bewcloud]
+replaces = "Google Drive, Dropbox"
+
+[bisq]
+replaces = "Coinbase, Kraken"
+
+[bisq2-node]
+replaces = "—"
+
+# unsure: no description; appears to be a P2P bitcoin/BLIK exchange
+[bitblik]
+replaces = "—"
+
+[bitcart]
+replaces = "Stripe, BitPay"
+
+[bitcoin-cash]
+replaces = "—"
+
+[bitcoin-cash-node]
+replaces = "—"
+
+[bitcoin-explorer]
+replaces = "—"
+
+[bitcoin-family-dashboard]
+replaces = "—"
+
+[bitcoincashd]
+replaces = "—"
+
+[bitcoind]
+replaces = "—"
+
+[bitcoind-testnet]
+replaces = "—"
+
+[bitcoinmonetaryview]
+replaces = "—"
+
+[bitnet]
+replaces = "ChatGPT"
+
+[blake-swap]
+replaces = "—"
+
+[blake2b-asic-control]
+replaces = "—"
+
+[blisspoint]
+replaces = "—"
+
+[blockclock-adapter]
+replaces = "—"
+
+[blockstream-blind-oracle]
+replaces = "—"
+
+[blossom-server]
+replaces = "—"
+
+[bolt12-pay]
+replaces = "—"
+
+# unsure: purpose not clear from description
+[bookshelfng]
+replaces = "—"
+
+[braiins-manager-agent]
+replaces = "—"
+
+[browser-arcade]
+replaces = "—"
+
+[browserless]
+replaces = "Browserbase"
+
+[btcpayserver]
+replaces = "Stripe, BitPay, Square"
+
+[btctx]
+replaces = "Koinly, CoinTracker"
+
+# exclude?: novelty page serving the whitepaper
+[btcwhitepaper]
+replaces = "—"
+
+[bunker46]
+replaces = "—"
+
+[buzz]
+replaces = "Slack"
+
+[buzz-relay]
+replaces = "Slack"
+
+[byparr]
+replaces = "—"
+
+[c-lightning]
+replaces = "—"
+
+[cal-diy]
+replaces = "Calendly"
+
+[calibre-web]
+replaces = "Kindle, Google Play Books"
+
+[camofox-browser]
+replaces = "Browserbase"
+
+[canary]
+replaces = "—"
+
+[canary-mining]
+replaces = "—"
+
+[cashu]
+replaces = "—"
+
+[castopod]
+replaces = "Buzzsprout, Libsyn"
+
+[catapult]
+replaces = "—"
+
+[cert-warden]
+replaces = "—"
+
+[cesspool-pruned]
+replaces = "—"
+
+# exclude?: title is Hello World; template clone
+[cftunnel]
+replaces = "—"
+
+[chaingraph]
+replaces = "—"
+
+[chama]
+replaces = "—"
+
+[changedetection]
+replaces = "Visualping, Distill.io"
+
+[charge-lnd]
+replaces = "—"
+
+[ckpool-bch]
+replaces = "—"
+
+[clams-remote]
+replaces = "—"
+
+# exclude?: no description; looks like a novelty clicker game
+[click-miner]
+replaces = "—"
+
+[cloud-print-bridge]
+replaces = "—"
+
+[cloudflared]
+replaces = "—"
+
+[collabora-online]
+replaces = "Microsoft 365, Google Docs"
+
+# unsure: no description of purpose
+[cooktrace]
+replaces = "—"
+
+[copyparty]
+replaces = "Dropbox, WeTransfer"
+
+[corvin]
+replaces = "—"
+
+[coturn]
+replaces = "Twilio Network Traversal"
+
+[couchdb]
+replaces = "Obsidian Sync"
+
+[crawl4ai]
+replaces = "Firecrawl, Apify"
+
+[cronicle]
+replaces = "—"
+
+[crossbill]
+replaces = "—"
+
+[cryptpad]
+replaces = "Google Docs, Microsoft 365"
+
+# exclude?: title is Hello World; template clone
+[cuprate]
+replaces = "—"
+
+[dash]
+replaces = "—"
+
+[datum]
+replaces = "—"
+
+[datum-blake2b]
+replaces = "—"
+
+[datum-sha256]
+replaces = "—"
+
+[dawarich]
+replaces = "Google Timeline"
+
+# unsure: no description of purpose
+[deckshare]
+replaces = "—"
+
+[deepseek-harness]
+replaces = "Claude Code, Cursor"
+
+[dev-workspace]
+replaces = "GitHub Codespaces"
+
+[dev-workspace-desktop]
+replaces = "GitHub Codespaces"
+
+[discourse]
+replaces = "Circle, Discord"
+
+# exclude?: personal one-off wedding website
+[django-wedding-website]
+replaces = "—"
+
+[documenso]
+replaces = "DocuSign"
+
+[docuseal]
+replaces = "DocuSign"
+
+[dogecoin]
+replaces = "—"
+
+[dogeltc-dashboard]
+replaces = "—"
+
+[dojo]
+replaces = "—"
+
+[drawio]
+replaces = "Lucidchart, Visio"
+
+[easyappointments]
+replaces = "Calendly, Acuity Scheduling"
+
+[eclair]
+replaces = "—"
+
+[ekko-studio]
+replaces = "ChatGPT"
+
+[electrs]
+replaces = "—"
+
+[electrs-pruned]
+replaces = "—"
+
+[elektron-net-faucet]
+replaces = "—"
+
+[elektron-net-pool]
+replaces = "—"
+
+[elektron-seeder]
+replaces = "—"
+
+[elektrond]
+replaces = "—"
+
+[element-web]
+replaces = "Slack, WhatsApp"
+
+[elements]
+replaces = "—"
+
+[elements-electrs]
+replaces = "—"
+
+# unsure: no description of purpose
+[empires]
+replaces = "—"
+
+[erpnext]
+replaces = "QuickBooks, NetSuite"
+
+[fedimint-gatewayd]
+replaces = "—"
+
+[fedimint-guardian]
+replaces = "—"
+
+[fedimintcard-till]
+replaces = "Square"
+
+[filebrowser]
+replaces = "Google Drive, Dropbox"
+
+[findme]
+replaces = "—"
+
+[firefly-iii]
+replaces = "YNAB, Quicken"
+
+[fleet-manager]
+replaces = "—"
+
+[flowee]
+replaces = "—"
+
+[fmd-server]
+replaces = "Google Find My Device"
+
+[forgejo]
+replaces = "GitHub, GitLab.com"
+
+[forgejo-runner]
+replaces = "GitHub Actions runners"
+
+[formbricks]
+replaces = "Typeform, Qualtrics"
+
+[frappe-helpdesk]
+replaces = "Zendesk, Freshdesk"
+# unsure: inferred from name/repo only, no description
+[freellmapi]
+replaces = "OpenRouter"
+
+[frigate]
+replaces = "—"
+
+[frigate-blake2b]
+replaces = "—"
+
+[frigate-blake2b-companion]
+replaces = "—"
+
+[frigate-sha256-companion]
+replaces = "—"
+
+[fulcrum]
+replaces = "—"
+
+[fulcrum-bch]
+replaces = "—"
+
+[fulcrum-pruned]
+replaces = "—"
+
+[fulcrum-testnet]
+replaces = "—"
+
+[garage]
+replaces = "Amazon S3"
+
+[ghost]
+replaces = "Substack, Medium"
+
+[gitea]
+replaces = "GitHub, GitLab.com"
+
+[gitea-runner]
+replaces = "GitHub Actions"
+
+[gitlab]
+replaces = "GitHub, Bitbucket"
+
+[gitlab-runner]
+replaces = "GitHub Actions"
+
+[go-quai]
+replaces = "—"
+
+[gobrrr-pool]
+replaces = "—"
+
+# unsure: novelty visualization, no clear paid equivalent
+[gods-eye-view]
+replaces = "—"
+
+[gridpool]
+replaces = "—"
+
+[gridpool-blake2b]
+replaces = "—"
+
+[hashgg]
+replaces = "ngrok"
+
+[hashgg-companion]
+replaces = "ngrok"
+
+[hashrate-autopilot]
+replaces = "—"
+
+[haven]
+replaces = "—"
+
+[helipad]
+replaces = "—"
+
+# exclude?: Hello World template clone
+[helix-home]
+replaces = "—"
+
+# exclude?: Hello World template
+[hello-world]
+replaces = "—"
+
+[hermes]
+replaces = "ChatGPT, Claude"
+
+[hermes-agent]
+replaces = "ChatGPT, Claude"
+
+# unsure: dashboard for a ServerStick device, unclear
+[hermes-bridge]
+replaces = "—"
+
+[heyform]
+replaces = "Typeform, Google Forms"
+
+[holesail]
+replaces = "ngrok"
+
+[home-assistant]
+replaces = "SmartThings, Google Home, Apple Home"
+
+[hoseki-sentinel]
+replaces = "Koinly, CoinTracker"
+
+# unsure: no description; HeyGen video framework inferred from repo
+[hyperframes]
+replaces = "HeyGen"
+
+# unsure: no description of purpose
+[hypermind]
+replaces = "—"
+
+[i2pd]
+replaces = "—"
+
+[imgcompress]
+replaces = "TinyPNG"
+
+[immich]
+replaces = "Google Photos, iCloud Photos"
+
+[immichframe]
+replaces = "Aura Frames, Nixplay"
+
+[inbucket]
+replaces = "Mailtrap"
+
+[invidious]
+replaces = "YouTube Premium"
+
+[ipfs]
+replaces = "—"
+
+[isso]
+replaces = "Disqus"
+
+[jam-v2]
+replaces = "—"
+
+[jam-xbt]
+replaces = "—"
+
+[jellyfin]
+replaces = "Plex Pass, Netflix"
+
+[jitsi]
+replaces = "Zoom, Google Meet"
+
+[joplin-server]
+replaces = "Evernote, Joplin Cloud"
+
+[jumble]
+replaces = "—"
+
+[kamado-pool]
+replaces = "—"
+
+[karakeep]
+replaces = "Pocket, Raindrop.io"
+
+[kathreftestr]
+replaces = "—"
+
+[keep]
+replaces = "—"
+
+[keila]
+replaces = "Mailchimp, Substack"
+
+[key-value-copy]
+replaces = "1Password"
+
+[keycloak]
+replaces = "Okta, Auth0"
+
+[kilojoin]
+replaces = "—"
+
+[kilowallet]
+replaces = "—"
+
+[kimai]
+replaces = "Toggl Track, Harvest"
+
+[kindle-bitcoin-display]
+replaces = "—"
+
+[kindle-display]
+replaces = "—"
+
+# unsure: no description or upstream repo
+[kindle-md-reader]
+replaces = "—"
+
+# exclude?: titled Hello World, template clone
+[knots]
+replaces = "—"
+
+[knots-blake2b]
+replaces = "—"
+
+[knots-prerdts]
+replaces = "—"
+
+[knuth-bch]
+replaces = "—"
+
+[labelbase]
+replaces = "—"
+
+[lawallet-nwc]
+replaces = "Strike, Wallet of Satoshi"
+
+[lidarr]
+replaces = "Spotify"
+
+[lifttrace]
+replaces = "Strong, Hevy"
+
+[lightning-control-center]
+replaces = "—"
+
+[lightning-fork]
+replaces = "—"
+
+[lightning-identity]
+replaces = "—"
+
+[lightning-jet]
+replaces = "—"
+
+[lightning-server]
+replaces = "—"
+
+[lightning-terminal]
+replaces = "—"
+
+# unsure: no description
+[lijox-adapter]
+replaces = "—"
+
+[linkding]
+replaces = "Pinboard, Raindrop.io"
+
+[linkwarden]
+replaces = "Raindrop.io, Pocket"
+
+[litecoin]
+replaces = "—"
+
+[llama-cpp]
+replaces = "OpenAI API"
+
+[lnbits]
+replaces = "—"
+
+[lnd]
+replaces = "—"
+
+[lndg]
+replaces = "—"
+
+[magicwormholerelay]
+replaces = "WeTransfer"
+
+# exclude?: described as a test of the opticalDrives manifest flag
+[makemkv]
+replaces = "—"
+
+[maloja]
+replaces = "Last.fm"
+
+[manifold-fedimint-guardian]
+replaces = "—"
+
+[maple-proxy]
+replaces = "—"
+
+[mattermost]
+replaces = "Slack, Microsoft Teams"
+
+[mautrix-signal]
+replaces = "Beeper"
+
+[mcserver]
+replaces = "Minecraft Realms"
+
+[memos]
+replaces = "Google Keep, Notion"
+
+[mempool]
+replaces = "—"
+
+[mempool-kilombino]
+replaces = "—"
+
+[mempool-pruned]
+replaces = "—"
+
+[metube]
+replaces = "4K Video Downloader"
+
+[minecraft]
+replaces = "Minecraft Realms"
+
+[miniflux]
+replaces = "Feedly, Inoreader"
+
+# unsure: purpose of Mirall unclear
+[mirall-relay]
+replaces = "—"
+
+[moneroblock]
+replaces = "—"
+
+[monerod]
+replaces = "—"
+
+# unsure: no description
+[monetary-node]
+replaces = "—"
+
+[monica]
+replaces = "Clay, Dex"
+
+[mostro]
+replaces = "Coinbase, Binance"
+
+[mrr-command-center]
+replaces = "—"
+
+[multi-scrobbler]
+replaces = "—"
+
+# exclude?: unmaintained, removed from the community registry
+[my-speed]
+replaces = "Speedtest.net"
+
+[n8n]
+replaces = "Zapier, Make"
+
+[namecoin-electrumx]
+replaces = "—"
+
+[namecoind]
+replaces = "—"
+
+[navidrome]
+replaces = "Spotify, Apple Music"
+
+[newt]
+replaces = "Cloudflare Tunnel, ngrok"
+
+[next-block]
+replaces = "—"
+
+[nextcloud]
+replaces = "Google Drive, Dropbox"
+
+[nextcloud-talk-hpb]
+replaces = "Zoom, Google Meet"
+
+[nextexplorer]
+replaces = "Google Drive, Dropbox"
+
+[nip46-relay]
+replaces = "—"
+
+[nitter]
+replaces = "—"
+
+# exclude?: Hello World template clone
+[nocturne]
+replaces = "—"
+
+[node-red]
+replaces = "Zapier, IFTTT"
+
+[nomadnet]
+replaces = "—"
+
+[nostr-rs-relay]
+replaces = "—"
+
+[nostr-vpn]
+replaces = "NordVPN, ExpressVPN"
+
+[ntfy]
+replaces = "Pushover, Pushbullet"
+
+[nutcracker]
+replaces = "—"
+
+[nutritrace]
+replaces = "MyFitnessPal, Cronometer"
+
+[nutshell]
+replaces = "—"
+
+[nzbget]
+replaces = "—"
+
+[obsidian-livesync]
+replaces = "Obsidian Sync"
+
+# exclude?: Hello World template, description 'test'
+[ocean-terminal]
+replaces = "—"
+
+[odoo]
+replaces = "SAP Business One, NetSuite, Salesforce"
+
+[ollama]
+replaces = "ChatGPT, OpenAI API"
+
+[onlyoffice-docs]
+replaces = "Microsoft 365, Google Docs"
+
+[open-webui]
+replaces = "ChatGPT, Claude"
+[openclaw]
+replaces = "ChatGPT"
+
+[openclaw-extrabutter]
+replaces = "ChatGPT"
+
+[openserp]
+replaces = "SerpApi"
+
+[openwhispr]
+replaces = "Wispr Flow, Dragon"
+
+[outline]
+replaces = "Notion, Confluence"
+
+[ovumcy]
+replaces = "Flo, Clue"
+
+[owncast]
+replaces = "Twitch"
+
+[owntracks-recorder]
+replaces = "Life360, Google Maps Timeline"
+
+[p2pool]
+replaces = "—"
+
+[pactd]
+replaces = "—"
+
+[pagecase]
+replaces = "Netlify, Vercel"
+
+# exclude?: title 'Hello World', upstream is the hello-world template
+[paperclip]
+replaces = "—"
+
+[paperclip-wallet]
+replaces = "—"
+
+[paperless-ngx]
+replaces = "Evernote"
+
+[papra]
+replaces = "Evernote"
+
+[paseo]
+replaces = "—"
+
+[payment-name]
+replaces = "—"
+
+[peerswap]
+replaces = "—"
+
+[peertube]
+replaces = "YouTube, Vimeo"
+
+[penpot]
+replaces = "Figma"
+
+[phoenixd]
+replaces = "—"
+
+[photon]
+replaces = "Google Geocoding API, Mapbox"
+
+[pia]
+replaces = "—"
+
+[pickhash]
+replaces = "NiceHash"
+
+[pocket-id]
+replaces = "Okta, Auth0"
+
+[pogolo]
+replaces = "—"
+
+[ppq-private-mode]
+replaces = "—"
+
+[primal-web]
+replaces = "—"
+
+[privatebin]
+replaces = "Pastebin"
+
+# unsure: no description, project unknown
+[proof-of-basis]
+replaces = "—"
+
+[prowlarr]
+replaces = "—"
+
+[public-pool]
+replaces = "—"
+
+[public-pool-web]
+replaces = "—"
+
+[pushtx]
+replaces = "—"
+
+[pyblock-miner]
+replaces = "—"
+
+[qbittorrent]
+replaces = "uTorrent"
+
+[quai-dashboard]
+replaces = "—"
+
+[quartermaster]
+replaces = "—"
+
+[radarr]
+replaces = "—"
+
+[radicale]
+replaces = "iCloud Calendar, Google Calendar"
+
+# unsure: no description, project unknown
+[rakazo]
+replaces = "—"
+
+[ratum-gateway]
+replaces = "—"
+
+[rbitcoin]
+replaces = "—"
+
+[rbitcoin-space]
+replaces = "—"
+
+[readstr]
+replaces = "Feedly, Inoreader"
+
+[reticulum-meshchat]
+replaces = "—"
+
+[ride-the-lightning]
+replaces = "—"
+
+[roblosats]
+replaces = "—"
+
+[roblosats-coordinator]
+replaces = "—"
+
+[robosats]
+replaces = "—"
+
+[robosats-watcher]
+replaces = "—"
+
+[romm]
+replaces = "—"
+
+[route96]
+replaces = "—"
+
+[routstr]
+replaces = "OpenRouter"
+
+[rustdesk-server]
+replaces = "TeamViewer, AnyDesk"
+
+[s-watcher]
+replaces = "—"
+
+[sabi9]
+replaces = "—"
+
+# unsure: no description, project unknown
+[satd]
+replaces = "—"
+
+[satori]
+replaces = "—"
+
+# unsure: description only says it wraps a SatSage image
+[satsage]
+replaces = "—"
+
+[scoredrop]
+replaces = "—"
+
+[scriptwerk]
+replaces = "—"
+
+[searxng]
+replaces = "Google Search"
+
+[seerr]
+replaces = "—"
+
+[seerrng]
+replaces = "—"
+
+[serper]
+replaces = "Serper"
+
+[shelfarr]
+replaces = "—"
+
+# unsure: description gives no purpose
+[siftstr]
+replaces = "—"
+
+[signal-messenger-bridge]
+replaces = "—"
+
+[signet]
+replaces = "—"
+
+[simplex]
+replaces = "—"
+
+[simplex-websocket-bridge]
+replaces = "—"
+
+[slskd]
+replaces = "—"
+
+[slskdn]
+replaces = "—"
+
+[snikket]
+replaces = "WhatsApp"
+
+[snowflake]
+replaces = "—"
+
+[solidtime]
+replaces = "Toggl Track, Clockify"
+
+[sonarr]
+replaces = "—"
+
+[sovereign-swap-client]
+replaces = "—"
+
+[sovereign-swap-relay]
+replaces = "—"
+
+[spaces]
+replaces = "—"
+
+[spaces-hex-tool]
+replaces = "—"
+
+[sparrow-webtop]
+replaces = "—"
+
+[spcommit-checkpoint]
+replaces = "—"
+
+[specter]
+replaces = "—"
+
+# unsure: no description, project unknown
+[splayed]
+replaces = "—"
+
+[spliit]
+replaces = "Splitwise"
+
+[stalwart]
+replaces = "Google Workspace, Microsoft 365"
+
+[standardnotes-server]
+replaces = "Evernote, Notion"
+
+[start9-pages]
+replaces = "Netlify, Squarespace"
+
+[startos-registry]
+replaces = "—"
+
+# unsure: 'AI inbox' has no clear commercial counterpart
+[stash]
+replaces = "—"
+
+[stirling-pdf]
+replaces = "Adobe Acrobat"
+
+# unsure: local LLM runner; no clear paid counterpart
+[strata]
+replaces = "—"
+
+[stratum-v2]
+replaces = "—"
+
+[stratum-v2-pool]
+replaces = "—"
+
+[strfry]
+replaces = "—"
+
+# exclude?: title 'Hello World', upstream is the hello-world template
+[supabase]
+replaces = "—"
+
+[swap-controller]
+replaces = "—"
+
+[swapsha]
+replaces = "—"
+
+[synapse]
+replaces = "Slack, Discord"
+
+[syslog-collector]
+replaces = "Papertrail, Loggly"
+
+[taiga]
+replaces = "Jira, Trello"
+
+[tailscale]
+replaces = "—"
+
+[teapot]
+replaces = "—"
+
+# exclude?: hello-world test package
+[test]
+replaces = "—"
+
+[thunderhub]
+replaces = "—"
+
+[thunderhub-xbt]
+replaces = "—"
+
+# exclude?: example todo app, upstream github.com/example/todo
+[todo]
+replaces = "—"
+
+# exclude?: looks like a personal/tutorial todo backend
+[todo-back]
+replaces = "—"
+
+[tor]
+replaces = "—"
+
+[tor-relay]
+replaces = "—"
+
+[trilium]
+replaces = "Evernote, Notion"
+
+[tunnelsats]
+replaces = "—"
+
+[twenty]
+replaces = "Salesforce, HubSpot"
+
+[umami]
+replaces = "Google Analytics"
+
+[umbrel-bitcoin-ui]
+replaces = "—"
+
+[unifi-network-application]
+replaces = "—"
+
+[uptime-kuma]
+replaces = "UptimeRobot, Pingdom"
+
+[urbit]
+replaces = "—"
+
+[utxoracle]
+replaces = "—"
+
+[valheim-server]
+replaces = "—"
+
+[vaultwarden]
+replaces = "1Password, LastPass"
+
+[veilid]
+replaces = "—"
+
+# unsure: no description, project unknown
+[verge]
+replaces = "—"
+
+[vikunja]
+replaces = "Todoist, Asana"
+
+[vllm]
+replaces = "—"
+
+[wasabi-coordinator]
+replaces = "—"
+
+[wasabi-webtop]
+replaces = "—"
+
+[wireguard]
+replaces = "—"
+
+[wisp]
+replaces = "—"
+
+[wordpress]
+replaces = "Squarespace, Wix"
+
+[ytptube]
+replaces = "—"
+
+[zebrad]
+replaces = "—"

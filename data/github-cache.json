@@ -1,0 +1,4597 @@
+{
+  "13Homer13/bisq-startos-legacy": {
+    "kind": "v03",
+    "pushedAt": "2026-06-12T13:28:31Z"
+  },
+  "13Homer13/gods-eye-view-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "gods-eye-view",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/gods-eye-view-startos",
+      "title": "God's Eye View",
+      "upstreamRepo": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    "pushedAt": "2026-11-01T15:19:05Z"
+  },
+  "13Homer13/strata-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "strata",
+      "license": "MIT",
+      "packageRepo": "https://github.com/13Homer13/strata-startos",
+      "title": "Strata",
+      "upstreamRepo": "https://github.com/Niko1221/Strata"
+    },
+    "pushedAt": "2026-11-09T16:42:21Z"
+  },
+  "4rkad/catapult-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "catapult",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/semillabitcoin/catapult-startos",
+      "title": "Catapult",
+      "upstreamRepo": "https://github.com/semillabitcoin/catapult"
+    },
+    "pushedAt": "2026-05-13T20:00:42Z"
+  },
+  "4rkad/labelbase-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "labelbase",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/4rkad/labelbase-startos",
+      "title": "Labelbase",
+      "upstreamRepo": "https://github.com/Labelbase/Labelbase"
+    },
+    "pushedAt": "2026-05-13T20:00:35Z"
+  },
+  "4rkad/next-block-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "next-block",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/4rkad/next-block-startos",
+      "title": "Next Block",
+      "upstreamRepo": "https://github.com/Dojo-Open-Source-Project/next-block"
+    },
+    "pushedAt": "2026-05-13T20:00:59Z"
+  },
+  "AdilAhmedAhir/case-study-startos": {
+    "kind": "other",
+    "pushedAt": "2026-11-03T09:46:42Z"
+  },
+  "Alex71btc/bolt12-pay-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "bolt12-pay",
+      "license": "mit",
+      "packageRepo": "https://github.com/Start9-Community/bolt12-pay-startos",
+      "title": "BOLT12 Pay",
+      "upstreamRepo": "https://github.com/Alex71btc/lndk-pay"
+    },
+    "pushedAt": "2026-11-20T12:35:09Z"
+  },
+  "Alex71btc/lnd-startos-bolt12": {
+    "kind": "v03",
+    "pushedAt": "2026-04-05T15:48:34Z"
+  },
+  "AwfulWaffleMining/-ckpool-bch-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "ckpool-bch",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/AwfulWaffleMining/-ckpool-bch-startos",
+      "title": "CKPool BCH",
+      "upstreamRepo": "https://bitbucket.org/ckolivas/ckpool"
+    },
+    "pushedAt": "2026-05-27T09:41:38Z"
+  },
+  "AwfulWaffleMining/bitcoin-cash-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "bitcoin-cash",
+      "license": "MIT",
+      "packageRepo": "https://github.com/AwfulWaffleMining/bitcoin-cash-startos",
+      "title": "Bitcoin Cash Node",
+      "upstreamRepo": "https://github.com/bitcoin-cash-node/bitcoin-cash-node"
+    },
+    "pushedAt": "2026-05-27T09:49:17Z"
+  },
+  "AwfulWaffleMining/dogecoin-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "dogecoin",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/dogecoin-startos",
+      "title": "Dogecoin Core",
+      "upstreamRepo": "https://github.com/dogecoin/dogecoin"
+    },
+    "pushedAt": "2026-10-20T13:08:46Z"
+  },
+  "AwfulWaffleMining/dogeltc-dashboard-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "dogeltc-dashboard",
+      "license": "MIT",
+      "packageRepo": "https://github.com/AwfulWaffleMining/dogeltc-dashboard-startos",
+      "title": "Dogecoin + Litecoin Mining Dashboard",
+      "upstreamRepo": "https://github.com/AwfulWaffleMining/dogeltc-dashboard-startos"
+    },
+    "pushedAt": "2026-10-22T09:35:16Z"
+  },
+  "AwfulWaffleMining/go-quai-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "go-quai",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/Start9-Community/go-quai-startos",
+      "title": "Quai Network",
+      "upstreamRepo": "https://github.com/dominant-strategies/go-quai"
+    },
+    "pushedAt": "2026-09-27T10:21:43Z"
+  },
+  "AwfulWaffleMining/litecoin-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "litecoin",
+      "license": "MIT",
+      "packageRepo": "https://github.com/AwfulWaffleMining/litecoin-startos",
+      "title": "Litecoin Core",
+      "upstreamRepo": "https://github.com/litecoin-project/litecoin"
+    },
+    "pushedAt": "2026-10-20T17:12:52Z"
+  },
+  "AwfulWaffleMining/quai-dashboard-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "quai-dashboard",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/quai-dashboard-startos",
+      "title": "Quai Mining Dashboard",
+      "upstreamRepo": "https://github.com/Start9-Community/quai-dashboard-startos"
+    },
+    "pushedAt": "2026-09-27T10:22:08Z"
+  },
+  "B0d45/cryptpad-startos-updated": {
+    "kind": "v03",
+    "pushedAt": "2026-07-08T10:17:21Z"
+  },
+  "BitcoinCash1/bch-asicseer-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "bch-asicseer",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/Start9-Community/bch-asicseer-startos",
+      "title": "ASICSeer",
+      "upstreamRepo": "https://github.com/cculianu/asicseer-pool"
+    },
+    "pushedAt": "2026-10-03T22:13:54Z"
+  },
+  "BitcoinCash1/bch-elopool-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "bch-elopool",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/Start9-Community/bch-elopool-startos",
+      "title": "EloPool",
+      "upstreamRepo": "https://github.com/skaisser/ckpool"
+    },
+    "pushedAt": "2026-10-03T22:11:04Z"
+  },
+  "BitcoinCash1/bch-explorer-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "bch-explorer",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/bch-explorer-startos",
+      "title": "BCH Explorer",
+      "upstreamRepo": "https://gitlab.melroy.org/bitcoincash/bitcoin-cash-explorer"
+    },
+    "pushedAt": "2026-11-18T17:47:50Z"
+  },
+  "BitcoinCash1/bitcoin-cash-daemon-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "bchd",
+      "license": "ISC",
+      "packageRepo": "https://github.com/Start9-Community/bitcoin-cash-daemon-startos",
+      "title": "Bitcoin Cash Daemon",
+      "upstreamRepo": "https://github.com/gcash/bchd"
+    },
+    "pushedAt": "2026-11-15T14:24:11Z"
+  },
+  "BitcoinCash1/flowee-the-hub-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "flowee",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/Start9-Community/flowee-the-hub-startos",
+      "title": "Flowee the Hub",
+      "upstreamRepo": "https://codeberg.org/Flowee/thehub"
+    },
+    "pushedAt": "2026-10-03T22:13:06Z"
+  },
+  "BitcoinCash1/fulcrum-bch-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "fulcrum-bch",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/fulcrum-bch-startos",
+      "title": "Fulcrum BCH",
+      "upstreamRepo": "https://github.com/cculianu/Fulcrum"
+    },
+    "pushedAt": "2026-11-05T12:38:11Z"
+  },
+  "BitcoinCash1/knuth-bch-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "knuth-bch",
+      "license": "MIT",
+      "packageRepo": "https://github.com/BitcoinCash1/knuth-bch-startos",
+      "title": "Knuth",
+      "upstreamRepo": "https://github.com/k-nuth/kth"
+    },
+    "pushedAt": "2026-11-20T13:29:16Z"
+  },
+  "BitcoinMechanic/btc-cln-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "c-lightning",
+      "license": "mit",
+      "packageRepo": "https://github.com/BitcoinMechanic/btc-cln-startos",
+      "title": "Core Lightning (Swap Preparation)",
+      "upstreamRepo": "https://github.com/ElementsProject/lightning"
+    },
+    "pushedAt": "2026-11-15T06:33:27Z"
+  },
+  "BitcoinMechanic/minecraft-startos": {
+    "kind": "v04",
+    "pushedAt": "2026-03-13T02:36:41Z"
+  },
+  "BitcoinMechanic/swap-controller-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "swap-controller",
+      "license": "MIT",
+      "packageRepo": "https://github.com/BitcoinMechanic/swap-controller-startos",
+      "title": "Swap Controller",
+      "upstreamRepo": "https://github.com/BitcoinMechanic/lightning"
+    },
+    "pushedAt": "2026-11-15T06:33:19Z"
+  },
+  "BrashRatel/splayed-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "splayed",
+      "license": "MIT",
+      "packageRepo": "https://github.com/BrashRatel/splayed-startos",
+      "title": "splayed",
+      "upstreamRepo": "https://github.com/BrashRatel/splayed"
+    },
+    "pushedAt": "2026-11-14T19:01:58Z"
+  },
+  "CyberAshven/bitcart-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "bitcart",
+      "license": "MIT",
+      "packageRepo": "https://github.com/CyberAshven/bitcart-startos",
+      "title": "Bitcart",
+      "upstreamRepo": "https://github.com/bitcart/bitcart"
+    },
+    "pushedAt": "2026-11-20T13:12:53Z"
+  },
+  "DeGrandis/proof-of-basis-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "proof-of-basis",
+      "license": "MIT",
+      "packageRepo": "https://github.com/DeGrandis/proof-of-basis-startos",
+      "title": "Proof of Basis",
+      "upstreamRepo": "https://github.com/DeGrandis/proof-of-basis"
+    },
+    "pushedAt": "2026-10-31T15:18:38Z"
+  },
+  "DigiMonk73/BTCTX-StartOS": {
+    "kind": "v04",
+    "manifest": {
+      "id": "btctx",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/BTCTX-StartOS",
+      "title": "BitcoinTX",
+      "upstreamRepo": "https://github.com/DigiMonk73/BTCTX-MCP"
+    },
+    "pushedAt": "2026-11-14T17:46:01Z"
+  },
+  "DigiMonk73/adarkroom-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "adarkroom-graphics",
+      "license": "MPL-2.0",
+      "packageRepo": "https://github.com/DigiMonk73/adarkroom-startos",
+      "title": "A Dark Room (Graphics)",
+      "upstreamRepo": "https://github.com/doublespeakgames/adarkroom"
+    },
+    "pushedAt": "2026-09-28T23:57:54Z"
+  },
+  "DigiMonk73/btcwhitepaper-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "btcwhitepaper",
+      "license": "mit",
+      "packageRepo": null,
+      "title": "Bitcoin White Paper",
+      "upstreamRepo": "https://github.com/DigiMonk73/btcwhitepaper-startos"
+    },
+    "pushedAt": "2026-08-09T20:10:12Z"
+  },
+  "DigiMonk73/empires-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "empires",
+      "license": "MIT",
+      "packageRepo": "https://github.com/DigiMonk73/empires-startos",
+      "title": "Empires",
+      "upstreamRepo": "https://github.com/DigiMonk73/Empires"
+    },
+    "pushedAt": "2026-10-08T13:18:23Z"
+  },
+  "EKKOLearnAI/ekko-studio-startOS": {
+    "kind": "v04",
+    "manifest": {
+      "id": "ekko-studio",
+      "license": "BUSL-1.1",
+      "packageRepo": "https://github.com/EKKOLearnAI/ekko-studio-startOS",
+      "title": "Ekko Studio",
+      "upstreamRepo": "https://github.com/EKKOLearnAI/ekko-studio"
+    },
+    "pushedAt": "2026-10-23T02:49:53Z"
+  },
+  "FilmKnurd/urbit-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "urbit",
+      "license": "MIT",
+      "packageRepo": "https://github.com/FilmKnurd/urbit-startos",
+      "title": "Urbit",
+      "upstreamRepo": "https://github.com/urbit/vere"
+    },
+    "pushedAt": "2026-09-05T18:38:32Z"
+  },
+  "GyroJack/haven-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "haven",
+      "license": "MIT",
+      "packageRepo": "https://github.com/barrydeen/haven",
+      "title": "HAVEN",
+      "upstreamRepo": "https://github.com/barrydeen/haven"
+    },
+    "pushedAt": "2026-06-10T04:02:33Z"
+  },
+  "GyroJack/routstrd-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "routstr",
+      "license": "MIT",
+      "packageRepo": "https://github.com/routstr/routstrd-startos",
+      "title": "Routstrd",
+      "upstreamRepo": "https://github.com/routstr/routstrd"
+    },
+    "pushedAt": "2026-06-13T01:32:35Z"
+  },
+  "JesseMarkowitz/admintools-startos": {
+    "kind": "other",
+    "pushedAt": "2026-11-11T01:59:55Z"
+  },
+  "JesseMarkowitz/cryptpad-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "cryptpad",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/Start9-Community/cryptpad-startos",
+      "title": "CryptPad",
+      "upstreamRepo": "https://github.com/cryptpad/cryptpad"
+    },
+    "pushedAt": "2026-11-12T15:25:51Z"
+  },
+  "JesseMarkowitz/magicwormholerelay-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "magicwormholerelay",
+      "license": "MIT",
+      "packageRepo": "https://github.com/JesseMarkowitz/magicwormholerelay-startos",
+      "title": "Magic Wormhole Relay",
+      "upstreamRepo": "https://github.com/magic-wormhole/magic-wormhole"
+    },
+    "pushedAt": "2026-07-10T17:02:19Z"
+  },
+  "JesseMarkowitz/rustdesk-server-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "rustdesk-server",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/Start9-Community/rustdesk-server-startos",
+      "title": "RustDesk Server",
+      "upstreamRepo": "https://github.com/rustdesk/rustdesk-server"
+    },
+    "pushedAt": "2026-11-12T15:25:41Z"
+  },
+  "JesseMarkowitz/snikket-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "snikket",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/JesseMarkowitz/snikket-startos",
+      "title": "Snikket",
+      "upstreamRepo": "https://github.com/snikket-im/snikket-server"
+    },
+    "pushedAt": "2026-10-07T09:58:04Z"
+  },
+  "JesseMarkowitz/twenty-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "twenty",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/JesseMarkowitz/twenty-startos",
+      "title": "Twenty",
+      "upstreamRepo": "https://github.com/twentyhq/twenty"
+    },
+    "pushedAt": "2026-10-07T09:58:02Z"
+  },
+  "JesseMarkowitz/vikunja-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "vikunja",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/Start9-Community/vikunja-startos",
+      "title": "Vikunja",
+      "upstreamRepo": "https://github.com/go-vikunja/vikunja"
+    },
+    "pushedAt": "2026-11-12T01:08:26Z"
+  },
+  "Jolls/beets-flask-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "beets-flask",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Jolls/beets-flask-startos",
+      "title": "Beets-flask",
+      "upstreamRepo": "https://github.com/metasauce/beets-flask"
+    },
+    "pushedAt": "2026-09-01T20:17:10Z"
+  },
+  "Jolls/calibre-web-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "calibre-web",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/Jolls/calibre-web-startos",
+      "title": "Calibre-Web",
+      "upstreamRepo": "https://github.com/janeczku/calibre-web"
+    },
+    "pushedAt": "2026-10-13T05:38:09Z"
+  },
+  "Jolls/deckshare-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "deckshare",
+      "license": "AGPL-3.0-or-later",
+      "packageRepo": "https://github.com/Jolls/deckshare-startos",
+      "title": "DeckShare",
+      "upstreamRepo": "https://github.com/Jolls/deckshare"
+    },
+    "pushedAt": "2026-11-17T17:52:16Z"
+  },
+  "Jolls/karakeep-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "karakeep",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/Start9-Community/karakeep-startos",
+      "title": "Karakeep",
+      "upstreamRepo": "https://github.com/karakeep-app/karakeep"
+    },
+    "pushedAt": "2026-11-15T19:48:55Z"
+  },
+  "Jolls/maloja-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "maloja",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/Jolls/maloja-startos",
+      "title": "Maloja",
+      "upstreamRepo": "https://github.com/krateng/maloja"
+    },
+    "pushedAt": "2026-11-17T06:30:50Z"
+  },
+  "Jolls/miniflux-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "miniflux",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/Jolls/miniflux-startos",
+      "title": "Miniflux",
+      "upstreamRepo": "https://github.com/miniflux/v2"
+    },
+    "pushedAt": "2026-11-06T22:19:22Z"
+  },
+  "Jolls/multi-scrobbler-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "multi-scrobbler",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/multi-scrobbler-startos",
+      "title": "Multi-Scrobbler",
+      "upstreamRepo": "https://github.com/FoxxMD/multi-scrobbler"
+    },
+    "pushedAt": "2026-11-19T15:21:03Z"
+  },
+  "Jolls/navidrome-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "navidrome",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/Start9-Community/navidrome-startos",
+      "title": "Navidrome",
+      "upstreamRepo": "https://github.com/navidrome/navidrome"
+    },
+    "pushedAt": "2026-11-16T16:43:51Z"
+  },
+  "Jolls/siftstr-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "siftstr",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/Jolls/siftstr-startos",
+      "title": "Siftstr",
+      "upstreamRepo": "https://github.com/Jolls/Siftstr"
+    },
+    "pushedAt": "2026-10-22T06:36:48Z"
+  },
+  "Juniormind1/satsage-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "satsage",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Juniormind1/satsage-startos",
+      "title": "SatSage",
+      "upstreamRepo": "https://github.com/Juniormind1/SatSage"
+    },
+    "pushedAt": "2026-10-26T08:55:46Z"
+  },
+  "Kilombino/bitcoin-knots-startos": {
+    "kind": "other",
+    "pushedAt": "2026-11-13T11:34:35Z"
+  },
+  "Kilombino/jam-xbt-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "jam-xbt",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Kilombino/jam-xbt-startos",
+      "title": "JoinBlaket",
+      "upstreamRepo": "https://github.com/Kilombino/joinblaket"
+    },
+    "pushedAt": "2026-11-16T23:10:47Z"
+  },
+  "Kilombino/kilojoin-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "kilojoin",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/Kilombino/kilojoin-startos",
+      "title": "Kilojoin",
+      "upstreamRepo": "https://github.com/Kilombino/kilojoin"
+    },
+    "pushedAt": "2026-11-14T13:06:54Z"
+  },
+  "Kilombino/kilowallet-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "kilowallet",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/Kilombino/kilowallet-startos",
+      "title": "Kilowallet",
+      "upstreamRepo": "https://github.com/Kilombino/kilowallet-server"
+    },
+    "pushedAt": "2026-11-14T18:04:21Z"
+  },
+  "Kilombino/lightning-stream-startos": {
+    "kind": "other",
+    "pushedAt": "2026-11-05T17:10:31Z"
+  },
+  "Kilombino/mempool-kilombino-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "mempool-kilombino",
+      "license": "AGPL",
+      "packageRepo": "https://github.com/Kilombino/mempool-kilombino-startos",
+      "title": "Mempool Kilombino",
+      "upstreamRepo": "https://github.com/Kilombino/mempool-bip110"
+    },
+    "pushedAt": "2026-11-13T12:26:50Z"
+  },
+  "Kilombino/mrr-command-center-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "mrr-command-center",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Kilombino/mrr-command-center-startos",
+      "title": "MRR Command Center",
+      "upstreamRepo": "https://github.com/Kilombino/mrr-command-center"
+    },
+    "pushedAt": "2026-11-20T11:24:10Z"
+  },
+  "Kilombino/roblosats-coordinator-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "roblosats-coordinator",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/Kilombino/roblosats-coordinator-startos",
+      "title": "Roblosats Coordinator",
+      "upstreamRepo": "https://github.com/Kilombino/roblosats"
+    },
+    "pushedAt": "2026-11-20T14:00:55Z"
+  },
+  "Kilombino/roblosats-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "roblosats",
+      "license": "AGPL-V3",
+      "packageRepo": "https://github.com/Kilombino/roblosats-startos",
+      "title": "Roblosats",
+      "upstreamRepo": "https://github.com/Kilombino/roblosats"
+    },
+    "pushedAt": "2026-11-20T09:08:43Z"
+  },
+  "Kilombino/thunderhub-xbt-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "thunderhub-xbt",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Kilombino/thunderhub-xbt-startos",
+      "title": "ThunderHub XBT",
+      "upstreamRepo": "https://github.com/Kilombino/thunderhub"
+    },
+    "pushedAt": "2026-11-11T22:22:41Z"
+  },
+  "Koscheybessmertniy/moneroblock-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "moneroblock",
+      "license": "BSD-3-Clause",
+      "packageRepo": "https://github.com/Koscheybessmertniy/moneroblock-startos",
+      "title": "MoneroBlock",
+      "upstreamRepo": "https://github.com/duggavo/MoneroBlock"
+    },
+    "pushedAt": "2026-11-07T03:11:35Z"
+  },
+  "Letdown2491/corvin-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "corvin",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Letdown2491/corvin-startos",
+      "title": "Corvin",
+      "upstreamRepo": "https://github.com/Letdown2491/corvin"
+    },
+    "pushedAt": "2026-06-06T20:40:17Z"
+  },
+  "Letdown2491/haven-kit-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "haven",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Letdown2491/haven-kit-startos",
+      "title": "HAVEN",
+      "upstreamRepo": "https://github.com/barrydeen/haven"
+    },
+    "pushedAt": "2026-07-09T23:55:01Z"
+  },
+  "Letdown2491/nip46-relay-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "nip46-relay",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Letdown2491/nip46-relay-startos",
+      "title": "NIP-46 Relay",
+      "upstreamRepo": "https://github.com/Letdown2491/nip46-relay"
+    },
+    "pushedAt": "2026-06-15T17:29:25Z"
+  },
+  "Letdown2491/satori-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "satori",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Letdown2491/satori-startos",
+      "title": "Satori",
+      "upstreamRepo": "https://github.com/Letdown2491/satori"
+    },
+    "pushedAt": "2026-08-02T00:54:47Z"
+  },
+  "Letdown2491/signet-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "signet",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Letdown2491/signet-startos",
+      "title": "Signet",
+      "upstreamRepo": "https://github.com/Letdown2491/signet"
+    },
+    "pushedAt": "2026-06-29T05:02:31Z"
+  },
+  "MarkSierra/BitcoinMonetaryView-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "bitcoinmonetaryview",
+      "license": "AGPL-3.0-or-later",
+      "packageRepo": "https://github.com/Start9-Community/bitcoinmonetaryview-startos",
+      "title": "Monetary View",
+      "upstreamRepo": "https://github.com/MarkSierra/BitcoinMonetaryView"
+    },
+    "pushedAt": "2026-11-10T15:54:57Z"
+  },
+  "Maveth/datum-gateway-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "datum",
+      "license": "mit",
+      "packageRepo": "https://github.com/Maveth/datum-gateway-startos",
+      "title": "Datum Gateway",
+      "upstreamRepo": "https://github.com/Maveth/datum_gateway"
+    },
+    "pushedAt": "2026-10-22T00:41:57Z"
+  },
+  "MostroP2P/mostro-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "mostro",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/Start9-Community/mostro-startos",
+      "title": "Mostro",
+      "upstreamRepo": "https://github.com/MostroP2P/mostro"
+    },
+    "pushedAt": "2026-10-22T17:18:21Z"
+  },
+  "Neo-Colonial/reticulum-startos": {
+    "kind": "v03",
+    "pushedAt": "2026-03-04T02:17:52Z"
+  },
+  "OpenSecretCloud/maple-proxy-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "maple-proxy",
+      "license": "MIT",
+      "packageRepo": null,
+      "title": "Maple Proxy",
+      "upstreamRepo": "https://github.com/OpenSecretCloud/maple-proxy"
+    },
+    "pushedAt": "2026-09-09T05:43:33Z"
+  },
+  "PayPerQ/ppq-private-mode-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "ppq-private-mode",
+      "license": "MIT",
+      "packageRepo": "https://github.com/PayPerQ/ppq-private-mode-startos",
+      "title": "PPQ Private Mode",
+      "upstreamRepo": "https://github.com/PayPerQ/ppq-private-mode-proxy"
+    },
+    "pushedAt": "2026-11-16T11:49:45Z"
+  },
+  "Podcastindex-org/helipad-startos": {
+    "kind": "v03",
+    "pushedAt": "2026-03-11T03:20:46Z"
+  },
+  "Poobpub-exe/pos-startosphere": {
+    "kind": "other",
+    "pushedAt": "2025-12-10T10:03:26Z"
+  },
+  "Retropex/DeepSea-startos": {
+    "kind": "v03",
+    "pushedAt": "2026-03-23T13:45:03Z"
+  },
+  "Retropex/umbrel-bitcoin-ui-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "umbrel-bitcoin-ui",
+      "license": "PolyForm Noncommercial License 1.0.0",
+      "packageRepo": "https://github.com/Retropex/umbrel-bitcoin-ui-startos",
+      "title": "Umbrel Bitcoin UI",
+      "upstreamRepo": "https://github.com/Retropex/umbrel-bitcoin"
+    },
+    "pushedAt": "2026-06-02T16:37:22Z"
+  },
+  "Scott-Sanderson/minecraft-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "minecraft",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/Start9-Community/minecraft-startos",
+      "title": "Minecraft Server",
+      "upstreamRepo": "https://github.com/itzg/docker-minecraft-server"
+    },
+    "pushedAt": "2026-11-01T01:48:13Z"
+  },
+  "Spectre-Works/spectreworks-startos-registry": {
+    "kind": "other",
+    "pushedAt": "2026-11-05T16:39:00Z"
+  },
+  "Start9-Community/archivebox-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "archivebox",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/archivebox-startos",
+      "title": "ArchiveBox",
+      "upstreamRepo": "https://github.com/ArchiveBox/ArchiveBox"
+    },
+    "pushedAt": "2026-10-24T04:52:27Z"
+  },
+  "Start9-Community/bisq-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "bisq",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/Start9-Community/bisq-startos",
+      "title": "Bisq",
+      "upstreamRepo": "https://github.com/bisq-network/bisq"
+    },
+    "pushedAt": "2026-11-20T04:57:44Z"
+  },
+  "Start9-Community/bitcoin-explorer-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "bitcoin-explorer",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/bitcoin-explorer-startos",
+      "title": "Bitcoin Explorer",
+      "upstreamRepo": "https://github.com/janoside/btc-rpc-explorer"
+    },
+    "pushedAt": "2026-10-22T03:36:01Z"
+  },
+  "Start9-Community/blockstream-blind-oracle-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "blockstream-blind-oracle",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/blockstream-blind-oracle-startos",
+      "title": "Blockstream Blind Oracle",
+      "upstreamRepo": "https://github.com/Blockstream/blind_pin_server"
+    },
+    "pushedAt": "2026-11-04T20:25:55Z"
+  },
+  "Start9-Community/bunker46-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "bunker46",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/bunker46-startos",
+      "title": "Bunker46",
+      "upstreamRepo": "https://github.com/dsbaars/bunker46"
+    },
+    "pushedAt": "2026-11-06T23:25:53Z"
+  },
+  "Start9-Community/buzz-relay-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "buzz-relay",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/Start9-Community/buzz-relay-startos",
+      "title": "Buzz Relay",
+      "upstreamRepo": "https://github.com/block/buzz"
+    },
+    "pushedAt": "2026-11-11T04:27:24Z"
+  },
+  "Start9-Community/chama-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "chama",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/chama-startos",
+      "title": "Chama",
+      "upstreamRepo": "https://github.com/jesuspirate/chama"
+    },
+    "pushedAt": "2026-11-14T15:10:42Z"
+  },
+  "Start9-Community/copyparty-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "copyparty",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/copyparty-startos",
+      "title": "copyparty",
+      "upstreamRepo": "https://github.com/9001/copyparty"
+    },
+    "pushedAt": "2026-11-04T17:22:13Z"
+  },
+  "Start9-Community/cronicle-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "cronicle",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/cronicle-startos",
+      "title": "Cronicle",
+      "upstreamRepo": "https://github.com/jhuckaby/Cronicle"
+    },
+    "pushedAt": "2026-11-18T17:04:24Z"
+  },
+  "Start9-Community/fedimint-gateway-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "fedimint-gatewayd",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/fedimint-gateway-startos",
+      "title": "Fedimint Gateway",
+      "upstreamRepo": "https://github.com/fedimint/fedimint"
+    },
+    "pushedAt": "2026-11-10T02:15:57Z"
+  },
+  "Start9-Community/fedimint-guardian-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "fedimint-guardian",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/fedimint-guardian-startos",
+      "title": "Fedimint Guardian",
+      "upstreamRepo": "https://github.com/fedimint/fedimint"
+    },
+    "pushedAt": "2026-11-04T21:20:04Z"
+  },
+  "Start9-Community/hashrate-autopilot-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "hashrate-autopilot",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/hashrate-autopilot-startos",
+      "title": "Hashrate Autopilot",
+      "upstreamRepo": "https://github.com/rdouma/hashrate-autopilot"
+    },
+    "pushedAt": "2026-11-04T20:36:50Z"
+  },
+  "Start9-Community/hermes-agent-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "hermes-agent",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/hermes-agent-startos",
+      "title": "Hermes Agent",
+      "upstreamRepo": "https://github.com/NousResearch/hermes-agent"
+    },
+    "pushedAt": "2026-11-04T19:34:52Z"
+  },
+  "Start9-Community/holesail-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "holesail",
+      "license": "GPL-V3",
+      "packageRepo": "https://github.com/Start9-Community/holesail-startos",
+      "title": "Holesail",
+      "upstreamRepo": "https://github.com/holesail/holesail-docker"
+    },
+    "pushedAt": "2026-11-04T20:06:00Z"
+  },
+  "Start9-Community/metube-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "metube",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/Start9-Community/metube-startos",
+      "title": "MeTube",
+      "upstreamRepo": "https://github.com/alexta69/metube"
+    },
+    "pushedAt": "2026-11-09T18:42:08Z"
+  },
+  "Start9-Community/myspeed-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "my-speed",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/myspeed-startos",
+      "title": "MySpeed",
+      "upstreamRepo": "https://github.com/gnmyt/myspeed"
+    },
+    "pushedAt": "2026-09-15T20:04:44Z"
+  },
+  "Start9-Community/onlyoffice-docs-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "onlyoffice-docs",
+      "license": "AGPL-3.0-only",
+      "packageRepo": "https://github.com/Start9-Community/onlyoffice-docs-startos",
+      "title": "ONLYOFFICE Docs",
+      "upstreamRepo": "https://github.com/ONLYOFFICE/DocumentServer"
+    },
+    "pushedAt": "2026-11-10T03:05:52Z"
+  },
+  "Start9-Community/openclaw-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "openclaw",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/openclaw-startos",
+      "title": "OpenClaw",
+      "upstreamRepo": "https://github.com/openclaw/openclaw"
+    },
+    "pushedAt": "2026-11-18T17:04:03Z"
+  },
+  "Start9-Community/phoenixd-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "phoenixd",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/phoenixd-startos",
+      "title": "phoenixd",
+      "upstreamRepo": "https://github.com/ACINQ/phoenixd"
+    },
+    "pushedAt": "2026-11-09T02:48:29Z"
+  },
+  "Start9-Community/seerr-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "seerr",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/seerr-startos",
+      "title": "Seerr",
+      "upstreamRepo": "https://github.com/seerr-team/seerr"
+    },
+    "pushedAt": "2026-11-17T18:27:09Z"
+  },
+  "Start9-Community/signal-messenger-bridge-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "signal-messenger-bridge",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/signal-messenger-bridge-startos",
+      "title": "Signal Messenger Bridge",
+      "upstreamRepo": "https://github.com/bbernhard/signal-cli-rest-api"
+    },
+    "pushedAt": "2026-11-18T15:36:01Z"
+  },
+  "Start9-Community/simplex-websocket-bridge-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "simplex-websocket-bridge",
+      "license": "MIT AND AGPL-3.0-only",
+      "packageRepo": "https://github.com/Start9-Community/simplex-websocket-bridge-startos",
+      "title": "SimpleX Websocket Bridge",
+      "upstreamRepo": "https://github.com/simplex-chat/simplex-chat"
+    },
+    "pushedAt": "2026-11-04T19:38:40Z"
+  },
+  "Start9-Community/thunderhub-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "thunderhub",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/thunderhub-startos",
+      "title": "ThunderHub",
+      "upstreamRepo": "https://github.com/apotdevin/thunderhub"
+    },
+    "pushedAt": "2026-11-09T04:28:50Z"
+  },
+  "Start9Labs/am-i-exposed-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "am-i-exposed",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/am-i-exposed-startos",
+      "title": "Am I Exposed?",
+      "upstreamRepo": "https://github.com/Copexit/am-i-exposed"
+    },
+    "pushedAt": "2026-11-20T15:29:08Z"
+  },
+  "Start9Labs/audiobookshelf-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "audiobookshelf",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/Start9Labs/audiobookshelf-startos",
+      "title": "Audiobookshelf",
+      "upstreamRepo": "https://github.com/advplyr/audiobookshelf"
+    },
+    "pushedAt": "2026-11-18T15:47:08Z"
+  },
+  "Start9Labs/bark-web-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "bark-web",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/bark-web-startos",
+      "title": "Bark Wallet",
+      "upstreamRepo": "https://gitlab.com/ark-bitcoin/bark-web"
+    },
+    "pushedAt": "2026-11-20T15:02:21Z"
+  },
+  "Start9Labs/bazarr-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "bazarr",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/Start9Labs/bazarr-startos",
+      "title": "Bazarr",
+      "upstreamRepo": "https://github.com/morpheus65535/bazarr"
+    },
+    "pushedAt": "2026-11-18T15:33:28Z"
+  },
+  "Start9Labs/bitcoin-core-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "bitcoind",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/bitcoin-core-startos",
+      "title": "Bitcoin Core",
+      "upstreamRepo": "https://github.com/bitcoin/bitcoin"
+    },
+    "pushedAt": "2026-11-20T15:28:48Z"
+  },
+  "Start9Labs/btcpayserver-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "btcpayserver",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/btcpayserver-startos",
+      "title": "BTCPay Server",
+      "upstreamRepo": "https://github.com/btcpayserver/btcpayserver"
+    },
+    "pushedAt": "2026-11-18T23:08:13Z"
+  },
+  "Start9Labs/byparr-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "byparr",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/Start9Labs/byparr-startos",
+      "title": "Byparr",
+      "upstreamRepo": "https://github.com/ThePhaseless/Byparr"
+    },
+    "pushedAt": "2026-11-06T18:45:12Z"
+  },
+  "Start9Labs/cal-diy-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "cal-diy",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/cal-diy-startos",
+      "title": "Cal.diy",
+      "upstreamRepo": "https://github.com/calcom/cal.diy"
+    },
+    "pushedAt": "2026-11-09T18:35:07Z"
+  },
+  "Start9Labs/cert-warden-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "cert-warden",
+      "license": "custom",
+      "packageRepo": "https://github.com/Start9Labs/cert-warden-startos",
+      "title": "Cert Warden",
+      "upstreamRepo": "https://github.com/gregtwallace/certwarden"
+    },
+    "pushedAt": "2026-10-27T20:34:07Z"
+  },
+  "Start9Labs/changedetection-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "changedetection",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/Start9Labs/changedetection-startos",
+      "title": "ChangeDetection.io",
+      "upstreamRepo": "https://github.com/dgtlmoon/changedetection.io"
+    },
+    "pushedAt": "2026-11-17T00:24:05Z"
+  },
+  "Start9Labs/cln-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "c-lightning",
+      "license": "mit",
+      "packageRepo": "https://github.com/Start9Labs/cln-startos",
+      "title": "Core Lightning",
+      "upstreamRepo": "https://github.com/ElementsProject/lightning"
+    },
+    "pushedAt": "2026-11-20T04:48:15Z"
+  },
+  "Start9Labs/collabora-online-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "collabora-online",
+      "license": "MPL-2.0",
+      "packageRepo": "https://github.com/Start9Labs/collabora-online-startos",
+      "title": "Collabora Online",
+      "upstreamRepo": "https://github.com/CollaboraOnline/online"
+    },
+    "pushedAt": "2026-11-07T18:27:30Z"
+  },
+  "Start9Labs/coturn-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "coturn",
+      "license": "BSD-3-Clause",
+      "packageRepo": "https://github.com/Start9Labs/coturn-startos",
+      "title": "Coturn",
+      "upstreamRepo": "https://github.com/coturn/coturn"
+    },
+    "pushedAt": "2026-11-19T17:29:26Z"
+  },
+  "Start9Labs/discourse-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "discourse",
+      "license": "GPL-2.0",
+      "packageRepo": "https://github.com/Start9Labs/discourse-startos",
+      "title": "Discourse",
+      "upstreamRepo": "https://github.com/discourse/discourse"
+    },
+    "pushedAt": "2026-11-20T15:14:24Z"
+  },
+  "Start9Labs/documenso-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "documenso",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/Start9Labs/documenso-startos",
+      "title": "Documenso",
+      "upstreamRepo": "https://github.com/documenso/documenso"
+    },
+    "pushedAt": "2026-11-17T16:38:23Z"
+  },
+  "Start9Labs/docuseal-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "docuseal",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/Start9Labs/docuseal-startos",
+      "title": "DocuSeal",
+      "upstreamRepo": "https://github.com/docusealco/docuseal"
+    },
+    "pushedAt": "2026-11-19T17:29:10Z"
+  },
+  "Start9Labs/easyappointments-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "easyappointments",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/Start9Labs/easyappointments-startos",
+      "title": "Easy!Appointments",
+      "upstreamRepo": "https://github.com/alextselegidis/easyappointments"
+    },
+    "pushedAt": "2026-11-13T19:19:53Z"
+  },
+  "Start9Labs/eclair-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "eclair",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/Start9Labs/eclair-startos",
+      "title": "Eclair",
+      "upstreamRepo": "https://github.com/ACINQ/eclair"
+    },
+    "pushedAt": "2026-11-18T23:05:57Z"
+  },
+  "Start9Labs/element-web-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "element-web",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/Start9Labs/element-web-startos",
+      "title": "Element Web (Start9 fork)",
+      "upstreamRepo": "https://github.com/Start9Labs/element-web"
+    },
+    "pushedAt": "2026-11-20T04:48:08Z"
+  },
+  "Start9Labs/erpnext-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "erpnext",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/Start9Labs/erpnext-startos",
+      "title": "ERPNext",
+      "upstreamRepo": "https://github.com/frappe/erpnext"
+    },
+    "pushedAt": "2026-11-19T17:29:02Z"
+  },
+  "Start9Labs/filebrowser-quantum-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "filebrowser",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/Start9Labs/filebrowser-quantum-startos",
+      "title": "FileBrowser Quantum",
+      "upstreamRepo": "https://github.com/gtsteffaniak/filebrowser"
+    },
+    "pushedAt": "2026-11-13T21:51:42Z"
+  },
+  "Start9Labs/filebrowser-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "filebrowser",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/Start9Labs/filebrowser-startos",
+      "title": "File Browser (unsupported)",
+      "upstreamRepo": "https://github.com/filebrowser/filebrowser"
+    },
+    "pushedAt": "2026-11-09T18:41:43Z"
+  },
+  "Start9Labs/firefly-iii-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "firefly-iii",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/Start9Labs/firefly-iii-startos",
+      "title": "Firefly III",
+      "upstreamRepo": "https://github.com/firefly-iii/firefly-iii"
+    },
+    "pushedAt": "2026-11-04T19:38:27Z"
+  },
+  "Start9Labs/fmd-server-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "fmd-server",
+      "license": "GPL-3.0-or-later",
+      "packageRepo": "https://github.com/Start9Labs/fmd-server-startos",
+      "title": "FMD Server",
+      "upstreamRepo": "https://gitlab.com/fmd-foss/fmd-server"
+    },
+    "pushedAt": "2026-11-18T03:29:21Z"
+  },
+  "Start9Labs/forgejo-runner-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "forgejo-runner",
+      "license": "GPL-3.0-or-later",
+      "packageRepo": "https://github.com/Start9Labs/forgejo-runner-startos",
+      "title": "Forgejo Runner",
+      "upstreamRepo": "https://code.forgejo.org/forgejo/runner"
+    },
+    "pushedAt": "2026-11-19T17:28:33Z"
+  },
+  "Start9Labs/frappe-helpdesk-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "frappe-helpdesk",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/Start9Labs/frappe-helpdesk-startos",
+      "title": "Frappe Helpdesk",
+      "upstreamRepo": "https://github.com/frappe/helpdesk"
+    },
+    "pushedAt": "2026-11-20T15:03:36Z"
+  },
+  "Start9Labs/ghost-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "ghost",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/ghost-startos",
+      "title": "Ghost",
+      "upstreamRepo": "https://github.com/TryGhost/ghost"
+    },
+    "pushedAt": "2026-11-18T15:47:54Z"
+  },
+  "Start9Labs/gitea-runner-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "gitea-runner",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/gitea-runner-startos",
+      "title": "Gitea Runner",
+      "upstreamRepo": "https://gitea.com/gitea/runner"
+    },
+    "pushedAt": "2026-11-20T15:11:36Z"
+  },
+  "Start9Labs/helix-home-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "hello-world",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/hello-world-startos",
+      "title": "Hello World",
+      "upstreamRepo": "https://github.com/Start9Labs/hello-world"
+    },
+    "pushedAt": "2026-08-12T16:44:21Z"
+  },
+  "Start9Labs/hello-world-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "hello-world",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/hello-world-startos",
+      "title": "Hello World",
+      "upstreamRepo": "https://github.com/Start9Labs/hello-world"
+    },
+    "pushedAt": "2026-10-07T04:55:09Z"
+  },
+  "Start9Labs/home-assistant-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "home-assistant",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/Start9Labs/home-assistant-startos",
+      "title": "Home Assistant",
+      "upstreamRepo": "https://github.com/home-assistant/core"
+    },
+    "pushedAt": "2026-11-17T17:03:01Z"
+  },
+  "Start9Labs/jam-v2-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "jam-v2",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/jam-v2-startos",
+      "title": "Jam V2",
+      "upstreamRepo": "https://github.com/joinmarket-webui/jam"
+    },
+    "pushedAt": "2026-11-18T23:08:31Z"
+  },
+  "Start9Labs/jellyfin-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "jellyfin",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/jellyfin-startos",
+      "title": "Jellyfin",
+      "upstreamRepo": "https://github.com/jellyfin/jellyfin"
+    },
+    "pushedAt": "2026-11-18T15:11:43Z"
+  },
+  "Start9Labs/jitsi-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "jitsi",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/Start9Labs/jitsi-startos",
+      "title": "Jitsi Meet",
+      "upstreamRepo": "https://github.com/jitsi/docker-jitsi-meet"
+    },
+    "pushedAt": "2026-11-20T15:28:40Z"
+  },
+  "Start9Labs/joplin-server-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "joplin-server",
+      "license": "Joplin Server Personal Use License",
+      "packageRepo": "https://github.com/Start9Labs/joplin-server-startos",
+      "title": "Joplin Server",
+      "upstreamRepo": "https://github.com/laurent22/joplin"
+    },
+    "pushedAt": "2026-11-04T20:12:21Z"
+  },
+  "Start9Labs/lidarr-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "lidarr",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/Start9Labs/lidarr-startos",
+      "title": "Lidarr",
+      "upstreamRepo": "https://github.com/Lidarr/Lidarr"
+    },
+    "pushedAt": "2026-11-20T04:20:11Z"
+  },
+  "Start9Labs/lightning-terminal-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "lightning-terminal",
+      "license": "mit",
+      "packageRepo": "https://github.com/Start9Labs/lightning-terminal-startos",
+      "title": "Lightning Terminal",
+      "upstreamRepo": "https://github.com/lightninglabs/lightning-terminal"
+    },
+    "pushedAt": "2026-11-12T16:06:48Z"
+  },
+  "Start9Labs/llama-cpp-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "llama-cpp",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/llama-cpp-startos",
+      "title": "llama.cpp",
+      "upstreamRepo": "https://github.com/ggml-org/llama.cpp"
+    },
+    "pushedAt": "2026-11-05T17:25:28Z"
+  },
+  "Start9Labs/lnbits-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "lnbits",
+      "license": "mit",
+      "packageRepo": "https://github.com/Start9Labs/lnbits-startos",
+      "title": "LNbits",
+      "upstreamRepo": "https://github.com/lnbits/lnbits"
+    },
+    "pushedAt": "2026-11-18T15:30:37Z"
+  },
+  "Start9Labs/lnd-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "lnd",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/lnd-startos",
+      "title": "LND",
+      "upstreamRepo": "https://github.com/lightningnetwork/lnd"
+    },
+    "pushedAt": "2026-11-18T23:06:11Z"
+  },
+  "Start9Labs/mattermost-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "mattermost",
+      "license": "other",
+      "packageRepo": "https://github.com/Start9Labs/mattermost-startos",
+      "title": "Mattermost",
+      "upstreamRepo": "https://github.com/mattermost/mattermost"
+    },
+    "pushedAt": "2026-11-20T04:48:05Z"
+  },
+  "Start9Labs/mempool-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "mempool",
+      "license": "AGPL",
+      "packageRepo": "https://github.com/Start9Labs/mempool-startos",
+      "title": "Mempool",
+      "upstreamRepo": "https://github.com/mempool/mempool"
+    },
+    "pushedAt": "2026-11-20T04:47:57Z"
+  },
+  "Start9Labs/nextcloud-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "nextcloud",
+      "license": "gpl",
+      "packageRepo": "https://github.com/Start9Labs/nextcloud-startos",
+      "title": "Nextcloud",
+      "upstreamRepo": "https://github.com/nextcloud/docker"
+    },
+    "pushedAt": "2026-11-18T16:26:33Z"
+  },
+  "Start9Labs/nextcloud-talk-hpb-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "nextcloud-talk-hpb",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/Start9Labs/nextcloud-talk-hpb-startos",
+      "title": "Nextcloud Talk HPB",
+      "upstreamRepo": "https://github.com/strukturag/nextcloud-spreed-signaling"
+    },
+    "pushedAt": "2026-11-19T17:37:29Z"
+  },
+  "Start9Labs/nextexplorer-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "nextexplorer",
+      "license": "GPL-3.0-only",
+      "packageRepo": "https://github.com/Start9Labs/nextexplorer-startos",
+      "title": "NextExplorer",
+      "upstreamRepo": "https://github.com/nxzai/NextExplorer"
+    },
+    "pushedAt": "2026-11-05T19:13:39Z"
+  },
+  "Start9Labs/node-red-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "node-red",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/Start9Labs/node-red-startos",
+      "title": "Node-RED",
+      "upstreamRepo": "https://github.com/node-red/node-red"
+    },
+    "pushedAt": "2026-11-17T17:04:34Z"
+  },
+  "Start9Labs/nostr-rs-relay-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "nostr-rs-relay",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/nostr-rs-relay-startos",
+      "title": "Nostr RS Relay",
+      "upstreamRepo": "https://sr.ht/~gheartsfield/nostr-rs-relay"
+    },
+    "pushedAt": "2026-11-17T19:35:29Z"
+  },
+  "Start9Labs/nzbget-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "nzbget",
+      "license": "GPL-2.0",
+      "packageRepo": "https://github.com/Start9Labs/nzbget-startos",
+      "title": "NZBGet",
+      "upstreamRepo": "https://github.com/nzbgetcom/nzbget"
+    },
+    "pushedAt": "2026-11-18T15:30:27Z"
+  },
+  "Start9Labs/ollama-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "ollama",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/ollama-startos",
+      "title": "Ollama",
+      "upstreamRepo": "https://github.com/ollama/ollama"
+    },
+    "pushedAt": "2026-11-17T17:04:05Z"
+  },
+  "Start9Labs/open-webui-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "open-webui",
+      "license": "custom",
+      "packageRepo": "https://github.com/Start9Labs/open-webui-startos",
+      "title": "Open WebUI",
+      "upstreamRepo": "https://github.com/open-webui/open-webui"
+    },
+    "pushedAt": "2026-11-18T15:20:09Z"
+  },
+  "Start9Labs/owncast-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "owncast",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/owncast-startos",
+      "title": "Owncast",
+      "upstreamRepo": "https://github.com/owncast/owncast"
+    },
+    "pushedAt": "2026-11-12T21:45:40Z"
+  },
+  "Start9Labs/owntracks-recorder-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "owntracks-recorder",
+      "license": "GPL-2.0-or-later",
+      "packageRepo": "https://github.com/Start9Labs/owntracks-recorder-startos",
+      "title": "OwnTracks Recorder",
+      "upstreamRepo": "https://github.com/owntracks/recorder"
+    },
+    "pushedAt": "2026-11-19T17:28:55Z"
+  },
+  "Start9Labs/papra-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "papra",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/Start9Labs/papra-startos",
+      "title": "Papra",
+      "upstreamRepo": "https://github.com/papra-hq/papra"
+    },
+    "pushedAt": "2026-11-04T21:25:25Z"
+  },
+  "Start9Labs/peertube-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "peertube",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/Start9Labs/peertube-startos",
+      "title": "PeerTube",
+      "upstreamRepo": "https://github.com/Chocobozzz/PeerTube"
+    },
+    "pushedAt": "2026-11-13T17:43:14Z"
+  },
+  "Start9Labs/pocket-id-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "pocket-id",
+      "license": "BSD-2-Clause",
+      "packageRepo": "https://github.com/Start9Labs/pocket-id-startos",
+      "title": "Pocket ID",
+      "upstreamRepo": "https://github.com/pocket-id/pocket-id"
+    },
+    "pushedAt": "2026-11-16T18:13:14Z"
+  },
+  "Start9Labs/primal-web-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "primal-web",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/primal-web-startos",
+      "title": "Primal",
+      "upstreamRepo": "https://github.com/PrimalHQ/primal-web-app"
+    },
+    "pushedAt": "2026-10-08T04:35:21Z"
+  },
+  "Start9Labs/prowlarr-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "prowlarr",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/Start9Labs/prowlarr-startos",
+      "title": "Prowlarr",
+      "upstreamRepo": "https://github.com/Prowlarr/Prowlarr"
+    },
+    "pushedAt": "2026-11-19T00:23:38Z"
+  },
+  "Start9Labs/qbittorrent-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "qbittorrent",
+      "license": "GPL-2.0",
+      "packageRepo": "https://github.com/Start9Labs/qbittorrent-startos",
+      "title": "qBittorrent",
+      "upstreamRepo": "https://github.com/qbittorrent/qBittorrent"
+    },
+    "pushedAt": "2026-11-18T01:54:03Z"
+  },
+  "Start9Labs/radarr-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "radarr",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/Start9Labs/radarr-startos",
+      "title": "Radarr",
+      "upstreamRepo": "https://github.com/Radarr/Radarr"
+    },
+    "pushedAt": "2026-11-20T04:19:46Z"
+  },
+  "Start9Labs/radicale-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "radicale",
+      "license": "GPL-3.0-or-later",
+      "packageRepo": "https://github.com/Start9Labs/radicale-startos",
+      "title": "Radicale",
+      "upstreamRepo": "https://github.com/Kozea/Radicale"
+    },
+    "pushedAt": "2026-11-17T17:03:43Z"
+  },
+  "Start9Labs/ride-the-lightning-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "ride-the-lightning",
+      "license": "mit",
+      "packageRepo": "https://github.com/Start9Labs/ride-the-lightning-startos",
+      "title": "Ride The Lightning",
+      "upstreamRepo": "https://github.com/Ride-The-Lightning/RTL"
+    },
+    "pushedAt": "2026-11-09T04:28:35Z"
+  },
+  "Start9Labs/searxng-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "searxng",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/searxng-startos",
+      "title": "SearXNG",
+      "upstreamRepo": "https://github.com/searxng/searxng"
+    },
+    "pushedAt": "2026-11-14T16:42:16Z"
+  },
+  "Start9Labs/shelfarr-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "shelfarr",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/Start9Labs/shelfarr-startos",
+      "title": "Shelfarr",
+      "upstreamRepo": "https://github.com/Pedro-Revez-Silva/shelfarr"
+    },
+    "pushedAt": "2026-11-19T01:13:43Z"
+  },
+  "Start9Labs/sonarr-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "sonarr",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/Start9Labs/sonarr-startos",
+      "title": "Sonarr",
+      "upstreamRepo": "https://github.com/Sonarr/Sonarr"
+    },
+    "pushedAt": "2026-11-20T04:19:27Z"
+  },
+  "Start9Labs/stalwart-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "stalwart",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/Start9Labs/stalwart-startos",
+      "title": "Stalwart",
+      "upstreamRepo": "https://github.com/stalwartlabs/stalwart"
+    },
+    "pushedAt": "2026-11-19T22:30:40Z"
+  },
+  "Start9Labs/start9-pages-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "start9-pages",
+      "license": "mit",
+      "packageRepo": "https://github.com/Start9Labs/start9-pages-startos",
+      "title": "Start9 Pages",
+      "upstreamRepo": "https://github.com/Start9Labs/start9-pages-startos"
+    },
+    "pushedAt": "2026-11-09T18:42:54Z"
+  },
+  "Start9Labs/startos-registry-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "startos-registry",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/startos-registry-startos",
+      "title": "StartOS Registry",
+      "upstreamRepo": "https://github.com/Start9Labs/start-technologies"
+    },
+    "pushedAt": "2026-11-15T15:28:16Z"
+  },
+  "Start9Labs/stratum-v2-pool-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "stratum-v2-pool",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/stratum-v2-pool-startos",
+      "title": "Stratum V2 Pool",
+      "upstreamRepo": "https://github.com/stratum-mining/sv2-apps"
+    },
+    "pushedAt": "2026-11-09T23:46:09Z"
+  },
+  "Start9Labs/stratum-v2-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "stratum-v2",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/stratum-v2-startos",
+      "title": "Stratum V2",
+      "upstreamRepo": "https://github.com/stratum-mining/sv2-apps"
+    },
+    "pushedAt": "2026-11-20T04:47:51Z"
+  },
+  "Start9Labs/synapse-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "synapse",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/Start9Labs/synapse-startos",
+      "title": "Synapse",
+      "upstreamRepo": "https://github.com/element-hq/synapse"
+    },
+    "pushedAt": "2026-11-11T17:37:35Z"
+  },
+  "Start9Labs/tor-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "tor",
+      "license": "BSD-3-Clause",
+      "packageRepo": "https://github.com/Start9Labs/tor-startos",
+      "title": "Tor",
+      "upstreamRepo": "https://gitlab.torproject.org/tpo/core/tor"
+    },
+    "pushedAt": "2026-11-17T18:36:38Z"
+  },
+  "Start9Labs/vaultwarden-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "vaultwarden",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/vaultwarden-startos",
+      "title": "Vaultwarden",
+      "upstreamRepo": "https://github.com/dani-garcia/vaultwarden"
+    },
+    "pushedAt": "2026-11-10T00:21:39Z"
+  },
+  "Start9Labs/vllm-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "vllm",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/Start9Labs/vllm-startos",
+      "title": "vLLM",
+      "upstreamRepo": "https://github.com/vllm-project/vllm"
+    },
+    "pushedAt": "2026-11-17T18:03:03Z"
+  },
+  "Start9Labs/wordpress-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "wordpress",
+      "license": "GPL-2.0-or-later",
+      "packageRepo": "https://github.com/Start9Labs/wordpress-startos",
+      "title": "WordPress",
+      "upstreamRepo": "https://github.com/WordPress/WordPress"
+    },
+    "pushedAt": "2026-11-04T20:32:15Z"
+  },
+  "SwapSha-com/swapsha-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "swapsha",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/SwapSha-com/swapsha-startos",
+      "title": "SwapSha",
+      "upstreamRepo": "https://github.com/SwapSha-com/swapsha-backend"
+    },
+    "pushedAt": "2026-11-11T02:42:35Z"
+  },
+  "The-Cryptosquid/castopod-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "castopod",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/Start9-Community/castopod-startos",
+      "title": "Castopod",
+      "upstreamRepo": "https://code.castopod.org/adaures/castopod"
+    },
+    "pushedAt": "2026-11-13T20:58:32Z"
+  },
+  "The-Cryptosquid/keila-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "keila",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/The-Cryptosquid/keila-startos",
+      "title": "Keila",
+      "upstreamRepo": "https://github.com/pentacent/keila"
+    },
+    "pushedAt": "2026-11-18T21:58:57Z"
+  },
+  "The-Cryptosquid/nomadnet-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "nomadnet",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/The-Cryptosquid/nomadnet-startos",
+      "title": "Nomad Network",
+      "upstreamRepo": "https://github.com/markqvist/NomadNet"
+    },
+    "pushedAt": "2026-11-11T00:45:06Z"
+  },
+  "Tunnelsats/tunnelsats-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "tunnelsats",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/tunnelsats-startos",
+      "title": "TunnelSats",
+      "upstreamRepo": "https://github.com/Tunnelsats/tunnelsats"
+    },
+    "pushedAt": "2026-11-16T08:17:42Z"
+  },
+  "TwentyOneLife/shulcrum-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "fulcrum",
+      "license": "GPL-3.0-only",
+      "packageRepo": "https://github.com/TwentyOneLife/shulcrum-startos",
+      "title": "Shulcrum",
+      "upstreamRepo": "https://github.com/TwentyOneLife/Shulcrum"
+    },
+    "pushedAt": "2026-11-14T11:22:44Z"
+  },
+  "TwentyOneLife/sovereign-swap-client-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "sovereign-swap-client",
+      "license": "AGPL-3.0-or-later",
+      "packageRepo": "https://github.com/TwentyOneLife/sovereign-swap-client-startos",
+      "title": "Sovereign Swap",
+      "upstreamRepo": "https://github.com/TwentyOneLife/sovereign-swap"
+    },
+    "pushedAt": "2026-11-20T14:55:24Z"
+  },
+  "TwentyOneLife/sovereign-swap-relay-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "sovereign-swap-relay",
+      "license": "AGPL-3.0-or-later",
+      "packageRepo": "https://github.com/TwentyOneLife/sovereign-swap-relay-startos",
+      "title": "Sovereign Swap Relay",
+      "upstreamRepo": "https://github.com/TwentyOneLife/sovereign-swap"
+    },
+    "pushedAt": "2026-11-19T18:45:42Z"
+  },
+  "WantClue/pogolo-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "pogolo",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/Start9-Community/pogolo-startos",
+      "title": "pogolo",
+      "upstreamRepo": "https://github.com/0xf0xx0/pogolo"
+    },
+    "pushedAt": "2026-11-16T11:08:42Z"
+  },
+  "Warfields/act-runner-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "act-runner",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/act-runner-startos",
+      "title": "Act Runner",
+      "upstreamRepo": "https://gitea.com/gitea/act_runner"
+    },
+    "pushedAt": "2026-03-09T23:50:03Z"
+  },
+  "ZapriteApp/spaces-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "spaces",
+      "license": "MIT",
+      "packageRepo": "https://github.com/ZapriteApp/spaces-startos",
+      "title": "Spaces",
+      "upstreamRepo": "https://github.com/spacesprotocol/spaces"
+    },
+    "pushedAt": "2026-10-23T12:21:52Z"
+  },
+  "aldum/bewcloud-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "bewcloud",
+      "license": "MIT",
+      "packageRepo": null,
+      "title": "Bewcloud",
+      "upstreamRepo": "https://github.com/bewcloud/bewcloud"
+    },
+    "pushedAt": "2025-12-09T17:11:27Z"
+  },
+  "aldum/immich-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "immich",
+      "license": "MIT",
+      "packageRepo": null,
+      "title": "Immich",
+      "upstreamRepo": "https://github.com/immich-app/immich"
+    },
+    "pushedAt": "2026-02-07T18:45:20Z"
+  },
+  "aldum/monerod-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "monerod",
+      "license": "MIT",
+      "packageRepo": null,
+      "title": "Monero",
+      "upstreamRepo": "https://github.com/monero/monero"
+    },
+    "pushedAt": "2026-01-05T19:15:17Z"
+  },
+  "alextab93/beszel-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "beszel",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/beszel-startos",
+      "title": "Beszel",
+      "upstreamRepo": "https://github.com/henrygd/beszel"
+    },
+    "pushedAt": "2026-09-30T19:02:07Z"
+  },
+  "alextab93/browser-arcade-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "browser-arcade",
+      "license": "MIT",
+      "packageRepo": "https://github.com/alextab93/browser-arcade-startos",
+      "title": "Browser Arcade",
+      "upstreamRepo": "https://github.com/alextab93/browser-arcade-startos"
+    },
+    "pushedAt": "2026-08-14T06:19:30Z"
+  },
+  "alextab93/dev-workspace-desktop-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "dev-workspace-desktop",
+      "license": "GPL-3.0-only",
+      "packageRepo": "https://github.com/alextab93/dev-workspace-desktop-startos",
+      "title": "Dev Workspace Desktop",
+      "upstreamRepo": "https://github.com/linuxserver/docker-baseimage-selkies"
+    },
+    "pushedAt": "2026-11-20T03:07:03Z"
+  },
+  "alextab93/dev-workspace-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "dev-workspace",
+      "license": "MIT",
+      "packageRepo": "https://github.com/alextab93/dev-workspace-startos",
+      "title": "Dev Workspace",
+      "upstreamRepo": "https://github.com/openssh/openssh-portable"
+    },
+    "pushedAt": "2026-11-20T03:07:00Z"
+  },
+  "alextab93/inbucket-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "inbucket",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/inbucket-startos",
+      "title": "Inbucket",
+      "upstreamRepo": "https://github.com/inbucket/inbucket"
+    },
+    "pushedAt": "2026-09-30T17:32:27Z"
+  },
+  "alextab93/pyblock-miner-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "pyblock-miner",
+      "license": "MIT",
+      "packageRepo": "https://github.com/alextab93/pyblock-miner-startos",
+      "title": "pyblockMiner",
+      "upstreamRepo": "https://github.com/GaltRanch/pyblock-miner"
+    },
+    "pushedAt": "2026-09-21T23:34:05Z"
+  },
+  "alextab93/romm-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "romm",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/Start9-Community/romm-startos",
+      "title": "RomM",
+      "upstreamRepo": "https://github.com/rommapp/romm"
+    },
+    "pushedAt": "2026-10-22T23:45:41Z"
+  },
+  "alextab93/stirling-pdf-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "stirling-pdf",
+      "license": "MIT AND LicenseRef-Stirling-PDF-User-License",
+      "packageRepo": "https://github.com/alextab93/stirling-pdf-startos",
+      "title": "Stirling PDF",
+      "upstreamRepo": "https://github.com/Stirling-Tools/Stirling-PDF"
+    },
+    "pushedAt": "2026-08-14T05:44:21Z"
+  },
+  "alextab93/todo-back-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "todo-back",
+      "license": "MIT",
+      "packageRepo": "https://github.com/alextab93/todo-back",
+      "title": "Todo Back",
+      "upstreamRepo": "https://github.com/alextab93/todo-back"
+    },
+    "pushedAt": "2026-08-09T01:37:35Z"
+  },
+  "alru78/route96-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "route96",
+      "license": "MIT",
+      "packageRepo": "https://github.com/alru78/route96-startos",
+      "title": "route96 (Blossom)",
+      "upstreamRepo": "https://github.com/v0l/route96"
+    },
+    "pushedAt": "2026-11-17T18:29:25Z"
+  },
+  "alru78/tor-node-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "tor-relay",
+      "license": "BSD-3-Clause",
+      "packageRepo": "https://github.com/Start9-Community/tor-relay-startos",
+      "title": "Tor Relay",
+      "upstreamRepo": "https://gitlab.torproject.org/tpo/core/tor"
+    },
+    "pushedAt": "2026-11-14T07:47:34Z"
+  },
+  "andycreed0x/hermes-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "hermes",
+      "license": "MIT",
+      "packageRepo": "https://github.com/andycreed0x/hermes-startos",
+      "title": "Hermes Agent",
+      "upstreamRepo": "https://github.com/NousResearch/hermes-agent"
+    },
+    "pushedAt": "2026-05-21T13:57:05Z"
+  },
+  "andycreed0x/moltbot-startos": {
+    "kind": "v03",
+    "pushedAt": "2026-01-29T13:24:01Z"
+  },
+  "ariesbabu/cftunnel-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "hello-world",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/hello-world-startos",
+      "title": "Hello World",
+      "upstreamRepo": "https://github.com/Start9Labs/hello-world"
+    },
+    "pushedAt": "2026-04-28T02:57:55Z"
+  },
+  "ariesbabu/cloudflared-startos": {
+    "kind": "v04",
+    "pushedAt": "2026-04-28T05:11:48Z"
+  },
+  "average-gary/sv2-startos": {
+    "kind": "other",
+    "pushedAt": "2026-07-08T18:14:13Z"
+  },
+  "bisq-network/bisq2-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "bisq2-node",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/Start9-Community/bisq2-startos",
+      "title": "Bisq 2 Node",
+      "upstreamRepo": "https://github.com/bisq-network/bisq2"
+    },
+    "pushedAt": "2026-11-07T10:50:02Z"
+  },
+  "bit-blik/bitblik-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "bitblik",
+      "license": "MIT",
+      "packageRepo": "https://github.com/bit-blik/bitblik-startos",
+      "title": "BitBlik",
+      "upstreamRepo": "https://github.com/bit-blik/bitblik"
+    },
+    "pushedAt": "2026-11-06T13:00:13Z"
+  },
+  "bitcoinRph/buzz-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "buzz",
+      "license": "Apache-2.0",
+      "packageRepo": null,
+      "title": "Buzz",
+      "upstreamRepo": "https://github.com/block/buzz"
+    },
+    "pushedAt": "2026-10-23T05:33:00Z"
+  },
+  "bitcoinRph/buzz-startos-sources": {
+    "kind": "other",
+    "pushedAt": "2026-10-30T21:30:43Z"
+  },
+  "bitcoinRph/hyperframes-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "hyperframes",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/bitcoinRph/hyperframes-startos",
+      "title": "HyperFrames",
+      "upstreamRepo": "https://github.com/heygen-com/hyperframes"
+    },
+    "pushedAt": "2026-11-04T23:23:55Z"
+  },
+  "bitcoinRph/openwhispr-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "openwhispr",
+      "license": "MIT",
+      "packageRepo": "https://github.com/bitcoinRph/openwhispr-startos",
+      "title": "OpenWhispr",
+      "upstreamRepo": "https://github.com/OpenWhispr/openwhispr"
+    },
+    "pushedAt": "2026-09-19T23:08:40Z"
+  },
+  "bitcoinRph/paperclip-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "hello-world",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/hello-world-startos",
+      "title": "Hello World",
+      "upstreamRepo": "https://github.com/Start9Labs/hello-world"
+    },
+    "pushedAt": "2026-05-29T20:51:34Z"
+  },
+  "bitcoinismoral/dash-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "dash",
+      "license": "MIT",
+      "packageRepo": "https://github.com/bitcoinismoral/dash-startos",
+      "title": "Dash Core",
+      "upstreamRepo": "https://github.com/dashpay/dash"
+    },
+    "pushedAt": "2026-11-15T04:36:27Z"
+  },
+  "bitcoinismoral/zebrad-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "zebrad",
+      "license": "MIT",
+      "packageRepo": "https://github.com/bitcoinismoral/zebrad-startos",
+      "title": "Zcash",
+      "upstreamRepo": "https://github.com/ZcashFoundation/zebra"
+    },
+    "pushedAt": "2026-11-15T04:26:31Z"
+  },
+  "bitsagarob/payment-name-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "payment-name",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/payment-name-startos",
+      "title": "Payment Name",
+      "upstreamRepo": "https://github.com/bitsagarob/payment-name-startos"
+    },
+    "pushedAt": "2026-09-02T22:15:40Z"
+  },
+  "bitsagarob/spcommit-checkpoint-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "spcommit-checkpoint",
+      "license": "MIT",
+      "packageRepo": "https://github.com/bitsagarob/spcommit-checkpoint-startos",
+      "title": "Spcommit Checkpoint",
+      "upstreamRepo": "https://github.com/bitsagarob/spcommit-checkpoint-startos"
+    },
+    "pushedAt": "2026-09-02T11:32:53Z"
+  },
+  "bobodread876/fedimintcard-till-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "fedimintcard-till",
+      "license": "MIT",
+      "packageRepo": "https://github.com/bobodread876/fedimintcard-till-startos",
+      "title": "Fedimint Card Till",
+      "upstreamRepo": "https://github.com/fedimintcard/fedimintcard"
+    },
+    "pushedAt": "2026-11-19T06:19:33Z"
+  },
+  "bobodread876/kathreftestr-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "kathreftestr",
+      "license": "MIT",
+      "packageRepo": "https://github.com/bobodread876/kathreftestr",
+      "title": "Kathreftestr",
+      "upstreamRepo": "https://github.com/bobodread876/kathreftestr"
+    },
+    "pushedAt": "2026-10-24T19:54:48Z"
+  },
+  "bobodread876/lndg-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "lndg",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/lndg-startos",
+      "title": "LNDg",
+      "upstreamRepo": "https://github.com/cryptosharks131/lndg"
+    },
+    "pushedAt": "2026-10-24T19:55:00Z"
+  },
+  "bobodread876/maple-proxy-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "maple-proxy",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/maple-proxy-startos",
+      "title": "Maple Proxy",
+      "upstreamRepo": "https://github.com/OpenSecretCloud/maple-proxy"
+    },
+    "pushedAt": "2026-10-24T19:55:04Z"
+  },
+  "bobodread876/pact-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "pactd",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/Start9-Community/pact-startos",
+      "title": "Pact",
+      "upstreamRepo": "https://github.com/bobodread876/pact"
+    },
+    "pushedAt": "2026-11-14T02:58:41Z"
+  },
+  "bobodread876/paseo-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "paseo",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/bobodread876/paseo-startos",
+      "title": "Paseo",
+      "upstreamRepo": "https://github.com/getpaseo/paseo"
+    },
+    "pushedAt": "2026-10-24T19:55:15Z"
+  },
+  "bobodread876/phoenixd-startos": {
+    "kind": "v03",
+    "pushedAt": "2026-10-24T19:55:23Z"
+  },
+  "brendio/elements-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "elements",
+      "license": "MIT",
+      "packageRepo": "https://github.com/brendio/elements-startos",
+      "title": "Elements (Liquid)",
+      "upstreamRepo": "https://github.com/ElementsProject/elements"
+    },
+    "pushedAt": "2026-09-14T02:27:12Z"
+  },
+  "brendio/peerswap-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "peerswap",
+      "license": "mit",
+      "packageRepo": "https://github.com/brendio/peerswap-startos",
+      "title": "PeerSwap",
+      "upstreamRepo": "https://github.com/ElementsProject/peerswap"
+    },
+    "pushedAt": "2026-08-27T02:19:44Z"
+  },
+  "bytedevil/freellmapi-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "freellmapi",
+      "license": "MIT",
+      "packageRepo": "https://github.com/bytedevil/freellmapi-startos",
+      "title": "FreeLLMAPI",
+      "upstreamRepo": "https://github.com/tashfeenahmed/freellmapi"
+    },
+    "pushedAt": "2026-09-17T20:23:32Z"
+  },
+  "carbonatedberry/KamadoPool-StartOS": {
+    "kind": "v04",
+    "manifest": {
+      "id": "kamado-pool",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/Start9-Community/KamadoPool-StartOS",
+      "title": "Kamado Pool",
+      "upstreamRepo": "https://github.com/carbonatedberry/KamadoPool"
+    },
+    "pushedAt": "2026-11-16T20:22:20Z"
+  },
+  "carlosjackkal/todo-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "todo",
+      "license": "MIT",
+      "packageRepo": "https://github.com/example/todo-startos",
+      "title": "To Do",
+      "upstreamRepo": "https://github.com/example/todo"
+    },
+    "pushedAt": "2026-04-21T20:53:45Z"
+  },
+  "christhealien/blake2b-asic-control-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "blake2b-asic-control",
+      "license": "MIT",
+      "packageRepo": "https://github.com/christhealien/blake2b-asic-control-startos",
+      "title": "Blake2b ASIC Control",
+      "upstreamRepo": "https://github.com/christhealien/blake2b-asic-control"
+    },
+    "pushedAt": "2026-10-25T08:22:36Z"
+  },
+  "coltonsharp-dev/Chemistry-Startosyn-2026": {
+    "kind": "other",
+    "pushedAt": "2026-05-14T22:15:16Z"
+  },
+  "coltonsharp-dev/History-Startosyn-2026-": {
+    "kind": "other",
+    "pushedAt": "2026-05-13T22:24:33Z"
+  },
+  "connorslab/paperclip-asp-startos": {
+    "kind": "other",
+    "pushedAt": "2026-10-10T17:00:27Z"
+  },
+  "connorslab/paperclip-cln-startos": {
+    "kind": "other",
+    "pushedAt": "2026-10-10T17:00:31Z"
+  },
+  "connorslab/paperclip-wallet-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "paperclip-wallet",
+      "license": "MIT",
+      "packageRepo": "https://github.com/connorslab/paperclip-wallet-startos",
+      "title": "Paperclip Wallet Beta",
+      "upstreamRepo": "https://github.com/connorslab/paperclip-wallet-app"
+    },
+    "pushedAt": "2026-11-20T16:01:59Z"
+  },
+  "crissuper20/mcserver-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "mcserver",
+      "license": "MIT",
+      "packageRepo": null,
+      "title": "Minecraft Server",
+      "upstreamRepo": "https://github.com/itzg/docker-minecraft-server"
+    },
+    "pushedAt": "2026-03-13T02:58:55Z"
+  },
+  "crossbill-wallet/crossbill-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "crossbill",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/crossbill-wallet/crossbill-startos",
+      "title": "Crossbill",
+      "upstreamRepo": "https://github.com/crossbill-wallet/crossbill"
+    },
+    "pushedAt": "2026-11-10T19:31:34Z"
+  },
+  "dav1dpgit/lijox-adapter-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "lijox-adapter",
+      "license": "MIT",
+      "packageRepo": "https://github.com/dav1dpgit/lijox-adapter-startos",
+      "title": "LIJOX Adapter",
+      "upstreamRepo": "https://github.com/dav1dpgit/lijox-lnd-adapter"
+    },
+    "pushedAt": "2026-11-19T11:32:36Z"
+  },
+  "dav1dpgit/lnd-startos-terminus": {
+    "kind": "v04",
+    "manifest": {
+      "id": "lnd",
+      "license": "MIT",
+      "packageRepo": "https://github.com/dav1dpgit/lnd-startos-terminus",
+      "title": "LND (Terminus)",
+      "upstreamRepo": "https://github.com/lightningnetwork/lnd"
+    },
+    "pushedAt": "2026-11-19T11:32:37Z"
+  },
+  "davelund110/lightning-fork-regtest-startos": {
+    "kind": "empty",
+    "pushedAt": "2026-10-09T17:49:21Z"
+  },
+  "davelund110/xbt-regtest-startos": {
+    "kind": "empty",
+    "pushedAt": "2026-10-09T17:49:05Z"
+  },
+  "dennisreimann/kindle-display-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "kindle-display",
+      "license": "MIT",
+      "packageRepo": "https://github.com/dennisreimann/kindle-display-startos",
+      "title": "Kindle Display",
+      "upstreamRepo": "https://github.com/dennisreimann/kindle-display"
+    },
+    "pushedAt": "2026-11-15T14:57:43Z"
+  },
+  "dr-bonez/actual-budget-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "actual-budget",
+      "license": "MIT",
+      "packageRepo": null,
+      "title": "Actual Budget",
+      "upstreamRepo": "https://github.com/actualbudget/actual"
+    },
+    "pushedAt": "2026-01-09T00:55:12Z"
+  },
+  "dr-bonez/django-wedding-website-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "django-wedding-website",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/Start9Labs/django-wedding-website-startos",
+      "title": "Django Wedding Website",
+      "upstreamRepo": "https://github.com/czue/django-wedding-website"
+    },
+    "pushedAt": "2026-07-14T19:10:44Z"
+  },
+  "dr-bonez/documenso-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "documenso",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/Start9Labs/documenso-startos",
+      "title": "Documenso",
+      "upstreamRepo": "https://github.com/documenso/documenso"
+    },
+    "pushedAt": "2026-04-16T06:13:51Z"
+  },
+  "dr-bonez/hypermind-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "hypermind",
+      "license": "MIT",
+      "packageRepo": null,
+      "title": "Hypermind",
+      "upstreamRepo": "https://github.com/lklynet/hypermind"
+    },
+    "pushedAt": "2026-01-06T21:07:46Z"
+  },
+  "dr-bonez/keycloak-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "keycloak",
+      "license": "Apache-2.0",
+      "packageRepo": null,
+      "title": "Keycloak",
+      "upstreamRepo": "https://github.com/keycloak/keycloak"
+    },
+    "pushedAt": "2026-01-09T19:07:50Z"
+  },
+  "dr-bonez/spliit-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "spliit",
+      "license": "MIT",
+      "packageRepo": null,
+      "title": "Spliit",
+      "upstreamRepo": "https://github.com/spliit-app/spliit"
+    },
+    "pushedAt": "2026-01-29T00:33:50Z"
+  },
+  "elsiribot/manifold-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "fleet-manager",
+      "license": "MIT",
+      "packageRepo": "https://github.com/elsiribot/manifold-startos",
+      "title": "Fleet Manager",
+      "upstreamRepo": "https://github.com/fedibtc/manifold"
+    },
+    "pushedAt": "2026-11-20T03:45:38Z"
+  },
+  "epochbtc/satd-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "satd",
+      "license": "MIT",
+      "packageRepo": "https://github.com/epochbtc/satd",
+      "title": "satd",
+      "upstreamRepo": "https://github.com/epochbtc/satd"
+    },
+    "pushedAt": "2026-10-16T21:00:42Z"
+  },
+  "ericpp/dojo-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "dojo",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/ericpp/dojo-startos",
+      "title": "Dojo",
+      "upstreamRepo": "https://github.com/Dojo-Open-Source-Project/samourai-dojo"
+    },
+    "pushedAt": "2026-07-15T03:31:53Z"
+  },
+  "f4phlyer2/Knots-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "hello-world",
+      "license": "MIT",
+      "packageRepo": null,
+      "title": "Hello World",
+      "upstreamRepo": "https://github.com/Start9Labs/hello-world"
+    },
+    "pushedAt": "2026-01-12T21:07:53Z"
+  },
+  "f4phlyer2/ocean-terminal-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "hello-world",
+      "license": "MIT",
+      "packageRepo": null,
+      "title": "Hello World",
+      "upstreamRepo": "https://github.com/Start9Labs/hello-world"
+    },
+    "pushedAt": "2026-01-12T03:34:52Z"
+  },
+  "fedibtc/manifold-fedimint-guardian-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "manifold-fedimint-guardian",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/manifold-fedimint-guardian-startos",
+      "title": "Manifold Fedimint Guardian",
+      "upstreamRepo": "https://github.com/fedibtc/manifold"
+    },
+    "pushedAt": "2026-11-20T14:15:29Z"
+  },
+  "gStart9/veilid-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "veilid",
+      "license": "MPL-2.0",
+      "packageRepo": "https://github.com/gStart9/veilid-startos",
+      "title": "Veilid",
+      "upstreamRepo": "https://gitlab.com/veilid/veilid"
+    },
+    "pushedAt": "2026-11-11T01:46:36Z"
+  },
+  "gjbrr/blake-swap-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "blake-swap",
+      "license": null,
+      "packageRepo": "https://github.com/gjbrr/blake-swap-startos",
+      "title": "XBT/BTC Atomic Swap",
+      "upstreamRepo": "https://github.com/gjbrr/blake-swap"
+    },
+    "pushedAt": "2026-10-22T14:28:43Z"
+  },
+  "glowleaf/hermes-agent-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "hermes-agent",
+      "license": "MIT",
+      "packageRepo": "https://github.com/glowleaf/hermes-agent-startos",
+      "title": "Hermes Agent",
+      "upstreamRepo": "https://github.com/NousResearch/hermes-agent"
+    },
+    "pushedAt": "2026-05-09T21:42:31Z"
+  },
+  "gobrrrme/GoBrrr-Pool-StartOS": {
+    "kind": "v04",
+    "manifest": {
+      "id": "gobrrr-pool",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/gobrrrme/GoBrrr-Pool-StartOS",
+      "title": "GoBrrr Pool",
+      "upstreamRepo": "https://github.com/gobrrrme/GoBrrr-Pool"
+    },
+    "pushedAt": "2026-11-12T10:05:02Z"
+  },
+  "gridlabs-science/gridpool-blake2b-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "gridpool-blake2b",
+      "license": "MIT",
+      "packageRepo": "https://github.com/gridlabs-science/gridpool-blake2b-startos",
+      "title": "GridPool Blake2b (Experimental)",
+      "upstreamRepo": "https://github.com/gridlabs-science/gridpool-blake2b"
+    },
+    "pushedAt": "2026-09-04T21:46:10Z"
+  },
+  "gridlabs-science/gridpool-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "gridpool",
+      "license": "MIT",
+      "packageRepo": "https://github.com/gridlabs-science/gridpool-startos",
+      "title": "GridPool",
+      "upstreamRepo": "https://github.com/gridlabs-science/boot-protocol"
+    },
+    "pushedAt": "2026-09-15T12:55:34Z"
+  },
+  "heatpunk/blisspoint-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "blisspoint",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/blisspoint-startos",
+      "title": "Blisspoint",
+      "upstreamRepo": "https://github.com/heatpunk/blisspoint"
+    },
+    "pushedAt": "2026-11-19T22:51:28Z"
+  },
+  "hodlmateo/aubieeternal-startos": {
+    "kind": "empty",
+    "pushedAt": "2026-04-26T09:16:53Z"
+  },
+  "horologger/bitnet-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "bitnet",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/horologger/bitnet-startos",
+      "title": "BitNet",
+      "upstreamRepo": "https://github.com/microsoft/BitNet"
+    },
+    "pushedAt": "2026-05-13T07:10:57Z"
+  },
+  "horologger/btcshell-startos": {
+    "kind": "v03",
+    "pushedAt": "2026-03-22T16:32:28Z"
+  },
+  "horologger/cashu-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "cashu",
+      "license": "mit",
+      "packageRepo": "https://github.com/horologger/cashu-startos",
+      "title": "Cashu Mint",
+      "upstreamRepo": "https://github.com/cashubtc/cdk"
+    },
+    "pushedAt": "2026-07-07T21:28:41Z"
+  },
+  "horologger/n8n-startos": {
+    "kind": "empty",
+    "pushedAt": "2026-05-09T05:22:22Z"
+  },
+  "horologger/spaces-hex-tool-startos-ai": {
+    "kind": "v04",
+    "manifest": {
+      "id": "spaces-hex-tool",
+      "license": "MIT",
+      "packageRepo": "https://github.com/horologger/spaces-hex-tool-startos",
+      "title": "Spaces Hex Tool",
+      "upstreamRepo": "https://github.com/horologger/spaces-hex-tool"
+    },
+    "pushedAt": "2026-03-29T01:53:34Z"
+  },
+  "horologger/spaces-startos": {
+    "kind": "v03",
+    "pushedAt": "2026-05-09T15:34:17Z"
+  },
+  "horologger/supabase-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "hello-world",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/hello-world-startos",
+      "title": "Hello World",
+      "upstreamRepo": "https://github.com/Start9Labs/hello-world"
+    },
+    "pushedAt": "2026-03-24T19:04:56Z"
+  },
+  "hoseki-inc/hoseki-sentinel-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "hoseki-sentinel",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/hoseki-inc/bitcoin-control-center-startos",
+      "title": "Bitcoin Control Center",
+      "upstreamRepo": "https://github.com/hoseki-inc/bitcoin-control-center"
+    },
+    "pushedAt": "2026-11-17T01:43:41Z"
+  },
+  "hzrd149/nostrudel-startos": {
+    "kind": "v03",
+    "pushedAt": "2025-11-30T14:25:03Z"
+  },
+  "islandbitcoin/atoll-recovery-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "atoll-recovery",
+      "license": "MIT",
+      "packageRepo": "https://github.com/islandbitcoin/atoll-recovery-startos",
+      "title": "Atoll Recovery",
+      "upstreamRepo": "https://github.com/lnflash/cashu-card"
+    },
+    "pushedAt": "2026-10-24T19:55:30Z"
+  },
+  "islandbitcoin/beszel-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "beszel",
+      "license": "MIT",
+      "packageRepo": "https://github.com/islandbitcoin/beszel-startos",
+      "title": "Beszel",
+      "upstreamRepo": "https://github.com/henrygd/beszel"
+    },
+    "pushedAt": "2026-06-23T16:32:47Z"
+  },
+  "islandbitcoin/forgejo-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "forgejo",
+      "license": "GPL-3.0-or-later",
+      "packageRepo": "https://github.com/Start9Labs/forgejo-startos",
+      "title": "Forgejo",
+      "upstreamRepo": "https://codeberg.org/forgejo/forgejo"
+    },
+    "pushedAt": "2026-10-24T19:24:47Z"
+  },
+  "islandbitcoin/joplin-server-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "joplin-server",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/islandbitcoin/joplin-server-startos",
+      "title": "Joplin Server",
+      "upstreamRepo": "https://github.com/laurent22/joplin"
+    },
+    "pushedAt": "2026-10-24T19:24:22Z"
+  },
+  "islandbitcoin/kathreftestr-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "kathreftestr",
+      "license": "MIT",
+      "packageRepo": "https://github.com/bobodread876/kathreftestr",
+      "title": "Kathreftestr",
+      "upstreamRepo": "https://github.com/bobodread876/kathreftestr"
+    },
+    "pushedAt": "2026-10-24T19:55:58Z"
+  },
+  "islandbitcoin/lightning-server-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "lightning-server",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/islandbitcoin/lightning-server-startos",
+      "title": "Lightning Server",
+      "upstreamRepo": "https://github.com/dplusplus1024/lightning-server"
+    },
+    "pushedAt": "2026-10-24T19:56:03Z"
+  },
+  "islandbitcoin/maple-proxy-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "maple-proxy",
+      "license": "MIT",
+      "packageRepo": "https://github.com/islandbitcoin/maple-proxy-startos",
+      "title": "Maple Proxy",
+      "upstreamRepo": "https://github.com/OpenSecretCloud/maple-proxy"
+    },
+    "pushedAt": "2026-10-24T19:56:09Z"
+  },
+  "islandbitcoin/memos-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "memos",
+      "license": "MIT",
+      "packageRepo": "https://github.com/islandbitcoin/memos-startos",
+      "title": "Memos",
+      "upstreamRepo": "https://github.com/usememos/memos"
+    },
+    "pushedAt": "2026-10-24T19:56:13Z"
+  },
+  "islandbitcoin/pact-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "pactd",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/Start9-Community/pact-startos",
+      "title": "Pact",
+      "upstreamRepo": "https://github.com/bobodread876/pact"
+    },
+    "pushedAt": "2026-11-10T10:45:18Z"
+  },
+  "jeffreymsimon/mcp-server-startos": {
+    "kind": "other",
+    "pushedAt": "2026-10-24T15:15:33Z"
+  },
+  "joinstr-startos/joinstr-startos": {
+    "kind": "empty",
+    "pushedAt": "2026-07-13T18:10:27Z"
+  },
+  "kenDilemma/crawl4ai-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "crawl4ai",
+      "license": "MIT",
+      "packageRepo": "https://github.com/kenDilemma/crawl4ai-startos",
+      "title": "Crawl4AI",
+      "upstreamRepo": "https://github.com/unclecode/crawl4ai"
+    },
+    "pushedAt": "2026-08-18T23:04:59Z"
+  },
+  "kn0wmad/monerod-startos": {
+    "kind": "v03",
+    "pushedAt": "2026-01-18T15:56:43Z"
+  },
+  "kravens/sabi9-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "sabi9",
+      "license": "MIT",
+      "packageRepo": "https://github.com/kravens/sabi9-startos",
+      "title": "Sabi9",
+      "upstreamRepo": "https://github.com/WalletWasabi/WalletWasabi"
+    },
+    "pushedAt": "2026-07-28T22:15:15Z"
+  },
+  "kutlusoy/elektron-net-faucet-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "elektron-net-faucet",
+      "license": "GPL",
+      "packageRepo": "https://github.com/kutlusoy/elektron-net-faucet-startos",
+      "title": "Elektron Net Faucet",
+      "upstreamRepo": "https://github.com/kutlusoy/elektron-net-faucet"
+    },
+    "pushedAt": "2026-07-13T09:17:29Z"
+  },
+  "kutlusoy/elektron-net-mempool-startos": {
+    "kind": "empty",
+    "pushedAt": "2026-06-15T19:59:40Z"
+  },
+  "kutlusoy/elektron-net-pool-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "elektron-net-pool",
+      "license": "GPL",
+      "packageRepo": "https://github.com/kutlusoy/elektron-net-pool-startos",
+      "title": "Elektron Net Pool",
+      "upstreamRepo": "https://github.com/kutlusoy/elektron-net-pool"
+    },
+    "pushedAt": "2026-11-19T05:47:24Z"
+  },
+  "kutlusoy/elektron-net-ppool-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "elektron-net-pool",
+      "license": "GPL",
+      "packageRepo": "https://github.com/kutlusoy/elektron-net-pool-startos",
+      "title": "Elektron Net Pool",
+      "upstreamRepo": "https://github.com/kutlusoy/elektron-net-pool"
+    },
+    "pushedAt": "2026-07-04T14:32:22Z"
+  },
+  "kutlusoy/elektron-net-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "elektrond",
+      "license": "MIT",
+      "packageRepo": "https://github.com/kutlusoy/elektron-net-startos",
+      "title": "Elektron Net",
+      "upstreamRepo": "https://github.com/kutlusoy/elektron-net"
+    },
+    "pushedAt": "2026-10-29T22:00:18Z"
+  },
+  "kutlusoy/elektron-seeder-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "elektron-seeder",
+      "license": "MIT",
+      "packageRepo": "https://github.com/kutlusoy/elektron-seeder-startos",
+      "title": "Elektron Seeder",
+      "upstreamRepo": "https://github.com/kutlusoy/elektron-net-seeder"
+    },
+    "pushedAt": "2026-06-19T10:02:42Z"
+  },
+  "kwadde-cmyk/scriptwerk-startos": {
+    "kind": "other",
+    "pushedAt": "2026-10-23T22:11:36Z"
+  },
+  "kwsantiago/azerothcore-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "azerothcore",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/azerothcore-startos",
+      "title": "AzerothCore",
+      "upstreamRepo": "https://github.com/azerothcore/azerothcore-wotlk"
+    },
+    "pushedAt": "2026-10-15T17:19:57Z"
+  },
+  "kwsantiago/isso-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "isso",
+      "license": "MIT",
+      "packageRepo": "https://github.com/kwsantiago/isso-startos",
+      "title": "Isso",
+      "upstreamRepo": "https://github.com/isso-comments/isso"
+    },
+    "pushedAt": "2026-10-24T16:41:46Z"
+  },
+  "kylemccullen/nudge-startos": {
+    "kind": "v03",
+    "pushedAt": "2026-06-03T13:20:28Z"
+  },
+  "lawalletio/lawallet-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "lawallet-nwc",
+      "license": "MIT",
+      "packageRepo": "https://github.com/lawalletio/lawallet-startos",
+      "title": "LaWallet NWC",
+      "upstreamRepo": "https://github.com/lawalletio/lawallet-nwc"
+    },
+    "pushedAt": "2026-11-06T16:01:37Z"
+  },
+  "linkinparkrulz/ashigaru-desktop-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "ashigaru-desktop",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/linkinparkrulz/ashigaru-desktop-startos",
+      "title": "Ashigaru Desktop",
+      "upstreamRepo": "https://github.com/linkinparkrulz/ashigaru-desktop"
+    },
+    "pushedAt": "2026-11-09T02:41:45Z"
+  },
+  "linkinparkrulz/bitcoin-cash-node-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "bitcoin-cash-node",
+      "license": "MIT",
+      "packageRepo": null,
+      "title": "Bitcoin Cash Node",
+      "upstreamRepo": "https://gitlab.com/bitcoin-cash-node/bitcoin-cash-node"
+    },
+    "pushedAt": "2025-12-15T12:17:26Z"
+  },
+  "linkinparkrulz/cuprate-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "hello-world",
+      "license": "MIT",
+      "packageRepo": null,
+      "title": "Hello World",
+      "upstreamRepo": "https://github.com/Start9Labs/hello-world"
+    },
+    "pushedAt": "2025-12-16T11:40:38Z"
+  },
+  "lioranecho-cpu/lightning-control-center-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "lightning-control-center",
+      "license": "MIT",
+      "packageRepo": "https://github.com/lioranecho-cpu/lightning-control-center-startos",
+      "title": "Lightning Control Center",
+      "upstreamRepo": "https://github.com/lioranecho-cpu/lightning-control-center"
+    },
+    "pushedAt": "2026-10-09T14:20:37Z"
+  },
+  "localaiguyy/authentik-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "authentik",
+      "license": "MIT",
+      "packageRepo": "https://github.com/localaiguyy/authentik-startos",
+      "title": "Authentik",
+      "upstreamRepo": "https://github.com/goauthentik/authentik"
+    },
+    "pushedAt": "2026-09-01T04:45:27Z"
+  },
+  "localaiguyy/cryptpad-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "cryptpad",
+      "license": "AGPL-3.0-or-later",
+      "packageRepo": "https://github.com/localaiguyy/cryptpad-startos",
+      "title": "CryptPad",
+      "upstreamRepo": "https://github.com/cryptpad/cryptpad"
+    },
+    "pushedAt": "2026-08-13T18:30:30Z"
+  },
+  "louieo/robosats-watcher-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "robosats-watcher",
+      "license": "MIT",
+      "packageRepo": "https://github.com/local/robosats-watcher-startos",
+      "title": "RoboSats Watcher",
+      "upstreamRepo": "https://github.com/RoboSats/robosats"
+    },
+    "pushedAt": "2026-05-19T08:32:54Z"
+  },
+  "lundog/lightning-identity-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "lightning-identity",
+      "license": "MIT",
+      "packageRepo": "https://github.com/lundog/lightning-identity-startos",
+      "title": "Lightning Identity",
+      "upstreamRepo": "https://github.com/lundog/lightning-identity-startos"
+    },
+    "pushedAt": "2026-11-19T08:12:59Z"
+  },
+  "martinbarilik/public-pool-web-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "public-pool-web",
+      "license": "MIT",
+      "packageRepo": "https://github.com/martinbarilik/public-pool-web",
+      "title": "Public Pool's Web",
+      "upstreamRepo": "https://github.com/martinbarilik/public-pool-web-startos"
+    },
+    "pushedAt": "2026-06-30T16:56:12Z"
+  },
+  "martinbarilik/scoredrop-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "scoredrop",
+      "license": "MIT",
+      "packageRepo": "https://github.com/martinbarilik/scoredrop-startos",
+      "title": "Scoredrop",
+      "upstreamRepo": "https://github.com/martinbarilik/scoredrop"
+    },
+    "pushedAt": "2026-10-31T08:56:51Z"
+  },
+  "mdubore/buzz-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "buzz",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/mdubore/buzz-startos",
+      "title": "Buzz",
+      "upstreamRepo": "https://github.com/block/buzz"
+    },
+    "pushedAt": "2026-11-02T21:12:51Z"
+  },
+  "mdubore/nutshell-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "nutshell",
+      "license": "MIT",
+      "packageRepo": "https://github.com/mdubore/nutshell-startos",
+      "title": "Nutshell Cashu Mint",
+      "upstreamRepo": "https://github.com/cashubtc/nutshell"
+    },
+    "pushedAt": "2026-08-28T08:18:00Z"
+  },
+  "mkettn/route96-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "route96",
+      "license": "MIT",
+      "packageRepo": "https://github.com/mkettn/route96-startos",
+      "title": "Route96",
+      "upstreamRepo": "https://github.com/v0l/route96"
+    },
+    "pushedAt": "2026-09-12T11:32:09Z"
+  },
+  "morgansolivane/bitcoin-roots-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "bitcoind",
+      "license": "MIT",
+      "packageRepo": "https://github.com/morgansolivane/bitcoin-roots-startos",
+      "title": "Bitcoin Roots",
+      "upstreamRepo": "https://github.com/LuganoPlanB/bitcoin-roots"
+    },
+    "pushedAt": "2026-10-15T04:07:01Z"
+  },
+  "mstrofnone/namecoin-core-startos-start9": {
+    "kind": "v03",
+    "pushedAt": "2026-11-03T20:29:15Z"
+  },
+  "mstrofnone/namecoin-electrumx-startos": {
+    "kind": "v03",
+    "pushedAt": "2026-11-16T23:06:45Z"
+  },
+  "mstrofnone/namecoin-electrumx-startos-fix": {
+    "kind": "v04",
+    "manifest": {
+      "id": "namecoin-electrumx",
+      "license": "MIT",
+      "packageRepo": "https://github.com/mstrofnone/namecoin-electrumx-startos-start9",
+      "title": "Namecoin ElectrumX",
+      "upstreamRepo": "https://github.com/namecoin/electrumx"
+    },
+    "pushedAt": "2026-11-17T23:06:32Z"
+  },
+  "mysticrooster/nocturne-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "hello-world",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/hello-world-startos",
+      "title": "Hello World",
+      "upstreamRepo": "https://github.com/Start9Labs/hello-world"
+    },
+    "pushedAt": "2026-07-02T04:20:41Z"
+  },
+  "nanoteks/valheim-server-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "valheim-server",
+      "license": "MIT",
+      "packageRepo": "https://github.com/nanoteks/valheim-server-startos",
+      "title": "Valheim Server",
+      "upstreamRepo": "https://github.com/community-valheim-tools/valheim-server-docker"
+    },
+    "pushedAt": "2026-09-23T07:16:47Z"
+  },
+  "nzjess/2fiat-commander-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "2fiat-commander",
+      "license": "MIT",
+      "packageRepo": "https://github.com/nzjess/2fiat-commander-startos",
+      "title": "2fiat Commander",
+      "upstreamRepo": "https://github.com/nzjess/2fiat-commander"
+    },
+    "pushedAt": "2026-11-02T16:26:18Z"
+  },
+  "ok/formbricks-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "formbricks",
+      "license": "AGPL-3.0-only",
+      "packageRepo": "https://github.com/Start9Labs/formbricks-startos",
+      "title": "Formbricks",
+      "upstreamRepo": "https://github.com/formbricks/formbricks"
+    },
+    "pushedAt": "2026-06-19T17:56:57Z"
+  },
+  "ok/mautrix-signal-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "mautrix-signal",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/ok/mautrix-signal-startos",
+      "title": "mautrix-signal",
+      "upstreamRepo": "https://github.com/mautrix/signal"
+    },
+    "pushedAt": "2026-10-15T07:31:11Z"
+  },
+  "ok/mirall-relay-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "mirall-relay",
+      "license": "AGPL-3.0-or-later",
+      "packageRepo": "https://github.com/ok/mirall-relay-startos",
+      "title": "Mirall Relay",
+      "upstreamRepo": "https://github.com/ok/mirall-relay"
+    },
+    "pushedAt": "2026-11-20T07:01:18Z"
+  },
+  "ok/obsidian-livesync-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "obsidian-livesync",
+      "license": "MIT",
+      "packageRepo": "https://github.com/ok/obsidian-livesync-startos",
+      "title": "Obsidian LiveSync",
+      "upstreamRepo": "https://github.com/vrtmrz/obsidian-livesync"
+    },
+    "pushedAt": "2026-11-16T12:46:05Z"
+  },
+  "ok/pagecase-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "pagecase",
+      "license": "MIT",
+      "packageRepo": "https://github.com/ok/pagecase-startos",
+      "title": "Pagecase",
+      "upstreamRepo": "https://github.com/ok/pagecase-startos"
+    },
+    "pushedAt": "2026-05-21T19:06:58Z"
+  },
+  "ok/paperless-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "paperless-ngx",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/Start9-Community/paperless-startos",
+      "title": "Paperless-ngx",
+      "upstreamRepo": "https://github.com/paperless-ngx/paperless-ngx"
+    },
+    "pushedAt": "2026-11-05T15:57:08Z"
+  },
+  "ok/penpot-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "penpot",
+      "license": "MPL-2.0",
+      "packageRepo": "https://github.com/Start9Labs/penpot-startos",
+      "title": "Penpot",
+      "upstreamRepo": "https://github.com/penpot/penpot"
+    },
+    "pushedAt": "2026-05-25T06:59:13Z"
+  },
+  "ok/taiga-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "taiga",
+      "license": "AGPL-3.0-only",
+      "packageRepo": "https://github.com/Start9Labs/taiga-startos",
+      "title": "Taiga",
+      "upstreamRepo": "https://github.com/taigaio/taiga-docker"
+    },
+    "pushedAt": "2026-06-19T11:21:03Z"
+  },
+  "onehothodler-building-for-sovereignty/hello-world-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "hello-world",
+      "license": "MIT",
+      "packageRepo": null,
+      "title": "Hello World",
+      "upstreamRepo": "https://github.com/Start9Labs/hello-world"
+    },
+    "pushedAt": "2025-12-16T22:07:15Z"
+  },
+  "owencoles/click-miner-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "click-miner",
+      "license": "MIT",
+      "packageRepo": "https://github.com/owencoles/click-miner-startos",
+      "title": "Click Miner",
+      "upstreamRepo": "https://github.com/owencoles/click-miner"
+    },
+    "pushedAt": "2026-10-09T17:59:57Z"
+  },
+  "pang396/unifi-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "unifi-network-application",
+      "license": "MIT",
+      "packageRepo": "https://github.com/pang396/unifi-startos",
+      "title": "UniFi Network Application",
+      "upstreamRepo": "https://github.com/jacobalberty/unifi-docker"
+    },
+    "pushedAt": "2026-08-16T06:41:49Z"
+  },
+  "papier-krieger/ratum-gateway-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "ratum-gateway",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/papier-krieger/ratum-gateway-startos",
+      "title": "Ratum Gateway",
+      "upstreamRepo": "https://github.com/iohzrd/ratum"
+    },
+    "pushedAt": "2026-11-18T06:01:23Z"
+  },
+  "paulscode/agent-wallet-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "agent-wallet",
+      "license": "MIT",
+      "packageRepo": "https://github.com/paulscode/agent-wallet-startos",
+      "title": "Agent Wallet",
+      "upstreamRepo": "https://github.com/paulscode/agent-wallet"
+    },
+    "pushedAt": "2026-10-17T17:32:16Z"
+  },
+  "paulscode/cesspool-pruned-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "cesspool-pruned",
+      "license": "MIT",
+      "packageRepo": "https://github.com/paulscode/cesspool-pruned-startos",
+      "title": "Cesspool Pruned",
+      "upstreamRepo": "https://github.com/jasonsopko/cesspool"
+    },
+    "pushedAt": "2026-11-13T06:34:24Z"
+  },
+  "paulscode/datum-blake2b-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "datum-blake2b",
+      "license": "MIT",
+      "packageRepo": "https://github.com/paulscode/datum-blake2b-startos",
+      "title": "Datum Gateway (BLAKE2b) Companion",
+      "upstreamRepo": "https://github.com/OCEAN-xyz/datum_gateway"
+    },
+    "pushedAt": "2026-11-18T02:41:58Z"
+  },
+  "paulscode/datum-gateway-blake2b-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "datum",
+      "license": "mit",
+      "packageRepo": "https://github.com/paulscode/datum-gateway-blake2b-startos",
+      "title": "Datum Gateway (BLAKE2b)",
+      "upstreamRepo": "https://github.com/paulscode/datum_gateway"
+    },
+    "pushedAt": "2026-11-18T02:41:48Z"
+  },
+  "paulscode/datum-gateway-sha256-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "datum",
+      "license": "mit",
+      "packageRepo": "https://github.com/paulscode/datum-gateway-sha256-startos",
+      "title": "Datum Gateway (SHA256)",
+      "upstreamRepo": "https://github.com/paulscode/datum_gateway"
+    },
+    "pushedAt": "2026-11-18T02:41:43Z"
+  },
+  "paulscode/datum-sha256-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "datum-sha256",
+      "license": "MIT",
+      "packageRepo": "https://github.com/paulscode/datum-sha256-startos",
+      "title": "Datum Gateway (SHA256) Companion",
+      "upstreamRepo": "https://github.com/OCEAN-xyz/datum_gateway"
+    },
+    "pushedAt": "2026-11-18T02:42:05Z"
+  },
+  "paulscode/electrs-liquid-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "elements-electrs",
+      "license": "MIT",
+      "packageRepo": "https://github.com/paulscode/electrs-liquid-startos",
+      "title": "Liquid Electrum Server",
+      "upstreamRepo": "https://github.com/Blockstream/electrs"
+    },
+    "pushedAt": "2026-06-23T21:15:58Z"
+  },
+  "paulscode/electrs-pruned-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "electrs-pruned",
+      "license": "MIT",
+      "packageRepo": "https://github.com/paulscode/electrs-pruned-startos",
+      "title": "Electrs Pruned",
+      "upstreamRepo": "https://github.com/romanz/electrs"
+    },
+    "pushedAt": "2026-10-27T20:06:46Z"
+  },
+  "paulscode/frigate-blake2b-companion-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "frigate-blake2b-companion",
+      "license": "Apache-2.0",
+      "packageRepo": null,
+      "title": null,
+      "upstreamRepo": "https://github.com/sparrowwallet/frigate"
+    },
+    "pushedAt": "2026-11-09T20:25:03Z"
+  },
+  "paulscode/frigate-sha256-companion-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "frigate-sha256-companion",
+      "license": "Apache-2.0",
+      "packageRepo": null,
+      "title": null,
+      "upstreamRepo": "https://github.com/sparrowwallet/frigate"
+    },
+    "pushedAt": "2026-11-09T20:24:30Z"
+  },
+  "paulscode/garbageman-nm-startos": {
+    "kind": "v03",
+    "pushedAt": "2025-12-15T21:44:26Z"
+  },
+  "paulscode/gitlab-runner-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "gitlab-runner",
+      "license": "MIT",
+      "packageRepo": "https://github.com/paulscode/gitlab-runner-startos",
+      "title": "GitLab Runner",
+      "upstreamRepo": "https://gitlab.com/gitlab-org/gitlab-runner"
+    },
+    "pushedAt": "2026-08-16T18:02:31Z"
+  },
+  "paulscode/gitlab-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "gitlab",
+      "license": "MIT",
+      "packageRepo": "https://github.com/paulscode/gitlab-startos",
+      "title": "GitLab",
+      "upstreamRepo": "https://gitlab.com/gitlab-org/omnibus-gitlab"
+    },
+    "pushedAt": "2026-08-16T18:02:09Z"
+  },
+  "paulscode/knots-blake2b-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "knots-blake2b",
+      "license": "MIT",
+      "packageRepo": "https://github.com/paulscode/knots-blake2b-startos",
+      "title": "Bitcoin Knots (BLAKE2b) Companion",
+      "upstreamRepo": "https://github.com/bitcoinknots/bitcoin"
+    },
+    "pushedAt": "2026-11-13T22:26:06Z"
+  },
+  "paulscode/knots-prerdts-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "knots-prerdts",
+      "license": "MIT",
+      "packageRepo": "https://github.com/paulscode/knots-prerdts-startos",
+      "title": "Bitcoin Knots (SHA256) Companion",
+      "upstreamRepo": "https://github.com/paulscode/knots-sha256"
+    },
+    "pushedAt": "2026-11-15T06:19:51Z"
+  },
+  "paulscode/knots-sha256-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "bitcoind",
+      "license": "MIT",
+      "packageRepo": "https://github.com/paulscode/knots-sha256-startos",
+      "title": "Bitcoin Knots (SHA256)",
+      "upstreamRepo": "https://github.com/paulscode/knots-sha256"
+    },
+    "pushedAt": "2026-11-20T10:36:10Z"
+  },
+  "paulscode/lnd-startos-variants": {
+    "kind": "v03",
+    "pushedAt": "2026-09-13T10:23:43Z"
+  },
+  "paulscode/mempool-pruned-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "mempool-pruned",
+      "license": "AGPL",
+      "packageRepo": "https://github.com/paulscode/mempool-pruned-startos",
+      "title": "Mempool Pruned",
+      "upstreamRepo": "https://github.com/mempool/mempool"
+    },
+    "pushedAt": "2026-11-11T14:49:55Z"
+  },
+  "paulscode/searxng-api-startos": {
+    "kind": "v03",
+    "pushedAt": "2026-02-04T07:48:36Z"
+  },
+  "paulscode/serper-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "serper",
+      "license": "MIT",
+      "packageRepo": "https://github.com/paulscode/serper-startos",
+      "title": "Serper Clone",
+      "upstreamRepo": "https://github.com/paulscode/searxng-serper-bridge"
+    },
+    "pushedAt": "2026-10-25T22:47:21Z"
+  },
+  "privkeyio/keep-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "keep",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/keep-startos",
+      "title": "Keep",
+      "upstreamRepo": "https://github.com/privkeyio/keep"
+    },
+    "pushedAt": "2026-11-02T14:38:00Z"
+  },
+  "privkeyio/kimai-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "kimai",
+      "license": "AGPL-3.0-or-later",
+      "packageRepo": "https://github.com/privkeyio/kimai-startos",
+      "title": "Kimai",
+      "upstreamRepo": "https://github.com/kimai/kimai"
+    },
+    "pushedAt": "2026-11-02T13:58:33Z"
+  },
+  "privkeyio/readstr-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "readstr",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/readstr-startos",
+      "title": "Readstr",
+      "upstreamRepo": "https://github.com/privkeyio/readstr"
+    },
+    "pushedAt": "2026-11-19T00:52:43Z"
+  },
+  "privkeyio/standardnotes-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "standardnotes-server",
+      "license": "AGPL-3.0-or-later",
+      "packageRepo": "https://github.com/Start9-Community/standardnotes-startos",
+      "title": "Standard Notes Server",
+      "upstreamRepo": "https://github.com/standardnotes/server"
+    },
+    "pushedAt": "2026-11-02T13:58:29Z"
+  },
+  "privkeyio/wisp-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "wisp",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/wisp-startos",
+      "title": "Wisp",
+      "upstreamRepo": "https://github.com/privkeyio/wisp"
+    },
+    "pushedAt": "2026-11-10T16:46:25Z"
+  },
+  "purely-reclining/cloud-print-bridge-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "cloud-print-bridge",
+      "license": "AGPL-3.0-only",
+      "packageRepo": "https://github.com/purely-reclining/cloud-print-bridge-startos",
+      "title": "Cloud Print Bridge",
+      "upstreamRepo": "https://github.com/purely-reclining/cloud-print-bridge-startos"
+    },
+    "pushedAt": "2026-08-26T12:29:17Z"
+  },
+  "rabbitholiness/evolu-relay-startos": {
+    "kind": "v03",
+    "pushedAt": "2026-02-12T08:46:07Z"
+  },
+  "remcoros/am-i-exposed-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "am-i-exposed-modded",
+      "license": "MIT",
+      "packageRepo": "https://github.com/remcoros/am-i-exposed-startos",
+      "title": "Am I Exposed? (modded)",
+      "upstreamRepo": "https://github.com/Copexit/am-i-exposed"
+    },
+    "pushedAt": "2026-08-08T11:25:45Z"
+  },
+  "remcoros/axeos-monitor-aio-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "axeos-monitor-aio",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/axeos-monitor-aio-startos",
+      "title": "AxeOS Monitor",
+      "upstreamRepo": "https://github.com/bitaxeorg/ESP-Miner"
+    },
+    "pushedAt": "2026-11-08T15:06:50Z"
+  },
+  "remcoros/buzz-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "buzz",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/remcoros/buzz-startos",
+      "title": "Buzz",
+      "upstreamRepo": "https://github.com/block/buzz"
+    },
+    "pushedAt": "2026-08-04T21:15:32Z"
+  },
+  "remcoros/chaingraph-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "chaingraph",
+      "license": "MIT",
+      "packageRepo": "https://github.com/remcoros/chaingraph-startos",
+      "title": "Chaingraph",
+      "upstreamRepo": "https://github.com/remcoros/chaingraph"
+    },
+    "pushedAt": "2026-10-15T11:30:42Z"
+  },
+  "remcoros/cloudflared-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "cloudflared",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/Start9-Community/cloudflared-startos",
+      "title": "Cloudflare Tunnel",
+      "upstreamRepo": "https://github.com/cloudflare/cloudflared"
+    },
+    "pushedAt": "2026-11-13T06:58:55Z"
+  },
+  "remcoros/frigate-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "frigate",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/Start9-Community/frigate-startos",
+      "title": "Frigate Electrum Server",
+      "upstreamRepo": "https://github.com/sparrowwallet/frigate"
+    },
+    "pushedAt": "2026-11-18T16:59:09Z"
+  },
+  "remcoros/public-pool-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "public-pool",
+      "license": "GPL",
+      "packageRepo": "https://github.com/remcoros/public-pool-startos",
+      "title": "Public Pool",
+      "upstreamRepo": "https://github.com/benjamin-wilson/public-pool"
+    },
+    "pushedAt": "2026-11-17T15:26:06Z"
+  },
+  "remcoros/pushtx-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "pushtx",
+      "license": "MIT",
+      "packageRepo": "https://github.com/remcoros/pushtx-startos",
+      "title": "NFC Push TX",
+      "upstreamRepo": "https://github.com/remcoros/pushtx-startos"
+    },
+    "pushedAt": "2026-08-07T17:11:54Z"
+  },
+  "remcoros/rbitcoin-space-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "rbitcoin-space",
+      "license": "MIT",
+      "packageRepo": "https://github.com/remcoros/rbitcoin-space-startos",
+      "title": "rbitcoin.space",
+      "upstreamRepo": "https://github.com/smolcars/rbitcoin-space"
+    },
+    "pushedAt": "2026-11-19T17:27:18Z"
+  },
+  "remcoros/rbitcoin-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "rbitcoin",
+      "license": "MIT",
+      "packageRepo": "https://github.com/remcoros/rbitcoin-startos",
+      "title": "rbitcoin",
+      "upstreamRepo": "https://github.com/rbitcoin-org/rbitcoin"
+    },
+    "pushedAt": "2026-11-12T10:03:32Z"
+  },
+  "remcoros/sparrow-webtop-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "sparrow-webtop",
+      "license": "GPL-3.0-only",
+      "packageRepo": "https://github.com/remcoros/sparrow-webtop-startos",
+      "title": "Sparrow",
+      "upstreamRepo": "https://github.com/sparrowwallet/sparrow"
+    },
+    "pushedAt": "2026-10-29T14:03:16Z"
+  },
+  "remcoros/uptime-kuma-startos": {
+    "kind": "v03",
+    "pushedAt": "2026-02-08T12:44:20Z"
+  },
+  "remcoros/wasabi-coordinator-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "wasabi-coordinator",
+      "license": "MIT",
+      "packageRepo": "https://github.com/remcoros/wasabi-coordinator-startos",
+      "title": "Wasabi Coordinator",
+      "upstreamRepo": "https://github.com/WalletWasabi/WalletWasabi"
+    },
+    "pushedAt": "2026-11-11T12:15:42Z"
+  },
+  "remcoros/wasabi-webtop-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "wasabi-webtop",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/wasabi-webtop-startos",
+      "title": "Wasabi Wallet",
+      "upstreamRepo": "https://github.com/WalletWasabi/WalletWasabi"
+    },
+    "pushedAt": "2026-11-13T16:35:18Z"
+  },
+  "remcoros/wireguard-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "wireguard",
+      "license": "GPL-2.0-only",
+      "packageRepo": "https://github.com/Start9-Community/wireguard-startos",
+      "title": "WireGuard VPN",
+      "upstreamRepo": "https://git.zx2c4.com/wireguard-tools"
+    },
+    "pushedAt": "2026-11-08T15:02:47Z"
+  },
+  "rocket-morgan/kindle-md-reader-startos": {
+    "kind": "v04",
+    "pushedAt": "2026-03-16T03:05:13Z"
+  },
+  "rodvar/bisq2-startos": {
+    "kind": "v03",
+    "pushedAt": "2026-08-25T06:42:06Z"
+  },
+  "rpriven/forgejo-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "forgejo",
+      "license": "MIT",
+      "packageRepo": "https://github.com/rpriven/forgejo-startos",
+      "title": "Forgejo",
+      "upstreamRepo": "https://codeberg.org/forgejo/forgejo"
+    },
+    "pushedAt": "2026-11-03T16:46:31Z"
+  },
+  "rpriven/p2pool-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "p2pool",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/rpriven/p2pool-startos",
+      "title": "P2Pool",
+      "upstreamRepo": "https://github.com/SChernykh/p2pool"
+    },
+    "pushedAt": "2026-11-15T04:01:05Z"
+  },
+  "rpriven/reticulum-meshchat-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "reticulum-meshchat",
+      "license": "MIT",
+      "packageRepo": "https://github.com/rpriven/reticulum-meshchat-startos",
+      "title": "Reticulum MeshChat",
+      "upstreamRepo": "https://github.com/liamcottle/reticulum-meshchat"
+    },
+    "pushedAt": "2026-11-03T08:51:01Z"
+  },
+  "rueckwaerts/electrs-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "electrs",
+      "license": "MIT",
+      "packageRepo": "https://github.com/rueckwaerts/electrs-startos",
+      "title": "Electrs",
+      "upstreamRepo": "https://github.com/rueckwaerts/electrs"
+    },
+    "pushedAt": "2026-06-08T19:55:37Z"
+  },
+  "rueckwaerts/n8n-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "n8n",
+      "license": "Sustainable Use License",
+      "packageRepo": "https://github.com/rueckwaerts/n8n-startos",
+      "title": "n8n",
+      "upstreamRepo": "https://github.com/n8n-io/n8n"
+    },
+    "pushedAt": "2026-06-09T00:31:42Z"
+  },
+  "salenjak/charge-lnd-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "charge-lnd",
+      "license": "MIT",
+      "packageRepo": "https://github.com/salenjak/charge-lnd-startos",
+      "title": "Charge LND",
+      "upstreamRepo": "https://github.com/accumulator/charge-lnd"
+    },
+    "pushedAt": "2026-06-21T07:01:07Z"
+  },
+  "sambitcoin/monetary-node-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "monetary-node",
+      "license": "BSD-2-Clause",
+      "packageRepo": "https://github.com/sambitcoin/monetary-node-startos",
+      "title": "Monetary Node",
+      "upstreamRepo": "https://github.com/sambitcoin/BitcoinMonetaryNode"
+    },
+    "pushedAt": "2026-11-18T15:16:10Z"
+  },
+  "savewithstash/stash-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "stash",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/savewithstash/stash-startos",
+      "title": "Stash",
+      "upstreamRepo": "https://github.com/savewithstash/stash"
+    },
+    "pushedAt": "2026-06-14T10:41:12Z"
+  },
+  "schjonhaug/canary-mining-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "canary-mining",
+      "license": "MIT",
+      "packageRepo": "https://github.com/schjonhaug/canary-mining-startos",
+      "title": "Canary Mining",
+      "upstreamRepo": "https://github.com/schjonhaug/canary-mining"
+    },
+    "pushedAt": "2026-06-11T06:46:17Z"
+  },
+  "schjonhaug/canary-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "canary",
+      "license": "Elastic-2.0",
+      "packageRepo": "https://github.com/schjonhaug/canary-startos",
+      "title": "Canary",
+      "upstreamRepo": "https://github.com/schjonhaug/canary"
+    },
+    "pushedAt": "2026-11-17T13:36:11Z"
+  },
+  "serverstick/hermes-bridge-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "hermes-bridge",
+      "license": "MIT",
+      "packageRepo": "https://github.com/coding-crying/serverstick",
+      "title": "ServerStick Hermes Bridge",
+      "upstreamRepo": "https://github.com/coding-crying/serverstick"
+    },
+    "pushedAt": "2026-08-12T10:14:35Z"
+  },
+  "serverstick/newt-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "newt",
+      "license": "MIT",
+      "packageRepo": "https://github.com/coding-crying/serverstick",
+      "title": "ServerStick Newt Tunnel",
+      "upstreamRepo": "https://github.com/fosrl/newt"
+    },
+    "pushedAt": "2026-08-12T10:15:37Z"
+  },
+  "snapetech-org/bookshelfng-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "bookshelfng",
+      "license": "GPL-3.0-only",
+      "packageRepo": "https://github.com/snapetech/bookshelfng-startos",
+      "title": "BookshelfNG",
+      "upstreamRepo": "https://github.com/snapetech/bookshelfng"
+    },
+    "pushedAt": "2026-11-05T23:28:35Z"
+  },
+  "snapetech-org/seerrng-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "seerrng",
+      "license": "MIT",
+      "packageRepo": "https://github.com/snapetech/seerrng-startos",
+      "title": "SeerrNG",
+      "upstreamRepo": "https://github.com/snapetech/seerrng"
+    },
+    "pushedAt": "2026-11-05T23:29:11Z"
+  },
+  "snapetech-org/slskdn-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "slskdn",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/snapetech/slskdn-startos",
+      "title": "slskdN",
+      "upstreamRepo": "https://github.com/snapetech/slskdn"
+    },
+    "pushedAt": "2026-11-05T23:29:11Z"
+  },
+  "sovsender/adguard-home-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "adguard-home",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/sovsender/adguard-home-startos",
+      "title": "AdGuard Home",
+      "upstreamRepo": "https://github.com/AdguardTeam/AdGuardHome"
+    },
+    "pushedAt": "2026-11-13T17:49:25Z"
+  },
+  "sovsender/lidarr-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "lidarr",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/sovsender/lidarr-startos",
+      "title": "Lidarr",
+      "upstreamRepo": "https://github.com/Lidarr/Lidarr"
+    },
+    "pushedAt": "2026-11-09T18:42:37Z"
+  },
+  "sovsender/makemkv-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "makemkv",
+      "license": "Proprietary",
+      "packageRepo": "https://github.com/sovsender/makemkv-startos",
+      "title": "MakeMKV",
+      "upstreamRepo": "https://github.com/jlesage/docker-makemkv"
+    },
+    "pushedAt": "2026-11-20T04:23:15Z"
+  },
+  "sovsender/pia-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "pia",
+      "license": "MIT",
+      "packageRepo": "https://github.com/sovsender/pia-startos",
+      "title": "PIA Relay",
+      "upstreamRepo": "https://github.com/pia-foss/manual-connections"
+    },
+    "pushedAt": "2026-11-11T04:57:52Z"
+  },
+  "sovsender/slskd-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "slskd",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/sovsender/slskd-startos",
+      "title": "slskd",
+      "upstreamRepo": "https://github.com/slskd/slskd"
+    },
+    "pushedAt": "2026-11-10T13:54:18Z"
+  },
+  "spacesops/buzz-relay-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "buzz-relay",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/privkeyio/buzz-relay-startos",
+      "title": "Buzz Relay",
+      "upstreamRepo": "https://github.com/block/buzz"
+    },
+    "pushedAt": "2026-07-25T23:50:52Z"
+  },
+  "spacesops/findme-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "findme",
+      "license": "MIT",
+      "packageRepo": "https://github.com/spacesops/findme-startos",
+      "title": "FindMe",
+      "upstreamRepo": "https://github.com/spacesops/atfindme"
+    },
+    "pushedAt": "2026-11-07T00:56:20Z"
+  },
+  "spacesops/spaces-hex-tool-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "spaces",
+      "license": "apache",
+      "packageRepo": null,
+      "title": "Spaces",
+      "upstreamRepo": "https://github.com/horologger/spaces"
+    },
+    "pushedAt": "2026-03-28T18:01:30Z"
+  },
+  "stupleb/airtrail-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "airtrail",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/stupleb/airtrail-startos",
+      "title": "AirTrail",
+      "upstreamRepo": "https://github.com/johanohly/AirTrail"
+    },
+    "pushedAt": "2026-11-03T13:56:23Z"
+  },
+  "stupleb/anytype-sync-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "anytype-sync",
+      "license": "MIT",
+      "packageRepo": "https://github.com/stupleb/anytype-sync-startos",
+      "title": "Anytype Sync Server",
+      "upstreamRepo": "https://github.com/anyproto/any-sync"
+    },
+    "pushedAt": "2026-10-21T18:39:08Z"
+  },
+  "stupleb/bentopdf-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "bentopdf",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/stupleb/bentopdf-startos",
+      "title": "BentoPDF",
+      "upstreamRepo": "https://github.com/alam00000/bentopdf"
+    },
+    "pushedAt": "2026-11-02T18:08:35Z"
+  },
+  "stupleb/blossom-server-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "blossom-server",
+      "license": "MIT",
+      "packageRepo": "https://github.com/stupleb/blossom-server-startos",
+      "title": "Blossom Server",
+      "upstreamRepo": "https://github.com/hzrd149/blossom-server"
+    },
+    "pushedAt": "2026-11-15T17:55:19Z"
+  },
+  "stupleb/cooktrace-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "cooktrace",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/stupleb/cooktrace-startos",
+      "title": "CookTrace",
+      "upstreamRepo": "https://github.com/TraceApps/cooktrace"
+    },
+    "pushedAt": "2026-11-12T17:12:30Z"
+  },
+  "stupleb/dawarich-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "dawarich",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/stupleb/dawarich-startos",
+      "title": "Dawarich",
+      "upstreamRepo": "https://github.com/Freika/dawarich"
+    },
+    "pushedAt": "2026-11-16T17:41:37Z"
+  },
+  "stupleb/drawio-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "drawio",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/stupleb/drawio-startos",
+      "title": "draw.io",
+      "upstreamRepo": "https://github.com/jgraph/drawio"
+    },
+    "pushedAt": "2026-11-06T15:42:37Z"
+  },
+  "stupleb/heyform-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "heyform",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/stupleb/heyform-startos",
+      "title": "HeyForm",
+      "upstreamRepo": "https://github.com/heyform/heyform"
+    },
+    "pushedAt": "2026-11-16T15:58:31Z"
+  },
+  "stupleb/imgcompress-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "imgcompress",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/stupleb/imgcompress-startos",
+      "title": "ImgCompress",
+      "upstreamRepo": "https://github.com/karimz1/imgcompress"
+    },
+    "pushedAt": "2026-11-10T18:05:29Z"
+  },
+  "stupleb/immichframe-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "immichframe",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/stupleb/immichframe-startos",
+      "title": "ImmichFrame",
+      "upstreamRepo": "https://github.com/immichFrame/ImmichFrame"
+    },
+    "pushedAt": "2026-11-17T13:45:26Z"
+  },
+  "stupleb/invidious-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "invidious",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/stupleb/invidious-startos",
+      "title": "Invidious",
+      "upstreamRepo": "https://github.com/iv-org/invidious"
+    },
+    "pushedAt": "2026-11-14T20:37:24Z"
+  },
+  "stupleb/jumble-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "jumble",
+      "license": "MIT",
+      "packageRepo": "https://github.com/stupleb/jumble-startos",
+      "title": "Jumble",
+      "upstreamRepo": "https://github.com/CodyTseng/jumble"
+    },
+    "pushedAt": "2026-11-20T15:58:24Z"
+  },
+  "stupleb/lifttrace-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "lifttrace",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/stupleb/lifttrace-startos",
+      "title": "LiftTrace",
+      "upstreamRepo": "https://github.com/TraceApps/lifttrace"
+    },
+    "pushedAt": "2026-11-12T17:44:27Z"
+  },
+  "stupleb/nitter-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "nitter",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/stupleb/nitter-startos",
+      "title": "Nitter",
+      "upstreamRepo": "https://github.com/zedeus/nitter"
+    },
+    "pushedAt": "2026-10-23T14:13:17Z"
+  },
+  "stupleb/nutritrace-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "nutritrace",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/stupleb/nutritrace-startos",
+      "title": "NutriTrace",
+      "upstreamRepo": "https://github.com/TraceApps/nutritrace"
+    },
+    "pushedAt": "2026-11-12T17:18:34Z"
+  },
+  "stupleb/penpot-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "penpot",
+      "license": "MPL-2.0",
+      "packageRepo": "https://github.com/stupleb/penpot-startos",
+      "title": "Penpot",
+      "upstreamRepo": "https://github.com/penpot/penpot"
+    },
+    "pushedAt": "2026-11-16T16:50:02Z"
+  },
+  "stupleb/photon-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "photon",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/stupleb/photon-startos",
+      "title": "Photon",
+      "upstreamRepo": "https://github.com/komoot/photon"
+    },
+    "pushedAt": "2026-11-14T19:52:54Z"
+  },
+  "stupleb/privatebin-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "privatebin",
+      "license": "Zlib",
+      "packageRepo": "https://github.com/stupleb/privatebin-startos",
+      "title": "PrivateBin",
+      "upstreamRepo": "https://github.com/PrivateBin/PrivateBin"
+    },
+    "pushedAt": "2026-11-13T19:12:49Z"
+  },
+  "stupleb/seerr-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "seerr",
+      "license": "MIT",
+      "packageRepo": "https://github.com/stupleb/seerr-startos",
+      "title": "Seerr",
+      "upstreamRepo": "https://github.com/seerr-team/seerr"
+    },
+    "pushedAt": "2026-11-13T21:38:52Z"
+  },
+  "stupleb/solidtime-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "solidtime",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/stupleb/solidtime-startos",
+      "title": "solidtime",
+      "upstreamRepo": "https://github.com/solidtime-io/solidtime"
+    },
+    "pushedAt": "2026-11-13T18:47:36Z"
+  },
+  "stupleb/strfry-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "strfry",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/stupleb/strfry-startos",
+      "title": "strfry",
+      "upstreamRepo": "https://github.com/hoytech/strfry"
+    },
+    "pushedAt": "2026-11-14T22:56:38Z"
+  },
+  "stupleb/teapot-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "teapot",
+      "license": "AGPL-3.0-only",
+      "packageRepo": "https://github.com/stupleb/teapot-startos",
+      "title": "teapot",
+      "upstreamRepo": "https://github.com/amaanq/teapot"
+    },
+    "pushedAt": "2026-10-24T09:54:36Z"
+  },
+  "stupleb/umami-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "umami",
+      "license": "MIT",
+      "packageRepo": "https://github.com/stupleb/umami-startos",
+      "title": "Umami",
+      "upstreamRepo": "https://github.com/umami-software/umami"
+    },
+    "pushedAt": "2026-11-12T12:58:37Z"
+  },
+  "stupleb/ytptube-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "ytptube",
+      "license": "MIT",
+      "packageRepo": "https://github.com/stupleb/ytptube-startos",
+      "title": "YTPTube",
+      "upstreamRepo": "https://github.com/arabcoders/ytptube"
+    },
+    "pushedAt": "2026-11-15T18:12:40Z"
+  },
+  "sudo-bakar/camofox-browser-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "camofox-browser",
+      "license": "MIT",
+      "packageRepo": "https://github.com/sudo-bakar/camofox-browser-startos",
+      "title": "Camofox Browser",
+      "upstreamRepo": "https://github.com/jo-inc/camofox-browser"
+    },
+    "pushedAt": "2026-10-07T03:36:54Z"
+  },
+  "sudo-bakar/crawl4ai-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "crawl4ai",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/Start9-Community/crawl4ai-startos",
+      "title": "Crawl4AI",
+      "upstreamRepo": "https://github.com/unclecode/crawl4ai"
+    },
+    "pushedAt": "2026-09-30T14:45:00Z"
+  },
+  "sudo-bakar/linkwarden-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "linkwarden",
+      "license": "AGPL-3.0-only",
+      "packageRepo": "https://github.com/Start9-Community/linkwarden-startos",
+      "title": "Linkwarden",
+      "upstreamRepo": "https://github.com/linkwarden/linkwarden"
+    },
+    "pushedAt": "2026-10-06T00:57:03Z"
+  },
+  "sudo-bakar/memos-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "memos",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/memos-startos",
+      "title": "Memos",
+      "upstreamRepo": "https://github.com/usememos/memos"
+    },
+    "pushedAt": "2026-10-01T23:23:34Z"
+  },
+  "sudo-bakar/openserp-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "openserp",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/openserp-startos",
+      "title": "OpenSERP",
+      "upstreamRepo": "https://github.com/karust/openserp"
+    },
+    "pushedAt": "2026-09-10T22:42:58Z"
+  },
+  "sudocarlos/tailrelay-startos": {
+    "kind": "v03",
+    "pushedAt": "2026-10-31T06:32:43Z"
+  },
+  "supersuryaansh/test-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "hello-world",
+      "license": "MIT",
+      "packageRepo": null,
+      "title": "Hello World",
+      "upstreamRepo": "https://github.com/Start9Labs/hello-world"
+    },
+    "pushedAt": "2025-12-21T14:06:08Z"
+  },
+  "syedasaadbilal-afk/hashrate-autopilot-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "hashrate-autopilot",
+      "license": "MIT",
+      "packageRepo": "https://github.com/rdouma/hashrate-autopilot",
+      "title": "Hashrate Autopilot",
+      "upstreamRepo": "https://github.com/rdouma/hashrate-autopilot"
+    },
+    "pushedAt": "2026-08-15T14:23:08Z"
+  },
+  "tbtproductions/verge-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "verge",
+      "license": "MIT",
+      "packageRepo": "https://github.com/tbtproductions/verge-startos",
+      "title": "Verge",
+      "upstreamRepo": "https://github.com/tbtproductions/Verge"
+    },
+    "pushedAt": "2026-05-30T01:40:34Z"
+  },
+  "tfriberg/snowflake-startos-sideloader": {
+    "kind": "v04",
+    "manifest": {
+      "id": "snowflake",
+      "license": "BSD-3-Clause",
+      "packageRepo": "https://github.com/Start9-Community/snowflake-startos-sideloader",
+      "title": "Snowflake",
+      "upstreamRepo": "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake"
+    },
+    "pushedAt": "2026-09-22T06:29:01Z"
+  },
+  "tgr-braiins/braiins-manager-agent-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "braiins-manager-agent",
+      "license": "Proprietary",
+      "packageRepo": "https://github.com/tgr-braiins/braiins-manager-agent-startos",
+      "title": "Braiins Manager Agent",
+      "upstreamRepo": "https://braiins.com/manager"
+    },
+    "pushedAt": "2026-08-07T08:48:11Z"
+  },
+  "tronsington/browserless-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "browserless",
+      "license": "SSPL-1.0",
+      "packageRepo": "https://github.com/tronsington/browserless-startos",
+      "title": "Browserless",
+      "upstreamRepo": "https://github.com/browserless/browserless"
+    },
+    "pushedAt": "2026-11-06T07:36:48Z"
+  },
+  "tronsington/monica-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "monica",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/tronsington/monica-startos",
+      "title": "Monica",
+      "upstreamRepo": "https://github.com/monicahq/monica"
+    },
+    "pushedAt": "2026-11-06T07:36:05Z"
+  },
+  "tronsington/odoo-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "odoo",
+      "license": "LGPL-3.0-only",
+      "packageRepo": "https://github.com/tronsington/odoo-startos",
+      "title": "Odoo",
+      "upstreamRepo": "https://github.com/odoo/odoo"
+    },
+    "pushedAt": "2026-10-17T15:16:38Z"
+  },
+  "tronsington/outline-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "outline",
+      "license": "BSL-1.1",
+      "packageRepo": "https://github.com/tronsington/outline-startos",
+      "title": "Outline",
+      "upstreamRepo": "https://github.com/outline/outline"
+    },
+    "pushedAt": "2026-11-06T07:36:21Z"
+  },
+  "tronsington/rakazo-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "rakazo",
+      "license": "Apache-2.0",
+      "packageRepo": "https://github.com/tronsington/rakazo-startos",
+      "title": "Rakazo",
+      "upstreamRepo": "https://github.com/elie222/rakazo"
+    },
+    "pushedAt": "2026-10-19T01:42:02Z"
+  },
+  "tronsington/twenty-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "twenty",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/tronsington/twenty-startos",
+      "title": "Twenty",
+      "upstreamRepo": "https://github.com/twentyhq/twenty"
+    },
+    "pushedAt": "2026-10-17T21:05:43Z"
+  },
+  "usuallymark/openclaw-extrabutter-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "openclaw-extrabutter",
+      "license": "MIT",
+      "packageRepo": "https://github.com/usuallymark/openclaw-extrabutter-startos",
+      "title": "OpenClaw Extra Butter",
+      "upstreamRepo": "https://github.com/openclaw/openclaw"
+    },
+    "pushedAt": "2026-11-08T22:26:33Z"
+  },
+  "usuallymark/syslog-collector-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "syslog-collector",
+      "license": "MIT",
+      "packageRepo": "https://github.com/usuallymark/syslog-collector-startos",
+      "title": "Log Collector",
+      "upstreamRepo": "https://github.com/rsyslog/rsyslog"
+    },
+    "pushedAt": "2026-10-15T18:54:15Z"
+  },
+  "usuallymark/trilium-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "trilium",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/usuallymark/trilium-startos",
+      "title": "Trilium Notes",
+      "upstreamRepo": "https://github.com/TriliumNext/Trilium"
+    },
+    "pushedAt": "2026-10-15T21:23:04Z"
+  },
+  "vikramrp/CGPT-StartOS": {
+    "kind": "other",
+    "pushedAt": "2026-05-06T13:10:23Z"
+  },
+  "wahidsaleemi/bitcoin-family-dashboard-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "bitcoin-family-dashboard",
+      "license": "BlueOak-1.0.0",
+      "packageRepo": "https://github.com/Start9-Community/bitcoin-family-dashboard-startos",
+      "title": "Bitcoin Family Dashboard",
+      "upstreamRepo": "https://github.com/wahidsaleemi/bitcoin-family-dashboard"
+    },
+    "pushedAt": "2026-11-03T22:11:03Z"
+  },
+  "wahidsaleemi/blockclock-adapter-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "blockclock-adapter",
+      "license": "MIT",
+      "packageRepo": "https://github.com/wahidsaleemi/blockclock-adapter-startos",
+      "title": "Blockclock Adapter",
+      "upstreamRepo": "https://github.com/billerickson/Umbrel-Blockclock-Adapter"
+    },
+    "pushedAt": "2026-08-23T23:19:20Z"
+  },
+  "wtj-0527/ekko-studio-startos": {
+    "kind": "v04",
+    "manifest": {
+      "id": "ekko-studio",
+      "license": "BUSL-1.1",
+      "packageRepo": "https://github.com/wtj-0527/ekko-studio-startos",
+      "title": "Ekko Studio",
+      "upstreamRepo": "https://github.com/EKKOLearnAI/ekko-studio"
+    },
+    "pushedAt": "2026-10-18T06:37:06Z"
+  }
+}

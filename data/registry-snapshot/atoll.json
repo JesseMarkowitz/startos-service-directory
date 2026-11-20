@@ -1,0 +1,134 @@
+{
+  "__categories__": [
+    "AI",
+    "Files and Productivity",
+    "Lighting",
+    "Media",
+    "Networking"
+  ],
+  "atoll-recovery": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://getflash.io/",
+    "packageRepo": "https://github.com/islandbitcoin/atoll-recovery-startos",
+    "short": "Verified independent copies of encrypted Cashu ops backups",
+    "title": "Atoll Recovery",
+    "upstreamRepo": "https://github.com/lnflash/cashu-card",
+    "version": "0.1.0-beta.6:2"
+  },
+  "beszel": {
+    "categories": [
+      "Files and Productivity"
+    ],
+    "license": "MIT",
+    "marketingUrl": "https://beszel.dev/",
+    "packageRepo": "https://github.com/islandbitcoin/beszel-startos",
+    "short": "Lightweight server monitoring with Docker stats, historical data, and alerts.",
+    "title": "Beszel",
+    "upstreamRepo": "https://github.com/henrygd/beszel",
+    "version": "0.9.1:5"
+  },
+  "forgejo": {
+    "categories": [
+      "Files and Productivity"
+    ],
+    "license": "GPL-3.0-or-later",
+    "marketingUrl": "https://forgejo.org/",
+    "packageRepo": "https://github.com/Start9Labs/forgejo-startos",
+    "short": "Your Forgejo Git server",
+    "title": "Forgejo",
+    "upstreamRepo": "https://codeberg.org/forgejo/forgejo",
+    "version": "15.0.3:0"
+  },
+  "kathreftestr": {
+    "categories": [
+      "Media"
+    ],
+    "license": "MIT",
+    "marketingUrl": "https://bobodread876.github.io/kathreftestr/",
+    "packageRepo": "https://github.com/bobodread876/kathreftestr",
+    "short": "Mirror a livestream to Nostr (NIP-53), with Lightning zaps",
+    "title": "Kathreftestr",
+    "upstreamRepo": "https://github.com/bobodread876/kathreftestr",
+    "version": "0.1.2:0"
+  },
+  "lightning-server": {
+    "categories": [
+      "Lighting"
+    ],
+    "license": "Apache-2.0",
+    "marketingUrl": "https://github.com/dplusplus1024/lightning-server",
+    "packageRepo": "https://github.com/islandbitcoin/lightning-server-startos",
+    "short": "Self-hosted Lightning Address server with Nostr zap receipts and payment notifications.",
+    "title": "Lightning Server",
+    "upstreamRepo": "https://github.com/dplusplus1024/lightning-server",
+    "version": "0.2.2:1"
+  },
+  "maple-proxy": {
+    "categories": [
+      "AI"
+    ],
+    "license": "MIT",
+    "marketingUrl": "https://trymaple.ai/",
+    "packageRepo": "https://github.com/islandbitcoin/maple-proxy-startos",
+    "short": "OpenAI-compatible proxy for Maple TEE infrastructure",
+    "title": "Maple Proxy",
+    "upstreamRepo": "https://github.com/OpenSecretCloud/maple-proxy",
+    "version": "0.1.8:1"
+  },
+  "memos": {
+    "categories": [
+      "Files and Productivity"
+    ],
+    "license": "MIT",
+    "marketingUrl": "https://usememos.com/",
+    "packageRepo": "https://github.com/islandbitcoin/memos-startos",
+    "short": "Privacy-first, lightweight note-taking service",
+    "title": "Memos",
+    "upstreamRepo": "https://github.com/usememos/memos",
+    "version": "0.29.1:0"
+  },
+  "nutcracker": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://cashu.space/",
+    "packageRepo": "https://github.com/bobodread876/nutcracker-startos",
+    "short": "Nutshell, cracked open: a Cashu eCash mint with phoenixd and onchain",
+    "title": "Nutcracker",
+    "upstreamRepo": "https://github.com/cashubtc/nutshell",
+    "version": "0.22.1:2"
+  },
+  "pactd": {
+    "categories": [
+      "AI",
+      "Networking"
+    ],
+    "license": "Apache-2.0",
+    "marketingUrl": "https://pactprotocol.dev/",
+    "packageRepo": "https://github.com/Start9-Community/pact-startos",
+    "short": "Sovereign agent relationship bonds over Nostr & Lightning",
+    "title": "Pact",
+    "upstreamRepo": "https://github.com/bobodread876/pact",
+    "version": "0.20.3:0"
+  },
+  "paseo": {
+    "categories": [],
+    "license": "Apache-2.0",
+    "marketingUrl": "https://paseo.sh/",
+    "packageRepo": "https://github.com/bobodread876/paseo-startos",
+    "short": "Run coding agents on your server, from anywhere",
+    "title": "Paseo",
+    "upstreamRepo": "https://github.com/getpaseo/paseo",
+    "version": "0.11.2:0"
+  },
+  "phoenixd": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://phoenix.acinq.co/server/",
+    "packageRepo": "https://github.com/Start9-Community/phoenixd-startos",
+    "short": "Lightning backend for Phoenix Wallet",
+    "title": "phoenixd",
+    "upstreamRepo": "https://github.com/ACINQ/phoenixd",
+    "version": "0.8.0:0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "description": "Pre-release builds of the services in the Community Registry.\n\nReport what you find in the [service testing room](https://matrix.to/#/#dev-service-testing:matrix.start9labs.com) on Matrix.",
+  "icon": null,
+  "name": "Community Beta Registry",
+  "signers": [
+    "Github Actions",
+    "Start9",
+    "drbonez",
+    "matthill"
+  ]
+}
