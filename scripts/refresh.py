@@ -405,9 +405,9 @@ def render(result: dict, registries: list[dict], as_of: str, embed: bool = False
         "see [CONTRIBUTING.md](CONTRIBUTING.md). Being listed means only that the registry exists. "
         "**No registry is vetted or endorsed**, and adding one to StartOS trusts its signing keys.",
         "",
-        "_St (status): ✅ answered at last check · ⚠️ unreachable (last known data kept). "
-        "Svcs: services installable from it. Categories: services in each, as the registry assigns them. "
-        "Updated: the newest package published to it._",
+        f"_Table as of {as_of}. St: ✅ answered · ⚠️ did not answer (last known data kept). "
+        "<kbd>S9</kbd> run by Start9 · <kbd>3rd</kbd> run by a third party. "
+        "Svcs: services installable from it. Categories: services in each, as the registry assigns them._",
         "",
         *registry_table(result, registries, embed),
         "",
@@ -447,17 +447,18 @@ def registry_table(result: dict, registries: list[dict], embed: bool = False) ->
                 for c in m["categories"]:
                     counts[c] = counts.get(c, 0) + 1
         n = len([k for k in snap if k != "__categories__"])
-        upd = max((m.get("published") or "" for k, m in snap.items() if k != "__categories__"), default="")
-        upd = upd.replace("-", "&#8209;") or "—"
-        icon = ""
-        if info.get("icon"):
-            ext = info["icon"].rsplit(".", 1)[1]
+        def img(file, alt, size):
+            ext = file.rsplit(".", 1)[1]
             if embed:
                 mime = {"svg": "svg+xml", "jpg": "jpeg"}.get(ext, ext)
-                src = f"data:image/{mime};base64," + base64.b64encode((ICONS / info["icon"]).read_bytes()).decode()
+                src = f"data:image/{mime};base64," + base64.b64encode((ICONS / file).read_bytes()).decode()
             else:
-                src = f"{RAW_BASE}data/registry-icons/{info['icon']}"
-            icon = f'<img src="{src}" alt="{cell(r["name"])} icon" width="40" height="40">'
+                src = f"{RAW_BASE}data/registry-icons/{file}"
+            return f'<img src="{src}" alt="{alt}" width="{size}" height="{size}">'
+        # The icon shares the name's cell: alone in a column, max-width:100% collapses it to 0 px.
+        icon = img(info["icon"], f"{cell(r['name'])} icon", 40) + "<br>" if info.get("icon") else ""
+        start9 = r["operator"] == "Start9"
+        badge = "<kbd>S9</kbd>" if start9 else "<kbd>3rd</kbd>"
         if info.get("description"):
             desc = cell(info["description"].replace("\n\n", "<br>"))
         elif info:
@@ -466,14 +467,14 @@ def registry_table(result: dict, registries: list[dict], embed: bool = False) ->
             desc = "_Did not answer; description unknown._"
         if r.get("note"):
             desc += f"<br>_Note: {cell(r['note'])}_"
-        name = f"**{cell(r['name'])}**<br>[{r['url']}]({r['url']})<br>{desc}"
+        name = f"{icon}{badge} **{cell(r['name'])}**<br>[{r['url']}]({r['url']})<br>{desc}"
         signers = ", ".join(info.get("signers") or []) or "—"
         nb = lambda x: cell(x).replace(" ", "&nbsp;")  # wrap only between categories
         cats = ", ".join(nb(f"{c} ({counts[c]})") for c in sorted(cat_names)) or "—"
         status = "✅" if st.get("ok") else "⚠️"
-        rows.append(f"| {icon} | {name} | {cell(r['operator'])} | {cell(signers)} | {n or '—'} | {cats} | {upd} | {status} |")
-    return ["| | Registry | Run by | Trusted signers | Svcs | Categories | Updated | St |",
-            "|---|---|---|---|---|---|---|---|", *rows]
+        rows.append(f"| {name} | {cell(signers)} | {n or '—'} | {cats} | {status} |")
+    return ["| Registry | Trusted signers | Svcs | Categories | St |",
+            "|---|---|---|---|---|", *rows]
 
 
 def main():
