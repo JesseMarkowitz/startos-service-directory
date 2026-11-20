@@ -456,7 +456,8 @@ def registry_table(result: dict, registries: list[dict], embed: bool = False) ->
                 src = f"{RAW_BASE}data/registry-icons/{file}"
             return f'<img src="{src}" alt="{alt}" width="{size}" height="{size}">'
         # The icon shares the name's cell: alone in a column, max-width:100% collapses it to 0 px.
-        icon = img(info["icon"], f"{cell(r['name'])} icon", 40) + "<br>" if info.get("icon") else ""
+        # <kbd> is the one bordered box both GitHub and MarkoPad keep (style attributes are stripped).
+        icon = f'<kbd>{img(info["icon"], f"{cell(r["name"])} icon", 40)}</kbd><br>' if info.get("icon") else ""
         start9 = r["operator"] == "Start9"
         badge = "<kbd>S9</kbd>" if start9 else "<kbd>3rd</kbd>"
         if info.get("description"):
@@ -467,12 +468,12 @@ def registry_table(result: dict, registries: list[dict], embed: bool = False) ->
             desc = "_Did not answer; description unknown._"
         if r.get("note"):
             desc += f"<br>_Note: {cell(r['note'])}_"
-        name = f"{icon}{badge} **{cell(r['name'])}**<br>[{r['url']}]({r['url']})<br>{desc}"
+        name = f"{badge} **{cell(r['name'])}**<br>[{r['url']}]({r['url']})<br>{desc}"
         signers = ", ".join(info.get("signers") or []) or "—"
         nb = lambda x: cell(x).replace(" ", "&nbsp;")  # wrap only between categories
         cats = ", ".join(nb(f"{c} ({counts[c]})") for c in sorted(cat_names)) or "—"
         status = "✅" if st.get("ok") else "⚠️"
-        rows.append(f"| {name} | {cell(signers)} | {n or '—'} | {cats} | {status} |")
+        rows.append(f"| {name} | {icon}{cell(signers)} | {n or '—'} | {cats} | {status} |")
     return ["| Registry | Trusted signers | Svcs | Categories | St |",
             "|---|---|---|---|---|", *rows]
 
