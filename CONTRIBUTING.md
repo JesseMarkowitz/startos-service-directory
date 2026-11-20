@@ -1,6 +1,6 @@
 # Contributing
 
-`README.md` and `REGISTRIES.md` are generated, so don't edit them. Change the source files
+`README.md` is generated, so don't edit it. Change the source files
 below and say what you changed in the pull request. A maintainer reruns `scripts/refresh.py`
 before merging.
 

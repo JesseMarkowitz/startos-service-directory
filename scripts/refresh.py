@@ -35,7 +35,7 @@ INFO = DATA / "registry-info"
 ICONS = DATA / "registry-icons"
 UA = "startos-service-directory-refresh"
 # Images use absolute URLs: GitHub strips embedded (data:) images, and single-file viewers can't
-# resolve relative paths. REGISTRIES.preview.md (gitignored) embeds them for offline viewing.
+# resolve relative paths. README.preview.md (gitignored) embeds them for offline viewing.
 RAW_BASE = "https://raw.githubusercontent.com/JesseMarkowitz/startos-service-directory/main/"
 ACTIVE_DAYS = 365
 
@@ -116,6 +116,8 @@ def fetch_registry(reg: dict) -> tuple[str, dict | None, str | None]:
             "upstreamRepo": norm_repo(m.get("upstreamRepo")),
             "marketingUrl": m.get("marketingUrl"),
             "version": latest,
+            "published": max((x[1].get("publishedAt") or "")[:10] for v in versions.values()
+                             for x in (v.get("s9pks") or [[None, {}]])) or None,
             "categories": sorted(cats.get(c, c) for c in (pkg.get("categories") or [])),
         }
     if out:
@@ -307,6 +309,8 @@ def build(registries: list[dict], status: dict, active: list[dict], cache: dict,
                                           "registries": {}, "packageRepos": [], "upstreamRepo": None,
                                           "otherRepos": []})
             s["registries"][reg["slug"]] = m["version"]
+            if m.get("published"):
+                s["updated"] = max(filter(None, [s.get("updated"), m["published"]]))
             for c in m["categories"]:
                 if c not in s["categories"]:
                     s["categories"].append(c)
@@ -337,6 +341,7 @@ def build(registries: list[dict], status: dict, active: list[dict], cache: dict,
         s["packageRepos"].append(repo["url"])
         s["upstreamRepo"] = s["upstreamRepo"] or man.get("upstreamRepo")
         s["lastPush"] = max(filter(None, [s.get("lastPush"), repo["pushedAt"][:10]]))
+        s["updated"] = s["lastPush"]
 
     for pid, c in curated.items():
         if pid not in services:
@@ -364,8 +369,9 @@ def cell(text: str | None) -> str:
     return (text or "").replace("|", "\\|").replace("\n", " ").strip()
 
 
-def render(result: dict, registries: list[dict], as_of: str) -> str:
-    head = (ROOT / "templates" / "README.head.md").read_text()
+def render(result: dict, registries: list[dict], as_of: str, embed: bool = False) -> str:
+    head = (ROOT / "templates" / "README.head.md").read_text().rstrip()
+    title, _, rest = head.partition("\n")
     names = {r["slug"]: r["name"] for r in registries}
     services = [s for s in result["services"].values() if not s.get("exclude")]
     on_reg = [s for s in services if s["registries"]]
@@ -373,42 +379,41 @@ def render(result: dict, registries: list[dict], as_of: str) -> str:
 
     def row(s, registered: bool):
         title = f"**{cell(s['title'])}**" + (f"<br>{cell(s['short'])}" if s.get("short") else "")
-        if registered:
-            where = "<br>".join(names[k] for k in names if k in s["registries"])
-        else:
-            where = f"GitHub only<br>last push {s.get('lastPush') or '?'}"
+        where = "<br>".join(names[k] for k in names if k in s["registries"]) if registered else "GitHub only"
         pkg = "<br>".join(link(u) for u in s["packageRepos"]) or "—"
         rep = cell(s.get("replaces")) or ""
         if s.get("note"):
             rep += ("<br>" if rep else "") + f"_{cell(s['note'])}_"
-        return f"| {title} | {where} | {pkg} | {link(s['upstreamRepo'])} | {rep or '—'} |"
+        upd = (s.get("updated") or "—").replace("-", "&#8209;")  # non-breaking hyphens
+        return f"| {title} | {where} | {pkg} | {link(s['upstreamRepo'])} | {rep or '—'} | {upd} |"
 
-    hdr = ("| Service | Found on | StartOS package repo | Upstream project | Open-source alternative to |\n"
-           "|---|---|---|---|---|")
-    reg_rows = []
-    for r in registries:
-        st = result["registries"].get(r["slug"], {})
-        if st.get("ok"):
-            state = f"{st['packages']} packages"
-        else:
-            state = f"unreachable at last check ({st.get('keptPackages', 0)} kept from earlier)"
-        reg_rows.append(f"| {r['name']} | `{r['url']}` | {r['operator']} | {state} |")
-
+    hdr = ("| Service | Found on | StartOS package repo | Upstream project | Open-source alternative to | Updated |\n"
+           "|---|---|---|---|---|---|")
     parts = [
-        head.rstrip(),
+        title,
         "",
-        f"_List generated {as_of}: {len(on_reg)} services on registries, "
-        f"{len(gh_only)} more on GitHub only._",
+        f"**Jump to:** [Registries ({len(registries)})](#registries) · "
+        f"[Services on a registry ({len(on_reg)})](#services-on-a-registry) · "
+        f"[Services on GitHub only ({len(gh_only)})](#services-on-github-only)",
+        rest,
         "",
-        "## Registries checked",
+        f"_List generated {as_of}._",
         "",
-        "Full list with notes: [REGISTRIES.md](REGISTRIES.md). Registry operators can add theirs by pull request.",
+        "## Registries",
         "",
-        "| Registry | Address to add in StartOS | Run by | Status |",
-        "|---|---|---|---|",
-        *reg_rows,
+        "Every StartOS registry this project knows of. Registry operators can add theirs by pull request; "
+        "see [CONTRIBUTING.md](CONTRIBUTING.md). Being listed means only that the registry exists. "
+        "**No registry is vetted or endorsed**, and adding one to StartOS trusts its signing keys.",
+        "",
+        "_St (status): ✅ answered at last check · ⚠️ unreachable (last known data kept). "
+        "Svcs: services installable from it. Categories: services in each, as the registry assigns them. "
+        "Updated: the newest package published to it._",
+        "",
+        *registry_table(result, registries, embed),
         "",
         "## Services on a registry",
+        "",
+        "_Updated: when the newest version was published, on whichever registry carries it._",
         "",
         hdr,
         *[row(s, True) for s in sorted(on_reg, key=lambda s: s["title"].lower())],
@@ -417,7 +422,7 @@ def render(result: dict, registries: list[dict], as_of: str) -> str:
         "",
         "Public `*-startos` repositories that target StartOS 0.4, were pushed to in the last 12 months, "
         "and are not on any registry above. You would have to build and sideload these yourself. "
-        "Older 0.3.x wrappers are left out.",
+        "Older 0.3.x wrappers are left out. _Updated: the repository's last push._",
         "",
         hdr,
         *[row(s, False) for s in sorted(gh_only, key=lambda s: s["title"].lower())],
@@ -426,7 +431,7 @@ def render(result: dict, registries: list[dict], as_of: str) -> str:
     return "\n".join(parts)
 
 
-def render_registries(result: dict, registries: list[dict], as_of: str, embed: bool = False) -> str:
+def registry_table(result: dict, registries: list[dict], embed: bool = False) -> list[str]:
     import base64
     rows = []
     for r in registries:
@@ -442,6 +447,8 @@ def render_registries(result: dict, registries: list[dict], as_of: str, embed: b
                 for c in m["categories"]:
                     counts[c] = counts.get(c, 0) + 1
         n = len([k for k in snap if k != "__categories__"])
+        upd = max((m.get("published") or "" for k, m in snap.items() if k != "__categories__"), default="")
+        upd = upd.replace("-", "&#8209;") or "—"
         icon = ""
         if info.get("icon"):
             ext = info["icon"].rsplit(".", 1)[1]
@@ -464,26 +471,9 @@ def render_registries(result: dict, registries: list[dict], as_of: str, embed: b
         nb = lambda x: cell(x).replace(" ", "&nbsp;")  # wrap only between categories
         cats = ", ".join(nb(f"{c} ({counts[c]})") for c in sorted(cat_names)) or "—"
         status = "✅" if st.get("ok") else "⚠️"
-        rows.append(f"| {icon} | {name} | {cell(r['operator'])} | {cell(signers)} | {n or '—'} | {cats} | {status} |")
-    return "\n".join([
-        "# StartOS registries",
-        "",
-        "Every StartOS registry this project knows of. Generated from [`registries.toml`](registries.toml) and "
-        "from what each registry says about itself; to add yours, see [CONTRIBUTING.md](CONTRIBUTING.md).",
-        "",
-        "> [!WARNING]",
-        "> Being listed here means only that the registry exists and answered. **No registry is vetted or "
-        "endorsed.** Adding a registry to StartOS trusts its signing keys for packages. "
-        "See the [disclaimer](DISCLAIMER.md).",
-        "",
-        f"_Checked {as_of}. St (status): ✅ answered · ⚠️ unreachable at last check (last known data kept). "
-        "Svcs: services installable from that registry. Categories: services in each, as the registry assigns them._",
-        "",
-        "| | Registry | Run by | Trusted signers | Svcs | Categories | St |",
-        "|---|---|---|---|---|---|---|",
-        *rows,
-        "",
-    ])
+        rows.append(f"| {icon} | {name} | {cell(r['operator'])} | {cell(signers)} | {n or '—'} | {cats} | {upd} | {status} |")
+    return ["| | Registry | Run by | Trusted signers | Svcs | Categories | Updated | St |",
+            "|---|---|---|---|---|---|---|---|", *rows]
 
 
 def main():
@@ -509,11 +499,9 @@ def main():
     data_changed = write_json(DATA / "services.json", result)
     if data_changed or not as_of_path.exists():
         as_of_path.write_text(dt.date.today().isoformat() + "\n")
-    readme = render(result, registries, as_of_path.read_text().strip())
-    (ROOT / "README.md").write_text(readme)
     as_of = as_of_path.read_text().strip()
-    (ROOT / "REGISTRIES.md").write_text(render_registries(result, registries, as_of))
-    (ROOT / "REGISTRIES.preview.md").write_text(render_registries(result, registries, as_of, embed=True))
+    (ROOT / "README.md").write_text(render(result, registries, as_of))
+    (ROOT / "README.preview.md").write_text(render(result, registries, as_of, embed=True))
     missing = [s["id"] for s in result["services"].values()
                if not s.get("exclude") and "replaces" not in s]
     print(f"services: {len(result['services'])}; without a curated 'replaces': {len(missing)}",
