@@ -10,10 +10,10 @@
     },
     "community-beta": {
       "ok": true,
-      "packages": 109
+      "packages": 108
     },
     "h0mer": {
-      "error": "URLError: <urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1127)>",
+      "error": "URLError: <urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1011)>",
       "keptPackages": 0,
       "ok": false
     },
@@ -287,7 +287,7 @@
       "replaces": "—",
       "short": "Bitcoin wallet with Whirlpool coinjoin, in your browser",
       "title": "Ashigaru Desktop",
-      "updated": "2026-11-09",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/linkinparkrulz/ashigaru-desktop"
     },
     "atoll-recovery": {
@@ -357,14 +357,14 @@
         "https://github.com/Start9-Community/axeos-monitor-aio-startos"
       ],
       "registries": {
-        "community": "1.0.0:9",
-        "community-beta": "1.0.0:9",
+        "community": "1.0.0:10",
+        "community-beta": "1.0.0:10",
         "testnet4": "1.0.0:9"
       },
       "replaces": "—",
       "short": "Grafana dashboards for the Bitaxe miners on your network",
       "title": "AxeOS Monitor",
-      "updated": "2026-11-08",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/bitaxeorg/ESP-Miner"
     },
     "azerothcore": {
@@ -401,12 +401,12 @@
       ],
       "registries": {
         "community": "25.0.0:3",
-        "community-beta": "25.0.0:3"
+        "community-beta": "25.0.0:4"
       },
       "replaces": "—",
       "short": "A command-line tool for working with the balance of your satoshis on LND",
       "title": "Balance of Satoshis",
-      "updated": "2026-11-09",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/alexbosworth/balanceofsatoshis"
     },
     "bark-web": {
@@ -459,12 +459,12 @@
       ],
       "registries": {
         "community": "1.5.4:28",
-        "community-beta": "1.5.4:28"
+        "community-beta": "1.5.4:29"
       },
       "replaces": "—",
       "short": "A Bitcoin Cash mining pool you run yourself.",
       "title": "ASICSeer",
-      "updated": "2026-11-10",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/cculianu/asicseer-pool"
     },
     "bch-elopool": {
@@ -481,12 +481,12 @@
       ],
       "registries": {
         "community": "1.3.0:1",
-        "community-beta": "1.3.0:1"
+        "community-beta": "1.3.0:2"
       },
       "replaces": "—",
       "short": "A Bitcoin Cash mining pool you run yourself.",
       "title": "EloPool",
-      "updated": "2026-11-10",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/skaisser/ckpool"
     },
     "bch-explorer": {
@@ -525,12 +525,12 @@
       ],
       "registries": {
         "community": "0.22.2:6",
-        "community-beta": "0.22.2:6"
+        "community-beta": "0.22.2:7"
       },
       "replaces": "—",
       "short": "BCHD — Go-based Bitcoin Cash full node with gRPC and Neutrino",
       "title": "Bitcoin Cash Daemon",
-      "updated": "2026-11-10",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/gcash/bchd"
     },
     "beets-flask": {
@@ -723,13 +723,13 @@
         "https://github.com/Start9-Community/bitcoin-explorer-startos"
       ],
       "registries": {
-        "community": "3.5.1:16",
-        "community-beta": "3.5.1:16"
+        "community": "3.5.1:19",
+        "community-beta": "3.5.1:19"
       },
       "replaces": "—",
       "short": "Self-hosted Bitcoin explorer for everyone",
       "title": "Bitcoin Explorer",
-      "updated": "2026-10-22",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/janoside/btc-rpc-explorer"
     },
     "bitcoin-family-dashboard": {
@@ -746,12 +746,12 @@
       ],
       "registries": {
         "community": "0.2.2:6",
-        "community-beta": "0.2.2:6"
+        "community-beta": "0.2.2:7"
       },
       "replaces": "—",
       "short": "Track your family's bitcoin holdings and the live price",
       "title": "Bitcoin Family Dashboard",
-      "updated": "2026-11-03",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/wahidsaleemi/bitcoin-family-dashboard"
     },
     "bitcoincashd": {
@@ -766,12 +766,12 @@
       ],
       "registries": {
         "community": "29.0.0:15",
-        "community-beta": "29.0.0:15"
+        "community-beta": "29.0.0:16"
       },
       "replaces": "—",
       "short": "Bitcoin Cash full node — BCHN reference implementation",
       "title": "Bitcoin Cash Node (BCHN)",
-      "updated": "2026-10-30",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://gitlab.com/bitcoin-cash-node/bitcoin-cash-node"
     },
     "bitcoind": {
@@ -791,8 +791,8 @@
         "https://github.com/paulscode/knots-sha256-startos"
       ],
       "registries": {
-        "community": "#roots:29.4:2",
-        "community-beta": "#roots:29.4:3",
+        "community": "#roots:29.4:4",
+        "community-beta": "#roots:29.4:4",
         "mempool-guide": "#knots:29.5.0:6",
         "paulscode": "#knotssha:31.2:2",
         "start9": "32.1:1",
@@ -837,13 +837,13 @@
         "https://github.com/Start9-Community/bitcoinmonetaryview-startos"
       ],
       "registries": {
-        "community": "0.3.14:0",
-        "community-beta": "0.3.14:0"
+        "community": "0.3.14:2",
+        "community-beta": "0.3.14:2"
       },
       "replaces": "—",
       "short": "See how much spam your Bitcoin node stores — read-only",
       "title": "Monetary View",
-      "updated": "2026-11-10",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/MarkSierra/BitcoinMonetaryView"
     },
     "bitnet": {
@@ -981,7 +981,7 @@
         "https://github.com/Start9-Community/bolt12-pay-startos"
       ],
       "registries": {
-        "community": "0.3.27:0",
+        "community": "0.3.28:0",
         "community-beta": "0.3.28:0"
       },
       "replaces": "—",
@@ -1209,8 +1209,8 @@
       ],
       "registries": {
         "mempool-guide": "#blake:26.6.10:0",
-        "start9": "26.6.10:7",
-        "start9-beta": "26.6.10:7"
+        "start9": "26.6.10:8",
+        "start9-beta": "26.6.10:8"
       },
       "replaces": "—",
       "short": "An implementation of the Lightning Network protocol by Blockstream.",
@@ -1445,13 +1445,13 @@
         "https://github.com/Start9-Community/chama-startos"
       ],
       "registries": {
-        "community": "6.4.34:0",
-        "community-beta": "6.4.34:0"
+        "community": "6.4.34:1",
+        "community-beta": "6.4.34:1"
       },
       "replaces": "—",
       "short": "Non-custodial Bitcoin commerce for communities, coordinated over Nostr",
       "title": "Chama",
-      "updated": "2026-11-14",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/jesuspirate/chama"
     },
     "changedetection": {
@@ -1488,12 +1488,12 @@
       ],
       "registries": {
         "community": "0.3.1:10",
-        "community-beta": "0.3.1:10"
+        "community-beta": "0.3.1:11"
       },
       "replaces": "—",
       "short": "Policy-based fee manager for LND",
       "title": "Charge LND",
-      "updated": "2026-11-09",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/accumulator/charge-lnd"
     },
     "ckpool-bch": {
@@ -1742,12 +1742,12 @@
       ],
       "registries": {
         "community": "0.9.135:5",
-        "community-beta": "0.9.135:5"
+        "community-beta": "0.9.135:6"
       },
       "replaces": "—",
       "short": "A self-hosted task scheduler and runner with a web UI",
       "title": "Cronicle",
-      "updated": "2026-11-18",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/jhuckaby/Cronicle"
     },
     "crossbill": {
@@ -2092,13 +2092,13 @@
         "https://github.com/Start9-Community/dojo-startos"
       ],
       "registries": {
-        "community": "1.29.2:7",
-        "community-beta": "1.29.2:7"
+        "community": "1.29.2:9",
+        "community-beta": "1.29.2:9"
       },
       "replaces": "—",
       "short": "Private backend for Ashigaru, Samourai and other light wallets",
       "title": "Dojo",
-      "updated": "2026-11-12",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/Dojo-Open-Source-Project/samourai-dojo"
     },
     "drawio": {
@@ -2383,13 +2383,13 @@
         "https://github.com/Start9-Community/fedimint-gateway-startos"
       ],
       "registries": {
-        "community": "0.12.2:1",
-        "community-beta": "0.12.2:1"
+        "community": "0.12.2:3",
+        "community-beta": "0.12.2:3"
       },
       "replaces": "—",
       "short": "Fedimint Lightning Gateway",
       "title": "Fedimint Gateway",
-      "updated": "2026-11-09",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/fedimint/fedimint"
     },
     "fedimint-guardian": {
@@ -2403,13 +2403,13 @@
         "https://github.com/Start9-Community/fedimint-guardian-startos"
       ],
       "registries": {
-        "community": "0.12.2:0",
-        "community-beta": "0.12.2:0"
+        "community": "0.12.2:2",
+        "community-beta": "0.12.2:2"
       },
       "replaces": "—",
       "short": "Federated Chaumian E-Cash Mint",
       "title": "Fedimint Guardian",
-      "updated": "2026-10-24",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/fedimint/fedimint"
     },
     "fedimintcard-till": {
@@ -2517,12 +2517,12 @@
       ],
       "registries": {
         "community": "2026.5.2:17",
-        "community-beta": "2026.5.2:17"
+        "community-beta": "2026.5.2:18"
       },
       "replaces": "—",
       "short": "Fast, fully validating Bitcoin Cash node with a built-in indexer",
       "title": "Flowee the Hub",
-      "updated": "2026-10-30",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://codeberg.org/Flowee/thehub"
     },
     "fmd-server": {
@@ -2651,14 +2651,14 @@
         "https://github.com/Start9-Community/frigate-startos"
       ],
       "registries": {
-        "community": "1.6.1:5",
-        "community-beta": "1.6.1:5",
+        "community": "1.6.1:7",
+        "community-beta": "1.6.1:7",
         "testnet4": "1.6.1:5"
       },
       "replaces": "—",
       "short": "Electrum server with Silent Payments scanning",
       "title": "Frigate Electrum Server",
-      "updated": "2026-11-18",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/sparrowwallet/frigate"
     },
     "frigate-blake2b": {
@@ -2937,12 +2937,12 @@
       ],
       "registries": {
         "community": "0.56.1:1",
-        "community-beta": "0.56.1:1"
+        "community-beta": "0.56.1:2"
       },
       "replaces": "—",
       "short": "Quai Network node with built-in solo mining stratum (SHA-256, Scrypt, KawPoW)",
       "title": "Quai Network",
-      "updated": "2026-11-10",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/dominant-strategies/go-quai"
     },
     "gobrrr-pool": {
@@ -3065,13 +3065,13 @@
         "https://github.com/Start9-Community/hashrate-autopilot-startos"
       ],
       "registries": {
-        "community": "1.18.2:3",
-        "community-beta": "1.18.2:3"
+        "community": "1.18.2:4",
+        "community-beta": "1.18.2:4"
       },
       "replaces": "—",
       "short": "Automated Braiins hashpower bidding and mining dashboard",
       "title": "Hashrate Autopilot",
-      "updated": "2026-10-24",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/rdouma/hashrate-autopilot"
     },
     "haven": {
@@ -3105,12 +3105,12 @@
       ],
       "registries": {
         "community": "0.2.2:12",
-        "community-beta": "0.2.2:12"
+        "community-beta": "0.2.2:13"
       },
       "replaces": "—",
       "short": "View boosts & boostagrams from Podcasting 2.0 apps",
       "title": "Helipad",
-      "updated": "2026-11-09",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/Podcastindex-org/helipad"
     },
     "helix-home": {
@@ -3228,12 +3228,12 @@
       ],
       "registries": {
         "community": "2.4.1:12",
-        "community-beta": "2.4.1:12"
+        "community-beta": "2.4.1:13"
       },
       "replaces": "ngrok",
       "short": "P2P Tunnels for instant access",
       "title": "Holesail",
-      "updated": "2026-10-09",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/holesail/holesail-docker"
     },
     "home-assistant": {
@@ -3433,13 +3433,13 @@
         "https://github.com/Start9-Community/ipfs-startos"
       ],
       "registries": {
-        "community": "0.42.0:7",
-        "community-beta": "0.42.0:7"
+        "community": "0.42.0:8",
+        "community-beta": "0.42.0:8"
       },
       "replaces": "—",
       "short": "InterPlanetary File System",
       "title": "IPFS",
-      "updated": "2026-10-30",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/ipfs/kubo"
     },
     "isso": {
@@ -3583,13 +3583,13 @@
         "https://github.com/Start9-Community/KamadoPool-StartOS"
       ],
       "registries": {
-        "community": "0.2.9:0",
-        "community-beta": "0.2.9:0"
+        "community": "0.2.9:3",
+        "community-beta": "0.2.9:3"
       },
       "replaces": "—",
       "short": "Modern solo Bitcoin mining pool with real-time dashboard",
       "title": "Kamado Pool",
-      "updated": "2026-11-18",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/carbonatedberry/KamadoPool"
     },
     "karakeep": {
@@ -3981,7 +3981,7 @@
       "replaces": "—",
       "short": "Dashboard for your LND node — channels, fees, routing and rebalancing in one place",
       "title": "Lightning Control Center",
-      "updated": "2026-11-12",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/lioranecho-cpu/lightning-control-center"
     },
     "lightning-fork": {
@@ -4305,8 +4305,8 @@
         "https://github.com/Start9-Community/manifold-fedimint-guardian-startos"
       ],
       "registries": {
-        "community": "0.1.17:0",
-        "community-beta": "0.1.18:0"
+        "community": "0.1.18:1",
+        "community-beta": "0.1.18:1"
       },
       "replaces": "—",
       "short": "Operate Fedimint guardian seats for multiple Fedimint federations and earn fees from a single node.",
@@ -4761,12 +4761,12 @@
       ],
       "registries": {
         "community": "32.1:1",
-        "community-beta": "32.1:1"
+        "community-beta": "32.1:2"
       },
       "replaces": "—",
       "short": "A Namecoin Full Node by Namecoin Core",
       "title": "Namecoin Core",
-      "updated": "2026-11-10",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/namecoin/namecoin-core"
     },
     "navidrome": {
@@ -5075,20 +5075,17 @@
     "nutshell": {
       "categories": [],
       "id": "nutshell",
+      "lastPush": "2026-08-28",
       "license": "MIT",
-      "otherRepos": [
+      "otherRepos": [],
+      "packageRepos": [
         "https://github.com/mdubore/nutshell-startos"
       ],
-      "packageRepos": [
-        "https://github.com/Start9-Community/nutshell-startos"
-      ],
-      "registries": {
-        "community-beta": "0.20.3:1"
-      },
+      "registries": {},
       "replaces": "—",
-      "short": "A Cashu ecash mint",
+      "short": "Nutshell wrapped for StartOS",
       "title": "Nutshell Cashu Mint",
-      "updated": "2026-10-08",
+      "updated": "2026-08-28",
       "upstreamRepo": "https://github.com/cashubtc/nutshell"
     },
     "nzbget": {
@@ -5231,13 +5228,13 @@
         "https://github.com/Start9-Community/openclaw-startos"
       ],
       "registries": {
-        "community": "2026.9.4:5",
-        "community-beta": "2026.9.4:5"
+        "community": "2026.9.4:6",
+        "community-beta": "2026.9.4:6"
       },
       "replaces": "ChatGPT",
       "short": "Personal AI assistant that runs on your own server",
       "title": "OpenClaw",
-      "updated": "2026-11-18",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/openclaw/openclaw"
     },
     "openclaw-extrabutter": {
@@ -5861,13 +5858,13 @@
         "https://github.com/Start9-Community/public-pool-web-startos"
       ],
       "registries": {
-        "community": "0.2.0:4",
-        "community-beta": "0.2.0:4"
+        "community": "0.2.0:5",
+        "community-beta": "0.2.0:5"
       },
       "replaces": "—",
       "short": "Modern web interface for managing your Public Pool's data",
       "title": "Public Pool's Web",
-      "updated": "2026-10-09",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/martinbarilik/public-pool-web"
     },
     "pushtx": {
@@ -6384,12 +6381,12 @@
       ],
       "registries": {
         "community": "0.1.73:1",
-        "community-beta": "0.1.73:1"
+        "community-beta": "0.1.73:2"
       },
       "replaces": "—",
       "short": "Design Bitcoin miniscript policies, then build and send",
       "title": "Scriptwerk",
-      "updated": "2026-10-22",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/kwadde-cmyk/scriptwerk-startos"
     },
     "searxng": {
@@ -6800,13 +6797,13 @@
         "https://github.com/Start9-Community/specter-startos"
       ],
       "registries": {
-        "community": "2.1.11:2",
-        "community-beta": "2.1.11:2"
+        "community": "2.1.11:3",
+        "community-beta": "2.1.11:3"
       },
       "replaces": "—",
       "short": "A Bitcoin wallet UI focused on multisig and hardware wallet workflows.",
       "title": "Specter",
-      "updated": "2026-10-24",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/cryptoadvance/specter-desktop"
     },
     "splayed": {
@@ -7037,7 +7034,7 @@
     "strfry": {
       "categories": [],
       "id": "strfry",
-      "lastPush": "2026-11-14",
+      "lastPush": "2026-11-20",
       "license": "GPL-3.0",
       "otherRepos": [],
       "packageRepos": [
@@ -7047,7 +7044,7 @@
       "replaces": "—",
       "short": "strfry packaged for StartOS",
       "title": "strfry",
-      "updated": "2026-11-14",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/hoytech/strfry"
     },
     "supabase": {
@@ -7161,13 +7158,13 @@
         "https://github.com/Start9-Community/tailscale-startos"
       ],
       "registries": {
-        "community": "1.104.7:0",
-        "community-beta": "1.104.7:0"
+        "community": "1.104.7:1",
+        "community-beta": "1.104.7:1"
       },
       "replaces": "—",
       "short": "Tailscale Serve and Funnel for your StartOS service interfaces",
       "title": "Tailscale",
-      "updated": "2026-11-13",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/tailscale/tailscale"
     },
     "teapot": {
@@ -7396,14 +7393,14 @@
         "https://github.com/Start9-Community/umbrel-bitcoin-ui-startos"
       ],
       "registries": {
-        "community": "1.1.0:16",
-        "community-beta": "1.1.0:16",
+        "community": "1.1.0:17",
+        "community-beta": "1.1.0:17",
         "mempool-guide": "1.1.0:8"
       },
       "replaces": "—",
       "short": "User interface for Bitcoin.",
       "title": "Umbrel Bitcoin UI",
-      "updated": "2026-10-24",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/Retropex/umbrel-bitcoin"
     },
     "unifi-network-application": {
@@ -7469,13 +7466,13 @@
         "https://github.com/Start9-Community/utxoracle-startos"
       ],
       "registries": {
-        "community": "0.9.6:9",
-        "community-beta": "0.9.6:9"
+        "community": "0.9.6:11",
+        "community-beta": "0.9.6:11"
       },
       "replaces": "—",
       "short": "Decentralized bitcoin price estimates from local chain data",
       "title": "UTXOracle",
-      "updated": "2026-10-09",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://utxo.live/oracle"
     },
     "valheim-server": {
@@ -7619,14 +7616,14 @@
         "https://github.com/Start9-Community/wasabi-webtop-startos"
       ],
       "registries": {
-        "community": "2.8.5:1",
-        "community-beta": "2.8.5:1",
+        "community": "2.8.5:2",
+        "community-beta": "2.8.5:2",
         "testnet4": "2.8.5:1"
       },
       "replaces": "—",
       "short": "Wasabi Wallet - The Privacy focused Bitcoin wallet",
       "title": "Wasabi Wallet",
-      "updated": "2026-11-13",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/WalletWasabi/WalletWasabi"
     },
     "wireguard": {

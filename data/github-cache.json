@@ -189,7 +189,7 @@
       "title": "BCH Explorer",
       "upstreamRepo": "https://gitlab.melroy.org/bitcoincash/bitcoin-cash-explorer"
     },
-    "pushedAt": "2026-11-18T17:47:50Z"
+    "pushedAt": "2026-11-20T19:58:10Z"
   },
   "BitcoinCash1/bitcoin-cash-daemon-startos": {
     "kind": "v04",
@@ -852,7 +852,7 @@
       "title": "Bitcoin Explorer",
       "upstreamRepo": "https://github.com/janoside/btc-rpc-explorer"
     },
-    "pushedAt": "2026-11-20T17:52:00Z"
+    "pushedAt": "2026-11-20T20:18:37Z"
   },
   "Start9-Community/blockstream-blind-oracle-startos": {
     "kind": "v04",
@@ -896,7 +896,7 @@
       "title": "Chama",
       "upstreamRepo": "https://github.com/jesuspirate/chama"
     },
-    "pushedAt": "2026-11-20T17:44:58Z"
+    "pushedAt": "2026-11-20T18:11:15Z"
   },
   "Start9-Community/copyparty-startos": {
     "kind": "v04",
@@ -918,7 +918,7 @@
       "title": "Cronicle",
       "upstreamRepo": "https://github.com/jhuckaby/Cronicle"
     },
-    "pushedAt": "2026-11-18T17:04:24Z"
+    "pushedAt": "2026-11-20T19:27:45Z"
   },
   "Start9-Community/fedimint-gateway-startos": {
     "kind": "v04",
@@ -929,7 +929,7 @@
       "title": "Fedimint Gateway",
       "upstreamRepo": "https://github.com/fedimint/fedimint"
     },
-    "pushedAt": "2026-11-20T17:53:12Z"
+    "pushedAt": "2026-11-20T20:52:21Z"
   },
   "Start9-Community/fedimint-guardian-startos": {
     "kind": "v04",
@@ -940,7 +940,7 @@
       "title": "Fedimint Guardian",
       "upstreamRepo": "https://github.com/fedimint/fedimint"
     },
-    "pushedAt": "2026-11-20T17:41:06Z"
+    "pushedAt": "2026-11-20T20:32:39Z"
   },
   "Start9-Community/hashrate-autopilot-startos": {
     "kind": "v04",
@@ -951,7 +951,7 @@
       "title": "Hashrate Autopilot",
       "upstreamRepo": "https://github.com/rdouma/hashrate-autopilot"
     },
-    "pushedAt": "2026-11-04T20:36:50Z"
+    "pushedAt": "2026-11-20T20:32:38Z"
   },
   "Start9-Community/hermes-agent-startos": {
     "kind": "v04",
@@ -973,7 +973,7 @@
       "title": "Holesail",
       "upstreamRepo": "https://github.com/holesail/holesail-docker"
     },
-    "pushedAt": "2026-11-04T20:06:00Z"
+    "pushedAt": "2026-11-20T19:27:07Z"
   },
   "Start9-Community/metube-startos": {
     "kind": "v04",
@@ -1017,7 +1017,7 @@
       "title": "OpenClaw",
       "upstreamRepo": "https://github.com/openclaw/openclaw"
     },
-    "pushedAt": "2026-11-18T17:04:03Z"
+    "pushedAt": "2026-11-20T20:32:36Z"
   },
   "Start9-Community/phoenixd-startos": {
     "kind": "v04",
@@ -1193,7 +1193,7 @@
       "title": "Core Lightning",
       "upstreamRepo": "https://github.com/ElementsProject/lightning"
     },
-    "pushedAt": "2026-11-20T17:41:42Z"
+    "pushedAt": "2026-11-20T18:14:02Z"
   },
   "Start9Labs/collabora-online-startos": {
     "kind": "v04",
@@ -1435,7 +1435,7 @@
       "title": "Jellyfin",
       "upstreamRepo": "https://github.com/jellyfin/jellyfin"
     },
-    "pushedAt": "2026-11-18T15:11:43Z"
+    "pushedAt": "2026-11-20T19:45:21Z"
   },
   "Start9Labs/jitsi-startos": {
     "kind": "v04",
@@ -1644,7 +1644,7 @@
       "title": "OwnTracks Recorder",
       "upstreamRepo": "https://github.com/owntracks/recorder"
     },
-    "pushedAt": "2026-11-19T17:28:55Z"
+    "pushedAt": "2026-11-20T19:20:04Z"
   },
   "Start9Labs/papra-startos": {
     "kind": "v04",
@@ -1866,6 +1866,10 @@
     },
     "pushedAt": "2026-11-17T18:36:38Z"
   },
+  "Start9Labs/unmanic-startos": {
+    "kind": "other",
+    "pushedAt": "2026-11-20T19:27:16Z"
+  },
   "Start9Labs/vaultwarden-startos": {
     "kind": "v04",
     "manifest": {
@@ -1942,6 +1946,10 @@
       "upstreamRepo": "https://github.com/markqvist/NomadNet"
     },
     "pushedAt": "2026-11-11T00:45:06Z"
+  },
+  "The-Cryptosquid/rrc-hub-startos": {
+    "kind": "empty",
+    "pushedAt": "2026-11-20T22:10:54Z"
   },
   "Tunnelsats/tunnelsats-startos": {
     "kind": "v04",
@@ -2483,7 +2491,7 @@
       "title": "Paperclip Wallet Beta",
       "upstreamRepo": "https://github.com/connorslab/paperclip-wallet-app"
     },
-    "pushedAt": "2026-11-20T17:37:19Z"
+    "pushedAt": "2026-11-20T21:47:10Z"
   },
   "crissuper20/mcserver-startos": {
     "kind": "v04",
@@ -2623,7 +2631,7 @@
       "title": "Fleet Manager",
       "upstreamRepo": "https://github.com/fedibtc/manifold"
     },
-    "pushedAt": "2026-11-20T03:45:38Z"
+    "pushedAt": "2026-11-20T20:51:04Z"
   },
   "epochbtc/satd-startos": {
     "kind": "v04",
@@ -4320,7 +4328,7 @@
       "title": "strfry",
       "upstreamRepo": "https://github.com/hoytech/strfry"
     },
-    "pushedAt": "2026-11-14T22:56:38Z"
+    "pushedAt": "2026-11-20T18:57:58Z"
   },
   "stupleb/teapot-startos": {
     "kind": "v04",
