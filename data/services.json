@@ -30,7 +30,7 @@
       "packages": 108
     },
     "h0mer": {
-      "error": "URLError: <urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1127)>",
+      "error": "URLError: <urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1011)>",
       "keptPackages": 0,
       "ok": false
     },
@@ -412,12 +412,12 @@
       "registries": {
         "community": "1.0.0:10",
         "community-beta": "1.0.0:10",
-        "testnet4": "1.0.0:9"
+        "testnet4": "1.0.0:10"
       },
       "replaces": "—",
       "short": "Grafana dashboards for the Bitaxe miners on your network",
       "title": "AxeOS Monitor",
-      "updated": "2026-11-20",
+      "updated": "2026-11-21",
       "upstreamRepo": "https://github.com/bitaxeorg/ESP-Miner"
     },
     "azerothcore": {
@@ -2014,12 +2014,12 @@
         "https://github.com/paulscode/datum-blake2b-startos"
       ],
       "registries": {
-        "paulscode": "1.1.3:0"
+        "paulscode": "1.1.3:1"
       },
       "replaces": "—",
       "short": "Solo mine the BLAKE2b chain with a Sia-style ASIC you already own",
       "title": "Datum Gateway (BLAKE2b) Companion",
-      "updated": "2026-11-18",
+      "updated": "2026-11-21",
       "upstreamRepo": "https://github.com/OCEAN-xyz/datum_gateway"
     },
     "datum-sha256": {
@@ -2695,7 +2695,7 @@
         "GitHub"
       ],
       "id": "fleet-manager",
-      "lastPush": "2026-11-20",
+      "lastPush": "2026-11-21",
       "license": "MIT",
       "otherRepos": [],
       "packageRepos": [
@@ -2705,7 +2705,7 @@
       "replaces": "—",
       "short": "StartOS package for Manifold Fleet Manager (FMan)",
       "title": "Fleet Manager",
-      "updated": "2026-11-20",
+      "updated": "2026-11-21",
       "upstreamRepo": "https://github.com/fedibtc/manifold"
     },
     "flowee": {
@@ -2867,12 +2867,12 @@
       "registries": {
         "community": "1.6.1:7",
         "community-beta": "1.6.1:7",
-        "testnet4": "1.6.1:5"
+        "testnet4": "1.6.1:7"
       },
       "replaces": "—",
       "short": "Electrum server with Silent Payments scanning",
       "title": "Frigate Electrum Server",
-      "updated": "2026-11-20",
+      "updated": "2026-11-21",
       "upstreamRepo": "https://github.com/sparrowwallet/frigate"
     },
     "frigate-blake2b": {
@@ -4128,12 +4128,12 @@
         "https://github.com/paulscode/knots-blake2b-startos"
       ],
       "registries": {
-        "paulscode": "29.5.0:1"
+        "paulscode": "29.5.0:2"
       },
       "replaces": "—",
       "short": "A Bitcoin Knots node on the BLAKE2b chain, pruned so it fits alongside another",
       "title": "Bitcoin Knots (BLAKE2b) Companion",
-      "updated": "2026-11-13",
+      "updated": "2026-11-21",
       "upstreamRepo": "https://github.com/bitcoinknots/bitcoin"
     },
     "knots-prerdts": {
@@ -4835,7 +4835,7 @@
       "license": "Apache-2.0",
       "otherRepos": [
         "https://github.com/BitcoinMechanic/minecraft-startos",
-        "https://github.com/Scott-Sanderson/minecraft-startos"
+        "https://github.com/Scott-Sanderson/minecraft-startos-java-security"
       ],
       "packageRepos": [
         "https://github.com/Start9Labs/minecraft-startos"
@@ -6540,7 +6540,7 @@
         "GitHub"
       ],
       "id": "roblosats",
-      "lastPush": "2026-11-20",
+      "lastPush": "2026-11-21",
       "license": "AGPL-V3",
       "otherRepos": [],
       "packageRepos": [
@@ -6550,7 +6550,7 @@
       "replaces": "—",
       "short": "Roblosats (RoboSats for Bitcoin BLAKE2b) client for StartOS",
       "title": "Roblosats",
-      "updated": "2026-11-20",
+      "updated": "2026-11-21",
       "upstreamRepo": "https://github.com/Kilombino/roblosats"
     },
     "roblosats-coordinator": {
@@ -6559,7 +6559,7 @@
         "GitHub"
       ],
       "id": "roblosats-coordinator",
-      "lastPush": "2026-11-20",
+      "lastPush": "2026-11-21",
       "license": "AGPL-3.0",
       "otherRepos": [],
       "packageRepos": [
@@ -6569,7 +6569,7 @@
       "replaces": "—",
       "short": "Roblosats Coordinator for StartOS 0.4: run a coordinator of Roblosats (RoboSats for Bitcoin BLAKE2b) on a Start9 server",
       "title": "Roblosats Coordinator",
-      "updated": "2026-11-20",
+      "updated": "2026-11-21",
       "upstreamRepo": "https://github.com/Kilombino/roblosats"
     },
     "robosats": {
@@ -8171,12 +8171,12 @@
       "registries": {
         "community": "2.8.5:2",
         "community-beta": "2.8.5:2",
-        "testnet4": "2.8.5:1"
+        "testnet4": "2.8.5:2"
       },
       "replaces": "—",
       "short": "Wasabi Wallet - The Privacy focused Bitcoin wallet",
       "title": "Wasabi Wallet",
-      "updated": "2026-11-20",
+      "updated": "2026-11-21",
       "upstreamRepo": "https://github.com/WalletWasabi/WalletWasabi"
     },
     "wireguard": {
