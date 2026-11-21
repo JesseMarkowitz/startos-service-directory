@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src data:; style-src 'unsafe-inline'; script-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>StartOS Service Directory</title>
+<style>
+:root {
+  --bg: #ffffff; --fg: #1f2328; --muted: #59636e; --line: #d1d9e0; --head: #f6f8fa;
+  --link: #0969da; --row: #f6f8fa; --badge: #eff2f5; --caution-bg: #ffebe9; --caution: #cf222e;
+  --warn: #9a6700;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #0d1117; --fg: #e6edf3; --muted: #9198a1; --line: #3d444d; --head: #151b23;
+    --link: #4493f8; --row: #151b23; --badge: #262c36; --caution-bg: #2d1214; --caution: #f85149;
+    --warn: #d29922; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg);
+  font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; }
+main { max-width: 1500px; margin: 0 auto; padding: 16px; }
+h1 { font-size: 1.7rem; margin: 0.2em 0 0.3em; }
+h2 { font-size: 1.3rem; margin: 1.6em 0 0.4em; padding-bottom: 0.2em; border-bottom: 1px solid var(--line); }
+a { color: var(--link); }
+p { margin: 0.4em 0; }
+.muted { color: var(--muted); font-size: 0.9em; }
+.caution { border-left: 4px solid var(--caution); background: var(--caution-bg); padding: 10px 14px;
+  border-radius: 6px; margin: 12px 0; }
+.caution strong:first-child { color: var(--caution); }
+nav { margin: 8px 0; display: flex; gap: 14px; flex-wrap: wrap; }
+.controls { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; margin: 10px 0; }
+.controls input[type=search] { min-width: 240px; flex: 1 1 260px; }
+input, select, button { font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line);
+  border-radius: 6px; padding: 5px 8px; }
+button { cursor: pointer; background: var(--head); }
+details.cols { font-size: 0.9em; }
+details.cols label { margin-right: 12px; white-space: nowrap; }
+.wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 6px; }
+table { border-collapse: collapse; width: 100%; font-size: 0.92em; }
+th, td { text-align: left; vertical-align: top; padding: 6px 10px; border-bottom: 1px solid var(--line); }
+th { background: var(--head); position: sticky; top: 0; white-space: nowrap; }
+th.sort { cursor: pointer; user-select: none; }
+th.sort::after { content: " ↕"; color: var(--muted); font-size: 0.85em; }
+th.sort[aria-sort=ascending]::after { content: " ▲"; color: var(--fg); }
+th.sort[aria-sort=descending]::after { content: " ▼"; color: var(--fg); }
+tbody tr:nth-child(even) { background: var(--row); }
+td.num, td.date { white-space: nowrap; }
+.title { font-weight: 600; }
+.desc { color: var(--muted); }
+kbd { display: inline-block; font: 0.75em ui-monospace, SFMono-Regular, Menlo, monospace; padding: 1px 5px;
+  border: 1px solid var(--line); border-radius: 5px; background: var(--badge); vertical-align: 1px; }
+.icon { width: 40px; height: 40px; border-radius: 8px; border: 1px solid var(--line); padding: 2px;
+  background: var(--badge); display: block; }
+.warn { color: var(--warn); }
+.hidden { display: none; }
+footer { margin: 30px 0 10px; }
+@media (max-width: 700px) { main { padding: 12px 16px; } th, td { padding: 5px 7px; } }
+</style>
+</head>
+<body>
+<main>
+<h1>StartOS Service Directory</h1>
+<p>Every StartOS service I could find: which registry carries it or which code host it lives on,
+where its packaging code is, the open-source project it wraps, and the paid product it's an
+alternative to. Click a column header to sort; click again to reverse.</p>
+
+<div class="caution"><strong>Nothing here has been vetted, audited, tested, or approved</strong> — by me, by
+Start9, or by anyone else. This is what turned up when I searched registries and code hosts. It is
+not a recommendation. Any package can contain malware or simply be broken, and it runs on your
+server with whatever access you grant it. Adding a registry to StartOS trusts its signing keys.
+Read the code, check who signed the package, and decide for yourself.
+<a id="disclaimer-link" href="#">Full disclaimer</a>. Not affiliated with or endorsed by Start9 Labs.</div>
+
+<nav>
+  <a href="#registries">Registries</a>
+  <a href="#services">Services</a>
+  <a id="repo-link" href="#">Source, data and corrections (GitHub)</a>
+  <span class="muted" id="asof"></span>
+</nav>
+
+<h2 id="registries">Registries</h2>
+<p class="muted"><kbd>S9</kbd> run by Start9 · <kbd>3rd</kbd> run by a third party ·
+<span class="warn">⚠️</span> did not answer at the last check (last known data kept).
+Add a registry in StartOS under <b>System → Registries → Add registry</b>.</p>
+<div class="wrap"><table id="reg-table">
+<thead><tr>
+  <th>Icon</th>
+  <th class="sort" data-key="name">Registry Name</th>
+  <th>Trusted signers</th>
+  <th class="sort" data-key="services" data-num="1">Services</th>
+  <th>Categories</th>
+</tr></thead><tbody></tbody></table></div>
+
+<h2 id="services">Services</h2>
+<div class="controls">
+  <input type="search" id="q" placeholder="Filter: name, description, repo, category, alternative…" aria-label="Filter services">
+  <label>Source <select id="src"></select></label>
+  <label>Category <select id="cat"></select></label>
+  <button id="csv" type="button">Download CSV</button>
+  <span class="muted" id="count"></span>
+</div>
+<details class="cols"><summary>Columns</summary><div id="colpick"></div></details>
+<div class="wrap"><table id="svc-table"><thead><tr></tr></thead><tbody></tbody></table></div>
+
+<h2 id="hosts">Code hosts searched</h2>
+<ul id="forges"></ul>
+
+<footer class="muted">Generated by <code>scripts/refresh.py</code>. Names, descriptions and links are what each
+registry and package say about themselves and are not checked. "Alternative to" is opinion, not a
+feature-for-feature claim; product names belong to their owners.</footer>
+</main>
+
+<script id="data" type="application/json">/*DATA*/</script>
+<script>
+(function () {
+  'use strict';
+  var D = JSON.parse(document.getElementById('data').textContent);
+  var REPO = D.repoUrl;
+
+  function el(tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+  }
+  function safeUrl(u) { return /^https?:\/\//i.test(u || '') ? u : null; }
+  function link(url, label) {
+    var u = safeUrl(url);
+    if (!u) return document.createTextNode(label || url || '—');
+    var a = el('a', null, label || u.replace(/^https?:\/\/(www\.)?/, '').replace(/^github\.com\//, ''));
+    a.href = u; a.rel = 'noopener noreferrer nofollow'; a.target = '_blank';
+    return a;
+  }
+  // Registry descriptions use a little Markdown: [text](https://…) links, **bold**, blank lines.
+  // Build nodes from it; never hand third-party text to innerHTML.
+  function rich(parent, text) {
+    var re = /\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)|\*\*([^*]+)\*\*|\n+/g, last = 0, m;
+    while ((m = re.exec(text))) {
+      if (m.index > last) parent.appendChild(document.createTextNode(text.slice(last, m.index)));
+      if (m[1]) parent.appendChild(link(m[2], m[1]));
+      else if (m[3]) parent.appendChild(el('strong', null, m[3]));
+      else parent.appendChild(el('br'));
+      last = re.lastIndex;
+    }
+    if (last < text.length) parent.appendChild(document.createTextNode(text.slice(last)));
+  }
+  function lines(parent, nodes) {
+    nodes.forEach(function (n, i) { if (i) parent.appendChild(el('br')); parent.appendChild(n); });
+    if (!nodes.length) parent.textContent = '—';
+  }
+
+  document.getElementById('repo-link').href = REPO;
+  document.getElementById('disclaimer-link').href = REPO + '/blob/main/DISCLAIMER.md';
+  document.getElementById('asof').textContent = 'Data as of ' + D.asOf;
+
+  // ---- sorting shared by both tables
+  function sortable(table, rows, render, initial) {
+    var state = initial;
+    var ths = table.querySelectorAll('th.sort');
+    function apply() {
+      ths.forEach(function (th) {
+        th.setAttribute('aria-sort', th.dataset.key === state.key ? (state.dir > 0 ? 'ascending' : 'descending') : 'none');
+      });
+      var th = table.querySelector('th.sort[data-key="' + state.key + '"]');
+      var num = th && th.dataset.num;
+      rows.sort(function (a, b) {
+        var x = a.sortKeys[state.key], y = b.sortKeys[state.key];
+        if (x === y) return a.sortKeys.name < b.sortKeys.name ? -1 : 1;
+        if (x == null || x === '') return 1;   // blanks last either way
+        if (y == null || y === '') return -1;
+        if (num) return (x - y) * state.dir;
+        return (x < y ? -1 : 1) * state.dir;
+      });
+      render();
+    }
+    table.querySelector('thead').addEventListener('click', function (e) {
+      var th = e.target.closest('th.sort');
+      if (!th) return;
+      var key = th.dataset.key;
+      state = { key: key, dir: state.key === key ? -state.dir : (th.dataset.desc ? -1 : 1) };
+      apply();
+    });
+    apply();
+  }
+
+  // ---- registries
+  var regRows = D.registries.map(function (r) {
+    var tr = el('tr');
+    var td = el('td');
+    if (r.icon) { var img = el('img', 'icon'); img.src = r.icon; img.alt = r.name + ' icon'; td.appendChild(img); }
+    tr.appendChild(td);
+    td = el('td');
+    if (!r.ok) td.appendChild(el('span', 'warn', '⚠️ '));
+    td.appendChild(el('kbd', null, r.start9 ? 'S9' : '3rd'));
+    td.appendChild(document.createTextNode(' '));
+    td.appendChild(el('span', 'title', r.name));
+    td.appendChild(el('br'));
+    td.appendChild(link(r.url, r.url));
+    td.appendChild(el('br'));
+    var d = el('span', 'desc');
+    if (r.description) rich(d, r.description);
+    else d.textContent = r.answered ? 'No description provided by the registry owner.' : 'Did not answer; description unknown.';
+    td.appendChild(d);
+    tr.appendChild(td);
+    tr.appendChild(el('td', null, r.signers.join(', ') || '—'));
+    tr.appendChild(el('td', 'num', r.services ? String(r.services) : '—'));
+    tr.appendChild(el('td', null, Object.keys(r.categories).sort().map(function (c) { return c + ' (' + r.categories[c] + ')'; }).join(', ') || '—'));
+    return { tr: tr, sortKeys: { name: r.name.toLowerCase(), services: r.services || 0 } };
+  });
+  var regBody = document.querySelector('#reg-table tbody');
+  sortable(document.getElementById('reg-table'), regRows, function () {
+    regBody.textContent = '';
+    regRows.forEach(function (r) { regBody.appendChild(r.tr); });
+  }, { key: 'name', dir: 1 });
+
+  // ---- services
+  var COLS = [
+    { key: 'name', label: 'Service', sort: true, on: true },
+    { key: 'where', label: 'Found on', sort: true, on: true },
+    { key: 'package', label: 'StartOS package repo', on: true },
+    { key: 'upstream', label: 'Upstream project', sort: true, on: true },
+    { key: 'replaces', label: 'Alternative to', sort: true, on: true },
+    { key: 'categories', label: 'Categories', sort: true, on: false },
+    { key: 'license', label: 'License', sort: true, on: false },
+    { key: 'updated', label: 'Updated', sort: true, on: true, desc: true }
+  ];
+  var hidden = {};
+  try { hidden = JSON.parse(localStorage.getItem('ssd-hidden') || 'null') || {}; } catch (e) { hidden = null; }
+  if (!hidden) hidden = {};
+  COLS.forEach(function (c) { if (!(c.key in hidden)) hidden[c.key] = !c.on; });
+
+  var headRow = document.querySelector('#svc-table thead tr');
+  var picker = document.getElementById('colpick');
+  COLS.forEach(function (c, i) {
+    var th = el('th', c.sort ? 'sort' : null, c.label);
+    th.dataset.key = c.key; th.dataset.col = i;
+    if (c.desc) th.dataset.desc = '1';
+    headRow.appendChild(th);
+    var lab = el('label'); var cb = el('input'); cb.type = 'checkbox'; cb.checked = !hidden[c.key];
+    cb.addEventListener('change', function () {
+      hidden[c.key] = !cb.checked;
+      try { localStorage.setItem('ssd-hidden', JSON.stringify(hidden)); } catch (e) {}
+      applyCols();
+    });
+    lab.appendChild(cb); lab.appendChild(document.createTextNode(' ' + c.label)); picker.appendChild(lab);
+  });
+
+  var svcRows = D.services.map(function (s) {
+    var tr = el('tr');
+    var cells = {};
+    var td = el('td'); td.appendChild(el('span', 'title', s.title));
+    if (s.short) { td.appendChild(el('br')); td.appendChild(el('span', 'desc', s.short)); }
+    cells.name = td;
+    td = el('td'); lines(td, s.where.map(function (w) { return document.createTextNode(w); })); cells.where = td;
+    td = el('td'); lines(td, s.packageRepos.map(function (u) { return link(u); })); cells['package'] = td;
+    td = el('td'); lines(td, s.upstream ? [link(s.upstream)] : []); cells.upstream = td;
+    td = el('td', null, s.replaces && s.replaces !== '—' ? s.replaces : '—');
+    if (s.note) { td.appendChild(el('br')); td.appendChild(el('em', 'desc', s.note)); }
+    cells.replaces = td;
+    cells.categories = el('td', null, s.categories.join(', ') || '—');
+    cells.license = el('td', null, s.license || '—');
+    cells.updated = el('td', 'date', s.updated || '—');
+    COLS.forEach(function (c) { tr.appendChild(cells[c.key]); });
+    var hay = [s.title, s.short, s.where.join(' '), s.packageRepos.join(' '), s.upstream, s.replaces, s.note,
+      s.categories.join(' '), s.license, s.id].join(' ').toLowerCase();
+    return { tr: tr, s: s, hay: hay, sortKeys: {
+      name: s.title.toLowerCase(), where: s.where.join(', ').toLowerCase(),
+      upstream: (s.upstream || '').toLowerCase(),
+      replaces: s.replaces && s.replaces !== '—' ? s.replaces.toLowerCase() : '',
+      categories: s.categories.join(', ').toLowerCase(), license: (s.license || '').toLowerCase(),
+      updated: s.updated || '' } };
+  });
+
+  // filters
+  var src = document.getElementById('src'), cat = document.getElementById('cat'), q = document.getElementById('q');
+  function opt(sel, value, label) { var o = el('option', null, label); o.value = value; sel.appendChild(o); }
+  opt(src, '', 'All sources');
+  opt(src, '@reg', 'On any registry');
+  opt(src, '@none', 'Not on any registry');
+  D.registries.forEach(function (r) { opt(src, 'r:' + r.name, r.name); });
+  D.forges.forEach(function (f) { opt(src, 'f:' + f.name, f.name + ' (not on a registry)'); });
+  opt(cat, '', 'All categories');
+  var cats = {};
+  D.services.forEach(function (s) { s.categories.forEach(function (c) { cats[c] = 1; }); });
+  Object.keys(cats).sort().forEach(function (c) { opt(cat, c, c); });
+
+  var svcBody = document.querySelector('#svc-table tbody');
+  var countEl = document.getElementById('count');
+  var visible = [];
+  function matches(r) {
+    var v = src.value, s = r.s;
+    if (v === '@reg' && !s.onRegistry) return false;
+    if (v === '@none' && s.onRegistry) return false;
+    if (v.indexOf('r:') === 0 && s.where.indexOf(v.slice(2)) < 0) return false;
+    if (v.indexOf('f:') === 0 && (s.onRegistry || s.where.indexOf(v.slice(2)) < 0)) return false;
+    if (cat.value && s.categories.indexOf(cat.value) < 0) return false;
+    var words = q.value.toLowerCase().split(/\s+/).filter(Boolean);
+    for (var i = 0; i < words.length; i++) if (r.hay.indexOf(words[i]) < 0) return false;
+    return true;
+  }
+  function renderSvc() {
+    svcBody.textContent = '';
+    visible = svcRows.filter(matches);
+    visible.forEach(function (r) { svcBody.appendChild(r.tr); });
+    countEl.textContent = visible.length + ' of ' + svcRows.length + ' services';
+  }
+  function applyCols() {
+    COLS.forEach(function (c, i) {
+      document.querySelectorAll('#svc-table tr > :nth-child(' + (i + 1) + ')').forEach(function (cell) {
+        cell.classList.toggle('hidden', !!hidden[c.key]);
+      });
+    });
+  }
+  [src, cat].forEach(function (e) { e.addEventListener('change', function () { renderSvc(); applyCols(); }); });
+  q.addEventListener('input', function () { renderSvc(); applyCols(); });
+  sortable(document.getElementById('svc-table'), svcRows, function () { renderSvc(); applyCols(); }, { key: 'name', dir: 1 });
+
+  // CSV of what is shown (filtered and sorted), every column
+  document.getElementById('csv').addEventListener('click', function () {
+    function q2(v) {
+      v = v == null ? '' : String(v);
+      if (/^[=+\-@\t\r]/.test(v)) v = "'" + v;   // keep spreadsheets from running it as a formula
+      return /[",\n\r]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v;
+    }
+    var head = ['id', 'name', 'description', 'found_on', 'on_registry', 'package_repos', 'upstream', 'alternative_to', 'note', 'categories', 'license', 'updated'];
+    var out = [head.join(',')];
+    visible.forEach(function (r) {
+      var s = r.s;
+      out.push([s.id, s.title, s.short, s.where.join('; '), s.onRegistry ? 'yes' : 'no', s.packageRepos.join(' '), s.upstream,
+        s.replaces, s.note, s.categories.join('; '), s.license, s.updated].map(q2).join(','));
+    });
+    var blob = new Blob(['﻿' + out.join('\r\n') + '\r\n'], { type: 'text/csv;charset=utf-8' });
+    var a = el('a'); a.href = URL.createObjectURL(blob); a.download = 'startos-services-' + D.asOf + '.csv';
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
+  });
+
+  // code hosts
+  var fl = document.getElementById('forges');
+  D.forges.forEach(function (f) {
+    var li = el('li'); li.appendChild(link(f.url, f.name));
+    li.appendChild(document.createTextNode(': ' + f.state));
+    fl.appendChild(li);
+  });
+})();
+</script>
+</body>
+</html>

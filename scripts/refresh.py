@@ -36,7 +36,10 @@ ICONS = DATA / "registry-icons"
 UA = "startos-service-directory-refresh"
 # Images use absolute URLs: GitHub strips embedded (data:) images, and single-file viewers can't
 # resolve relative paths. README.preview.md (gitignored) embeds them for offline viewing.
+REPO_URL = "https://github.com/JesseMarkowitz/startos-service-directory"
+SITE_URL = "https://jessemarkowitz.github.io/startos-service-directory/"
 RAW_BASE = "https://raw.githubusercontent.com/JesseMarkowitz/startos-service-directory/main/"
+FORGE_URLS = {"GitHub": "https://github.com", "GitLab": "https://gitlab.com", "Codeberg": "https://codeberg.org"}
 ACTIVE_DAYS = 365
 
 
@@ -532,6 +535,10 @@ def render(result: dict, registries: list[dict], as_of: str, embed: bool = False
         f"[Services on a registry ({len(on_reg)})](#services-on-a-registry) · "
         f"[Services not on any registry ({len(gh_only)})](#services-not-on-any-registry)",
         "",
+        f"**Sortable, filterable version:** [{SITE_URL.removeprefix('https://').rstrip('/')}]({SITE_URL}) "
+        "(adds upstream project, alternative-to, categories and license columns) · "
+        "**Download:** [CSV](data/services.csv) · [JSON](data/services.json)",
+        "",
         "> [!TIP]",
         "> Looking for something? Use your browser's Find (**Ctrl+F**, or **⌘F** on a Mac) and type a "
         "service name, a registry name, a category, or a word like *bitcoin* or *photos*.",
@@ -576,18 +583,8 @@ def render(result: dict, registries: list[dict], as_of: str, embed: bool = False
 
 
 def forge_lines(result: dict) -> list[str]:
-    urls = {"GitHub": "https://github.com", "GitLab": "https://gitlab.com", "Codeberg": "https://codeberg.org"}
-    lines = []
-    for label, _ in FORGES:
-        st = result.get("forges", {}).get(label)
-        if not st:
-            state = "not checked yet"
-        elif st.get("ok"):
-            state = f"{st['active']} active of {st['repos']} `*-startos` repositories found"
-        else:
-            state = f"⚠️ the search was refused or failed at the last check; {st.get('kept', 0)} repositories kept from earlier"
-        lines.append(f"- [{label}]({urls[label]}): {state}")
-    return lines
+    return [f"- [{label}]({FORGE_URLS[label]}): " + forge_state(result.get("forges", {}).get(label)).replace(
+        "*-startos", "`*-startos`") for label, _ in FORGES]
 
 
 def registry_table(result: dict, registries: list[dict], embed: bool = False) -> list[str]:
@@ -639,6 +636,79 @@ def registry_table(result: dict, registries: list[dict], embed: bool = False) ->
             "|---|---|---|---|---|", *rows]
 
 
+def forge_state(st: dict | None) -> str:
+    if not st:
+        return "not checked yet"
+    if st.get("ok"):
+        return f"{st['active']} active of {st['repos']} *-startos repositories found"
+    return f"⚠️ the search was refused or failed at the last check; {st.get('kept', 0)} repositories kept from earlier"
+
+
+def site_data(result: dict, registries: list[dict], as_of: str) -> dict:
+    """Everything the Pages site shows, with icons embedded so the page stands alone."""
+    import base64
+    names = {r["slug"]: r["name"] for r in registries}
+    regs = []
+    for r in registries:
+        st = result["registries"].get(r["slug"], {})
+        ip, sp = INFO / f"{r['slug']}.json", SNAP / f"{r['slug']}.json"
+        info = json.loads(ip.read_text()) if ip.exists() else {}
+        snap = json.loads(sp.read_text()) if sp.exists() else {}
+        counts = {c: 0 for c in snap.get("__categories__", [])}
+        for k, m in snap.items():
+            if k != "__categories__":
+                for c in m["categories"]:
+                    counts[c] = counts.get(c, 0) + 1
+        icon = None
+        if info.get("icon"):
+            ext = info["icon"].rsplit(".", 1)[1]
+            mime = {"svg": "svg+xml", "jpg": "jpeg"}.get(ext, ext)
+            icon = f"data:image/{mime};base64," + base64.b64encode((ICONS / info["icon"]).read_bytes()).decode()
+        regs.append({"name": r["name"], "url": r["url"], "start9": r["operator"] == "Start9",
+                     "ok": bool(st.get("ok")), "answered": bool(info), "description": info.get("description"),
+                     "signers": info.get("signers") or [], "icon": icon,
+                     "services": len([k for k in snap if k != "__categories__"]), "categories": counts})
+    services = []
+    for s in result["services"].values():
+        if s.get("exclude"):
+            continue
+        on_reg = bool(s["registries"])
+        services.append({
+            "id": s["id"], "title": s["title"], "short": s.get("short"), "onRegistry": on_reg,
+            "where": [names[k] for k in names if k in s["registries"]] if on_reg else (s.get("forges") or ["GitHub"]),
+            "packageRepos": s["packageRepos"], "upstream": s.get("upstreamRepo"),
+            "replaces": s.get("replaces"), "note": s.get("note"), "categories": s["categories"],
+            "license": s.get("license"), "updated": s.get("updated")})
+    forges = [{"name": label, "url": FORGE_URLS[label], "state": forge_state(result.get("forges", {}).get(label))}
+              for label, _ in FORGES]
+    return {"asOf": as_of, "repoUrl": REPO_URL, "registries": regs, "services": services, "forges": forges}
+
+
+def write_site(data: dict) -> None:
+    page = (ROOT / "templates" / "site.html").read_text()
+    blob = json.dumps(data, ensure_ascii=False, sort_keys=True).replace("</", "<\\/")
+    (ROOT / "docs").mkdir(exist_ok=True)
+    (ROOT / "docs" / "index.html").write_text(page.replace("/*DATA*/", blob))
+    (ROOT / "docs" / ".nojekyll").write_text("")
+
+
+def write_csv(data: dict) -> None:
+    import csv
+    import io
+    def safe(v):
+        v = "" if v is None else str(v)
+        return "'" + v if v[:1] in ("=", "+", "-", "@", "\t", "\r") else v  # no spreadsheet formulas
+    buf = io.StringIO()
+    w = csv.writer(buf, lineterminator="\n")
+    w.writerow(["id", "name", "description", "found_on", "on_registry", "package_repos", "upstream",
+                "alternative_to", "note", "categories", "license", "updated"])
+    for s in sorted(data["services"], key=lambda s: s["title"].lower()):
+        w.writerow([safe(x) for x in [s["id"], s["title"], s["short"], "; ".join(s["where"]),
+                    "yes" if s["onRegistry"] else "no", " ".join(s["packageRepos"]), s["upstream"],
+                    s["replaces"], s["note"], "; ".join(s["categories"]), s["license"], s["updated"]]])
+    (DATA / "services.csv").write_text(buf.getvalue())
+
+
 def main():
     registries = tomllib.loads((ROOT / "registries.toml").read_text())["registry"]
     curated_path = ROOT / "curated.toml"
@@ -659,6 +729,9 @@ def main():
     as_of = as_of_path.read_text().strip()
     (ROOT / "README.md").write_text(render(result, registries, as_of))
     (ROOT / "README.preview.md").write_text(render(result, registries, as_of, embed=True))
+    data = site_data(result, registries, as_of)
+    write_site(data)
+    write_csv(data)
     missing = [s["id"] for s in result["services"].values()
                if not s.get("exclude") and "replaces" not in s]
     print(f"services: {len(result['services'])}; without a curated 'replaces': {len(missing)}",

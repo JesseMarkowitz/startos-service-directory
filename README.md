@@ -2,17 +2,20 @@
 
 **Jump to:** [Registries (12)](#registries) · [Services on a registry (243)](#services-on-a-registry) · [Services not on any registry (166)](#services-not-on-any-registry)
 
+**Sortable, filterable version:** [jessemarkowitz.github.io/startos-service-directory](https://jessemarkowitz.github.io/startos-service-directory/) (adds upstream project, alternative-to, categories and license columns) · **Download:** [CSV](data/services.csv) · [JSON](data/services.json)
+
 > [!TIP]
 > Looking for something? Use your browser's Find (**Ctrl+F**, or **⌘F** on a Mac) and type a service name, a registry name, a category, or a word like *bitcoin* or *photos*.
 
-A list of every StartOS service I could find: what registry it is on, where its packaging code
-lives, which open-source project it wraps, and which paid product it is an alternative to.
+A list of every StartOS service I could find: which registry it is on, or which code host it
+lives on, and where its packaging code is. Each service's upstream project and the paid product
+it's an alternative to are recorded in [`data/services.json`](data/services.json).
 
-> [!WARNING]
+> [!CAUTION]
 > **Nothing on this list has been vetted, audited, tested, or approved — by me, by Start9, or by
-> anyone else.** This is a list of what turned up when I searched registries and GitHub. It is not
-> a recommendation. Any package can contain malware or simply be broken, and a package from a
-> third-party registry or a GitHub repository runs on your server with whatever access you grant
+> anyone else.** This is a list of what turned up when I searched registries and code hosts. It is
+> not a recommendation. Any package can contain malware or simply be broken, and a package from a
+> third-party registry or a code repository runs on your server with whatever access you grant
 > it. Read the code, check who signed the package, and decide for yourself before installing
 > anything. Read the full [disclaimer](DISCLAIMER.md).
 
@@ -32,7 +35,7 @@ Start9 Labs; the names of other products appear only to identify them.
   [`data/services.json`](data/services.json) but left out of the tables below to keep them
   narrow. The alternative-to entries are written by hand in [`curated.toml`](curated.toml) and are
   opinion, not a feature-for-feature claim.
-- A scheduled GitHub Action reruns the refresh weekly and opens a pull request with any changes.
+- A scheduled GitHub Action reruns the refresh daily and keeps one pull request open with every change not yet merged.
   Changes reach the list only after a person reviews and merges them.
 
 ## Using a registry from this list
