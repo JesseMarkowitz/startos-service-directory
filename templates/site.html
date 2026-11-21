@@ -76,7 +76,8 @@ Read the code, check who signed the package, and decide for yourself.
 <nav>
   <a href="#registries">Registries</a>
   <a href="#services">Services</a>
-  <a id="repo-link" href="#">Source, data and corrections (GitHub)</a>
+  <a id="fix-link" href="#">Corrections, Additions, Removals</a>
+  <a id="repo-link" href="#">Source</a>
   <span class="muted" id="asof"></span>
 </nav>
 
@@ -151,7 +152,8 @@ feature-for-feature claim; product names belong to their owners.</footer>
     if (!nodes.length) parent.textContent = '—';
   }
 
-  document.getElementById('repo-link').href = REPO;
+  document.getElementById('repo-link').href = REPO + '#readme';
+  document.getElementById('fix-link').href = REPO + '#corrections-additions-and-removals';
   document.getElementById('disclaimer-link').href = REPO + '/blob/main/DISCLAIMER.md';
   document.getElementById('asof').textContent = 'Data as of ' + D.asOf;
 

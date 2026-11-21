@@ -1,8 +1,8 @@
 # StartOS Service Directory
 
-A list of every StartOS service I could find: which registry it is on, or which code host it
-lives on, and where its packaging code is. Each service's upstream project and the paid product
-it's an alternative to are recorded in [`data/services.json`](data/services.json).
+A list of every StartOS registry and service I could find: which registry each service is on, or
+which code host it lives on, where its packaging code is, the upstream project, and the paid
+product it's an alternative to. Registries are listed below; services are on the site linked above.
 
 > [!CAUTION]
 > **Nothing on this list has been vetted, audited, tested, or approved — by me, by Start9, or by
@@ -24,9 +24,7 @@ Start9 Labs; the names of other products appear only to identify them.
   [Codeberg](https://codeberg.org) are searched for public repositories named `*-startos`. That
   adds packages that aren't on any registry, as long as they target StartOS 0.4 and were pushed to
   in the last 12 months. Know of another public code host worth searching? Open an issue.
-- **Upstream project and "open-source alternative to"** are recorded for every service in
-  [`data/services.json`](data/services.json) but left out of the tables below to keep them
-  narrow. The alternative-to entries are written by hand in [`curated.toml`](curated.toml) and are
+- **"Open-source alternative to"** entries are written by hand in [`curated.toml`](curated.toml) and are
   opinion, not a feature-for-feature claim.
 - A scheduled GitHub Action reruns the refresh daily and keeps one pull request open with every change not yet merged.
   Changes reach the list only after a person reviews and merges them.

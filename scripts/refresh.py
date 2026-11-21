@@ -514,34 +514,16 @@ def render(result: dict, registries: list[dict], as_of: str, embed: bool = False
     on_reg = [s for s in services if s["registries"]]
     gh_only = [s for s in services if not s["registries"]]
 
-    def row(s, registered: bool):
-        title = f"**{cell(s['title'])}**" + (f"<br>{cell(s['short'])}" if s.get("short") else "")
-        where = ("<br>".join(names[k] for k in names if k in s["registries"]) if registered
-                 else "<br>".join(s.get("forges") or ["GitHub"]))
-        pkg = "<br>".join(link(u) for u in s["packageRepos"]) or "—"
-        rep = cell(s.get("replaces")) or ""
-        if s.get("note"):
-            rep += ("<br>" if rep else "") + f"_{cell(s['note'])}_"
-        upd = (s.get("updated") or "—").replace("-", "&#8209;")  # non-breaking hyphens
-        return f"| {title} | {where} | {pkg} | {upd} |"
-
-    # Upstream and alternative-to stay in data/services.json; the table stays narrow without them.
-    hdr = ("| Service | Found on | StartOS package repo | Updated |\n"
-           "|---|---|---|---|")
+    site = f"[{SITE_URL.removeprefix('https://').rstrip('/')}]({SITE_URL})"
     parts = [
         title,
         "",
-        f"**Jump to:** [Registries ({len(registries)})](#registries) · "
-        f"[Services on a registry ({len(on_reg)})](#services-on-a-registry) · "
-        f"[Services not on any registry ({len(gh_only)})](#services-not-on-any-registry)",
-        "",
-        f"**Sortable, filterable version:** [{SITE_URL.removeprefix('https://').rstrip('/')}]({SITE_URL}) "
-        "(adds upstream project, alternative-to, categories and license columns) · "
+        f"**Browse all {len(services)} services:** {site} (search, filter, sort, choose columns) · "
         "**Download:** [CSV](data/services.csv) · [JSON](data/services.json)",
         "",
         "> [!TIP]",
-        "> Looking for something? Use your browser's Find (**Ctrl+F**, or **⌘F** on a Mac) and type a "
-        "service name, a registry name, a category, or a word like *bitcoin* or *photos*.",
+        "> Looking for something? Open the [service list](" + SITE_URL + ") and type a service name, a "
+        "registry name, a category, or a word like *bitcoin* or *photos* into its filter box.",
         rest,
         "",
         f"_List generated {as_of}._",
@@ -558,25 +540,18 @@ def render(result: dict, registries: list[dict], as_of: str, embed: bool = False
         "",
         *registry_table(result, registries, embed),
         "",
-        "## Services on a registry",
+        "## Services",
         "",
-        "_Updated: when the newest version was published, on whichever registry carries it._",
-        "",
-        hdr,
-        *[row(s, True) for s in sorted(on_reg, key=lambda s: s["title"].lower())],
-        "",
-        "## Services not on any registry",
-        "",
-        "Public `*-startos` repositories that target StartOS 0.4, were pushed to in the last 12 months, "
-        "and are not on any registry above. You would have to build and sideload these yourself. "
-        "Older 0.3.x wrappers are left out. _Updated: the repository's last push._",
+        f"The full list of {len(services)} services is on the site: {site}. "
+        f"{len(on_reg)} are on at least one registry above; {len(gh_only)} are public `*-startos` "
+        "repositories that target StartOS 0.4, were pushed to in the last 12 months, and are not on any "
+        "registry (you would have to build and sideload these yourself; older 0.3.x wrappers are left "
+        "out). The same data is in [`data/services.csv`](data/services.csv) and "
+        "[`data/services.json`](data/services.json).",
         "",
         "Code hosts searched:",
         "",
         *forge_lines(result),
-        "",
-        hdr,
-        *[row(s, False) for s in sorted(gh_only, key=lambda s: s["title"].lower())],
         "",
     ]
     return "\n".join(parts)
