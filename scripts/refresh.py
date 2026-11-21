@@ -405,7 +405,7 @@ def render(result: dict, registries: list[dict], as_of: str, embed: bool = False
         "see [CONTRIBUTING.md](CONTRIBUTING.md). Being listed means only that the registry exists. "
         "**No registry is vetted or endorsed**, and adding one to StartOS trusts its signing keys.",
         "",
-        f"_Table as of {as_of}. St: ✅ answered · ⚠️ did not answer (last known data kept). "
+        f"_Table as of {as_of}. ⚠️ the registry did not answer at the last check (last known data kept). "
         "<kbd>S9</kbd> run by Start9 · <kbd>3rd</kbd> run by a third party. "
         "Svcs: services installable from it. Categories: services in each, as the registry assigns them._",
         "",
@@ -457,7 +457,7 @@ def registry_table(result: dict, registries: list[dict], embed: bool = False) ->
             return f'<img src="{src}" alt="{alt}" width="{size}" height="{size}">'
         # The icon shares the name's cell: alone in a column, max-width:100% collapses it to 0 px.
         # <kbd> is the one bordered box both GitHub and MarkoPad keep (style attributes are stripped).
-        icon = f'<kbd>{img(info["icon"], f"{cell(r["name"])} icon", 40)}</kbd><br>' if info.get("icon") else ""
+        icon = f'<kbd>{img(info["icon"], f"{cell(r["name"])} icon", 40)}</kbd>' if info.get("icon") else ""
         start9 = r["operator"] == "Start9"
         badge = "<kbd>S9</kbd>" if start9 else "<kbd>3rd</kbd>"
         if info.get("description"):
@@ -468,13 +468,15 @@ def registry_table(result: dict, registries: list[dict], embed: bool = False) ->
             desc = "_Did not answer; description unknown._"
         if r.get("note"):
             desc += f"<br>_Note: {cell(r['note'])}_"
-        name = f"{badge} **{cell(r['name'])}**<br>[{r['url']}]({r['url']})<br>{desc}"
+        warn = "" if st.get("ok") else "⚠️ "
+        name = f"{warn}{badge} **{cell(r['name'])}**<br>[{r['url']}]({r['url']})<br>{desc}"
         signers = ", ".join(info.get("signers") or []) or "—"
         nb = lambda x: cell(x).replace(" ", "&nbsp;")  # wrap only between categories
         cats = ", ".join(nb(f"{c} ({counts[c]})") for c in sorted(cat_names)) or "—"
-        status = "✅" if st.get("ok") else "⚠️"
-        rows.append(f"| {name} | {icon}{cell(signers)} | {n or '—'} | {cats} | {status} |")
-    return ["| Registry | Trusted signers | Svcs | Categories | St |",
+        rows.append(f"| {icon} | {name} | {cell(signers)} | {n or '—'} | {cats} |")
+    # Invisible header that cannot wrap: it holds the icon column open. An image alone in a column
+    # is capped at max-width:100% of a column that then sizes itself to 0 (GitHub and MarkoPad).
+    return ["| " + "&nbsp;" * 14 + " | Registry | Trusted signers | Svcs | Categories |",
             "|---|---|---|---|---|", *rows]
 
 
