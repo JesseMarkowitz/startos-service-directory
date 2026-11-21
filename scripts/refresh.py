@@ -39,7 +39,7 @@ UA = "startos-service-directory-refresh"
 REPO_URL = "https://github.com/JesseMarkowitz/startos-service-directory"
 SITE_URL = "https://jessemarkowitz.github.io/startos-service-directory/"
 RAW_BASE = "https://raw.githubusercontent.com/JesseMarkowitz/startos-service-directory/main/"
-FORGE_URLS = {"GitHub": "https://github.com", "GitLab": "https://gitlab.com", "Codeberg": "https://codeberg.org"}
+FORGE_URLS = {"GitHub": "https://github.com", "GitLab": "https://gitlab.com"}
 ACTIVE_DAYS = 365
 
 
@@ -297,40 +297,8 @@ class GitLab(Forge):
             return f.read().decode("utf-8", "replace")
 
 
-class Gitea(Forge):
-    """Gitea / Forgejo API (Codeberg)."""
-
-    def __init__(self, host: str, name: str):
-        self.host, self.name, self.api = host, name, f"https://{host}/api/v1"
-
-    def search(self) -> list[dict]:
-        out, page = [], 1
-        while True:
-            r = self.get(f"{self.api}/repos/search", q="startos", limit=50, page=page)
-            items = r.get("data", [])
-            for it in items:
-                if it.get("private") or it.get("internal"):
-                    continue
-                out.append({"fullName": it["full_name"], "name": it["name"],
-                            "pushedAt": it.get("updated_at"), "archived": it.get("archived", False),
-                            "fork": it.get("fork", False), "description": it.get("description"),
-                            "url": it["html_url"], "branch": it.get("default_branch")})
-            if len(items) < 50 or page >= 20:
-                return out
-            page += 1
-
-    def root(self, repo: dict) -> set[str]:
-        r = self.get(f"{self.api}/repos/{repo['fullName']}/contents")
-        return {x["name"] for x in r} if isinstance(r, list) else set()
-
-    def raw(self, repo: dict, path: str) -> str | None:
-        req = urllib.request.Request(f"{self.api}/repos/{repo['fullName']}/raw/{path}", headers={"User-Agent": UA})
-        with urllib.request.urlopen(req, timeout=60) as f:
-            return f.read().decode("utf-8", "replace")
-
-
-FORGES = [("GitHub", lambda: GitHub()), ("GitLab", lambda: GitLab()),
-          ("Codeberg", lambda: Gitea("codeberg.org", "Codeberg"))]
+FORGES = [("GitHub", lambda: GitHub()), ("GitLab", lambda: GitLab())]
+CODEBERG_NOTE = ("Codeberg does not allow automated or AI tools to search its repositories, so if you are developing StartOS services on Codeberg, you need to provide that information to us manually: open an issue or a pull request.")
 
 MANIFEST_PATHS = ["startos/manifest/index.ts", "startos/manifest.ts"]
 
@@ -558,6 +526,8 @@ def render(result: dict, registries: list[dict], as_of: str, embed: bool = False
         "Code hosts searched:",
         "",
         *forge_lines(result),
+        "",
+        f"_{CODEBERG_NOTE}_",
         "",
     ]
     return "\n".join(parts)

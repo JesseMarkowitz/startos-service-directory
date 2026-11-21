@@ -67,9 +67,3 @@ slug = "sdbitcoiners"
 name = "SD Bitcoiners Registry"
 url = "https://registry.sdbitcoiners.com/"
 operator = "3rdParty"
-
-[[registry]]
-slug = "h0mer"
-name = "h0mer-registry"
-url = "https://registry.start9.pl/"
-operator = "3rdParty"

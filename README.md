@@ -25,11 +25,11 @@ Start9 Labs; the names of other products appear only to identify them.
 - **Registries.** Each registry in [`registries.toml`](registries.toml) is asked for its package
   index. Name, description, package repo and upstream repo come from what each package declares
   about itself in its manifest. They are not checked against anything else.
-- **Code hosts.** [GitHub](https://github.com), [GitLab](https://gitlab.com) and
-  [Codeberg](https://codeberg.org) are searched for public repositories named `*-startos`. That
+- **Code hosts.** [GitHub](https://github.com) and [GitLab](https://gitlab.com) are searched for public repositories named `*-startos`. That
   adds packages that aren't on any registry, as long as they target StartOS 0.4 and were pushed to
   in the last 12 months. Repos whose manifest is still titled "Hello World" are left
-  out as unfinished. Know of another public code host worth searching? Open an issue.
+  out as unfinished. [Codeberg](https://codeberg.org) does not allow automated or AI tools to search its repositories, so if you are developing StartOS services on Codeberg, you need to provide that information to us manually: open an issue or a pull request.
+  Know of another public code host worth searching? Open an issue.
 - **"Open-source alternative to"** entries are written by hand in [`curated.toml`](curated.toml) and are
   opinion, not a feature-for-feature claim.
 - A scheduled GitHub Action reruns the refresh daily and keeps one pull request open with every change not yet merged.
@@ -72,7 +72,6 @@ _Table as of 2026-11-21. ⚠️ the registry did not answer at the last check (l
 | <kbd><img src="https://raw.githubusercontent.com/JesseMarkowitz/startos-service-directory/main/data/registry-icons/spacesops.svg" alt="SpacesOps Registry icon" width="40" height="40"></kbd> | <kbd>3rd</kbd> **SpacesOps Registry**<br>[https://registry.spacesops.com/](https://registry.spacesops.com/)<br>_No description provided by the registry owner._ | — | 2 | — |
 | <kbd><img src="https://raw.githubusercontent.com/JesseMarkowitz/startos-service-directory/main/data/registry-icons/zsapping.png" alt="zsapping.net icon" width="40" height="40"></kbd> | <kbd>3rd</kbd> **zsapping.net**<br>[https://registry.zsapping.net/](https://registry.zsapping.net/)<br>_No description provided by the registry owner._ | — | 2 | — |
 | <kbd><img src="https://raw.githubusercontent.com/JesseMarkowitz/startos-service-directory/main/data/registry-icons/sdbitcoiners.png" alt="SD Bitcoiners Registry icon" width="40" height="40"></kbd> | <kbd>3rd</kbd> **SD Bitcoiners Registry**<br>[https://registry.sdbitcoiners.com/](https://registry.sdbitcoiners.com/)<br>_No description provided by the registry owner._ | — | 1 | — |
-|  | ⚠️ <kbd>3rd</kbd> **h0mer-registry**<br>[https://registry.start9.pl/](https://registry.start9.pl/)<br>_Did not answer; description unknown._ | — | — | — |
 
 ## Services
 
@@ -82,4 +81,5 @@ Code hosts searched:
 
 - [GitHub](https://github.com): 450 active of 569 `*-startos` repositories found
 - [GitLab](https://gitlab.com): 4 active of 4 `*-startos` repositories found
-- [Codeberg](https://codeberg.org): ⚠️ the search was refused or failed at the last check; 0 repositories kept from earlier
+
+_Codeberg does not allow automated or AI tools to search its repositories, so if you are developing StartOS services on Codeberg, you need to provide that information to us manually: open an issue or a pull request._
