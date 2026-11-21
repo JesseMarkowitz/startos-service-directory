@@ -19,10 +19,14 @@ Start9 Labs; the names of other products appear only to identify them.
 - **Registries.** Each registry in [`registries.toml`](registries.toml) is asked for its package
   index. Name, description, package repo and upstream repo come from what each package declares
   about itself in its manifest. They are not checked against anything else.
-- **GitHub.** A search for public repositories named `*-startos` adds packages that aren't on any
-  registry, as long as they target StartOS 0.4 and were pushed to in the last 12 months.
-- **"Open-source alternative to"** is written by hand in [`curated.toml`](curated.toml). It is an
-  opinion, not a feature-for-feature claim. Where nothing fits, the column shows "—".
+- **Code hosts.** [GitHub](https://github.com), [GitLab](https://gitlab.com) and
+  [Codeberg](https://codeberg.org) are searched for public repositories named `*-startos`. That
+  adds packages that aren't on any registry, as long as they target StartOS 0.4 and were pushed to
+  in the last 12 months. Know of another public code host worth searching? Open an issue.
+- **Upstream project and "open-source alternative to"** are recorded for every service in
+  [`data/services.json`](data/services.json) but left out of the tables below to keep them
+  narrow. The alternative-to entries are written by hand in [`curated.toml`](curated.toml) and are
+  opinion, not a feature-for-feature claim.
 - A scheduled GitHub Action reruns the refresh weekly and opens a pull request with any changes.
   Changes reach the list only after a person reviews and merges them.
 

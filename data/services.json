@@ -1,4 +1,21 @@
 {
+  "forges": {
+    "Codeberg": {
+      "error": "HTTP 429",
+      "kept": 0,
+      "ok": false
+    },
+    "GitHub": {
+      "active": 450,
+      "ok": true,
+      "repos": 569
+    },
+    "GitLab": {
+      "active": 4,
+      "ok": true,
+      "repos": 4
+    }
+  },
   "registries": {
     "atoll": {
       "ok": true,
@@ -10,7 +27,7 @@
     },
     "community-beta": {
       "ok": true,
-      "packages": 109
+      "packages": 108
     },
     "h0mer": {
       "error": "URLError: <urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1127)>",
@@ -53,6 +70,9 @@
   "services": {
     "2fiat-commander": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "2fiat-commander",
       "lastPush": "2026-11-02",
       "license": "MIT",
@@ -69,6 +89,9 @@
     },
     "act-runner": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "act-runner",
       "lastPush": "2026-03-09",
       "license": "MIT",
@@ -107,6 +130,9 @@
     },
     "adarkroom-graphics": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "adarkroom-graphics",
       "lastPush": "2026-09-28",
       "license": "MPL-2.0",
@@ -164,6 +190,9 @@
     },
     "airtrail": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "airtrail",
       "lastPush": "2026-11-03",
       "license": "GPL-3.0",
@@ -237,6 +266,9 @@
     },
     "anytype-sync": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "anytype-sync",
       "lastPush": "2026-10-21",
       "license": "MIT",
@@ -271,6 +303,24 @@
       "updated": "2026-10-24",
       "upstreamRepo": "https://github.com/ArchiveBox/ArchiveBox"
     },
+    "arkpool-gateway": {
+      "categories": [],
+      "forges": [
+        "GitLab"
+      ],
+      "id": "arkpool-gateway",
+      "lastPush": "2026-11-19",
+      "license": "MIT",
+      "otherRepos": [],
+      "packageRepos": [
+        "https://gitlab.com/arkpool/arkpool-gateway-startos"
+      ],
+      "registries": {},
+      "short": "",
+      "title": "ArkPool Gateway",
+      "updated": "2026-11-19",
+      "upstreamRepo": "https://gitlab.com/arkpool/arkpool-gateway"
+    },
     "ashigaru-desktop": {
       "categories": [],
       "id": "ashigaru-desktop",
@@ -287,7 +337,7 @@
       "replaces": "—",
       "short": "Bitcoin wallet with Whirlpool coinjoin, in your browser",
       "title": "Ashigaru Desktop",
-      "updated": "2026-11-09",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/linkinparkrulz/ashigaru-desktop"
     },
     "atoll-recovery": {
@@ -329,6 +379,9 @@
     },
     "authentik": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "authentik",
       "lastPush": "2026-09-01",
       "license": "MIT",
@@ -357,14 +410,14 @@
         "https://github.com/Start9-Community/axeos-monitor-aio-startos"
       ],
       "registries": {
-        "community": "1.0.0:9",
-        "community-beta": "1.0.0:9",
+        "community": "1.0.0:10",
+        "community-beta": "1.0.0:10",
         "testnet4": "1.0.0:9"
       },
       "replaces": "—",
       "short": "Grafana dashboards for the Bitaxe miners on your network",
       "title": "AxeOS Monitor",
-      "updated": "2026-11-08",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/bitaxeorg/ESP-Miner"
     },
     "azerothcore": {
@@ -401,12 +454,12 @@
       ],
       "registries": {
         "community": "25.0.0:3",
-        "community-beta": "25.0.0:3"
+        "community-beta": "25.0.0:4"
       },
       "replaces": "—",
       "short": "A command-line tool for working with the balance of your satoshis on LND",
       "title": "Balance of Satoshis",
-      "updated": "2026-11-09",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/alexbosworth/balanceofsatoshis"
     },
     "bark-web": {
@@ -431,6 +484,9 @@
     },
     "bazarr": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "bazarr",
       "lastPush": "2026-11-18",
       "license": "GPL-3.0",
@@ -459,12 +515,12 @@
       ],
       "registries": {
         "community": "1.5.4:28",
-        "community-beta": "1.5.4:28"
+        "community-beta": "1.5.4:29"
       },
       "replaces": "—",
       "short": "A Bitcoin Cash mining pool you run yourself.",
       "title": "ASICSeer",
-      "updated": "2026-11-10",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/cculianu/asicseer-pool"
     },
     "bch-elopool": {
@@ -481,12 +537,12 @@
       ],
       "registries": {
         "community": "1.3.0:1",
-        "community-beta": "1.3.0:1"
+        "community-beta": "1.3.0:2"
       },
       "replaces": "—",
       "short": "A Bitcoin Cash mining pool you run yourself.",
       "title": "EloPool",
-      "updated": "2026-11-10",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/skaisser/ckpool"
     },
     "bch-explorer": {
@@ -525,16 +581,19 @@
       ],
       "registries": {
         "community": "0.22.2:6",
-        "community-beta": "0.22.2:6"
+        "community-beta": "0.22.2:7"
       },
       "replaces": "—",
       "short": "BCHD — Go-based Bitcoin Cash full node with gRPC and Neutrino",
       "title": "Bitcoin Cash Daemon",
-      "updated": "2026-11-10",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/gcash/bchd"
     },
     "beets-flask": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "beets-flask",
       "lastPush": "2026-09-01",
       "license": "MIT",
@@ -551,6 +610,9 @@
     },
     "bentopdf": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "bentopdf",
       "lastPush": "2026-11-02",
       "license": "AGPL-3.0",
@@ -591,6 +653,9 @@
     },
     "bewcloud": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "bewcloud",
       "lastPush": "2025-12-09",
       "license": "MIT",
@@ -650,6 +715,9 @@
     },
     "bitblik": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "bitblik",
       "lastPush": "2026-11-06",
       "license": "MIT",
@@ -666,6 +734,9 @@
     },
     "bitcart": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "bitcart",
       "lastPush": "2026-11-20",
       "license": "MIT",
@@ -682,6 +753,9 @@
     },
     "bitcoin-cash": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "bitcoin-cash",
       "lastPush": "2026-05-27",
       "license": "MIT",
@@ -698,18 +772,23 @@
     },
     "bitcoin-cash-node": {
       "categories": [],
+      "forges": [
+        "GitHub",
+        "GitLab"
+      ],
       "id": "bitcoin-cash-node",
-      "lastPush": "2025-12-15",
+      "lastPush": "2026-03-27",
       "license": "MIT",
       "otherRepos": [],
       "packageRepos": [
-        "https://github.com/linkinparkrulz/bitcoin-cash-node-startos"
+        "https://github.com/linkinparkrulz/bitcoin-cash-node-startos",
+        "https://gitlab.com/CyberAshven/bitcoin-cash-node-startos"
       ],
       "registries": {},
       "replaces": "—",
       "short": "A bitcoin cash node for StartOS",
       "title": "Bitcoin Cash Node",
-      "updated": "2025-12-15",
+      "updated": "2026-03-27",
       "upstreamRepo": "https://gitlab.com/bitcoin-cash-node/bitcoin-cash-node"
     },
     "bitcoin-explorer": {
@@ -723,13 +802,13 @@
         "https://github.com/Start9-Community/bitcoin-explorer-startos"
       ],
       "registries": {
-        "community": "3.5.1:16",
-        "community-beta": "3.5.1:16"
+        "community": "3.5.1:19",
+        "community-beta": "3.5.1:19"
       },
       "replaces": "—",
       "short": "Self-hosted Bitcoin explorer for everyone",
       "title": "Bitcoin Explorer",
-      "updated": "2026-10-22",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/janoside/btc-rpc-explorer"
     },
     "bitcoin-family-dashboard": {
@@ -746,12 +825,12 @@
       ],
       "registries": {
         "community": "0.2.2:6",
-        "community-beta": "0.2.2:6"
+        "community-beta": "0.2.2:7"
       },
       "replaces": "—",
       "short": "Track your family's bitcoin holdings and the live price",
       "title": "Bitcoin Family Dashboard",
-      "updated": "2026-11-03",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/wahidsaleemi/bitcoin-family-dashboard"
     },
     "bitcoincashd": {
@@ -766,12 +845,12 @@
       ],
       "registries": {
         "community": "29.0.0:15",
-        "community-beta": "29.0.0:15"
+        "community-beta": "29.0.0:16"
       },
       "replaces": "—",
       "short": "Bitcoin Cash full node — BCHN reference implementation",
       "title": "Bitcoin Cash Node (BCHN)",
-      "updated": "2026-10-30",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://gitlab.com/bitcoin-cash-node/bitcoin-cash-node"
     },
     "bitcoind": {
@@ -791,8 +870,8 @@
         "https://github.com/paulscode/knots-sha256-startos"
       ],
       "registries": {
-        "community": "#roots:29.4:2",
-        "community-beta": "#roots:29.4:3",
+        "community": "#roots:29.4:4",
+        "community-beta": "#roots:29.4:4",
         "mempool-guide": "#knots:29.5.0:6",
         "paulscode": "#knotssha:31.2:2",
         "start9": "32.1:1",
@@ -837,17 +916,20 @@
         "https://github.com/Start9-Community/bitcoinmonetaryview-startos"
       ],
       "registries": {
-        "community": "0.3.14:0",
-        "community-beta": "0.3.14:0"
+        "community": "0.3.14:2",
+        "community-beta": "0.3.14:2"
       },
       "replaces": "—",
       "short": "See how much spam your Bitcoin node stores — read-only",
       "title": "Monetary View",
-      "updated": "2026-11-10",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/MarkSierra/BitcoinMonetaryView"
     },
     "bitnet": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "bitnet",
       "lastPush": "2026-05-13",
       "license": "Apache-2.0",
@@ -864,6 +946,9 @@
     },
     "blake-swap": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "blake-swap",
       "lastPush": "2026-10-22",
       "license": null,
@@ -880,6 +965,9 @@
     },
     "blake2b-asic-control": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "blake2b-asic-control",
       "lastPush": "2026-10-25",
       "license": "MIT",
@@ -918,6 +1006,9 @@
     },
     "blockclock-adapter": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "blockclock-adapter",
       "lastPush": "2026-08-23",
       "license": "MIT",
@@ -954,6 +1045,9 @@
     },
     "blossom-server": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "blossom-server",
       "lastPush": "2026-11-15",
       "license": "MIT",
@@ -981,7 +1075,7 @@
         "https://github.com/Start9-Community/bolt12-pay-startos"
       ],
       "registries": {
-        "community": "0.3.27:0",
+        "community": "0.3.28:0",
         "community-beta": "0.3.28:0"
       },
       "replaces": "—",
@@ -992,6 +1086,9 @@
     },
     "bookshelfng": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "bookshelfng",
       "lastPush": "2026-11-05",
       "license": "GPL-3.0-only",
@@ -1008,6 +1105,9 @@
     },
     "braiins-manager-agent": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "braiins-manager-agent",
       "lastPush": "2026-08-07",
       "license": "Proprietary",
@@ -1024,6 +1124,9 @@
     },
     "browser-arcade": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "browser-arcade",
       "lastPush": "2026-08-14",
       "license": "MIT",
@@ -1040,6 +1143,9 @@
     },
     "browserless": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "browserless",
       "lastPush": "2026-11-06",
       "license": "SSPL-1.0",
@@ -1099,6 +1205,9 @@
     },
     "btcwhitepaper": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "btcwhitepaper",
       "lastPush": "2026-08-09",
       "license": "mit",
@@ -1135,6 +1244,9 @@
     },
     "buzz": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "buzz",
       "lastPush": "2026-11-02",
       "license": "Apache-2.0",
@@ -1209,8 +1321,8 @@
       ],
       "registries": {
         "mempool-guide": "#blake:26.6.10:0",
-        "start9": "26.6.10:7",
-        "start9-beta": "26.6.10:7"
+        "start9": "26.6.10:8",
+        "start9-beta": "26.6.10:8"
       },
       "replaces": "—",
       "short": "An implementation of the Lightning Network protocol by Blockstream.",
@@ -1240,6 +1352,9 @@
     },
     "calibre-web": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "calibre-web",
       "lastPush": "2026-10-13",
       "license": "GPL-3.0",
@@ -1256,6 +1371,9 @@
     },
     "camofox-browser": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "camofox-browser",
       "lastPush": "2026-10-07",
       "license": "MIT",
@@ -1296,6 +1414,9 @@
     },
     "canary-mining": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "canary-mining",
       "lastPush": "2026-06-11",
       "license": "MIT",
@@ -1312,6 +1433,9 @@
     },
     "cashu": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "cashu",
       "lastPush": "2026-07-07",
       "license": "mit",
@@ -1350,6 +1474,9 @@
     },
     "catapult": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "catapult",
       "lastPush": "2026-05-13",
       "license": "AGPL-3.0",
@@ -1366,6 +1493,9 @@
     },
     "cert-warden": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "cert-warden",
       "lastPush": "2026-10-27",
       "license": "custom",
@@ -1401,6 +1531,9 @@
     },
     "cftunnel": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "cftunnel",
       "lastPush": "2026-04-28",
       "license": "MIT",
@@ -1445,13 +1578,13 @@
         "https://github.com/Start9-Community/chama-startos"
       ],
       "registries": {
-        "community": "6.4.34:0",
-        "community-beta": "6.4.34:0"
+        "community": "6.4.34:1",
+        "community-beta": "6.4.34:1"
       },
       "replaces": "—",
       "short": "Non-custodial Bitcoin commerce for communities, coordinated over Nostr",
       "title": "Chama",
-      "updated": "2026-11-14",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/jesuspirate/chama"
     },
     "changedetection": {
@@ -1488,16 +1621,19 @@
       ],
       "registries": {
         "community": "0.3.1:10",
-        "community-beta": "0.3.1:10"
+        "community-beta": "0.3.1:11"
       },
       "replaces": "—",
       "short": "Policy-based fee manager for LND",
       "title": "Charge LND",
-      "updated": "2026-11-09",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/accumulator/charge-lnd"
     },
     "ckpool-bch": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "ckpool-bch",
       "lastPush": "2026-05-27",
       "license": "GPL-3.0",
@@ -1534,6 +1670,9 @@
     },
     "click-miner": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "click-miner",
       "lastPush": "2026-10-09",
       "license": "MIT",
@@ -1616,6 +1755,9 @@
     },
     "cooktrace": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "cooktrace",
       "lastPush": "2026-11-12",
       "license": "AGPL-3.0",
@@ -1652,6 +1794,9 @@
     },
     "corvin": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "corvin",
       "lastPush": "2026-06-06",
       "license": "MIT",
@@ -1742,16 +1887,19 @@
       ],
       "registries": {
         "community": "0.9.135:5",
-        "community-beta": "0.9.135:5"
+        "community-beta": "0.9.135:6"
       },
       "replaces": "—",
       "short": "A self-hosted task scheduler and runner with a web UI",
       "title": "Cronicle",
-      "updated": "2026-11-18",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/jhuckaby/Cronicle"
     },
     "crossbill": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "crossbill",
       "lastPush": "2026-11-10",
       "license": "Apache-2.0",
@@ -1791,6 +1939,9 @@
     },
     "cuprate": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "cuprate",
       "lastPush": "2025-12-16",
       "license": "MIT",
@@ -1807,6 +1958,9 @@
     },
     "dash": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "dash",
       "lastPush": "2026-11-15",
       "license": "MIT",
@@ -1887,6 +2041,9 @@
     },
     "dawarich": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "dawarich",
       "lastPush": "2026-11-16",
       "license": "AGPL-3.0",
@@ -1903,6 +2060,9 @@
     },
     "deckshare": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "deckshare",
       "lastPush": "2026-11-17",
       "license": "AGPL-3.0-or-later",
@@ -1939,6 +2099,9 @@
     },
     "dev-workspace": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "dev-workspace",
       "lastPush": "2026-11-20",
       "license": "MIT",
@@ -1955,6 +2118,9 @@
     },
     "dev-workspace-desktop": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "dev-workspace-desktop",
       "lastPush": "2026-11-20",
       "license": "GPL-3.0-only",
@@ -1991,6 +2157,9 @@
     },
     "django-wedding-website": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "django-wedding-website",
       "lastPush": "2026-07-14",
       "license": "Apache-2.0",
@@ -2049,6 +2218,9 @@
     },
     "dogecoin": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "dogecoin",
       "lastPush": "2026-10-20",
       "license": "MIT",
@@ -2065,6 +2237,9 @@
     },
     "dogeltc-dashboard": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "dogeltc-dashboard",
       "lastPush": "2026-10-22",
       "license": "MIT",
@@ -2092,17 +2267,20 @@
         "https://github.com/Start9-Community/dojo-startos"
       ],
       "registries": {
-        "community": "1.29.2:7",
-        "community-beta": "1.29.2:7"
+        "community": "1.29.2:9",
+        "community-beta": "1.29.2:9"
       },
       "replaces": "—",
       "short": "Private backend for Ashigaru, Samourai and other light wallets",
       "title": "Dojo",
-      "updated": "2026-11-12",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/Dojo-Open-Source-Project/samourai-dojo"
     },
     "drawio": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "drawio",
       "lastPush": "2026-11-06",
       "license": "Apache-2.0",
@@ -2221,6 +2399,9 @@
     },
     "elektron-net-faucet": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "elektron-net-faucet",
       "lastPush": "2026-07-13",
       "license": "GPL",
@@ -2237,6 +2418,9 @@
     },
     "elektron-net-pool": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "elektron-net-pool",
       "lastPush": "2026-11-19",
       "license": "GPL",
@@ -2254,6 +2438,9 @@
     },
     "elektron-seeder": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "elektron-seeder",
       "lastPush": "2026-06-19",
       "license": "MIT",
@@ -2270,6 +2457,9 @@
     },
     "elektrond": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "elektrond",
       "lastPush": "2026-10-29",
       "license": "MIT",
@@ -2306,6 +2496,9 @@
     },
     "elements": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "elements",
       "lastPush": "2026-09-14",
       "license": "MIT",
@@ -2322,6 +2515,9 @@
     },
     "elements-electrs": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "elements-electrs",
       "lastPush": "2026-06-23",
       "license": "MIT",
@@ -2338,6 +2534,9 @@
     },
     "empires": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "empires",
       "lastPush": "2026-10-08",
       "license": "MIT",
@@ -2383,13 +2582,13 @@
         "https://github.com/Start9-Community/fedimint-gateway-startos"
       ],
       "registries": {
-        "community": "0.12.2:1",
-        "community-beta": "0.12.2:1"
+        "community": "0.12.2:3",
+        "community-beta": "0.12.2:3"
       },
       "replaces": "—",
       "short": "Fedimint Lightning Gateway",
       "title": "Fedimint Gateway",
-      "updated": "2026-11-09",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/fedimint/fedimint"
     },
     "fedimint-guardian": {
@@ -2403,17 +2602,20 @@
         "https://github.com/Start9-Community/fedimint-guardian-startos"
       ],
       "registries": {
-        "community": "0.12.2:0",
-        "community-beta": "0.12.2:0"
+        "community": "0.12.2:2",
+        "community-beta": "0.12.2:2"
       },
       "replaces": "—",
       "short": "Federated Chaumian E-Cash Mint",
       "title": "Fedimint Guardian",
-      "updated": "2026-10-24",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/fedimint/fedimint"
     },
     "fedimintcard-till": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "fedimintcard-till",
       "lastPush": "2026-11-19",
       "license": "MIT",
@@ -2489,6 +2691,9 @@
     },
     "fleet-manager": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "fleet-manager",
       "lastPush": "2026-11-20",
       "license": "MIT",
@@ -2517,16 +2722,19 @@
       ],
       "registries": {
         "community": "2026.5.2:17",
-        "community-beta": "2026.5.2:17"
+        "community-beta": "2026.5.2:18"
       },
       "replaces": "—",
       "short": "Fast, fully validating Bitcoin Cash node with a built-in indexer",
       "title": "Flowee the Hub",
-      "updated": "2026-10-30",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://codeberg.org/Flowee/thehub"
     },
     "fmd-server": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "fmd-server",
       "lastPush": "2026-11-18",
       "license": "GPL-3.0-or-later",
@@ -2588,6 +2796,9 @@
     },
     "formbricks": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "formbricks",
       "lastPush": "2026-06-19",
       "license": "AGPL-3.0-only",
@@ -2624,6 +2835,9 @@
     },
     "freellmapi": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "freellmapi",
       "lastPush": "2026-09-17",
       "license": "MIT",
@@ -2651,14 +2865,14 @@
         "https://github.com/Start9-Community/frigate-startos"
       ],
       "registries": {
-        "community": "1.6.1:5",
-        "community-beta": "1.6.1:5",
+        "community": "1.6.1:7",
+        "community-beta": "1.6.1:7",
         "testnet4": "1.6.1:5"
       },
       "replaces": "—",
       "short": "Electrum server with Silent Payments scanning",
       "title": "Frigate Electrum Server",
-      "updated": "2026-11-18",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/sparrowwallet/frigate"
     },
     "frigate-blake2b": {
@@ -2937,16 +3151,19 @@
       ],
       "registries": {
         "community": "0.56.1:1",
-        "community-beta": "0.56.1:1"
+        "community-beta": "0.56.1:2"
       },
       "replaces": "—",
       "short": "Quai Network node with built-in solo mining stratum (SHA-256, Scrypt, KawPoW)",
       "title": "Quai Network",
-      "updated": "2026-11-10",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/dominant-strategies/go-quai"
     },
     "gobrrr-pool": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "gobrrr-pool",
       "lastPush": "2026-11-12",
       "license": "GPL-3.0",
@@ -2985,6 +3202,9 @@
     },
     "gridpool": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "gridpool",
       "lastPush": "2026-09-15",
       "license": "MIT",
@@ -3001,6 +3221,9 @@
     },
     "gridpool-blake2b": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "gridpool-blake2b",
       "lastPush": "2026-09-04",
       "license": "MIT",
@@ -3065,13 +3288,13 @@
         "https://github.com/Start9-Community/hashrate-autopilot-startos"
       ],
       "registries": {
-        "community": "1.18.2:3",
-        "community-beta": "1.18.2:3"
+        "community": "1.18.2:4",
+        "community-beta": "1.18.2:4"
       },
       "replaces": "—",
       "short": "Automated Braiins hashpower bidding and mining dashboard",
       "title": "Hashrate Autopilot",
-      "updated": "2026-10-24",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/rdouma/hashrate-autopilot"
     },
     "haven": {
@@ -3105,16 +3328,19 @@
       ],
       "registries": {
         "community": "0.2.2:12",
-        "community-beta": "0.2.2:12"
+        "community-beta": "0.2.2:13"
       },
       "replaces": "—",
       "short": "View boosts & boostagrams from Podcasting 2.0 apps",
       "title": "Helipad",
-      "updated": "2026-11-09",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/Podcastindex-org/helipad"
     },
     "helix-home": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "helix-home",
       "lastPush": "2026-08-12",
       "license": "MIT",
@@ -3131,6 +3357,9 @@
     },
     "hello-world": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "hello-world",
       "lastPush": "2026-10-07",
       "license": "MIT",
@@ -3148,6 +3377,9 @@
     },
     "hermes": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "hermes",
       "lastPush": "2026-05-21",
       "license": "MIT",
@@ -3186,6 +3418,9 @@
     },
     "hermes-bridge": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "hermes-bridge",
       "lastPush": "2026-08-12",
       "license": "MIT",
@@ -3202,6 +3437,9 @@
     },
     "heyform": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "heyform",
       "lastPush": "2026-11-16",
       "license": "AGPL-3.0",
@@ -3228,12 +3466,12 @@
       ],
       "registries": {
         "community": "2.4.1:12",
-        "community-beta": "2.4.1:12"
+        "community-beta": "2.4.1:13"
       },
       "replaces": "ngrok",
       "short": "P2P Tunnels for instant access",
       "title": "Holesail",
-      "updated": "2026-10-09",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/holesail/holesail-docker"
     },
     "home-assistant": {
@@ -3280,6 +3518,9 @@
     },
     "hyperframes": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "hyperframes",
       "lastPush": "2026-11-04",
       "license": "Apache-2.0",
@@ -3296,6 +3537,9 @@
     },
     "hypermind": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "hypermind",
       "lastPush": "2026-01-06",
       "license": "MIT",
@@ -3332,6 +3576,9 @@
     },
     "imgcompress": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "imgcompress",
       "lastPush": "2026-11-10",
       "license": "GPL-3.0",
@@ -3370,6 +3617,9 @@
     },
     "immichframe": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "immichframe",
       "lastPush": "2026-11-17",
       "license": "GPL-3.0",
@@ -3408,6 +3658,9 @@
     },
     "invidious": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "invidious",
       "lastPush": "2026-11-14",
       "license": "AGPL-3.0",
@@ -3433,13 +3686,13 @@
         "https://github.com/Start9-Community/ipfs-startos"
       ],
       "registries": {
-        "community": "0.42.0:7",
-        "community-beta": "0.42.0:7"
+        "community": "0.42.0:8",
+        "community-beta": "0.42.0:8"
       },
       "replaces": "—",
       "short": "InterPlanetary File System",
       "title": "IPFS",
-      "updated": "2026-10-30",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/ipfs/kubo"
     },
     "isso": {
@@ -3483,6 +3736,9 @@
     },
     "jam-xbt": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "jam-xbt",
       "lastPush": "2026-11-16",
       "license": "MIT",
@@ -3539,6 +3795,9 @@
     },
     "joplin-server": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "joplin-server",
       "lastPush": "2026-11-04",
       "license": "Joplin Server Personal Use License",
@@ -3556,6 +3815,9 @@
     },
     "jumble": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "jumble",
       "lastPush": "2026-11-20",
       "license": "MIT",
@@ -3583,13 +3845,13 @@
         "https://github.com/Start9-Community/KamadoPool-StartOS"
       ],
       "registries": {
-        "community": "0.2.9:0",
-        "community-beta": "0.2.9:0"
+        "community": "0.2.9:3",
+        "community-beta": "0.2.9:3"
       },
       "replaces": "—",
       "short": "Modern solo Bitcoin mining pool with real-time dashboard",
       "title": "Kamado Pool",
-      "updated": "2026-11-18",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/carbonatedberry/KamadoPool"
     },
     "karakeep": {
@@ -3651,16 +3913,19 @@
       ],
       "registries": {
         "community": "0.12.2:0",
-        "community-beta": "0.12.2:0"
+        "community-beta": "0.14.1:0"
       },
       "replaces": "—",
       "short": "Always-on FROST threshold co-signer for Nostr and Bitcoin",
       "title": "Keep",
-      "updated": "2026-10-24",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/privkeyio/keep"
     },
     "keila": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "keila",
       "lastPush": "2026-11-18",
       "license": "AGPL-3.0",
@@ -3697,6 +3962,9 @@
     },
     "keycloak": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "keycloak",
       "lastPush": "2026-01-09",
       "license": "Apache-2.0",
@@ -3713,6 +3981,9 @@
     },
     "kilojoin": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "kilojoin",
       "lastPush": "2026-11-14",
       "license": "Apache-2.0",
@@ -3729,6 +4000,9 @@
     },
     "kilowallet": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "kilowallet",
       "lastPush": "2026-11-14",
       "license": "Apache-2.0",
@@ -3787,6 +4061,9 @@
     },
     "kindle-display": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "kindle-display",
       "lastPush": "2026-11-15",
       "license": "MIT",
@@ -3803,6 +4080,9 @@
     },
     "kindle-md-reader": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "kindle-md-reader",
       "lastPush": "2026-03-16",
       "license": null,
@@ -3819,6 +4099,9 @@
     },
     "knots": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "knots",
       "lastPush": "2026-01-12",
       "license": "MIT",
@@ -3875,6 +4158,9 @@
     },
     "knuth-bch": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "knuth-bch",
       "lastPush": "2026-11-20",
       "license": "MIT",
@@ -3891,6 +4177,9 @@
     },
     "labelbase": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "labelbase",
       "lastPush": "2026-05-13",
       "license": "AGPL-3.0",
@@ -3904,6 +4193,24 @@
       "title": "Labelbase",
       "updated": "2026-05-13",
       "upstreamRepo": "https://github.com/Labelbase/Labelbase"
+    },
+    "laguz": {
+      "categories": [],
+      "forges": [
+        "GitLab"
+      ],
+      "id": "laguz",
+      "lastPush": "2026-10-26",
+      "license": "Apache-2.0",
+      "otherRepos": [],
+      "packageRepos": [
+        "https://gitlab.com/astrolexis-group1/laguz-startos"
+      ],
+      "registries": {},
+      "short": "StartOS 0.4 package for Laguz Hub — self-custodial Lightning hub for XBT (Bitcoin BLAKE2b) on Lightning Fork",
+      "title": "Laguz Hub",
+      "updated": "2026-10-26",
+      "upstreamRepo": "https://gitlab.com/astrolexis-group1/laguz"
     },
     "lawallet-nwc": {
       "categories": [
@@ -3951,6 +4258,9 @@
     },
     "lifttrace": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "lifttrace",
       "lastPush": "2026-11-12",
       "license": "AGPL-3.0",
@@ -3981,7 +4291,7 @@
       "replaces": "—",
       "short": "Dashboard for your LND node — channels, fees, routing and rebalancing in one place",
       "title": "Lightning Control Center",
-      "updated": "2026-11-12",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/lioranecho-cpu/lightning-control-center"
     },
     "lightning-fork": {
@@ -4007,6 +4317,9 @@
     },
     "lightning-identity": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "lightning-identity",
       "lastPush": "2026-11-19",
       "license": "MIT",
@@ -4082,6 +4395,9 @@
     },
     "lijox-adapter": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "lijox-adapter",
       "lastPush": "2026-11-19",
       "license": "MIT",
@@ -4140,6 +4456,9 @@
     },
     "litecoin": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "litecoin",
       "lastPush": "2026-10-20",
       "license": "MIT",
@@ -4240,6 +4559,9 @@
     },
     "magicwormholerelay": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "magicwormholerelay",
       "lastPush": "2026-07-10",
       "license": "MIT",
@@ -4256,6 +4578,9 @@
     },
     "makemkv": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "makemkv",
       "lastPush": "2026-11-20",
       "license": "Proprietary",
@@ -4305,8 +4630,8 @@
         "https://github.com/Start9-Community/manifold-fedimint-guardian-startos"
       ],
       "registries": {
-        "community": "0.1.17:0",
-        "community-beta": "0.1.18:0"
+        "community": "0.1.18:1",
+        "community-beta": "0.1.18:1"
       },
       "replaces": "—",
       "short": "Operate Fedimint guardian seats for multiple Fedimint federations and earn fees from a single node.",
@@ -4362,6 +4687,9 @@
     },
     "mautrix-signal": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "mautrix-signal",
       "lastPush": "2026-10-15",
       "license": "AGPL-3.0",
@@ -4378,6 +4706,9 @@
     },
     "mcserver": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "mcserver",
       "lastPush": "2026-03-13",
       "license": "MIT",
@@ -4440,6 +4771,9 @@
     },
     "mempool-kilombino": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "mempool-kilombino",
       "lastPush": "2026-11-13",
       "license": "AGPL",
@@ -4598,6 +4932,9 @@
     },
     "monetary-node": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "monetary-node",
       "lastPush": "2026-11-18",
       "license": "BSD-2-Clause",
@@ -4614,6 +4951,9 @@
     },
     "monica": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "monica",
       "lastPush": "2026-11-06",
       "license": "AGPL-3.0",
@@ -4652,6 +4992,9 @@
     },
     "mrr-command-center": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "mrr-command-center",
       "lastPush": "2026-11-20",
       "license": "MIT",
@@ -4690,6 +5033,9 @@
     },
     "my-speed": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "my-speed",
       "lastPush": "2026-09-15",
       "license": "MIT",
@@ -4761,12 +5107,12 @@
       ],
       "registries": {
         "community": "32.1:1",
-        "community-beta": "32.1:1"
+        "community-beta": "32.1:2"
       },
       "replaces": "—",
       "short": "A Namecoin Full Node by Namecoin Core",
       "title": "Namecoin Core",
-      "updated": "2026-11-10",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/namecoin/namecoin-core"
     },
     "navidrome": {
@@ -4793,6 +5139,9 @@
     },
     "newt": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "newt",
       "lastPush": "2026-08-12",
       "license": "MIT",
@@ -4809,6 +5158,9 @@
     },
     "next-block": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "next-block",
       "lastPush": "2026-05-13",
       "license": "AGPL-3.0",
@@ -4883,6 +5235,9 @@
     },
     "nip46-relay": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "nip46-relay",
       "lastPush": "2026-06-15",
       "license": "MIT",
@@ -4919,6 +5274,9 @@
     },
     "nocturne": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "nocturne",
       "lastPush": "2026-07-02",
       "license": "MIT",
@@ -5058,6 +5416,9 @@
     },
     "nutritrace": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "nutritrace",
       "lastPush": "2026-11-12",
       "license": "AGPL-3.0",
@@ -5074,21 +5435,21 @@
     },
     "nutshell": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "nutshell",
+      "lastPush": "2026-08-28",
       "license": "MIT",
-      "otherRepos": [
+      "otherRepos": [],
+      "packageRepos": [
         "https://github.com/mdubore/nutshell-startos"
       ],
-      "packageRepos": [
-        "https://github.com/Start9-Community/nutshell-startos"
-      ],
-      "registries": {
-        "community-beta": "0.20.3:1"
-      },
+      "registries": {},
       "replaces": "—",
-      "short": "A Cashu ecash mint",
+      "short": "Nutshell wrapped for StartOS",
       "title": "Nutshell Cashu Mint",
-      "updated": "2026-10-08",
+      "updated": "2026-08-28",
       "upstreamRepo": "https://github.com/cashubtc/nutshell"
     },
     "nzbget": {
@@ -5130,6 +5491,9 @@
     },
     "ocean-terminal": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "ocean-terminal",
       "lastPush": "2026-01-12",
       "license": "MIT",
@@ -5146,6 +5510,9 @@
     },
     "odoo": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "odoo",
       "lastPush": "2026-10-17",
       "license": "LGPL-3.0-only",
@@ -5231,17 +5598,20 @@
         "https://github.com/Start9-Community/openclaw-startos"
       ],
       "registries": {
-        "community": "2026.9.4:5",
-        "community-beta": "2026.9.4:5"
+        "community": "2026.9.4:6",
+        "community-beta": "2026.9.4:6"
       },
       "replaces": "ChatGPT",
       "short": "Personal AI assistant that runs on your own server",
       "title": "OpenClaw",
-      "updated": "2026-11-18",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/openclaw/openclaw"
     },
     "openclaw-extrabutter": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "openclaw-extrabutter",
       "lastPush": "2026-11-08",
       "license": "MIT",
@@ -5280,6 +5650,9 @@
     },
     "openwhispr": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "openwhispr",
       "lastPush": "2026-09-19",
       "license": "MIT",
@@ -5296,6 +5669,9 @@
     },
     "outline": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "outline",
       "lastPush": "2026-11-06",
       "license": "BSL-1.1",
@@ -5421,6 +5797,9 @@
     },
     "pagecase": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "pagecase",
       "lastPush": "2026-05-21",
       "license": "MIT",
@@ -5437,6 +5816,9 @@
     },
     "paperclip": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "paperclip",
       "lastPush": "2026-05-29",
       "license": "MIT",
@@ -5453,6 +5835,9 @@
     },
     "paperclip-wallet": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "paperclip-wallet",
       "lastPush": "2026-11-20",
       "license": "MIT",
@@ -5550,6 +5935,9 @@
     },
     "peerswap": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "peerswap",
       "lastPush": "2026-08-27",
       "license": "mit",
@@ -5587,6 +5975,9 @@
     },
     "penpot": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "penpot",
       "lastPush": "2026-11-16",
       "license": "MPL-2.0",
@@ -5625,6 +6016,9 @@
     },
     "photon": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "photon",
       "lastPush": "2026-11-14",
       "license": "Apache-2.0",
@@ -5641,6 +6035,9 @@
     },
     "pia": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "pia",
       "lastPush": "2026-11-11",
       "license": "MIT",
@@ -5759,6 +6156,9 @@
     },
     "privatebin": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "privatebin",
       "lastPush": "2026-11-13",
       "license": "Zlib",
@@ -5775,6 +6175,9 @@
     },
     "proof-of-basis": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "proof-of-basis",
       "lastPush": "2026-10-31",
       "license": "MIT",
@@ -5861,13 +6264,13 @@
         "https://github.com/Start9-Community/public-pool-web-startos"
       ],
       "registries": {
-        "community": "0.2.0:4",
-        "community-beta": "0.2.0:4"
+        "community": "0.2.0:5",
+        "community-beta": "0.2.0:5"
       },
       "replaces": "—",
       "short": "Modern web interface for managing your Public Pool's data",
       "title": "Public Pool's Web",
-      "updated": "2026-10-09",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/martinbarilik/public-pool-web"
     },
     "pushtx": {
@@ -5892,6 +6295,9 @@
     },
     "pyblock-miner": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "pyblock-miner",
       "lastPush": "2026-09-21",
       "license": "MIT",
@@ -5990,6 +6396,9 @@
     },
     "rakazo": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "rakazo",
       "lastPush": "2026-10-19",
       "license": "Apache-2.0",
@@ -6006,6 +6415,9 @@
     },
     "ratum-gateway": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "ratum-gateway",
       "lastPush": "2026-11-18",
       "license": "AGPL-3.0",
@@ -6124,6 +6536,9 @@
     },
     "roblosats": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "roblosats",
       "lastPush": "2026-11-20",
       "license": "AGPL-V3",
@@ -6140,6 +6555,9 @@
     },
     "roblosats-coordinator": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "roblosats-coordinator",
       "lastPush": "2026-11-20",
       "license": "AGPL-3.0",
@@ -6177,6 +6595,9 @@
     },
     "robosats-watcher": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "robosats-watcher",
       "lastPush": "2026-05-19",
       "license": "MIT",
@@ -6236,6 +6657,9 @@
     },
     "routstr": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "routstr",
       "lastPush": "2026-06-13",
       "license": "MIT",
@@ -6249,6 +6673,24 @@
       "title": "Routstrd",
       "updated": "2026-06-13",
       "upstreamRepo": "https://github.com/routstr/routstrd"
+    },
+    "rrc-hub": {
+      "categories": [],
+      "forges": [
+        "GitHub"
+      ],
+      "id": "rrc-hub",
+      "lastPush": "2026-11-20",
+      "license": "MIT",
+      "otherRepos": [],
+      "packageRepos": [
+        "https://github.com/The-Cryptosquid/rrc-hub-startos"
+      ],
+      "registries": {},
+      "short": "RRC Hub: Reticulum Community Channels (rrcd) packaged for StartOS",
+      "title": "RRC Hub: Reticulum Community Channels",
+      "updated": "2026-11-20",
+      "upstreamRepo": "https://github.com/kc1awv/rrcd"
     },
     "rustdesk-server": {
       "categories": [
@@ -6294,6 +6736,9 @@
     },
     "sabi9": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "sabi9",
       "lastPush": "2026-07-28",
       "license": "MIT",
@@ -6310,6 +6755,9 @@
     },
     "satd": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "satd",
       "lastPush": "2026-10-16",
       "license": "MIT",
@@ -6326,6 +6774,9 @@
     },
     "satori": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "satori",
       "lastPush": "2026-08-02",
       "license": "MIT",
@@ -6342,6 +6793,9 @@
     },
     "satsage": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "satsage",
       "lastPush": "2026-10-26",
       "license": "MIT",
@@ -6358,6 +6812,9 @@
     },
     "scoredrop": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "scoredrop",
       "lastPush": "2026-10-31",
       "license": "MIT",
@@ -6384,12 +6841,12 @@
       ],
       "registries": {
         "community": "0.1.73:1",
-        "community-beta": "0.1.73:1"
+        "community-beta": "0.1.73:2"
       },
       "replaces": "—",
       "short": "Design Bitcoin miniscript policies, then build and send",
       "title": "Scriptwerk",
-      "updated": "2026-10-22",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/kwadde-cmyk/scriptwerk-startos"
     },
     "searxng": {
@@ -6433,6 +6890,9 @@
     },
     "seerrng": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "seerrng",
       "lastPush": "2026-11-05",
       "license": "MIT",
@@ -6489,6 +6949,9 @@
     },
     "siftstr": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "siftstr",
       "lastPush": "2026-10-22",
       "license": "AGPL-3.0",
@@ -6525,6 +6988,9 @@
     },
     "signet": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "signet",
       "lastPush": "2026-06-29",
       "license": "MIT",
@@ -6581,6 +7047,9 @@
     },
     "slskd": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "slskd",
       "lastPush": "2026-11-10",
       "license": "AGPL-3.0",
@@ -6597,6 +7066,9 @@
     },
     "slskdn": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "slskdn",
       "lastPush": "2026-11-05",
       "license": "AGPL-3.0",
@@ -6613,6 +7085,9 @@
     },
     "snikket": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "snikket",
       "lastPush": "2026-10-07",
       "license": "AGPL-3.0",
@@ -6651,6 +7126,9 @@
     },
     "solidtime": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "solidtime",
       "lastPush": "2026-11-13",
       "license": "AGPL-3.0",
@@ -6687,6 +7165,9 @@
     },
     "sovereign-swap-client": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "sovereign-swap-client",
       "lastPush": "2026-11-20",
       "license": "AGPL-3.0-or-later",
@@ -6703,6 +7184,9 @@
     },
     "sovereign-swap-relay": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "sovereign-swap-relay",
       "lastPush": "2026-11-19",
       "license": "AGPL-3.0-or-later",
@@ -6739,6 +7223,9 @@
     },
     "spaces-hex-tool": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "spaces-hex-tool",
       "lastPush": "2026-03-29",
       "license": "MIT",
@@ -6775,6 +7262,9 @@
     },
     "spcommit-checkpoint": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "spcommit-checkpoint",
       "lastPush": "2026-09-02",
       "license": "MIT",
@@ -6800,17 +7290,20 @@
         "https://github.com/Start9-Community/specter-startos"
       ],
       "registries": {
-        "community": "2.1.11:2",
-        "community-beta": "2.1.11:2"
+        "community": "2.1.11:3",
+        "community-beta": "2.1.11:3"
       },
       "replaces": "—",
       "short": "A Bitcoin wallet UI focused on multisig and hardware wallet workflows.",
       "title": "Specter",
-      "updated": "2026-10-24",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/cryptoadvance/specter-desktop"
     },
     "splayed": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "splayed",
       "lastPush": "2026-11-14",
       "license": "MIT",
@@ -7036,8 +7529,11 @@
     },
     "strfry": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "strfry",
-      "lastPush": "2026-11-14",
+      "lastPush": "2026-11-20",
       "license": "GPL-3.0",
       "otherRepos": [],
       "packageRepos": [
@@ -7047,11 +7543,14 @@
       "replaces": "—",
       "short": "strfry packaged for StartOS",
       "title": "strfry",
-      "updated": "2026-11-14",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/hoytech/strfry"
     },
     "supabase": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "supabase",
       "lastPush": "2026-03-24",
       "license": "MIT",
@@ -7068,6 +7567,9 @@
     },
     "swap-controller": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "swap-controller",
       "lastPush": "2026-11-15",
       "license": "MIT",
@@ -7084,6 +7586,9 @@
     },
     "swapsha": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "swapsha",
       "lastPush": "2026-11-11",
       "license": "AGPL-3.0",
@@ -7120,6 +7625,9 @@
     },
     "syslog-collector": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "syslog-collector",
       "lastPush": "2026-10-15",
       "license": "MIT",
@@ -7136,6 +7644,9 @@
     },
     "taiga": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "taiga",
       "lastPush": "2026-06-19",
       "license": "AGPL-3.0-only",
@@ -7161,17 +7672,20 @@
         "https://github.com/Start9-Community/tailscale-startos"
       ],
       "registries": {
-        "community": "1.104.7:0",
-        "community-beta": "1.104.7:0"
+        "community": "1.104.7:1",
+        "community-beta": "1.104.7:1"
       },
       "replaces": "—",
       "short": "Tailscale Serve and Funnel for your StartOS service interfaces",
       "title": "Tailscale",
-      "updated": "2026-11-13",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/tailscale/tailscale"
     },
     "teapot": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "teapot",
       "lastPush": "2026-10-24",
       "license": "AGPL-3.0-only",
@@ -7188,6 +7702,9 @@
     },
     "test": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "test",
       "lastPush": "2025-12-21",
       "license": "MIT",
@@ -7224,6 +7741,9 @@
     },
     "thunderhub-xbt": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "thunderhub-xbt",
       "lastPush": "2026-11-11",
       "license": "MIT",
@@ -7240,6 +7760,9 @@
     },
     "todo": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "todo",
       "lastPush": "2026-04-21",
       "license": "MIT",
@@ -7256,6 +7779,9 @@
     },
     "todo-back": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "todo-back",
       "lastPush": "2026-08-09",
       "license": "MIT",
@@ -7314,6 +7840,9 @@
     },
     "trilium": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "trilium",
       "lastPush": "2026-10-15",
       "license": "AGPL-3.0",
@@ -7353,6 +7882,9 @@
     },
     "twenty": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "twenty",
       "lastPush": "2026-10-17",
       "license": "AGPL-3.0",
@@ -7370,6 +7902,9 @@
     },
     "umami": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "umami",
       "lastPush": "2026-11-12",
       "license": "MIT",
@@ -7396,18 +7931,21 @@
         "https://github.com/Start9-Community/umbrel-bitcoin-ui-startos"
       ],
       "registries": {
-        "community": "1.1.0:16",
-        "community-beta": "1.1.0:16",
+        "community": "1.1.0:17",
+        "community-beta": "1.1.0:17",
         "mempool-guide": "1.1.0:8"
       },
       "replaces": "—",
       "short": "User interface for Bitcoin.",
       "title": "Umbrel Bitcoin UI",
-      "updated": "2026-10-24",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/Retropex/umbrel-bitcoin"
     },
     "unifi-network-application": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "unifi-network-application",
       "lastPush": "2026-08-16",
       "license": "MIT",
@@ -7444,6 +7982,9 @@
     },
     "urbit": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "urbit",
       "lastPush": "2026-09-05",
       "license": "MIT",
@@ -7469,17 +8010,20 @@
         "https://github.com/Start9-Community/utxoracle-startos"
       ],
       "registries": {
-        "community": "0.9.6:9",
-        "community-beta": "0.9.6:9"
+        "community": "0.9.6:11",
+        "community-beta": "0.9.6:11"
       },
       "replaces": "—",
       "short": "Decentralized bitcoin price estimates from local chain data",
       "title": "UTXOracle",
-      "updated": "2026-10-09",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://utxo.live/oracle"
     },
     "valheim-server": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "valheim-server",
       "lastPush": "2026-09-23",
       "license": "MIT",
@@ -7516,6 +8060,9 @@
     },
     "veilid": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "veilid",
       "lastPush": "2026-11-11",
       "license": "MPL-2.0",
@@ -7532,6 +8079,9 @@
     },
     "verge": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "verge",
       "lastPush": "2026-05-30",
       "license": "MIT",
@@ -7619,14 +8169,14 @@
         "https://github.com/Start9-Community/wasabi-webtop-startos"
       ],
       "registries": {
-        "community": "2.8.5:1",
-        "community-beta": "2.8.5:1",
+        "community": "2.8.5:2",
+        "community-beta": "2.8.5:2",
         "testnet4": "2.8.5:1"
       },
       "replaces": "—",
       "short": "Wasabi Wallet - The Privacy focused Bitcoin wallet",
       "title": "Wasabi Wallet",
-      "updated": "2026-11-13",
+      "updated": "2026-11-20",
       "upstreamRepo": "https://github.com/WalletWasabi/WalletWasabi"
     },
     "wireguard": {
@@ -7676,6 +8226,9 @@
     },
     "wordpress": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "wordpress",
       "lastPush": "2026-11-04",
       "license": "GPL-2.0-or-later",
@@ -7692,6 +8245,9 @@
     },
     "ytptube": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "ytptube",
       "lastPush": "2026-11-15",
       "license": "MIT",
@@ -7708,6 +8264,9 @@
     },
     "zebrad": {
       "categories": [],
+      "forges": [
+        "GitHub"
+      ],
       "id": "zebrad",
       "lastPush": "2026-11-15",
       "license": "MIT",

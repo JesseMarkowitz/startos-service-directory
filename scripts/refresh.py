@@ -125,6 +125,29 @@ def fetch_registry(reg: dict) -> tuple[str, dict | None, str | None]:
     return reg["slug"], out, None
 
 
+def back_light_icon(path: Path) -> None:
+    """Icons drawn for StartOS's dark UI (light strokes on transparency) vanish on a white page.
+    Put those, and only those, on a dark rounded square. Needs Pillow; skipped without it."""
+    try:
+        from PIL import Image, ImageDraw
+    except ImportError:
+        return
+    if path.suffix.lower() not in (".png", ".webp", ".gif", ".jpg"):
+        return
+    im = Image.open(path).convert("RGBA")
+    px = [p for p in getattr(im, "get_flattened_data", im.getdata)() if p[3] > 20]
+    if not px or len(px) / (im.width * im.height) > 0.7:
+        return  # mostly opaque: it brings its own background
+    lum = sum(0.299 * r + 0.587 * g + 0.114 * b for r, g, b, _ in px) / len(px)
+    if lum < 180:
+        return
+    w, h = im.size
+    bg = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    ImageDraw.Draw(bg).rounded_rectangle([0, 0, w - 1, h - 1], radius=w // 6, fill=(36, 41, 47, 255))
+    bg.alpha_composite(im)
+    bg.save(path.with_suffix(".png"))
+
+
 def fetch_info(reg: dict) -> None:
     """Save the registry's self-description to data/registry-info/<slug>.json and its icon to
     data/registry-icons/. On failure the previous files are kept."""
@@ -144,6 +167,7 @@ def fetch_info(reg: dict) -> None:
             old.unlink()
         icon_file = f"{reg['slug']}.{ext}"
         (ICONS / icon_file).write_bytes(base64.b64decode(m.group(2)))
+        back_light_icon(ICONS / icon_file)
     desc = en(r.get("description"))
     write_json(INFO / f"{reg['slug']}.json", {
         "name": r.get("name"),
@@ -171,62 +195,139 @@ def refresh_registries(registries: list[dict]) -> dict:
     return status
 
 
-# ---------------------------------------------------------------- github
+# ---------------------------------------------------------------- code hosts
+# Each host is searched for public repositories named *-startos. A host that refuses or fails the
+# search keeps its repositories from the previous run, so an outage never empties the list.
 
-def gh_token() -> str:
+def gh_token() -> str | None:
     t = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
     if t:
         return t
     try:
         return subprocess.run(["gh", "auth", "token"], capture_output=True, text=True, check=True).stdout.strip()
     except Exception:  # noqa: BLE001
-        sys.exit("No GitHub token: set GITHUB_TOKEN or log in with `gh auth login`.")
+        return None
 
 
-class GH:
-    def __init__(self, token: str):
-        self.h = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json",
-                  "X-GitHub-Api-Version": "2022-11-28"}
+class Forge:
+    """A public code host. Subclasses implement search(), root(), raw()."""
+    host = name = ""
+    headers: dict = {}
 
-    def get(self, path: str, **params):
+    def get(self, url: str, **params):
         q = ("?" + urllib.parse.urlencode(params)) if params else ""
-        return http_json(f"https://api.github.com{path}{q}", headers=self.h)
+        return http_json(url + q, headers=self.headers)
 
-    def raw(self, repo: str, path: str) -> str | None:
-        try:
-            r = self.get(f"/repos/{repo}/contents/{path}")
-        except urllib.error.HTTPError as e:
-            if e.code == 404:
-                return None
-            raise
+    def key(self, full_name: str) -> str:
+        return f"{self.host}/{full_name}"
+
+
+class GitHub(Forge):
+    host, name = "github.com", "GitHub"
+
+    def __init__(self):
+        t = gh_token()
+        if not t:
+            raise RuntimeError("no GitHub token (set GITHUB_TOKEN or `gh auth login`)")
+        self.headers = {"Authorization": f"Bearer {t}", "Accept": "application/vnd.github+json",
+                        "X-GitHub-Api-Version": "2022-11-28"}
+
+    def search(self) -> list[dict]:
+        out, page = [], 1
+        while True:
+            # is:public matters: an authenticated search also returns the token owner's private repos
+            r = self.get("https://api.github.com/search/repositories",
+                         q="startos in:name is:public", per_page=100, page=page)
+            for it in r.get("items", []):
+                if it.get("private"):
+                    continue
+                out.append({"fullName": it["full_name"], "name": it["name"], "pushedAt": it["pushed_at"],
+                            "archived": it["archived"], "fork": it["fork"],
+                            "description": it.get("description"), "url": it["html_url"]})
+            if len(r.get("items", [])) < 100 or page >= 10:
+                if r.get("total_count", 0) > 1000:
+                    print(f"WARNING: {r['total_count']} GitHub results; search caps at 1000", file=sys.stderr)
+                return out
+            page += 1
+
+    def root(self, repo: dict) -> set[str]:
+        r = self.get(f"https://api.github.com/repos/{repo['fullName']}/contents")
+        return {x["name"] for x in r} if isinstance(r, list) else set()
+
+    def raw(self, repo: dict, path: str) -> str | None:
+        import base64
+        r = self.get(f"https://api.github.com/repos/{repo['fullName']}/contents/{path}")
         if isinstance(r, dict) and r.get("encoding") == "base64":
-            import base64
             return base64.b64decode(r["content"]).decode("utf-8", "replace")
         return None
 
 
-def search_startos_repos(gh: GH) -> list[dict]:
-    repos, page = [], 1
-    while True:
-        r = gh.get("/search/repositories", q="startos in:name is:public", per_page=100, page=page)
-        items = r.get("items", [])
-        repos += items
-        if len(items) < 100 or page >= 10:
-            if r.get("total_count", 0) > 1000:
-                print(f"WARNING: {r['total_count']} results; GitHub search caps at 1000", file=sys.stderr)
-            break
-        page += 1
-    seen, out = set(), []
-    for it in repos:
-        fn = it["full_name"]
-        if fn in seen or "-startos" not in it["name"].lower() or it.get("private"):
-            continue
-        seen.add(fn)
-        out.append({"fullName": fn, "pushedAt": it["pushed_at"], "archived": it["archived"],
-                    "fork": it["fork"], "description": it.get("description"),
-                    "url": it["html_url"]})
-    return out
+class GitLab(Forge):
+    host, name = "gitlab.com", "GitLab"
+    api = "https://gitlab.com/api/v4"
 
+    def search(self) -> list[dict]:
+        out, page = [], 1
+        while True:
+            r = self.get(f"{self.api}/projects", search="startos", per_page=100, page=page)
+            for it in r:
+                if it.get("visibility", "public") != "public":
+                    continue
+                out.append({"fullName": it["path_with_namespace"], "name": it["path"],
+                            "pushedAt": it["last_activity_at"], "archived": bool(it.get("archived")),
+                            "fork": bool(it.get("forked_from_project")), "id": it["id"],
+                            "branch": it.get("default_branch"),
+                            "description": it.get("description"), "url": it["web_url"]})
+            if len(r) < 100 or page >= 10:
+                return out
+            page += 1
+
+    def root(self, repo: dict) -> set[str]:
+        r = self.get(f"{self.api}/projects/{repo['id']}/repository/tree", per_page=100)
+        return {x["name"] for x in r}
+
+    def raw(self, repo: dict, path: str) -> str | None:
+        url = (f"{self.api}/projects/{repo['id']}/repository/files/"
+               f"{urllib.parse.quote(path, safe='')}/raw?ref={urllib.parse.quote(repo.get('branch') or 'HEAD')}")
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=60) as f:
+            return f.read().decode("utf-8", "replace")
+
+
+class Gitea(Forge):
+    """Gitea / Forgejo API (Codeberg)."""
+
+    def __init__(self, host: str, name: str):
+        self.host, self.name, self.api = host, name, f"https://{host}/api/v1"
+
+    def search(self) -> list[dict]:
+        out, page = [], 1
+        while True:
+            r = self.get(f"{self.api}/repos/search", q="startos", limit=50, page=page)
+            items = r.get("data", [])
+            for it in items:
+                if it.get("private") or it.get("internal"):
+                    continue
+                out.append({"fullName": it["full_name"], "name": it["name"],
+                            "pushedAt": it.get("updated_at"), "archived": it.get("archived", False),
+                            "fork": it.get("fork", False), "description": it.get("description"),
+                            "url": it["html_url"], "branch": it.get("default_branch")})
+            if len(items) < 50 or page >= 20:
+                return out
+            page += 1
+
+    def root(self, repo: dict) -> set[str]:
+        r = self.get(f"{self.api}/repos/{repo['fullName']}/contents")
+        return {x["name"] for x in r} if isinstance(r, list) else set()
+
+    def raw(self, repo: dict, path: str) -> str | None:
+        req = urllib.request.Request(f"{self.api}/repos/{repo['fullName']}/raw/{path}", headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=60) as f:
+            return f.read().decode("utf-8", "replace")
+
+
+FORGES = [("GitHub", lambda: GitHub()), ("GitLab", lambda: GitLab()),
+          ("Codeberg", lambda: Gitea("codeberg.org", "Codeberg"))]
 
 MANIFEST_PATHS = ["startos/manifest/index.ts", "startos/manifest.ts"]
 
@@ -236,25 +337,30 @@ def ts_field(src: str, field: str) -> str | None:
     return m.group(2) if m else None
 
 
-def classify(gh: GH, repo: dict) -> dict:
-    fn = repo["fullName"]
+def classify(forge: Forge, repo: dict) -> dict:
+    base = {k: repo.get(k) for k in ("fullName", "url", "description", "pushedAt")}
+    base["forge"] = forge.name
     try:
-        root = gh.get(f"/repos/{fn}/contents")
+        names = forge.root(repo)
     except urllib.error.HTTPError as e:
         if e.code == 404:  # empty repository
-            return {"pushedAt": repo["pushedAt"], "kind": "empty"}
-        return {"pushedAt": repo["pushedAt"], "kind": "error", "error": f"HTTP {e.code}"}
-    names = {x["name"] for x in root} if isinstance(root, list) else set()
+            return {**base, "kind": "empty"}
+        return {**base, "kind": "error", "error": f"HTTP {e.code}"}
+    except Exception as e:  # noqa: BLE001
+        return {**base, "kind": "error", "error": type(e).__name__}
     if "startos" in names:
         kind = "v04"
     elif "manifest.yaml" in names or "manifest.yml" in names:
         kind = "v03"
     else:
         kind = "other"
-    info = {"pushedAt": repo["pushedAt"], "kind": kind}
+    info = {**base, "kind": kind}
     if kind == "v04":
         for p in MANIFEST_PATHS:
-            src = gh.raw(fn, p)
+            try:
+                src = forge.raw(repo, p)
+            except Exception:  # noqa: BLE001
+                src = None
             if src:
                 info["manifest"] = {
                     "id": ts_field(src, "id"),
@@ -267,35 +373,55 @@ def classify(gh: GH, repo: dict) -> dict:
     return info
 
 
-def refresh_github() -> tuple[list[dict], dict]:
-    gh = GH(gh_token())
-    cache_path = DATA / "github-cache.json"
-    cache = json.loads(cache_path.read_text()) if cache_path.exists() else {}
-    repos = search_startos_repos(gh)
+def load_repo_cache() -> dict:
+    path = DATA / "repo-cache.json"
+    if path.exists():
+        return json.loads(path.read_text())
+    old = DATA / "github-cache.json"  # earlier, GitHub-only format: bare owner/repo keys
+    cache = {}
+    if old.exists():
+        for fn, v in json.loads(old.read_text()).items():
+            cache[f"github.com/{fn}"] = {**v, "forge": "GitHub", "fullName": fn,
+                                         "url": f"https://github.com/{fn}"}
+        old.unlink()
+    return cache
+
+
+def refresh_forges() -> tuple[dict, dict]:
+    cache = load_repo_cache()
     cutoff = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=ACTIVE_DAYS)).isoformat()
-    active = [r for r in repos if not r["archived"] and not r["fork"] and r["pushedAt"] >= cutoff]
-    todo = [r for r in active if cache.get(r["fullName"], {}).get("pushedAt") != r["pushedAt"]
-            or cache[r["fullName"]].get("kind") == "error"]
-    print(f"github: {len(repos)} *-startos repos, {len(active)} active, {len(todo)} to (re)classify",
-          file=sys.stderr)
-    with cf.ThreadPoolExecutor(6) as ex:
-        for r, info in zip(todo, ex.map(lambda r: classify(gh, r), todo)):
-            cache[r["fullName"]] = info
-    live = {r["fullName"] for r in active}
-    cache = {k: v for k, v in cache.items() if k in live}
-    write_json(cache_path, cache)
-    return active, cache
+    status = {}
+    for label, make in FORGES:
+        try:
+            forge = make()
+            found = [r for r in forge.search() if "-startos" in r["name"].lower()]
+        except Exception as e:  # noqa: BLE001
+            err = f"HTTP {e.code}" if isinstance(e, urllib.error.HTTPError) else f"{type(e).__name__}: {e}"
+            kept = sum(1 for v in cache.values() if v.get("forge") == label)
+            status[label] = {"ok": False, "error": err[:160], "kept": kept}
+            print(f"{label}: search failed ({err[:160]}); keeping {kept} cached repos", file=sys.stderr)
+            continue
+        active = [r for r in found if not r["archived"] and not r["fork"]
+                  and (r["pushedAt"] or "") >= cutoff]
+        todo = [r for r in active if cache.get(forge.key(r["fullName"]), {}).get("pushedAt") != r["pushedAt"]
+                or cache[forge.key(r["fullName"])].get("kind") == "error"]
+        with cf.ThreadPoolExecutor(6) as ex:
+            for r, info in zip(todo, ex.map(lambda r: classify(forge, r), todo)):
+                cache[forge.key(r["fullName"])] = info
+        for r in active:  # descriptions can change without a push
+            cache[forge.key(r["fullName"])]["description"] = r["description"]
+        live = {forge.key(r["fullName"]) for r in active}
+        cache = {k: v for k, v in cache.items() if v.get("forge") != label or k in live}
+        status[label] = {"ok": True, "repos": len(found), "active": len(active)}
+        print(f"{label}: {len(found)} *-startos repos, {len(active)} active, {len(todo)} (re)classified",
+              file=sys.stderr)
+    write_json(DATA / "repo-cache.json", cache)
+    return cache, status
 
 
 # ---------------------------------------------------------------- merge + render
 
-def gh_path(url: str | None) -> str | None:
-    if url and "github.com/" in url:
-        return url.split("github.com/", 1)[1].lower()
-    return None
-
-
-def build(registries: list[dict], status: dict, active: list[dict], cache: dict, curated: dict) -> dict:
+def build(registries: list[dict], status: dict, cache: dict, curated: dict, forge_status: dict) -> dict:
     services: dict[str, dict] = {}
     for reg in registries:
         path = SNAP / f"{reg['slug']}.json"
@@ -320,27 +446,35 @@ def build(registries: list[dict], status: dict, active: list[dict], cache: dict,
             s["short"] = s["short"] or m["short"]
             s["license"] = s["license"] or m["license"]
 
-    registered = {gh_path(u) for s in services.values() for u in s["packageRepos"]}
-    by_repo = {r["fullName"]: r for r in active}
-    for fn, info in sorted(cache.items()):
-        if info.get("kind") != "v04" or fn.lower() in registered or fn not in by_repo:
+    def repo_key(url: str | None) -> str:
+        return re.sub(r"^https?://", "", url or "").rstrip("/").lower()
+
+    registered = {repo_key(u) for s in services.values() for u in s["packageRepos"]}
+    cutoff = (dt.date.today() - dt.timedelta(days=ACTIVE_DAYS)).isoformat()
+    for key, info in sorted(cache.items()):
+        if info.get("kind") != "v04" or repo_key(info["url"]) in registered:
             continue
-        repo = by_repo[fn]
+        if (info.get("pushedAt") or "")[:10] < cutoff:
+            continue  # carried over from a host that failed, but gone stale meanwhile
         man = info.get("manifest") or {}
-        repo_id = fn.split("/")[1].lower().removesuffix("-startos")
+        repo_id = info["fullName"].rsplit("/", 1)[1].lower().removesuffix("-startos")
         pid = man.get("id") or repo_id
         if pid == "hello-world" and repo_id != "hello-world":
             pid = repo_id  # template id never changed; the repo name is the better guess
         if pid in services and services[pid]["registries"]:
-            services[pid]["otherRepos"].append(repo["url"])
+            services[pid]["otherRepos"].append(info["url"])
             continue
         s = services.setdefault(pid, {"id": pid, "title": man.get("title") or pid,
-                                      "short": repo["description"], "license": man.get("license"),
+                                      "short": info.get("description"), "license": man.get("license"),
                                       "categories": [], "registries": {}, "packageRepos": [],
-                                      "upstreamRepo": None, "otherRepos": [], "lastPush": None})
-        s["packageRepos"].append(repo["url"])
+                                      "upstreamRepo": None, "otherRepos": [], "lastPush": None,
+                                      "forges": []})
+        s["packageRepos"].append(info["url"])
+        if info["forge"] not in s["forges"]:
+            s["forges"].append(info["forge"])
+        s["short"] = s["short"] or info.get("description")
         s["upstreamRepo"] = s["upstreamRepo"] or man.get("upstreamRepo")
-        s["lastPush"] = max(filter(None, [s.get("lastPush"), repo["pushedAt"][:10]]))
+        s["lastPush"] = max(filter(None, [s.get("lastPush"), info["pushedAt"][:10]]))
         s["updated"] = s["lastPush"]
 
     for pid, c in curated.items():
@@ -355,7 +489,7 @@ def build(registries: list[dict], status: dict, active: list[dict], cache: dict,
     for s in services.values():
         s["packageRepos"].sort()
         s["otherRepos"].sort()
-    return {"registries": status, "services": dict(sorted(services.items()))}
+    return {"registries": status, "forges": forge_status, "services": dict(sorted(services.items()))}
 
 
 def link(url: str | None) -> str:
@@ -379,22 +513,28 @@ def render(result: dict, registries: list[dict], as_of: str, embed: bool = False
 
     def row(s, registered: bool):
         title = f"**{cell(s['title'])}**" + (f"<br>{cell(s['short'])}" if s.get("short") else "")
-        where = "<br>".join(names[k] for k in names if k in s["registries"]) if registered else "GitHub only"
+        where = ("<br>".join(names[k] for k in names if k in s["registries"]) if registered
+                 else "<br>".join(s.get("forges") or ["GitHub"]))
         pkg = "<br>".join(link(u) for u in s["packageRepos"]) or "—"
         rep = cell(s.get("replaces")) or ""
         if s.get("note"):
             rep += ("<br>" if rep else "") + f"_{cell(s['note'])}_"
         upd = (s.get("updated") or "—").replace("-", "&#8209;")  # non-breaking hyphens
-        return f"| {title} | {where} | {pkg} | {link(s['upstreamRepo'])} | {rep or '—'} | {upd} |"
+        return f"| {title} | {where} | {pkg} | {upd} |"
 
-    hdr = ("| Service | Found on | StartOS package repo | Upstream project | Open-source alternative to | Updated |\n"
-           "|---|---|---|---|---|---|")
+    # Upstream and alternative-to stay in data/services.json; the table stays narrow without them.
+    hdr = ("| Service | Found on | StartOS package repo | Updated |\n"
+           "|---|---|---|---|")
     parts = [
         title,
         "",
         f"**Jump to:** [Registries ({len(registries)})](#registries) · "
         f"[Services on a registry ({len(on_reg)})](#services-on-a-registry) · "
-        f"[Services on GitHub only ({len(gh_only)})](#services-on-github-only)",
+        f"[Services not on any registry ({len(gh_only)})](#services-not-on-any-registry)",
+        "",
+        "> [!TIP]",
+        "> Looking for something? Use your browser's Find (**Ctrl+F**, or **⌘F** on a Mac) and type a "
+        "service name, a registry name, a category, or a word like *bitcoin* or *photos*.",
         rest,
         "",
         f"_List generated {as_of}._",
@@ -418,17 +558,36 @@ def render(result: dict, registries: list[dict], as_of: str, embed: bool = False
         hdr,
         *[row(s, True) for s in sorted(on_reg, key=lambda s: s["title"].lower())],
         "",
-        "## Services on GitHub only",
+        "## Services not on any registry",
         "",
         "Public `*-startos` repositories that target StartOS 0.4, were pushed to in the last 12 months, "
         "and are not on any registry above. You would have to build and sideload these yourself. "
         "Older 0.3.x wrappers are left out. _Updated: the repository's last push._",
+        "",
+        "Code hosts searched:",
+        "",
+        *forge_lines(result),
         "",
         hdr,
         *[row(s, False) for s in sorted(gh_only, key=lambda s: s["title"].lower())],
         "",
     ]
     return "\n".join(parts)
+
+
+def forge_lines(result: dict) -> list[str]:
+    urls = {"GitHub": "https://github.com", "GitLab": "https://gitlab.com", "Codeberg": "https://codeberg.org"}
+    lines = []
+    for label, _ in FORGES:
+        st = result.get("forges", {}).get(label)
+        if not st:
+            state = "not checked yet"
+        elif st.get("ok"):
+            state = f"{st['active']} active of {st['repos']} `*-startos` repositories found"
+        else:
+            state = f"⚠️ the search was refused or failed at the last check; {st.get('kept', 0)} repositories kept from earlier"
+        lines.append(f"- [{label}]({urls[label]}): {state}")
+    return lines
 
 
 def registry_table(result: dict, registries: list[dict], embed: bool = False) -> list[str]:
@@ -476,7 +635,7 @@ def registry_table(result: dict, registries: list[dict], embed: bool = False) ->
         rows.append(f"| {icon} | {name} | {cell(signers)} | {n or '—'} | {cats} |")
     # Invisible header that cannot wrap: it holds the icon column open. An image alone in a column
     # is capped at max-width:100% of a column that then sizes itself to 0 (GitHub and MarkoPad).
-    return ["| " + "&nbsp;" * 14 + " | Registry | Trusted signers | Svcs | Categories |",
+    return ["| " + "&nbsp;" * 5 + "Icon" + "&nbsp;" * 5 + " | Registry Name | Trusted signers | Svcs | Categories |",
             "|---|---|---|---|---|", *rows]
 
 
@@ -487,18 +646,12 @@ def main():
     offline = "--offline" in sys.argv  # re-render from existing data only
     if offline:
         prev = json.loads((DATA / "services.json").read_text())
-        status = prev["registries"]
-        cache = json.loads((DATA / "github-cache.json").read_text())
-        active = [{"fullName": k, "pushedAt": v["pushedAt"], "description": None,
-                   "url": f"https://github.com/{k}"} for k, v in cache.items()]
-        # keep descriptions from the previous build
-        desc = {u: s.get("short") for s in prev["services"].values() for u in s["packageRepos"]}
-        for a in active:
-            a["description"] = desc.get(a["url"])
+        status, forge_status = prev["registries"], prev.get("forges", {})
+        cache = load_repo_cache()
     else:
         status = refresh_registries(registries)
-        active, cache = refresh_github()
-    result = build(registries, status, active, cache, curated)
+        cache, forge_status = refresh_forges()
+    result = build(registries, status, cache, curated, forge_status)
     as_of_path = DATA / "as-of.txt"
     data_changed = write_json(DATA / "services.json", result)
     if data_changed or not as_of_path.exists():

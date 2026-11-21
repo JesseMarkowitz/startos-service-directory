@@ -139,7 +139,7 @@
     "short": "An implementation of the Lightning Network protocol by Blockstream.",
     "title": "Core Lightning",
     "upstreamRepo": "https://github.com/ElementsProject/lightning",
-    "version": "26.6.10:7"
+    "version": "26.6.10:8"
   },
   "cal-diy": {
     "categories": [
