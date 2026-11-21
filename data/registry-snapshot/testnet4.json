@@ -25,11 +25,11 @@
     "license": "MIT",
     "marketingUrl": "https://bitaxe.org/",
     "packageRepo": "https://github.com/Start9-Community/axeos-monitor-aio-startos",
-    "published": "2026-11-08",
+    "published": "2026-11-21",
     "short": "Grafana dashboards for the Bitaxe miners on your network",
     "title": "AxeOS Monitor",
     "upstreamRepo": "https://github.com/bitaxeorg/ESP-Miner",
-    "version": "1.0.0:9"
+    "version": "1.0.0:10"
   },
   "bitcoind-testnet": {
     "categories": [
@@ -78,11 +78,11 @@
     "license": "Apache-2.0",
     "marketingUrl": "https://github.com/sparrowwallet/frigate",
     "packageRepo": "https://github.com/Start9-Community/frigate-startos",
-    "published": "2026-11-18",
+    "published": "2026-11-21",
     "short": "Electrum server with Silent Payments scanning",
     "title": "Frigate Electrum Server",
     "upstreamRepo": "https://github.com/sparrowwallet/frigate",
-    "version": "1.6.1:5"
+    "version": "1.6.1:7"
   },
   "fulcrum-testnet": {
     "categories": [
@@ -185,11 +185,11 @@
     "license": "MIT",
     "marketingUrl": "https://wasabiwallet.io/",
     "packageRepo": "https://github.com/Start9-Community/wasabi-webtop-startos",
-    "published": "2026-11-13",
+    "published": "2026-11-21",
     "short": "Wasabi Wallet - The Privacy focused Bitcoin wallet",
     "title": "Wasabi Wallet",
     "upstreamRepo": "https://github.com/WalletWasabi/WalletWasabi",
-    "version": "2.8.5:1"
+    "version": "2.8.5:2"
   },
   "wireguard": {
     "categories": [

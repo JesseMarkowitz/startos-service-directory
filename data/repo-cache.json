@@ -885,7 +885,7 @@
       "title": "Roblosats Coordinator",
       "upstreamRepo": "https://github.com/Kilombino/roblosats"
     },
-    "pushedAt": "2026-11-20T16:28:14Z",
+    "pushedAt": "2026-11-21T09:53:54Z",
     "url": "https://github.com/Kilombino/roblosats-coordinator-startos"
   },
   "github.com/Kilombino/roblosats-startos": {
@@ -900,7 +900,7 @@
       "title": "Roblosats",
       "upstreamRepo": "https://github.com/Kilombino/roblosats"
     },
-    "pushedAt": "2026-11-20T16:21:24Z",
+    "pushedAt": "2026-11-21T09:44:10Z",
     "url": "https://github.com/Kilombino/roblosats-startos"
   },
   "github.com/Kilombino/thunderhub-xbt-startos": {
@@ -1020,7 +1020,7 @@
       "title": "Monetary View",
       "upstreamRepo": "https://github.com/MarkSierra/BitcoinMonetaryView"
     },
-    "pushedAt": "2026-11-10T15:54:57Z",
+    "pushedAt": "2026-11-21T02:14:24Z",
     "url": "https://github.com/MarkSierra/BitcoinMonetaryView-startos"
   },
   "github.com/Maveth/datum-gateway-startos": {
@@ -1130,10 +1130,10 @@
     "pushedAt": "2026-06-02T16:37:22Z",
     "url": "https://github.com/Retropex/umbrel-bitcoin-ui-startos"
   },
-  "github.com/Scott-Sanderson/minecraft-startos": {
+  "github.com/Scott-Sanderson/minecraft-startos-java-security": {
     "description": "minecraft server package for StartOS",
     "forge": "GitHub",
-    "fullName": "Scott-Sanderson/minecraft-startos",
+    "fullName": "Scott-Sanderson/minecraft-startos-java-security",
     "kind": "v04",
     "manifest": {
       "id": "minecraft",
@@ -1142,8 +1142,8 @@
       "title": "Minecraft Server",
       "upstreamRepo": "https://github.com/itzg/docker-minecraft-server"
     },
-    "pushedAt": "2026-11-01T01:48:13Z",
-    "url": "https://github.com/Scott-Sanderson/minecraft-startos"
+    "pushedAt": "2026-11-21T02:33:38Z",
+    "url": "https://github.com/Scott-Sanderson/minecraft-startos-java-security"
   },
   "github.com/Spectre-Works/spectreworks-startos-registry": {
     "description": "Management, deployment configuration, and upstream release monitoring for the SPECTRE WORKS XBT StartOS registry.",
@@ -3003,7 +3003,7 @@
       "title": "route96 (Blossom)",
       "upstreamRepo": "https://github.com/v0l/route96"
     },
-    "pushedAt": "2026-11-17T18:29:25Z",
+    "pushedAt": "2026-11-21T07:44:19Z",
     "url": "https://github.com/alru78/route96-startos"
   },
   "github.com/alru78/tor-node-startos": {
@@ -3661,7 +3661,7 @@
       "title": "Fleet Manager",
       "upstreamRepo": "https://github.com/fedibtc/manifold"
     },
-    "pushedAt": "2026-11-20T20:51:04Z",
+    "pushedAt": "2026-11-21T02:02:59Z",
     "url": "https://github.com/elsiribot/manifold-startos"
   },
   "github.com/epochbtc/satd-startos": {
@@ -4800,7 +4800,7 @@
       "title": "Datum Gateway (BLAKE2b) Companion",
       "upstreamRepo": "https://github.com/OCEAN-xyz/datum_gateway"
     },
-    "pushedAt": "2026-11-18T02:41:58Z",
+    "pushedAt": "2026-11-21T04:01:39Z",
     "url": "https://github.com/paulscode/datum-blake2b-startos"
   },
   "github.com/paulscode/datum-gateway-blake2b-startos": {
@@ -4958,7 +4958,7 @@
       "title": "Bitcoin Knots (BLAKE2b) Companion",
       "upstreamRepo": "https://github.com/bitcoinknots/bitcoin"
     },
-    "pushedAt": "2026-11-13T22:26:06Z",
+    "pushedAt": "2026-11-21T04:01:25Z",
     "url": "https://github.com/paulscode/knots-blake2b-startos"
   },
   "github.com/paulscode/knots-prerdts-startos": {
@@ -5162,7 +5162,7 @@
       "title": "AxeOS Monitor",
       "upstreamRepo": "https://github.com/bitaxeorg/ESP-Miner"
     },
-    "pushedAt": "2026-11-08T15:06:50Z",
+    "pushedAt": "2026-11-21T07:27:39Z",
     "url": "https://github.com/remcoros/axeos-monitor-aio-startos"
   },
   "github.com/remcoros/buzz-startos": {
@@ -5222,7 +5222,7 @@
       "title": "Frigate Electrum Server",
       "upstreamRepo": "https://github.com/sparrowwallet/frigate"
     },
-    "pushedAt": "2026-11-18T16:59:09Z",
+    "pushedAt": "2026-11-21T07:27:45Z",
     "url": "https://github.com/remcoros/frigate-startos"
   },
   "github.com/remcoros/public-pool-startos": {
@@ -5335,7 +5335,7 @@
       "title": "Wasabi Wallet",
       "upstreamRepo": "https://github.com/WalletWasabi/WalletWasabi"
     },
-    "pushedAt": "2026-11-13T16:35:18Z",
+    "pushedAt": "2026-11-21T07:27:58Z",
     "url": "https://github.com/remcoros/wasabi-webtop-startos"
   },
   "github.com/remcoros/wireguard-startos": {
