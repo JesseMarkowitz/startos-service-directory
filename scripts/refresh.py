@@ -487,8 +487,14 @@ def build(registries: list[dict], status: dict, cache: dict, curated: dict, forg
         for k in ("replaces", "note", "exclude"):
             if k in c:
                 s[k] = c[k]
+        if c.get("short") and not s["registries"]:
+            s["short"] = c["short"]  # a registry's own description always wins
         if c.get("upstream"):
             s["upstreamRepo"] = c["upstream"]
+    for s in services.values():
+        # A manifest still titled "Hello World" was never finished; leave it off the list.
+        if s["title"].strip().lower() == "hello world":
+            s.setdefault("exclude", "manifest is still titled Hello World")
     for s in services.values():
         s["packageRepos"].sort()
         s["otherRepos"].sort()

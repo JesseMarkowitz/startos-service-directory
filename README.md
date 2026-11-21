@@ -1,6 +1,6 @@
 # StartOS Service Directory
 
-**Browse all 409 services:** [jessemarkowitz.github.io/startos-service-directory](https://jessemarkowitz.github.io/startos-service-directory/) (search, filter, sort, choose columns) · **Download:** [CSV](data/services.csv) · [JSON](data/services.json)
+**Browse all 389 services:** [jessemarkowitz.github.io/startos-service-directory](https://jessemarkowitz.github.io/startos-service-directory/) (search, filter, sort, choose columns) · **Download:** [CSV](data/services.csv) · [JSON](data/services.json)
 
 > [!TIP]
 > Looking for something? Open the [service list](https://jessemarkowitz.github.io/startos-service-directory/) and type a service name, a registry name, a category, or a word like *bitcoin* or *photos* into its filter box.
@@ -28,7 +28,8 @@ Start9 Labs; the names of other products appear only to identify them.
 - **Code hosts.** [GitHub](https://github.com), [GitLab](https://gitlab.com) and
   [Codeberg](https://codeberg.org) are searched for public repositories named `*-startos`. That
   adds packages that aren't on any registry, as long as they target StartOS 0.4 and were pushed to
-  in the last 12 months. Know of another public code host worth searching? Open an issue.
+  in the last 12 months. Repos whose manifest is still titled "Hello World" are left
+  out as unfinished. Know of another public code host worth searching? Open an issue.
 - **"Open-source alternative to"** entries are written by hand in [`curated.toml`](curated.toml) and are
   opinion, not a feature-for-feature claim.
 - A scheduled GitHub Action reruns the refresh daily and keeps one pull request open with every change not yet merged.
@@ -75,7 +76,7 @@ _Table as of 2026-11-21. ⚠️ the registry did not answer at the last check (l
 
 ## Services
 
-The full list of 409 services is on the site: [jessemarkowitz.github.io/startos-service-directory](https://jessemarkowitz.github.io/startos-service-directory/). 243 are on at least one registry above; 166 are public `*-startos` repositories that target StartOS 0.4, were pushed to in the last 12 months, and are not on any registry (you would have to build and sideload these yourself; older 0.3.x wrappers are left out). The same data is in [`data/services.csv`](data/services.csv) and [`data/services.json`](data/services.json).
+The full list of 389 services is on the site: [jessemarkowitz.github.io/startos-service-directory](https://jessemarkowitz.github.io/startos-service-directory/). 243 are on at least one registry above; 146 are public `*-startos` repositories that target StartOS 0.4, were pushed to in the last 12 months, and are not on any registry (you would have to build and sideload these yourself; older 0.3.x wrappers are left out). The same data is in [`data/services.csv`](data/services.csv) and [`data/services.json`](data/services.json).
 
 Code hosts searched:
 

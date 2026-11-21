@@ -1,12 +1,12 @@
 # Hand-written fields merged into the generated list. Keys are package ids.
 #   replaces = "..."   open-source alternative to (use "—" when nothing fits)
+#   short    = "..."   description for a service on no registry (a registry's own always wins)
 #   note     = "..."   shown under it in the README
 #   upstream = "..."   overrides a missing or wrong upstream repo
 #   exclude  = "why"   hides the entry
-# "# unsure" and "# exclude?" lines are review flags from the first draft.
 
-# unsure: no description; purpose not clear from name
 [2fiat-commander]
+short = "Dashboard and balance reconciliation for 2fiat crypto-funded prepaid cards"
 replaces = "—"
 
 [act-runner]
@@ -33,7 +33,6 @@ replaces = "—"
 [am-i-exposed]
 replaces = "—"
 
-# exclude?: modded duplicate of am-i-exposed
 [am-i-exposed-modded]
 replaces = "—"
 
@@ -92,6 +91,7 @@ replaces = "Adobe Acrobat, Smallpdf"
 replaces = "Datadog"
 
 [bewcloud]
+exclude = "package README is the unedited template"
 replaces = "Google Drive, Dropbox"
 
 [bisq]
@@ -100,14 +100,15 @@ replaces = "Coinbase, Kraken"
 [bisq2-node]
 replaces = "—"
 
-# unsure: no description; appears to be a P2P bitcoin/BLIK exchange
 [bitblik]
+short = "Peer-to-peer exchange of Lightning sats for BLIK payments, coordinated over Nostr"
 replaces = "—"
 
 [bitcart]
 replaces = "Stripe, BitPay"
 
 [bitcoin-cash]
+exclude = "package repo has no README"
 replaces = "—"
 
 [bitcoin-cash-node]
@@ -132,7 +133,7 @@ replaces = "—"
 replaces = "—"
 
 [bitnet]
-replaces = "ChatGPT"
+replaces = "—"
 
 [blake-swap]
 replaces = "—"
@@ -155,8 +156,8 @@ replaces = "—"
 [bolt12-pay]
 replaces = "—"
 
-# unsure: purpose not clear from description
 [bookshelfng]
+short = "Book collection manager"
 replaces = "—"
 
 [braiins-manager-agent]
@@ -174,7 +175,6 @@ replaces = "Stripe, BitPay, Square"
 [btctx]
 replaces = "Koinly, CoinTracker"
 
-# exclude?: novelty page serving the whitepaper
 [btcwhitepaper]
 replaces = "—"
 
@@ -223,7 +223,6 @@ replaces = "—"
 [cesspool-pruned]
 replaces = "—"
 
-# exclude?: title is Hello World; template clone
 [cftunnel]
 replaces = "—"
 
@@ -245,7 +244,6 @@ replaces = "—"
 [clams-remote]
 replaces = "—"
 
-# exclude?: no description; looks like a novelty clicker game
 [click-miner]
 replaces = "—"
 
@@ -258,9 +256,9 @@ replaces = "—"
 [collabora-online]
 replaces = "Microsoft 365, Google Docs"
 
-# unsure: no description of purpose
 [cooktrace]
-replaces = "—"
+short = "Recipe manager with a web app and an Android app"
+replaces = "Paprika"
 
 [copyparty]
 replaces = "Dropbox, WeTransfer"
@@ -286,7 +284,6 @@ replaces = "—"
 [cryptpad]
 replaces = "Google Docs, Microsoft 365"
 
-# exclude?: title is Hello World; template clone
 [cuprate]
 replaces = "—"
 
@@ -305,9 +302,9 @@ replaces = "—"
 [dawarich]
 replaces = "Google Timeline"
 
-# unsure: no description of purpose
 [deckshare]
-replaces = "—"
+short = "Multiuser, Anki-compatible spaced-repetition server for classrooms and teams (pre-alpha)"
+replaces = "Quizlet"
 
 [deepseek-harness]
 replaces = "Claude Code, Cursor"
@@ -321,8 +318,8 @@ replaces = "GitHub Codespaces"
 [discourse]
 replaces = "Circle, Discord"
 
-# exclude?: personal one-off wedding website
 [django-wedding-website]
+exclude = "personal one-off wedding site"
 replaces = "—"
 
 [documenso]
@@ -379,8 +376,8 @@ replaces = "—"
 [elements-electrs]
 replaces = "—"
 
-# unsure: no description of purpose
 [empires]
+short = "Original real-time strategy game in the style of late-1990s classics"
 replaces = "—"
 
 [erpnext]
@@ -393,7 +390,7 @@ replaces = "—"
 replaces = "—"
 
 [fedimintcard-till]
-replaces = "Square"
+replaces = "—"
 
 [filebrowser]
 replaces = "Google Drive, Dropbox"
@@ -424,8 +421,8 @@ replaces = "Typeform, Qualtrics"
 
 [frappe-helpdesk]
 replaces = "Zendesk, Freshdesk"
-# unsure: inferred from name/repo only, no description
 [freellmapi]
+short = "One OpenAI-compatible API in front of many providers' free LLM tiers"
 replaces = "OpenRouter"
 
 [frigate]
@@ -476,7 +473,6 @@ replaces = "—"
 [gobrrr-pool]
 replaces = "—"
 
-# unsure: novelty visualization, no clear paid equivalent
 [gods-eye-view]
 replaces = "—"
 
@@ -501,22 +497,23 @@ replaces = "—"
 [helipad]
 replaces = "—"
 
-# exclude?: Hello World template clone
 [helix-home]
+exclude = "unmodified template copy"
 replaces = "—"
 
-# exclude?: Hello World template
 [hello-world]
+exclude = "Start9's packaging template"
 replaces = "—"
 
 [hermes]
+exclude = "experimental duplicate of hermes-agent"
 replaces = "ChatGPT, Claude"
 
 [hermes-agent]
 replaces = "ChatGPT, Claude"
 
-# unsure: dashboard for a ServerStick device, unclear
 [hermes-bridge]
+short = "Dashboard and backend for a ServerStick box"
 replaces = "—"
 
 [heyform]
@@ -531,12 +528,12 @@ replaces = "SmartThings, Google Home, Apple Home"
 [hoseki-sentinel]
 replaces = "Koinly, CoinTracker"
 
-# unsure: no description; HeyGen video framework inferred from repo
 [hyperframes]
-replaces = "HeyGen"
+short = "Turns HTML, CSS and animations into MP4 video, from a CLI or an AI agent"
+replaces = "—"
 
-# unsure: no description of purpose
 [hypermind]
+short = "Tongue-in-cheek peer-to-peer counter of running copies, plus ephemeral chat"
 replaces = "—"
 
 [i2pd]
@@ -597,7 +594,7 @@ replaces = "—"
 replaces = "Mailchimp, Substack"
 
 [key-value-copy]
-replaces = "1Password"
+replaces = "—"
 
 [keycloak]
 replaces = "Okta, Auth0"
@@ -617,11 +614,11 @@ replaces = "—"
 [kindle-display]
 replaces = "—"
 
-# unsure: no description or upstream repo
 [kindle-md-reader]
+exclude = "StartOS 0.3.5 wrapper"
+short = "Serves Markdown files as plain HTML for reading in a Kindle's browser"
 replaces = "—"
 
-# exclude?: titled Hello World, template clone
 [knots]
 replaces = "—"
 
@@ -641,7 +638,7 @@ replaces = "—"
 replaces = "Strike, Wallet of Satoshi"
 
 [lidarr]
-replaces = "Spotify"
+replaces = "—"
 
 [lifttrace]
 replaces = "Strong, Hevy"
@@ -664,8 +661,8 @@ replaces = "—"
 [lightning-terminal]
 replaces = "—"
 
-# unsure: no description
 [lijox-adapter]
+short = "Turns an LND node into a LIJOX Lightning service provider (pre-release)"
 replaces = "—"
 
 [linkding]
@@ -692,7 +689,6 @@ replaces = "—"
 [magicwormholerelay]
 replaces = "WeTransfer"
 
-# exclude?: described as a test of the opticalDrives manifest flag
 [makemkv]
 replaces = "—"
 
@@ -735,8 +731,8 @@ replaces = "Minecraft Realms"
 [miniflux]
 replaces = "Feedly, Inoreader"
 
-# unsure: purpose of Mirall unclear
 [mirall-relay]
+short = "Blind relay that connects Mirall peers that can't reach each other directly"
 replaces = "—"
 
 [moneroblock]
@@ -745,8 +741,8 @@ replaces = "—"
 [monerod]
 replaces = "—"
 
-# unsure: no description
 [monetary-node]
+short = "Bitcoin node that validates every block, then drops inscription and other data-carrier bytes from storage"
 replaces = "—"
 
 [monica]
@@ -761,8 +757,8 @@ replaces = "—"
 [multi-scrobbler]
 replaces = "—"
 
-# exclude?: unmaintained, removed from the community registry
 [my-speed]
+note = "Unmaintained; removed from the Community registry"
 replaces = "Speedtest.net"
 
 [n8n]
@@ -798,8 +794,8 @@ replaces = "—"
 [nitter]
 replaces = "—"
 
-# exclude?: Hello World template clone
 [nocturne]
+exclude = "template with no description"
 replaces = "—"
 
 [node-red]
@@ -812,7 +808,7 @@ replaces = "—"
 replaces = "—"
 
 [nostr-vpn]
-replaces = "NordVPN, ExpressVPN"
+replaces = "Tailscale, ZeroTier"
 
 [ntfy]
 replaces = "Pushover, Pushbullet"
@@ -832,8 +828,8 @@ replaces = "—"
 [obsidian-livesync]
 replaces = "Obsidian Sync"
 
-# exclude?: Hello World template, description 'test'
 [ocean-terminal]
+exclude = "template, description 'test'"
 replaces = "—"
 
 [odoo]
@@ -880,7 +876,6 @@ replaces = "—"
 [pagecase]
 replaces = "Netlify, Vercel"
 
-# exclude?: title 'Hello World', upstream is the hello-world template
 [paperclip]
 replaces = "—"
 
@@ -935,9 +930,9 @@ replaces = "—"
 [privatebin]
 replaces = "Pastebin"
 
-# unsure: no description, project unknown
 [proof-of-basis]
-replaces = "—"
+short = "Works out the cost basis of your crypto from exchange exports and wallets, for your accountant"
+replaces = "Koinly, CoinTracker"
 
 [prowlarr]
 replaces = "—"
@@ -969,9 +964,9 @@ replaces = "—"
 [radicale]
 replaces = "iCloud Calendar, Google Calendar"
 
-# unsure: no description, project unknown
 [rakazo]
-replaces = "—"
+short = "Persistent AI agents with their own memory, routines and computer"
+replaces = "Grok Bot"
 
 [ratum-gateway]
 replaces = "—"
@@ -1001,6 +996,7 @@ replaces = "—"
 replaces = "—"
 
 [robosats-watcher]
+exclude = "package README still describes the hello-world template"
 replaces = "—"
 
 [romm]
@@ -1021,16 +1017,16 @@ replaces = "—"
 [sabi9]
 replaces = "—"
 
-# unsure: no description, project unknown
 [satd]
+short = "Bitcoin Core-compatible full node written in Rust"
 replaces = "—"
 
 [satori]
 replaces = "—"
 
-# unsure: description only says it wraps a SatSage image
 [satsage]
-replaces = "—"
+short = "Analyzes xpub wallets to trace when sats arrived and left, for tax purposes"
+replaces = "Koinly"
 
 [scoredrop]
 replaces = "—"
@@ -1053,8 +1049,8 @@ replaces = "Serper"
 [shelfarr]
 replaces = "—"
 
-# unsure: description gives no purpose
 [siftstr]
+short = "Daily triage of new Miniflux and Nostr items: delete, promote or keep"
 replaces = "—"
 
 [signal-messenger-bridge]
@@ -1108,8 +1104,8 @@ replaces = "—"
 [specter]
 replaces = "—"
 
-# unsure: no description, project unknown
 [splayed]
+short = "Splits BTC, XBT and eCash fork coins with replay-protected PSBTs your cold wallet signs"
 replaces = "—"
 
 [spliit]
@@ -1119,7 +1115,7 @@ replaces = "Splitwise"
 replaces = "Google Workspace, Microsoft 365"
 
 [standardnotes-server]
-replaces = "Evernote, Notion"
+replaces = "Evernote"
 
 [start9-pages]
 replaces = "Netlify, Squarespace"
@@ -1127,16 +1123,14 @@ replaces = "Netlify, Squarespace"
 [startos-registry]
 replaces = "—"
 
-# unsure: 'AI inbox' has no clear commercial counterpart
 [stash]
-replaces = "—"
+replaces = "mymind"
 
 [stirling-pdf]
 replaces = "Adobe Acrobat"
 
-# unsure: local LLM runner; no clear paid counterpart
 [strata]
-replaces = "—"
+replaces = "ChatGPT"
 
 [stratum-v2]
 replaces = "—"
@@ -1147,14 +1141,15 @@ replaces = "—"
 [strfry]
 replaces = "—"
 
-# exclude?: title 'Hello World', upstream is the hello-world template
 [supabase]
 replaces = "—"
 
 [swap-controller]
+exclude = "internal test build, no user-facing description"
 replaces = "—"
 
 [swapsha]
+exclude = "self-described test software, not live, not audited"
 replaces = "—"
 
 [synapse]
@@ -1172,8 +1167,8 @@ replaces = "—"
 [teapot]
 replaces = "—"
 
-# exclude?: hello-world test package
 [test]
+exclude = "hello-world test package"
 replaces = "—"
 
 [thunderhub]
@@ -1182,12 +1177,12 @@ replaces = "—"
 [thunderhub-xbt]
 replaces = "—"
 
-# exclude?: example todo app, upstream github.com/example/todo
 [todo]
+exclude = "example app (upstream github.com/example/todo)"
 replaces = "—"
 
-# exclude?: looks like a personal/tutorial todo backend
 [todo-back]
+exclude = "tutorial todo backend"
 replaces = "—"
 
 [tor]
@@ -1232,9 +1227,9 @@ replaces = "1Password, LastPass"
 [veilid]
 replaces = "—"
 
-# unsure: no description, project unknown
 [verge]
-replaces = "—"
+short = "Net-worth tracker with live Bitcoin, crypto and stock prices"
+replaces = "Kubera"
 
 [vikunja]
 replaces = "Todoist, Asana"
@@ -1261,4 +1256,16 @@ replaces = "Squarespace, Wix"
 replaces = "—"
 
 [zebrad]
+replaces = "—"
+
+[proto-fleet]
+replaces = "—"
+
+[arkpool-gateway]
+replaces = "—"
+
+[laguz]
+replaces = "—"
+
+[rrc-hub]
 replaces = "—"

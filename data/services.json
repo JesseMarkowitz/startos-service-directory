@@ -82,7 +82,7 @@
       ],
       "registries": {},
       "replaces": "—",
-      "short": null,
+      "short": "Dashboard and balance reconciliation for 2fiat crypto-funded prepaid cards",
       "title": "2fiat Commander",
       "updated": "2026-11-02",
       "upstreamRepo": "https://github.com/nzjess/2fiat-commander"
@@ -316,6 +316,7 @@
         "https://gitlab.com/arkpool/arkpool-gateway-startos"
       ],
       "registries": {},
+      "replaces": "—",
       "short": "",
       "title": "ArkPool Gateway",
       "updated": "2026-11-19",
@@ -653,6 +654,7 @@
     },
     "bewcloud": {
       "categories": [],
+      "exclude": "package README is the unedited template",
       "forges": [
         "GitHub"
       ],
@@ -727,7 +729,7 @@
       ],
       "registries": {},
       "replaces": "—",
-      "short": null,
+      "short": "Peer-to-peer exchange of Lightning sats for BLIK payments, coordinated over Nostr",
       "title": "BitBlik",
       "updated": "2026-11-06",
       "upstreamRepo": "https://github.com/bit-blik/bitblik"
@@ -753,6 +755,7 @@
     },
     "bitcoin-cash": {
       "categories": [],
+      "exclude": "package repo has no README",
       "forges": [
         "GitHub"
       ],
@@ -938,7 +941,7 @@
         "https://github.com/horologger/bitnet-startos"
       ],
       "registries": {},
-      "replaces": "ChatGPT",
+      "replaces": "—",
       "short": "Run Microsoft BitNet 1-bit LLMs on CPU",
       "title": "BitNet",
       "updated": "2026-05-13",
@@ -1098,7 +1101,7 @@
       ],
       "registries": {},
       "replaces": "—",
-      "short": "StartOS wrapper for BookshelfNG",
+      "short": "Book collection manager",
       "title": "BookshelfNG",
       "updated": "2026-11-05",
       "upstreamRepo": "https://github.com/snapetech/bookshelfng"
@@ -1531,6 +1534,7 @@
     },
     "cftunnel": {
       "categories": [],
+      "exclude": "manifest is still titled Hello World",
       "forges": [
         "GitHub"
       ],
@@ -1766,8 +1770,8 @@
         "https://github.com/stupleb/cooktrace-startos"
       ],
       "registries": {},
-      "replaces": "—",
-      "short": "CookTrace packaged for StartOS",
+      "replaces": "Paprika",
+      "short": "Recipe manager with a web app and an Android app",
       "title": "CookTrace",
       "updated": "2026-11-12",
       "upstreamRepo": "https://github.com/TraceApps/cooktrace"
@@ -1939,6 +1943,7 @@
     },
     "cuprate": {
       "categories": [],
+      "exclude": "manifest is still titled Hello World",
       "forges": [
         "GitHub"
       ],
@@ -2071,8 +2076,8 @@
         "https://github.com/Jolls/deckshare-startos"
       ],
       "registries": {},
-      "replaces": "—",
-      "short": "DeckShare packaged for StartOS",
+      "replaces": "Quizlet",
+      "short": "Multiuser, Anki-compatible spaced-repetition server for classrooms and teams (pre-alpha)",
       "title": "DeckShare",
       "updated": "2026-11-17",
       "upstreamRepo": "https://github.com/Jolls/deckshare"
@@ -2157,6 +2162,7 @@
     },
     "django-wedding-website": {
       "categories": [],
+      "exclude": "personal one-off wedding site",
       "forges": [
         "GitHub"
       ],
@@ -2546,7 +2552,7 @@
       ],
       "registries": {},
       "replaces": "—",
-      "short": "StartOS package for Empires",
+      "short": "Original real-time strategy game in the style of late-1990s classics",
       "title": "Empires",
       "updated": "2026-10-08",
       "upstreamRepo": "https://github.com/DigiMonk73/Empires"
@@ -2624,7 +2630,7 @@
         "https://github.com/bobodread876/fedimintcard-till-startos"
       ],
       "registries": {},
-      "replaces": "Square",
+      "replaces": "—",
       "short": "fedimintcard till as a StartOS service",
       "title": "Fedimint Card Till",
       "updated": "2026-11-19",
@@ -2847,7 +2853,7 @@
       ],
       "registries": {},
       "replaces": "OpenRouter",
-      "short": null,
+      "short": "One OpenAI-compatible API in front of many providers' free LLM tiers",
       "title": "FreeLLMAPI",
       "updated": "2026-09-17",
       "upstreamRepo": "https://github.com/tashfeenahmed/freellmapi"
@@ -3338,6 +3344,7 @@
     },
     "helix-home": {
       "categories": [],
+      "exclude": "unmodified template copy",
       "forges": [
         "GitHub"
       ],
@@ -3357,6 +3364,7 @@
     },
     "hello-world": {
       "categories": [],
+      "exclude": "Start9's packaging template",
       "forges": [
         "GitHub"
       ],
@@ -3377,6 +3385,7 @@
     },
     "hermes": {
       "categories": [],
+      "exclude": "experimental duplicate of hermes-agent",
       "forges": [
         "GitHub"
       ],
@@ -3430,7 +3439,7 @@
       ],
       "registries": {},
       "replaces": "—",
-      "short": "The bridge s9pk: FastAPI + Svelte 5 dashboard, the front-of-house StartOS package for a ServerStick box",
+      "short": "Dashboard and backend for a ServerStick box",
       "title": "ServerStick Hermes Bridge",
       "updated": "2026-08-12",
       "upstreamRepo": "https://github.com/coding-crying/serverstick"
@@ -3529,8 +3538,8 @@
         "https://github.com/bitcoinRph/hyperframes-startos"
       ],
       "registries": {},
-      "replaces": "HeyGen",
-      "short": null,
+      "replaces": "—",
+      "short": "Turns HTML, CSS and animations into MP4 video, from a CLI or an AI agent",
       "title": "HyperFrames",
       "updated": "2026-11-04",
       "upstreamRepo": "https://github.com/heygen-com/hyperframes"
@@ -3549,7 +3558,7 @@
       ],
       "registries": {},
       "replaces": "—",
-      "short": "StartOS package for lklynet/hypermind",
+      "short": "Tongue-in-cheek peer-to-peer counter of running copies, plus ephemeral chat",
       "title": "Hypermind",
       "updated": "2026-01-06",
       "upstreamRepo": "https://github.com/lklynet/hypermind"
@@ -3954,7 +3963,7 @@
       "registries": {
         "paulscode": "1.1.1:3"
       },
-      "replaces": "1Password",
+      "replaces": "—",
       "short": "Secure key-value storage with encrypted export/import",
       "title": "Key Value Copy",
       "updated": "2026-10-25",
@@ -4080,6 +4089,7 @@
     },
     "kindle-md-reader": {
       "categories": [],
+      "exclude": "StartOS 0.3.5 wrapper",
       "forges": [
         "GitHub"
       ],
@@ -4092,13 +4102,14 @@
       ],
       "registries": {},
       "replaces": "—",
-      "short": null,
+      "short": "Serves Markdown files as plain HTML for reading in a Kindle's browser",
       "title": "kindle-md-reader",
       "updated": "2026-03-16",
       "upstreamRepo": null
     },
     "knots": {
       "categories": [],
+      "exclude": "manifest is still titled Hello World",
       "forges": [
         "GitHub"
       ],
@@ -4207,6 +4218,7 @@
         "https://gitlab.com/astrolexis-group1/laguz-startos"
       ],
       "registries": {},
+      "replaces": "—",
       "short": "StartOS 0.4 package for Laguz Hub — self-custodial Lightning hub for XBT (Bitcoin BLAKE2b) on Lightning Fork",
       "title": "Laguz Hub",
       "updated": "2026-10-26",
@@ -4250,7 +4262,7 @@
         "start9": "3.1.6.5079:3",
         "start9-beta": "3.1.6.5079:3"
       },
-      "replaces": "Spotify",
+      "replaces": "—",
       "short": "Automatically find, download, and organize music",
       "title": "Lidarr",
       "updated": "2026-11-20",
@@ -4407,7 +4419,7 @@
       ],
       "registries": {},
       "replaces": "—",
-      "short": null,
+      "short": "Turns an LND node into a LIJOX Lightning service provider (pre-release)",
       "title": "LIJOX Adapter",
       "updated": "2026-11-19",
       "upstreamRepo": "https://github.com/dav1dpgit/lijox-lnd-adapter"
@@ -4944,7 +4956,7 @@
       ],
       "registries": {},
       "replaces": "—",
-      "short": null,
+      "short": "Bitcoin node that validates every block, then drops inscription and other data-carrier bytes from storage",
       "title": "Monetary Node",
       "updated": "2026-11-18",
       "upstreamRepo": "https://github.com/sambitcoin/BitcoinMonetaryNode"
@@ -5039,6 +5051,7 @@
       "id": "my-speed",
       "lastPush": "2026-09-15",
       "license": "MIT",
+      "note": "Unmaintained; removed from the Community registry",
       "otherRepos": [],
       "packageRepos": [
         "https://github.com/Start9-Community/myspeed-startos"
@@ -5274,6 +5287,7 @@
     },
     "nocturne": {
       "categories": [],
+      "exclude": "template with no description",
       "forges": [
         "GitHub"
       ],
@@ -5370,7 +5384,7 @@
         "community": "4.1.18:0",
         "community-beta": "4.1.18:0"
       },
-      "replaces": "NordVPN, ExpressVPN",
+      "replaces": "Tailscale, ZeroTier",
       "short": "Private mesh VPN over Nostr",
       "title": "Nostr VPN",
       "updated": "2026-10-24",
@@ -5491,6 +5505,7 @@
     },
     "ocean-terminal": {
       "categories": [],
+      "exclude": "template, description 'test'",
       "forges": [
         "GitHub"
       ],
@@ -5816,6 +5831,7 @@
     },
     "paperclip": {
       "categories": [],
+      "exclude": "manifest is still titled Hello World",
       "forges": [
         "GitHub"
       ],
@@ -6186,8 +6202,8 @@
         "https://github.com/DeGrandis/proof-of-basis-startos"
       ],
       "registries": {},
-      "replaces": "—",
-      "short": null,
+      "replaces": "Koinly, CoinTracker",
+      "short": "Works out the cost basis of your crypto from exchange exports and wallets, for your accountant",
       "title": "Proof of Basis",
       "updated": "2026-10-31",
       "upstreamRepo": "https://github.com/DeGrandis/proof-of-basis"
@@ -6203,6 +6219,7 @@
       "registries": {
         "start9-beta": "0.6.0:0"
       },
+      "replaces": "—",
       "short": "Open-source fleet management for bitcoin miners",
       "title": "Proto Fleet",
       "updated": "2026-11-20",
@@ -6407,8 +6424,8 @@
         "https://github.com/tronsington/rakazo-startos"
       ],
       "registries": {},
-      "replaces": "—",
-      "short": null,
+      "replaces": "Grok Bot",
+      "short": "Persistent AI agents with their own memory, routines and computer",
       "title": "Rakazo",
       "updated": "2026-10-19",
       "upstreamRepo": "https://github.com/elie222/rakazo"
@@ -6595,6 +6612,7 @@
     },
     "robosats-watcher": {
       "categories": [],
+      "exclude": "package README still describes the hello-world template",
       "forges": [
         "GitHub"
       ],
@@ -6687,6 +6705,7 @@
         "https://github.com/The-Cryptosquid/rrc-hub-startos"
       ],
       "registries": {},
+      "replaces": "—",
       "short": "RRC Hub: Reticulum Community Channels (rrcd) packaged for StartOS",
       "title": "RRC Hub: Reticulum Community Channels",
       "updated": "2026-11-20",
@@ -6767,7 +6786,7 @@
       ],
       "registries": {},
       "replaces": "—",
-      "short": null,
+      "short": "Bitcoin Core-compatible full node written in Rust",
       "title": "satd",
       "updated": "2026-10-16",
       "upstreamRepo": "https://github.com/epochbtc/satd"
@@ -6804,8 +6823,8 @@
         "https://github.com/Juniormind1/satsage-startos"
       ],
       "registries": {},
-      "replaces": "—",
-      "short": "Reines Wrapper-Repo: Es bindet das fertige SatSage-Image von ghcr ein. Ich prüfe, ob das 1.0.1-Image wirklich amd64 und arm64 enthält.",
+      "replaces": "Koinly",
+      "short": "Analyzes xpub wallets to trace when sats arrived and left, for tax purposes",
       "title": "SatSage",
       "updated": "2026-10-26",
       "upstreamRepo": "https://github.com/Juniormind1/SatSage"
@@ -6961,7 +6980,7 @@
       ],
       "registries": {},
       "replaces": "—",
-      "short": "Siftstr packaged for StartOS",
+      "short": "Daily triage of new Miniflux and Nostr items: delete, promote or keep",
       "title": "Siftstr",
       "updated": "2026-10-22",
       "upstreamRepo": "https://github.com/Jolls/Siftstr"
@@ -7313,7 +7332,7 @@
       ],
       "registries": {},
       "replaces": "—",
-      "short": null,
+      "short": "Splits BTC, XBT and eCash fork coins with replay-protected PSBTs your cold wallet signs",
       "title": "splayed",
       "updated": "2026-11-14",
       "upstreamRepo": "https://github.com/BrashRatel/splayed"
@@ -7376,7 +7395,7 @@
         "community": "1.23.8:2",
         "community-beta": "1.23.8:2"
       },
-      "replaces": "Evernote, Notion",
+      "replaces": "Evernote",
       "short": "Self-hosted sync server and web app for Standard Notes",
       "title": "Standard Notes Server",
       "updated": "2026-11-18",
@@ -7439,7 +7458,7 @@
         "community": "1.0.1:6",
         "community-beta": "1.0.1:6"
       },
-      "replaces": "—",
+      "replaces": "mymind",
       "short": "Your private on-device AI inbox — hoard everything, find anything",
       "title": "Stash",
       "updated": "2026-10-24",
@@ -7481,7 +7500,7 @@
         "community": "0.2.13:0",
         "community-beta": "0.2.13:0"
       },
-      "replaces": "—",
+      "replaces": "ChatGPT",
       "short": "Run Qwen3.8-Flash-Next on your own NVIDIA GPU",
       "title": "Strata",
       "updated": "2026-11-15",
@@ -7548,6 +7567,7 @@
     },
     "supabase": {
       "categories": [],
+      "exclude": "manifest is still titled Hello World",
       "forges": [
         "GitHub"
       ],
@@ -7567,6 +7587,7 @@
     },
     "swap-controller": {
       "categories": [],
+      "exclude": "internal test build, no user-facing description",
       "forges": [
         "GitHub"
       ],
@@ -7586,6 +7607,7 @@
     },
     "swapsha": {
       "categories": [],
+      "exclude": "self-described test software, not live, not audited",
       "forges": [
         "GitHub"
       ],
@@ -7702,6 +7724,7 @@
     },
     "test": {
       "categories": [],
+      "exclude": "hello-world test package",
       "forges": [
         "GitHub"
       ],
@@ -7760,6 +7783,7 @@
     },
     "todo": {
       "categories": [],
+      "exclude": "example app (upstream github.com/example/todo)",
       "forges": [
         "GitHub"
       ],
@@ -7779,6 +7803,7 @@
     },
     "todo-back": {
       "categories": [],
+      "exclude": "tutorial todo backend",
       "forges": [
         "GitHub"
       ],
@@ -8090,8 +8115,8 @@
         "https://github.com/tbtproductions/verge-startos"
       ],
       "registries": {},
-      "replaces": "—",
-      "short": null,
+      "replaces": "Kubera",
+      "short": "Net-worth tracker with live Bitcoin, crypto and stock prices",
       "title": "Verge",
       "updated": "2026-05-30",
       "upstreamRepo": "https://github.com/tbtproductions/Verge"
