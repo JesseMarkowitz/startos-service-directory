@@ -30,7 +30,7 @@
       "packages": 108
     },
     "h0mer": {
-      "error": "URLError: <urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1127)>",
+      "error": "URLError: <urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1011)>",
       "keptPackages": 0,
       "ok": false
     },
