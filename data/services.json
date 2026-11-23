@@ -1,14 +1,9 @@
 {
   "forges": {
-    "Codeberg": {
-      "error": "HTTP 429",
-      "kept": 0,
-      "ok": false
-    },
     "GitHub": {
-      "active": 450,
+      "active": 455,
       "ok": true,
-      "repos": 569
+      "repos": 576
     },
     "GitLab": {
       "active": 4,
@@ -23,24 +18,19 @@
     },
     "community": {
       "ok": true,
-      "packages": 100
+      "packages": 103
     },
     "community-beta": {
       "ok": true,
       "packages": 108
     },
-    "h0mer": {
-      "error": "URLError: <urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1011)>",
-      "keptPackages": 0,
-      "ok": false
-    },
     "mempool-guide": {
       "ok": true,
-      "packages": 8
+      "packages": 9
     },
     "paulscode": {
       "ok": true,
-      "packages": 21
+      "packages": 22
     },
     "sdbitcoiners": {
       "ok": true,
@@ -50,13 +40,17 @@
       "ok": true,
       "packages": 2
     },
+    "spectreworks": {
+      "ok": true,
+      "packages": 5
+    },
     "start9": {
       "ok": true,
       "packages": 95
     },
     "start9-beta": {
       "ok": true,
-      "packages": 97
+      "packages": 98
     },
     "testnet4": {
       "ok": true,
@@ -194,7 +188,7 @@
         "GitHub"
       ],
       "id": "airtrail",
-      "lastPush": "2026-11-03",
+      "lastPush": "2026-11-23",
       "license": "GPL-3.0",
       "otherRepos": [],
       "packageRepos": [
@@ -204,7 +198,7 @@
       "replaces": "Flighty, TripIt",
       "short": "AirTrail, a self-hosted flight tracker, packaged for StartOS",
       "title": "AirTrail",
-      "updated": "2026-11-03",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/johanohly/AirTrail"
     },
     "albyhub": {
@@ -270,7 +264,7 @@
         "GitHub"
       ],
       "id": "anytype-sync",
-      "lastPush": "2026-10-21",
+      "lastPush": "2026-11-23",
       "license": "MIT",
       "otherRepos": [],
       "packageRepos": [
@@ -280,7 +274,7 @@
       "replaces": "—",
       "short": "Anytype Sync Server (any-sync) packaged for StartOS",
       "title": "Anytype Sync Server",
-      "updated": "2026-10-21",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/anyproto/any-sync"
     },
     "archivebox": {
@@ -454,13 +448,13 @@
         "https://github.com/Start9-Community/balanceofsatoshis-startos"
       ],
       "registries": {
-        "community": "25.0.0:3",
+        "community": "25.0.0:4",
         "community-beta": "25.0.0:4"
       },
       "replaces": "—",
       "short": "A command-line tool for working with the balance of your satoshis on LND",
       "title": "Balance of Satoshis",
-      "updated": "2026-11-20",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/alexbosworth/balanceofsatoshis"
     },
     "bark-web": {
@@ -474,13 +468,13 @@
         "https://github.com/Start9Labs/bark-web-startos"
       ],
       "registries": {
-        "start9": "0.12.0:0",
-        "start9-beta": "0.12.0:0"
+        "start9": "0.12.0:1",
+        "start9-beta": "0.12.0:1"
       },
       "replaces": "—",
       "short": "Self-custodial Ark wallet for fast Bitcoin payments",
       "title": "Bark Wallet",
-      "updated": "2026-11-20",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://gitlab.com/ark-bitcoin/bark-web"
     },
     "bazarr": {
@@ -515,13 +509,13 @@
         "https://github.com/Start9-Community/bch-asicseer-startos"
       ],
       "registries": {
-        "community": "1.5.4:28",
-        "community-beta": "1.5.4:29"
+        "community": "1.5.4:30",
+        "community-beta": "1.5.4:30"
       },
       "replaces": "—",
       "short": "A Bitcoin Cash mining pool you run yourself.",
       "title": "ASICSeer",
-      "updated": "2026-11-20",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/cculianu/asicseer-pool"
     },
     "bch-elopool": {
@@ -537,13 +531,13 @@
         "https://github.com/Start9-Community/bch-elopool-startos"
       ],
       "registries": {
-        "community": "1.3.0:1",
+        "community": "1.3.0:2",
         "community-beta": "1.3.0:2"
       },
       "replaces": "—",
       "short": "A Bitcoin Cash mining pool you run yourself.",
       "title": "EloPool",
-      "updated": "2026-11-20",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/skaisser/ckpool"
     },
     "bch-explorer": {
@@ -581,13 +575,13 @@
         "https://github.com/Start9-Community/bitcoin-cash-daemon-startos"
       ],
       "registries": {
-        "community": "0.22.2:6",
+        "community": "0.22.2:7",
         "community-beta": "0.22.2:7"
       },
       "replaces": "—",
       "short": "BCHD — Go-based Bitcoin Cash full node with gRPC and Neutrino",
       "title": "Bitcoin Cash Daemon",
-      "updated": "2026-11-20",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/gcash/bchd"
     },
     "beets-flask": {
@@ -615,7 +609,7 @@
         "GitHub"
       ],
       "id": "bentopdf",
-      "lastPush": "2026-11-02",
+      "lastPush": "2026-11-23",
       "license": "AGPL-3.0",
       "otherRepos": [],
       "packageRepos": [
@@ -625,7 +619,7 @@
       "replaces": "Adobe Acrobat, Smallpdf",
       "short": "BentoPDF is a powerful, privacy-first, client-side PDF toolkit that is self hostable and allows you to manipulate, edit, merge, and process PDF files directly in your browser. No server-side processing is required, ensuring your files remain secure and private.",
       "title": "BentoPDF",
-      "updated": "2026-11-02",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/alam00000/bentopdf"
     },
     "beszel": {
@@ -643,13 +637,13 @@
       ],
       "registries": {
         "atoll": "0.9.1:5",
-        "start9": "0.21.2:0",
-        "start9-beta": "0.21.2:0"
+        "start9": "0.21.2:1",
+        "start9-beta": "0.21.2:1"
       },
       "replaces": "Datadog",
       "short": "Lightweight server monitoring with Docker stats, historical data, and alerts.",
       "title": "Beszel",
-      "updated": "2026-11-17",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/henrygd/beszel"
     },
     "bewcloud": {
@@ -684,13 +678,13 @@
         "https://github.com/Start9-Community/bisq-startos"
       ],
       "registries": {
-        "community": "1.10.11:2",
+        "community": "1.10.12:0",
         "community-beta": "1.10.12:0"
       },
       "replaces": "Coinbase, Kraken",
       "short": "Decentralized Bitcoin exchange",
       "title": "Bisq",
-      "updated": "2026-11-20",
+      "updated": "2026-11-21",
       "upstreamRepo": "https://github.com/bisq-network/bisq"
     },
     "bisq2-node": {
@@ -827,13 +821,13 @@
         "https://github.com/Start9-Community/bitcoin-family-dashboard-startos"
       ],
       "registries": {
-        "community": "0.2.2:6",
+        "community": "0.2.2:7",
         "community-beta": "0.2.2:7"
       },
       "replaces": "—",
       "short": "Track your family's bitcoin holdings and the live price",
       "title": "Bitcoin Family Dashboard",
-      "updated": "2026-11-20",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/wahidsaleemi/bitcoin-family-dashboard"
     },
     "bitcoincashd": {
@@ -847,19 +841,20 @@
         "https://github.com/Start9-Community/bitcoin-cash-node-startos"
       ],
       "registries": {
-        "community": "29.0.0:15",
+        "community": "29.0.0:16",
         "community-beta": "29.0.0:16"
       },
       "replaces": "—",
       "short": "Bitcoin Cash full node — BCHN reference implementation",
       "title": "Bitcoin Cash Node (BCHN)",
-      "updated": "2026-11-20",
+      "updated": "2026-11-21",
       "upstreamRepo": "https://gitlab.com/bitcoin-cash-node/bitcoin-cash-node"
     },
     "bitcoind": {
       "categories": [
         "Bitcoin",
-        "Featured"
+        "Featured",
+        "XBT Nodes"
       ],
       "id": "bitcoind",
       "license": "MIT",
@@ -875,15 +870,16 @@
       "registries": {
         "community": "#roots:29.4:4",
         "community-beta": "#roots:29.4:4",
-        "mempool-guide": "#knots:29.5.0:6",
+        "mempool-guide": "#knots:29.5.1:2",
         "paulscode": "#knotssha:31.2:2",
-        "start9": "32.1:1",
-        "start9-beta": "32.1:1"
+        "spectreworks": "#knots:29.5.1:2",
+        "start9": "32.1:2",
+        "start9-beta": "32.1:2"
       },
       "replaces": "—",
       "short": "A Bitcoin Full Node by Bitcoin Core",
       "title": "Bitcoin Core",
-      "updated": "2026-11-20",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/bitcoin/bitcoin"
     },
     "bitcoind-testnet": {
@@ -965,25 +961,6 @@
       "title": "XBT/BTC Atomic Swap",
       "updated": "2026-10-22",
       "upstreamRepo": "https://github.com/gjbrr/blake-swap"
-    },
-    "blake2b-asic-control": {
-      "categories": [],
-      "forges": [
-        "GitHub"
-      ],
-      "id": "blake2b-asic-control",
-      "lastPush": "2026-10-25",
-      "license": "MIT",
-      "otherRepos": [],
-      "packageRepos": [
-        "https://github.com/christhealien/blake2b-asic-control-startos"
-      ],
-      "registries": {},
-      "replaces": "—",
-      "short": null,
-      "title": "Blake2b ASIC Control",
-      "updated": "2026-10-25",
-      "upstreamRepo": "https://github.com/christhealien/blake2b-asic-control"
     },
     "blisspoint": {
       "categories": [
@@ -1078,13 +1055,13 @@
         "https://github.com/Start9-Community/bolt12-pay-startos"
       ],
       "registries": {
-        "community": "0.3.28:0",
-        "community-beta": "0.3.28:0"
+        "community": "0.3.30:0",
+        "community-beta": "0.3.30:0"
       },
       "replaces": "—",
       "short": "Self-hosted Lightning payment server with BOLT12 support",
       "title": "BOLT12 Pay",
-      "updated": "2026-11-20",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/Alex71btc/lndk-pay"
     },
     "bookshelfng": {
@@ -1093,7 +1070,7 @@
         "GitHub"
       ],
       "id": "bookshelfng",
-      "lastPush": "2026-11-05",
+      "lastPush": "2026-11-21",
       "license": "GPL-3.0-only",
       "otherRepos": [],
       "packageRepos": [
@@ -1103,7 +1080,7 @@
       "replaces": "—",
       "short": "Book collection manager",
       "title": "BookshelfNG",
-      "updated": "2026-11-05",
+      "updated": "2026-11-21",
       "upstreamRepo": "https://github.com/snapetech/bookshelfng"
     },
     "braiins-manager-agent": {
@@ -1324,13 +1301,13 @@
       ],
       "registries": {
         "mempool-guide": "#blake:26.6.10:0",
-        "start9": "26.6.10:8",
-        "start9-beta": "26.6.10:8"
+        "start9": "26.6.10:9",
+        "start9-beta": "26.6.10:9"
       },
       "replaces": "—",
       "short": "An implementation of the Lightning Network protocol by Blockstream.",
       "title": "Core Lightning",
-      "updated": "2026-11-20",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/ElementsProject/lightning"
     },
     "cal-diy": {
@@ -1393,7 +1370,8 @@
     },
     "canary": {
       "categories": [
-        "Bitcoin"
+        "Bitcoin",
+        "Wallets"
       ],
       "id": "canary",
       "license": "Elastic-2.0",
@@ -1407,7 +1385,8 @@
       "registries": {
         "community": "1.7.2:0",
         "community-beta": "1.7.2:0",
-        "mempool-guide": "#blake:1.7.1:0"
+        "mempool-guide": "#blake:1.7.1:0",
+        "spectreworks": "#blake:1.7.1:0"
       },
       "replaces": "—",
       "short": "Bitcoin wallet monitoring service with transaction notifications",
@@ -1624,13 +1603,13 @@
         "https://github.com/Start9-Community/charge-lnd-startos"
       ],
       "registries": {
-        "community": "0.3.1:10",
+        "community": "0.3.1:11",
         "community-beta": "0.3.1:11"
       },
       "replaces": "—",
       "short": "Policy-based fee manager for LND",
       "title": "Charge LND",
-      "updated": "2026-11-20",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/accumulator/charge-lnd"
     },
     "ckpool-bch": {
@@ -1748,13 +1727,13 @@
         "https://github.com/Start9Labs/collabora-online-startos"
       ],
       "registries": {
-        "start9": "26.4.6.1.1:0",
-        "start9-beta": "26.4.6.1.1:0"
+        "start9": "26.4.6.2.1:0",
+        "start9-beta": "26.4.6.2.1:0"
       },
       "replaces": "Microsoft 365, Google Docs",
       "short": "The office suite behind Nextcloud Office",
       "title": "Collabora Online",
-      "updated": "2026-11-07",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/CollaboraOnline/online"
     },
     "cooktrace": {
@@ -1890,13 +1869,13 @@
         "https://github.com/Start9-Community/cronicle-startos"
       ],
       "registries": {
-        "community": "0.9.135:5",
+        "community": "0.9.135:6",
         "community-beta": "0.9.135:6"
       },
       "replaces": "—",
       "short": "A self-hosted task scheduler and runner with a web UI",
       "title": "Cronicle",
-      "updated": "2026-11-20",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/jhuckaby/Cronicle"
     },
     "crossbill": {
@@ -1982,7 +1961,8 @@
     },
     "datum": {
       "categories": [
-        "Bitcoin"
+        "Bitcoin",
+        "Mining"
       ],
       "id": "datum",
       "license": "mit",
@@ -1997,14 +1977,15 @@
       ],
       "registries": {
         "mempool-guide": "#pow:0.5.0:4",
-        "paulscode": "0.5.1-beta:11",
+        "paulscode": "0.5.1-beta:12",
+        "spectreworks": "#pow:0.5.0:4",
         "start9": "0.5.1-beta:2",
         "start9-beta": "0.5.1-beta:2"
       },
       "replaces": "—",
       "short": "Make block templates and issue work to your miners",
       "title": "Datum Gateway",
-      "updated": "2026-11-19",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/ocean-xyz/datum-gateway"
     },
     "datum-blake2b": {
@@ -2019,12 +2000,12 @@
         "https://github.com/paulscode/datum-blake2b-startos"
       ],
       "registries": {
-        "paulscode": "1.1.3:1"
+        "paulscode": "1.1.3:2"
       },
       "replaces": "—",
       "short": "Solo mine the BLAKE2b chain with a Sia-style ASIC you already own",
       "title": "Datum Gateway (BLAKE2b) Companion",
-      "updated": "2026-11-21",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/OCEAN-xyz/datum_gateway"
     },
     "datum-sha256": {
@@ -2036,12 +2017,12 @@
         "https://github.com/paulscode/datum-sha256-startos"
       ],
       "registries": {
-        "paulscode": "1.0.0:5"
+        "paulscode": "1.0.0:6"
       },
       "replaces": "—",
       "short": "Mine the SHA256 chain with your own block templates, on a node that never enforces BIP-110",
       "title": "Datum Gateway (SHA256) Companion",
-      "updated": "2026-11-18",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/OCEAN-xyz/datum_gateway"
     },
     "dawarich": {
@@ -2050,7 +2031,7 @@
         "GitHub"
       ],
       "id": "dawarich",
-      "lastPush": "2026-11-16",
+      "lastPush": "2026-11-22",
       "license": "AGPL-3.0",
       "otherRepos": [],
       "packageRepos": [
@@ -2060,7 +2041,7 @@
       "replaces": "Google Timeline",
       "short": "Dawarich, a self-hostable alternative to Google Timeline, packaged for StartOS",
       "title": "Dawarich",
-      "updated": "2026-11-16",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/Freika/dawarich"
     },
     "deckshare": {
@@ -2099,7 +2080,7 @@
       "replaces": "Claude Code, Cursor",
       "short": "Self-hosted DeepSeek Harness coding agent with a browser interface",
       "title": "DeepSeek Harness",
-      "updated": "2026-11-15",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/deepseek-ai/deepseek-harness"
     },
     "dev-workspace": {
@@ -2213,13 +2194,13 @@
         "https://github.com/Start9Labs/docuseal-startos"
       ],
       "registries": {
-        "start9": "3.3.8:0",
-        "start9-beta": "3.3.8:0"
+        "start9": "3.4.0:0",
+        "start9-beta": "3.4.0:0"
       },
       "replaces": "DocuSign",
       "short": "Open-source document signing platform",
       "title": "DocuSeal",
-      "updated": "2026-11-19",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/docusealco/docuseal"
     },
     "dogecoin": {
@@ -2273,13 +2254,13 @@
         "https://github.com/Start9-Community/dojo-startos"
       ],
       "registries": {
-        "community": "1.29.2:9",
-        "community-beta": "1.29.2:9"
+        "community": "1.29.3:0",
+        "community-beta": "1.29.3:0"
       },
       "replaces": "—",
       "short": "Private backend for Ashigaru, Samourai and other light wallets",
       "title": "Dojo",
-      "updated": "2026-11-20",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/Dojo-Open-Source-Project/samourai-dojo"
     },
     "drawio": {
@@ -2288,7 +2269,7 @@
         "GitHub"
       ],
       "id": "drawio",
-      "lastPush": "2026-11-06",
+      "lastPush": "2026-11-23",
       "license": "Apache-2.0",
       "otherRepos": [],
       "packageRepos": [
@@ -2298,7 +2279,7 @@
       "replaces": "Lucidchart, Visio",
       "short": "draw.io is a diagram and whiteboard editor that runs entirely in the browser. ",
       "title": "draw.io",
-      "updated": "2026-11-06",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/jgraph/drawio"
     },
     "easyappointments": {
@@ -2467,7 +2448,7 @@
         "GitHub"
       ],
       "id": "elektrond",
-      "lastPush": "2026-10-29",
+      "lastPush": "2026-11-23",
       "license": "MIT",
       "otherRepos": [],
       "packageRepos": [
@@ -2477,7 +2458,7 @@
       "replaces": "—",
       "short": "StartOS packaging wrapper for Elektron Net (elektron-net) – builds elektrond.s9pk via GitHub Actions",
       "title": "Elektron Net",
-      "updated": "2026-10-29",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/kutlusoy/elektron-net"
     },
     "element-web": {
@@ -2623,7 +2604,7 @@
         "GitHub"
       ],
       "id": "fedimintcard-till",
-      "lastPush": "2026-11-19",
+      "lastPush": "2026-11-21",
       "license": "MIT",
       "otherRepos": [],
       "packageRepos": [
@@ -2633,7 +2614,7 @@
       "replaces": "—",
       "short": "fedimintcard till as a StartOS service",
       "title": "Fedimint Card Till",
-      "updated": "2026-11-19",
+      "updated": "2026-11-21",
       "upstreamRepo": "https://github.com/fedimintcard/fedimintcard"
     },
     "filebrowser": {
@@ -2727,32 +2708,30 @@
         "https://github.com/Start9-Community/flowee-the-hub-startos"
       ],
       "registries": {
-        "community": "2026.5.2:17",
+        "community": "2026.5.2:18",
         "community-beta": "2026.5.2:18"
       },
       "replaces": "—",
       "short": "Fast, fully validating Bitcoin Cash node with a built-in indexer",
       "title": "Flowee the Hub",
-      "updated": "2026-11-20",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://codeberg.org/Flowee/thehub"
     },
     "fmd-server": {
       "categories": [],
-      "forges": [
-        "GitHub"
-      ],
       "id": "fmd-server",
-      "lastPush": "2026-11-18",
       "license": "GPL-3.0-or-later",
       "otherRepos": [],
       "packageRepos": [
         "https://github.com/Start9Labs/fmd-server-startos"
       ],
-      "registries": {},
+      "registries": {
+        "start9-beta": "0.17.1:0"
+      },
       "replaces": "Google Find My Device",
-      "short": "StartOS package for FMD Server",
+      "short": "Self-hosted server for the FMD (Find My Device) Android app",
       "title": "FMD Server",
-      "updated": "2026-11-18",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://gitlab.com/fmd-foss/fmd-server"
     },
     "forgejo": {
@@ -2791,13 +2770,13 @@
         "https://github.com/Start9Labs/forgejo-runner-startos"
       ],
       "registries": {
-        "start9": "13.2.2:0",
-        "start9-beta": "13.2.2:0"
+        "start9": "13.2.2:1",
+        "start9-beta": "13.2.2:1"
       },
       "replaces": "GitHub Actions runners",
       "short": "A CI/CD runner for Forgejo Actions",
       "title": "Forgejo Runner",
-      "updated": "2026-11-19",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://code.forgejo.org/forgejo/runner"
     },
     "formbricks": {
@@ -2938,7 +2917,8 @@
     },
     "fulcrum": {
       "categories": [
-        "Bitcoin"
+        "Bitcoin",
+        "Indexers"
       ],
       "id": "fulcrum",
       "license": "MIT",
@@ -2951,6 +2931,7 @@
       ],
       "registries": {
         "mempool-guide": "#blake:2.1.4:0",
+        "spectreworks": "#blake:2.1.4:0",
         "start9": "2.1.4:5",
         "start9-beta": "2.1.4:5"
       },
@@ -3156,13 +3137,13 @@
         "https://github.com/Start9-Community/go-quai-startos"
       ],
       "registries": {
-        "community": "0.56.1:1",
+        "community": "0.56.1:2",
         "community-beta": "0.56.1:2"
       },
       "replaces": "—",
       "short": "Quai Network node with built-in solo mining stratum (SHA-256, Scrypt, KawPoW)",
       "title": "Quai Network",
-      "updated": "2026-11-20",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/dominant-strategies/go-quai"
     },
     "gobrrr-pool": {
@@ -3333,13 +3314,13 @@
         "https://github.com/Start9-Community/helipad-startos"
       ],
       "registries": {
-        "community": "0.2.2:12",
+        "community": "0.2.2:13",
         "community-beta": "0.2.2:13"
       },
       "replaces": "—",
       "short": "View boosts & boostagrams from Podcasting 2.0 apps",
       "title": "Helipad",
-      "updated": "2026-11-20",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/Podcastindex-org/helipad"
     },
     "helix-home": {
@@ -3474,13 +3455,13 @@
         "https://github.com/Start9-Community/holesail-startos"
       ],
       "registries": {
-        "community": "2.4.1:12",
+        "community": "2.4.1:13",
         "community-beta": "2.4.1:13"
       },
       "replaces": "ngrok",
       "short": "P2P Tunnels for instant access",
       "title": "Holesail",
-      "updated": "2026-11-20",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/holesail/holesail-docker"
     },
     "home-assistant": {
@@ -3615,13 +3596,13 @@
         "https://github.com/Start9Labs/immich-startos"
       ],
       "registries": {
-        "start9": "3.4.1:0",
-        "start9-beta": "3.4.1:0"
+        "start9": "3.4.1:1",
+        "start9-beta": "3.4.1:1"
       },
       "replaces": "Google Photos, iCloud Photos",
       "short": "High-performance self-hosted photo and video management",
       "title": "Immich",
-      "updated": "2026-11-13",
+      "updated": "2026-11-21",
       "upstreamRepo": "https://github.com/immich-app/immich"
     },
     "immichframe": {
@@ -3799,7 +3780,7 @@
       "replaces": "Zoom, Google Meet",
       "short": "Self-hosted video conferencing with Jitsi Meet",
       "title": "Jitsi Meet",
-      "updated": "2026-11-20",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/jitsi/docker-jitsi-meet"
     },
     "joplin-server": {
@@ -3876,13 +3857,13 @@
         "https://github.com/Start9Labs/karakeep-startos"
       ],
       "registries": {
-        "start9": "0.35.0:1",
-        "start9-beta": "0.35.0:1"
+        "start9": "0.35.0:2",
+        "start9-beta": "0.35.0:2"
       },
       "replaces": "Pocket, Raindrop.io",
       "short": "A self-hostable bookmark-everything app",
       "title": "Karakeep",
-      "updated": "2026-11-17",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/karakeep-app/karakeep"
     },
     "kathreftestr": {
@@ -3921,13 +3902,13 @@
         "https://github.com/Start9-Community/keep-startos"
       ],
       "registries": {
-        "community": "0.12.2:0",
+        "community": "0.14.1:0",
         "community-beta": "0.14.1:0"
       },
       "replaces": "—",
       "short": "Always-on FROST threshold co-signer for Nostr and Bitcoin",
       "title": "Keep",
-      "updated": "2026-11-20",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/privkeyio/keep"
     },
     "keila": {
@@ -3936,7 +3917,7 @@
         "GitHub"
       ],
       "id": "keila",
-      "lastPush": "2026-11-18",
+      "lastPush": "2026-11-22",
       "license": "AGPL-3.0",
       "otherRepos": [],
       "packageRepos": [
@@ -3946,7 +3927,7 @@
       "replaces": "Mailchimp, Substack",
       "short": "StartOS package for Keila, the open-source newsletter tool",
       "title": "Keila",
-      "updated": "2026-11-18",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/pentacent/keila"
     },
     "key-value-copy": {
@@ -4139,12 +4120,12 @@
         "https://github.com/paulscode/knots-blake2b-startos"
       ],
       "registries": {
-        "paulscode": "29.5.0:2"
+        "paulscode": "29.5.1:0"
       },
       "replaces": "—",
       "short": "A Bitcoin Knots node on the BLAKE2b chain, pruned so it fits alongside another",
       "title": "Bitcoin Knots (BLAKE2b) Companion",
-      "updated": "2026-11-21",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/bitcoinknots/bitcoin"
     },
     "knots-prerdts": {
@@ -4496,13 +4477,13 @@
         "https://github.com/Start9Labs/llama-cpp-startos"
       ],
       "registries": {
-        "start9": "12110:0",
-        "start9-beta": "12110:0"
+        "start9": "12110:1",
+        "start9-beta": "12110:1"
       },
       "replaces": "OpenAI API",
       "short": "OpenAI-compatible LLM inference server (llama.cpp)",
       "title": "llama.cpp",
-      "updated": "2026-11-06",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/ggml-org/llama.cpp"
     },
     "lnbits": {
@@ -4516,13 +4497,13 @@
         "https://github.com/Start9Labs/lnbits-startos"
       ],
       "registries": {
-        "start9": "1.7.1:1",
-        "start9-beta": "1.7.1:1"
+        "start9": "1.7.1:2",
+        "start9-beta": "1.7.1:2"
       },
       "replaces": "—",
       "short": "A Bitcoin Lightning wallet and accounts system.",
       "title": "LNbits",
-      "updated": "2026-11-18",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/lnbits/lnbits"
     },
     "lnd": {
@@ -4538,13 +4519,13 @@
         "https://github.com/Start9Labs/lnd-startos"
       ],
       "registries": {
-        "start9": "0.21.8-beta:2",
-        "start9-beta": "0.21.8-beta:2"
+        "start9": "0.21.8-beta:3",
+        "start9-beta": "0.21.8-beta:4"
       },
       "replaces": "—",
       "short": "A complete implementation of a Lightning Network node by Lightning Labs",
       "title": "LND",
-      "updated": "2026-11-19",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/lightningnetwork/lnd"
     },
     "lndg": {
@@ -4594,7 +4575,7 @@
         "GitHub"
       ],
       "id": "makemkv",
-      "lastPush": "2026-11-20",
+      "lastPush": "2026-11-23",
       "license": "Proprietary",
       "otherRepos": [],
       "packageRepos": [
@@ -4604,7 +4585,7 @@
       "replaces": "—",
       "short": "StartOS package for MakeMKV (tests the opticalDrives manifest flag)",
       "title": "MakeMKV",
-      "updated": "2026-11-20",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/jlesage/docker-makemkv"
     },
     "maloja": {
@@ -4642,13 +4623,13 @@
         "https://github.com/Start9-Community/manifold-fedimint-guardian-startos"
       ],
       "registries": {
-        "community": "0.1.18:1",
-        "community-beta": "0.1.18:1"
+        "community": "0.1.19:0",
+        "community-beta": "0.1.19:0"
       },
       "replaces": "—",
       "short": "Operate Fedimint guardian seats for multiple Fedimint federations and earn fees from a single node.",
       "title": "Manifold Fedimint Guardian",
-      "updated": "2026-11-20",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/fedibtc/manifold"
     },
     "maple-proxy": {
@@ -4735,6 +4716,24 @@
       "updated": "2026-03-13",
       "upstreamRepo": "https://github.com/itzg/docker-minecraft-server"
     },
+    "mealie": {
+      "categories": [],
+      "forges": [
+        "GitHub"
+      ],
+      "id": "mealie",
+      "lastPush": "2026-11-23",
+      "license": "AGPL-3.0",
+      "otherRepos": [],
+      "packageRepos": [
+        "https://github.com/homebrew-gh/mealie-startos"
+      ],
+      "registries": {},
+      "short": "A StartOS package for Mealie.",
+      "title": "Mealie",
+      "updated": "2026-11-23",
+      "upstreamRepo": "https://github.com/mealie-recipes/mealie"
+    },
     "memos": {
       "categories": [
         "Files and Productivity"
@@ -4750,18 +4749,19 @@
       ],
       "registries": {
         "atoll": "0.29.1:0",
-        "start9": "26.11.1:0",
-        "start9-beta": "26.11.1:0"
+        "start9": "26.11.2:0",
+        "start9-beta": "26.11.2:0"
       },
       "replaces": "Google Keep, Notion",
       "short": "Self-hosted, lightweight note-taking service. Markdown-native, SQLite-backed, and fully yours.",
       "title": "Memos",
-      "updated": "2026-11-17",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/usememos/memos"
     },
     "mempool": {
       "categories": [
-        "Bitcoin"
+        "Bitcoin",
+        "Explorers"
       ],
       "id": "mempool",
       "license": "AGPL",
@@ -4772,13 +4772,14 @@
       ],
       "registries": {
         "mempool-guide": "#mpg:3.4:10",
-        "start9": "3.3.2:8",
-        "start9-beta": "3.3.2:8"
+        "spectreworks": "#mpg:3.4:10",
+        "start9": "3.3.2:9",
+        "start9-beta": "3.3.2:9"
       },
       "replaces": "—",
       "short": "Be your own explorer® with The Mempool Open Source Project®",
       "title": "Mempool",
-      "updated": "2026-11-20",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/mempool/mempool"
     },
     "mempool-kilombino": {
@@ -4811,12 +4812,12 @@
         "https://github.com/paulscode/mempool-pruned-startos"
       ],
       "registries": {
-        "paulscode": "3.3.2:1"
+        "paulscode": "3.3.2:2"
       },
       "replaces": "—",
       "short": "Be your own explorer® with The Mempool Open Source Project®",
       "title": "Mempool Pruned",
-      "updated": "2026-11-11",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/mempool/mempool"
     },
     "metube": {
@@ -4853,13 +4854,13 @@
         "https://github.com/Start9Labs/minecraft-startos"
       ],
       "registries": {
-        "start9": "26.3:3",
-        "start9-beta": "26.3:3"
+        "start9": "26.3:4",
+        "start9-beta": "26.3:4"
       },
       "replaces": "Minecraft Realms",
       "short": "Java Edition Minecraft server with web-based management",
       "title": "Minecraft Server",
-      "updated": "2026-11-18",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/itzg/docker-minecraft-server"
     },
     "miniflux": {
@@ -5008,7 +5009,7 @@
         "GitHub"
       ],
       "id": "mrr-command-center",
-      "lastPush": "2026-11-20",
+      "lastPush": "2026-11-23",
       "license": "MIT",
       "otherRepos": [],
       "packageRepos": [
@@ -5018,7 +5019,7 @@
       "replaces": "—",
       "short": "StartOS package of MRR Command Center: rent BLAKE2b hashrate on MiningRigRentals by hand and audit it against your DATUM gateway",
       "title": "MRR Command Center",
-      "updated": "2026-11-20",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/Kilombino/mrr-command-center"
     },
     "multi-scrobbler": {
@@ -5077,13 +5078,13 @@
         "https://github.com/Start9Labs/n8n-startos"
       ],
       "registries": {
-        "start9": "2.48.7:0",
-        "start9-beta": "2.48.7:0"
+        "start9": "2.48.8:0",
+        "start9-beta": "2.48.8:0"
       },
       "replaces": "Zapier, Make",
       "short": "Self-hosted workflow automation with AI",
       "title": "n8n",
-      "updated": "2026-11-20",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/n8n-io/n8n"
     },
     "namecoin-electrumx": {
@@ -5119,13 +5120,13 @@
         "https://github.com/Start9-Community/namecoin-core-startos"
       ],
       "registries": {
-        "community": "32.1:1",
+        "community": "32.1:2",
         "community-beta": "32.1:2"
       },
       "replaces": "—",
       "short": "A Namecoin Full Node by Namecoin Core",
       "title": "Namecoin Core",
-      "updated": "2026-11-20",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/namecoin/namecoin-core"
     },
     "navidrome": {
@@ -5199,13 +5200,13 @@
         "https://github.com/Start9Labs/nextcloud-startos"
       ],
       "registries": {
-        "start9": "35.0.3:3",
-        "start9-beta": "35.0.3:3"
+        "start9": "35.0.3:4",
+        "start9-beta": "35.0.3:4"
       },
       "replaces": "Google Drive, Dropbox",
       "short": "A safe home for all your data",
       "title": "Nextcloud",
-      "updated": "2026-11-19",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/nextcloud/docker"
     },
     "nextcloud-talk-hpb": {
@@ -5217,13 +5218,13 @@
         "https://github.com/Start9Labs/nextcloud-talk-hpb-startos"
       ],
       "registries": {
-        "start9": "2.2.0:1",
-        "start9-beta": "2.2.0:1"
+        "start9": "2.2.0:2",
+        "start9-beta": "2.2.0:2"
       },
       "replaces": "Zoom, Google Meet",
       "short": "Group video calls for Nextcloud Talk",
       "title": "Nextcloud Talk HPB",
-      "updated": "2026-11-19",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/strukturag/nextcloud-spreed-signaling"
     },
     "nextexplorer": {
@@ -5276,13 +5277,13 @@
         "https://github.com/Start9-Community/nitter-startos"
       ],
       "registries": {
-        "community": "2026.8.24:3",
-        "community-beta": "2026.8.24:3"
+        "community": "2026.8.24:4",
+        "community-beta": "2026.8.24:4"
       },
       "replaces": "—",
       "short": "Privacy-respecting front-end for X (Twitter)",
       "title": "Nitter",
-      "updated": "2026-10-30",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/zedeus/nitter"
     },
     "nocturne": {
@@ -5339,13 +5340,13 @@
         "https://github.com/Start9-Community/nomadnet-startos"
       ],
       "registries": {
-        "community": "1.5.0:0",
-        "community-beta": "1.5.0:0"
+        "community": "1.5.0:1",
+        "community-beta": "1.5.0:1"
       },
       "replaces": "—",
       "short": "Encrypted, off-grid mesh messaging and pages over Reticulum",
       "title": "Nomad Network",
-      "updated": "2026-11-11",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/markqvist/NomadNet"
     },
     "nostr-rs-relay": {
@@ -5381,13 +5382,13 @@
         "https://github.com/Start9-Community/nostr-vpn"
       ],
       "registries": {
-        "community": "4.1.18:0",
-        "community-beta": "4.1.18:0"
+        "community": "4.1.18:1",
+        "community-beta": "4.1.18:1"
       },
       "replaces": "Tailscale, ZeroTier",
       "short": "Private mesh VPN over Nostr",
       "title": "Nostr VPN",
-      "updated": "2026-10-24",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/mmalmi/nostr-vpn"
     },
     "ntfy": {
@@ -5495,12 +5496,12 @@
         "https://github.com/ok/obsidian-livesync-startos"
       ],
       "registries": {
-        "zsapping": "1.0.50:0"
+        "zsapping": "1.0.52:0"
       },
       "replaces": "Obsidian Sync",
       "short": "Sync server for the Obsidian Self-hosted LiveSync plugin",
       "title": "Obsidian LiveSync",
-      "updated": "2026-11-16",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/vrtmrz/obsidian-livesync"
     },
     "ocean-terminal": {
@@ -5641,6 +5642,24 @@
       "updated": "2026-11-08",
       "upstreamRepo": "https://github.com/openclaw/openclaw"
     },
+    "openhamclock": {
+      "categories": [],
+      "forges": [
+        "GitHub"
+      ],
+      "id": "openhamclock",
+      "lastPush": "2026-11-22",
+      "license": "MIT",
+      "otherRepos": [],
+      "packageRepos": [
+        "https://github.com/The-Cryptosquid/openhamclock-startos"
+      ],
+      "registries": {},
+      "short": "StartOS package for OpenHamClock, a real-time amateur radio dashboard",
+      "title": "OpenHamClock",
+      "updated": "2026-11-22",
+      "upstreamRepo": "https://github.com/accius/openhamclock"
+    },
     "openserp": {
       "categories": [
         "Files and Productivity"
@@ -5681,6 +5700,25 @@
       "title": "OpenWhispr",
       "updated": "2026-09-19",
       "upstreamRepo": "https://github.com/OpenWhispr/openwhispr"
+    },
+    "outcrop": {
+      "categories": [
+        "AI",
+        "Featured"
+      ],
+      "id": "outcrop",
+      "license": "MIT",
+      "otherRepos": [],
+      "packageRepos": [
+        "https://github.com/paulscode/outcrop"
+      ],
+      "registries": {
+        "paulscode": "0.1.0:0"
+      },
+      "short": "A capable LLM on budget, upgradable hardware",
+      "title": "Outcrop",
+      "updated": "2026-11-23",
+      "upstreamRepo": "https://github.com/paulscode/outcrop"
     },
     "outline": {
       "categories": [],
@@ -5753,13 +5791,13 @@
         "https://github.com/Start9Labs/owntracks-recorder-startos"
       ],
       "registries": {
-        "start9": "1.0.7:0",
-        "start9-beta": "1.0.7:0"
+        "start9": "1.0.7:1",
+        "start9-beta": "1.0.7:1"
       },
       "replaces": "Life360, Google Maps Timeline",
       "short": "Self-hosted location tracking for the OwnTracks apps",
       "title": "OwnTracks Recorder",
-      "updated": "2026-11-19",
+      "updated": "2026-11-21",
       "upstreamRepo": "https://github.com/owntracks/recorder"
     },
     "p2pool": {
@@ -5775,13 +5813,13 @@
         "https://github.com/Start9-Community/p2pool-startos"
       ],
       "registries": {
-        "community": "4.18.1:3",
-        "community-beta": "4.18.1:3"
+        "community": "4.18.1:4",
+        "community-beta": "4.18.1:4"
       },
       "replaces": "—",
       "short": "A decentralized, permissionless, 0%-fee Monero mining pool",
       "title": "P2Pool",
-      "updated": "2026-11-15",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/SChernykh/p2pool"
     },
     "pactd": {
@@ -5995,7 +6033,7 @@
         "GitHub"
       ],
       "id": "penpot",
-      "lastPush": "2026-11-16",
+      "lastPush": "2026-11-23",
       "license": "MPL-2.0",
       "otherRepos": [],
       "packageRepos": [
@@ -6006,7 +6044,7 @@
       "replaces": "Figma",
       "short": "Penpot for StartOS",
       "title": "Penpot",
-      "updated": "2026-11-16",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/penpot/penpot"
     },
     "phoenixd": {
@@ -6109,7 +6147,9 @@
       "upstreamRepo": "https://github.com/pocket-id/pocket-id"
     },
     "pogolo": {
-      "categories": [],
+      "categories": [
+        "Bitcoin"
+      ],
       "id": "pogolo",
       "license": "AGPL-3.0",
       "otherRepos": [
@@ -6119,12 +6159,13 @@
         "https://github.com/Start9-Community/pogolo-startos"
       ],
       "registries": {
-        "community-beta": "1.1.6:0"
+        "community": "1.1.7:0",
+        "community-beta": "1.1.7:0"
       },
       "replaces": "—",
       "short": "Solo, db-less Bitcoin mining pool for your LAN",
       "title": "pogolo",
-      "updated": "2026-11-10",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/0xf0xx0/pogolo"
     },
     "ppq-private-mode": {
@@ -6479,12 +6520,12 @@
         "https://github.com/remcoros/rbitcoin-space-startos"
       ],
       "registries": {
-        "testnet4": "0.4.0:0"
+        "testnet4": "0.5.0:0"
       },
       "replaces": "—",
       "short": "Explore mainnet through your rbitcoin node",
       "title": "rbitcoin.space",
-      "updated": "2026-11-19",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/smolcars/rbitcoin-space"
     },
     "readstr": {
@@ -6522,13 +6563,13 @@
         "https://github.com/Start9-Community/reticulum-meshchat-startos"
       ],
       "registries": {
-        "community": "2.4.0:4",
-        "community-beta": "2.4.0:4"
+        "community": "2.4.0:6",
+        "community-beta": "2.4.0:6"
       },
       "replaces": "—",
       "short": "Encrypted mesh messaging over Reticulum — no servers, no accounts",
       "title": "Reticulum MeshChat",
-      "updated": "2026-10-12",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/liamcottle/reticulum-meshchat"
     },
     "ride-the-lightning": {
@@ -6665,12 +6706,13 @@
         "https://github.com/Start9-Community/route96-startos"
       ],
       "registries": {
+        "community": "0.8.0:0",
         "community-beta": "0.8.0:0"
       },
       "replaces": "—",
       "short": "Blossom media server for Nostr",
       "title": "route96 (Blossom)",
-      "updated": "2026-11-17",
+      "updated": "2026-11-21",
       "upstreamRepo": "https://github.com/v0l/route96"
     },
     "routstr": {
@@ -6698,7 +6740,7 @@
         "GitHub"
       ],
       "id": "rrc-hub",
-      "lastPush": "2026-11-20",
+      "lastPush": "2026-11-22",
       "license": "MIT",
       "otherRepos": [],
       "packageRepos": [
@@ -6708,7 +6750,7 @@
       "replaces": "—",
       "short": "RRC Hub: Reticulum Community Channels (rrcd) packaged for StartOS",
       "title": "RRC Hub: Reticulum Community Channels",
-      "updated": "2026-11-20",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/kc1awv/rrcd"
     },
     "rustdesk-server": {
@@ -6859,13 +6901,13 @@
         "https://github.com/Start9-Community/scriptwerk-startos"
       ],
       "registries": {
-        "community": "0.1.73:1",
+        "community": "0.1.73:2",
         "community-beta": "0.1.73:2"
       },
       "replaces": "—",
       "short": "Design Bitcoin miniscript policies, then build and send",
       "title": "Scriptwerk",
-      "updated": "2026-11-20",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/kwadde-cmyk/scriptwerk-startos"
     },
     "searxng": {
@@ -6889,7 +6931,9 @@
       "upstreamRepo": "https://github.com/searxng/searxng"
     },
     "seerr": {
-      "categories": [],
+      "categories": [
+        "Media"
+      ],
       "id": "seerr",
       "license": "MIT",
       "otherRepos": [
@@ -6899,12 +6943,13 @@
         "https://github.com/Start9-Community/seerr-startos"
       ],
       "registries": {
+        "community": "3.5.2:0",
         "community-beta": "3.5.2:0"
       },
       "replaces": "—",
       "short": "Media discovery and requests for Jellyfin",
       "title": "Seerr",
-      "updated": "2026-11-17",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/seerr-team/seerr"
     },
     "seerrng": {
@@ -6913,7 +6958,7 @@
         "GitHub"
       ],
       "id": "seerrng",
-      "lastPush": "2026-11-05",
+      "lastPush": "2026-11-21",
       "license": "MIT",
       "otherRepos": [],
       "packageRepos": [
@@ -6923,7 +6968,7 @@
       "replaces": "—",
       "short": "StartOS wrapper for SeerrNG",
       "title": "SeerrNG",
-      "updated": "2026-11-05",
+      "updated": "2026-11-21",
       "upstreamRepo": "https://github.com/snapetech/seerrng"
     },
     "serper": {
@@ -6965,6 +7010,22 @@
       "title": "Shelfarr",
       "updated": "2026-11-18",
       "upstreamRepo": "https://github.com/Pedro-Revez-Silva/shelfarr"
+    },
+    "sift": {
+      "categories": [],
+      "id": "sift",
+      "license": "mit",
+      "otherRepos": [],
+      "packageRepos": [
+        "https://github.com/Maveth/filter_sidecar"
+      ],
+      "registries": {
+        "mempool-guide": "#sift:0.1.1:0"
+      },
+      "short": "Mark mempool transactions so Knots leaves them out of the block",
+      "title": "Sift",
+      "updated": "2026-11-23",
+      "upstreamRepo": "https://github.com/Maveth/filter_sidecar"
     },
     "siftstr": {
       "categories": [],
@@ -7089,7 +7150,7 @@
         "GitHub"
       ],
       "id": "slskdn",
-      "lastPush": "2026-11-05",
+      "lastPush": "2026-11-21",
       "license": "AGPL-3.0",
       "otherRepos": [],
       "packageRepos": [
@@ -7099,7 +7160,7 @@
       "replaces": "—",
       "short": "StartOS wrapper for slskdN",
       "title": "slskdN",
-      "updated": "2026-11-05",
+      "updated": "2026-11-21",
       "upstreamRepo": "https://github.com/snapetech/slskdn"
     },
     "snikket": {
@@ -7149,7 +7210,7 @@
         "GitHub"
       ],
       "id": "solidtime",
-      "lastPush": "2026-11-13",
+      "lastPush": "2026-11-23",
       "license": "AGPL-3.0",
       "otherRepos": [],
       "packageRepos": [
@@ -7159,7 +7220,7 @@
       "replaces": "Toggl Track, Clockify",
       "short": "solidtime packaged for StartOS",
       "title": "solidtime",
-      "updated": "2026-11-13",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/solidtime-io/solidtime"
     },
     "sonarr": {
@@ -7173,13 +7234,13 @@
         "https://github.com/Start9Labs/sonarr-startos"
       ],
       "registries": {
-        "start9": "4.0.20.3014:10",
-        "start9-beta": "4.0.20.3014:10"
+        "start9": "4.0.20.3014:11",
+        "start9-beta": "4.0.20.3014:11"
       },
       "replaces": "—",
       "short": "Automatically find, download, and organize TV shows",
       "title": "Sonarr",
-      "updated": "2026-11-20",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/Sonarr/Sonarr"
     },
     "sovereign-swap-client": {
@@ -7370,13 +7431,13 @@
         "https://github.com/Start9Labs/stalwart-startos"
       ],
       "registries": {
-        "start9": "1.1.1:0",
-        "start9-beta": "1.1.1:0"
+        "start9": "1.1.1:1",
+        "start9-beta": "1.1.1:1"
       },
       "replaces": "Google Workspace, Microsoft 365",
       "short": "All-in-one mail and collaboration server",
       "title": "Stalwart",
-      "updated": "2026-11-16",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/stalwartlabs/stalwart"
     },
     "standardnotes-server": {
@@ -7412,13 +7473,13 @@
         "https://github.com/Start9Labs/start9-pages-startos"
       ],
       "registries": {
-        "start9": "1.1.0:2",
-        "start9-beta": "1.1.0:2"
+        "start9": "1.1.0:3",
+        "start9-beta": "1.1.0:3"
       },
       "replaces": "Netlify, Squarespace",
       "short": "Self-host static websites",
       "title": "Start9 Pages",
-      "updated": "2026-11-09",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/Start9Labs/start9-pages-startos"
     },
     "startos-registry": {
@@ -7477,33 +7538,33 @@
         "https://github.com/Start9Labs/stirling-pdf-startos"
       ],
       "registries": {
-        "start9": "3.4.0:0",
-        "start9-beta": "3.4.0:0"
+        "start9": "3.5.0:0",
+        "start9-beta": "3.5.0:0"
       },
       "replaces": "Adobe Acrobat",
       "short": "Self-hosted tools to edit, convert, and OCR your PDFs",
       "title": "Stirling PDF",
-      "updated": "2026-11-19",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://github.com/Stirling-Tools/Stirling-PDF"
     },
     "strata": {
-      "categories": [],
+      "categories": [
+        "AI"
+      ],
       "id": "strata",
       "license": "MIT",
-      "otherRepos": [
-        "https://github.com/13Homer13/strata-startos"
-      ],
+      "otherRepos": [],
       "packageRepos": [
         "https://github.com/Start9-Community/strata-startos"
       ],
       "registries": {
-        "community": "0.2.13:0",
-        "community-beta": "0.2.13:0"
+        "community": "0.2.17:0",
+        "community-beta": "0.2.17:0"
       },
       "replaces": "ChatGPT",
       "short": "Run Qwen3.8-Flash-Next on your own NVIDIA GPU",
       "title": "Strata",
-      "updated": "2026-11-15",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/Niko1221/Strata"
     },
     "stratum-v2": {
@@ -7709,7 +7770,7 @@
         "GitHub"
       ],
       "id": "teapot",
-      "lastPush": "2026-10-24",
+      "lastPush": "2026-11-23",
       "license": "AGPL-3.0-only",
       "otherRepos": [],
       "packageRepos": [
@@ -7719,7 +7780,7 @@
       "replaces": "—",
       "short": "teapot (privacy-focused Twitter/X frontend) for StartOS",
       "title": "teapot",
-      "updated": "2026-10-24",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/amaanq/teapot"
     },
     "test": {
@@ -7832,13 +7893,13 @@
         "https://github.com/Start9Labs/tor-startos"
       ],
       "registries": {
-        "start9": "0.4.9.17:1",
-        "start9-beta": "0.4.9.17:1"
+        "start9": "0.4.9.17:2",
+        "start9-beta": "0.4.9.17:2"
       },
       "replaces": "—",
       "short": "Anonymity network for onion services and private browsing",
       "title": "Tor",
-      "updated": "2026-11-18",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://gitlab.torproject.org/tpo/core/tor"
     },
     "tor-relay": {
@@ -7931,7 +7992,7 @@
         "GitHub"
       ],
       "id": "umami",
-      "lastPush": "2026-11-12",
+      "lastPush": "2026-11-23",
       "license": "MIT",
       "otherRepos": [],
       "packageRepos": [
@@ -7941,7 +8002,7 @@
       "replaces": "Google Analytics",
       "short": "Umami, privacy-focused web analytics, packaged for StartOS",
       "title": "Umami",
-      "updated": "2026-11-12",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/umami-software/umami"
     },
     "umbrel-bitcoin-ui": {
@@ -7984,6 +8045,24 @@
       "title": "UniFi Network Application",
       "updated": "2026-08-16",
       "upstreamRepo": "https://github.com/jacobalberty/unifi-docker"
+    },
+    "ups-watch": {
+      "categories": [],
+      "forges": [
+        "GitHub"
+      ],
+      "id": "ups-watch",
+      "lastPush": "2026-11-23",
+      "license": "AGPL-3.0",
+      "otherRepos": [],
+      "packageRepos": [
+        "https://github.com/JesseMarkowitz/ups-watch-startos"
+      ],
+      "registries": {},
+      "short": "UPS Watch for StartOS: history charts and power alerts for the UPS your server monitors",
+      "title": "UPS Watch",
+      "updated": "2026-11-23",
+      "upstreamRepo": "https://github.com/grafana/grafana"
     },
     "uptime-kuma": {
       "categories": [
@@ -8089,7 +8168,7 @@
         "GitHub"
       ],
       "id": "veilid",
-      "lastPush": "2026-11-11",
+      "lastPush": "2026-11-22",
       "license": "MPL-2.0",
       "otherRepos": [],
       "packageRepos": [
@@ -8099,7 +8178,7 @@
       "replaces": "—",
       "short": "Veilid node packaged for StartOS",
       "title": "Veilid",
-      "updated": "2026-11-11",
+      "updated": "2026-11-22",
       "upstreamRepo": "https://gitlab.com/veilid/veilid"
     },
     "verge": {
@@ -8274,7 +8353,7 @@
         "GitHub"
       ],
       "id": "ytptube",
-      "lastPush": "2026-11-15",
+      "lastPush": "2026-11-23",
       "license": "MIT",
       "otherRepos": [],
       "packageRepos": [
@@ -8284,7 +8363,7 @@
       "replaces": "—",
       "short": "YTPTube is a self-hosted WebUI for yt-dlp with concurrent downloads support, presets and scheduled tasks, packaged for StartOS",
       "title": "YTPTube",
-      "updated": "2026-11-15",
+      "updated": "2026-11-23",
       "upstreamRepo": "https://github.com/arabcoders/ytptube"
     },
     "zebrad": {

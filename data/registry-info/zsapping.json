@@ -2,5 +2,7 @@
   "description": null,
   "icon": "zsapping.png",
   "name": "zsapping.net",
-  "signers": []
+  "signers": [
+    "zsapping.net registry signing"
+  ]
 }

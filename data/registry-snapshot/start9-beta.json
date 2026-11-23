@@ -49,33 +49,33 @@
     "license": "MIT",
     "marketingUrl": "https://second.tech/",
     "packageRepo": "https://github.com/Start9Labs/bark-web-startos",
-    "published": "2026-11-20",
+    "published": "2026-11-22",
     "short": "Self-custodial Ark wallet for fast Bitcoin payments",
     "title": "Bark Wallet",
     "upstreamRepo": "https://gitlab.com/ark-bitcoin/bark-web",
-    "version": "0.12.0:0"
+    "version": "0.12.0:1"
   },
   "beszel": {
     "categories": [],
     "license": "MIT",
     "marketingUrl": "https://beszel.dev/",
     "packageRepo": "https://github.com/Start9Labs/beszel-startos",
-    "published": "2026-11-17",
+    "published": "2026-11-22",
     "short": "Lightweight server monitoring with Docker stats, historical data, and alerts.",
     "title": "Beszel",
     "upstreamRepo": "https://github.com/henrygd/beszel",
-    "version": "0.21.2:0"
+    "version": "0.21.2:1"
   },
   "bitcoind": {
     "categories": [],
     "license": "MIT",
     "marketingUrl": "https://bitcoincore.org/",
     "packageRepo": "https://github.com/Start9Labs/bitcoin-core-startos",
-    "published": "2026-11-20",
+    "published": "2026-11-22",
     "short": "A Bitcoin Full Node by Bitcoin Core",
     "title": "Bitcoin Core",
     "upstreamRepo": "https://github.com/bitcoin/bitcoin",
-    "version": "32.1:1"
+    "version": "32.1:2"
   },
   "btcpayserver": {
     "categories": [],
@@ -104,11 +104,11 @@
     "license": "mit",
     "marketingUrl": "https://blockstream.com/lightning",
     "packageRepo": "https://github.com/Start9Labs/cln-startos",
-    "published": "2026-11-20",
+    "published": "2026-11-22",
     "short": "An implementation of the Lightning Network protocol by Blockstream.",
     "title": "Core Lightning",
     "upstreamRepo": "https://github.com/ElementsProject/lightning",
-    "version": "26.6.10:8"
+    "version": "26.6.10:9"
   },
   "cal-diy": {
     "categories": [],
@@ -137,11 +137,11 @@
     "license": "MPL-2.0",
     "marketingUrl": "https://www.collaboraonline.com/",
     "packageRepo": "https://github.com/Start9Labs/collabora-online-startos",
-    "published": "2026-11-07",
+    "published": "2026-11-22",
     "short": "The office suite behind Nextcloud Office",
     "title": "Collabora Online",
     "upstreamRepo": "https://github.com/CollaboraOnline/online",
-    "version": "26.4.6.1.1:0"
+    "version": "26.4.6.2.1:0"
   },
   "coturn": {
     "categories": [],
@@ -203,11 +203,11 @@
     "license": "AGPL-3.0",
     "marketingUrl": "https://www.docuseal.com/",
     "packageRepo": "https://github.com/Start9Labs/docuseal-startos",
-    "published": "2026-11-19",
+    "published": "2026-11-23",
     "short": "Open-source document signing platform",
     "title": "DocuSeal",
     "upstreamRepo": "https://github.com/docusealco/docuseal",
-    "version": "3.3.8:0"
+    "version": "3.4.0:0"
   },
   "easyappointments": {
     "categories": [],
@@ -286,6 +286,17 @@
     "upstreamRepo": "https://github.com/firefly-iii/firefly-iii",
     "version": "6.7.9:2"
   },
+  "fmd-server": {
+    "categories": [],
+    "license": "GPL-3.0-or-later",
+    "marketingUrl": "https://fmd-foss.org/",
+    "packageRepo": "https://github.com/Start9Labs/fmd-server-startos",
+    "published": "2026-11-23",
+    "short": "Self-hosted server for the FMD (Find My Device) Android app",
+    "title": "FMD Server",
+    "upstreamRepo": "https://gitlab.com/fmd-foss/fmd-server",
+    "version": "0.17.1:0"
+  },
   "forgejo": {
     "categories": [],
     "license": "GPL-3.0-or-later",
@@ -302,11 +313,11 @@
     "license": "GPL-3.0-or-later",
     "marketingUrl": "https://forgejo.org/",
     "packageRepo": "https://github.com/Start9Labs/forgejo-runner-startos",
-    "published": "2026-11-19",
+    "published": "2026-11-22",
     "short": "A CI/CD runner for Forgejo Actions",
     "title": "Forgejo Runner",
     "upstreamRepo": "https://code.forgejo.org/forgejo/runner",
-    "version": "13.2.2:0"
+    "version": "13.2.2:1"
   },
   "frappe-helpdesk": {
     "categories": [],
@@ -401,11 +412,11 @@
     "license": "AGPL-3.0",
     "marketingUrl": "https://immich.app/",
     "packageRepo": "https://github.com/Start9Labs/immich-startos",
-    "published": "2026-11-13",
+    "published": "2026-11-21",
     "short": "High-performance self-hosted photo and video management",
     "title": "Immich",
     "upstreamRepo": "https://github.com/immich-app/immich",
-    "version": "3.4.1:0"
+    "version": "3.4.1:1"
   },
   "jam-v2": {
     "categories": [],
@@ -434,7 +445,7 @@
     "license": "Apache-2.0",
     "marketingUrl": "https://jitsi.org/",
     "packageRepo": "https://github.com/Start9Labs/jitsi-startos",
-    "published": "2026-11-20",
+    "published": "2026-11-21",
     "short": "Self-hosted video conferencing with Jitsi Meet",
     "title": "Jitsi Meet",
     "upstreamRepo": "https://github.com/jitsi/docker-jitsi-meet",
@@ -445,11 +456,11 @@
     "license": "AGPL-3.0",
     "marketingUrl": "https://karakeep.com/",
     "packageRepo": "https://github.com/Start9Labs/karakeep-startos",
-    "published": "2026-11-17",
+    "published": "2026-11-23",
     "short": "A self-hostable bookmark-everything app",
     "title": "Karakeep",
     "upstreamRepo": "https://github.com/karakeep-app/karakeep",
-    "version": "0.35.0:1"
+    "version": "0.35.0:2"
   },
   "lidarr": {
     "categories": [],
@@ -489,33 +500,33 @@
     "license": "MIT",
     "marketingUrl": "https://github.com/ggml-org/llama.cpp",
     "packageRepo": "https://github.com/Start9Labs/llama-cpp-startos",
-    "published": "2026-11-06",
+    "published": "2026-11-22",
     "short": "OpenAI-compatible LLM inference server (llama.cpp)",
     "title": "llama.cpp",
     "upstreamRepo": "https://github.com/ggml-org/llama.cpp",
-    "version": "12110:0"
+    "version": "12110:1"
   },
   "lnbits": {
     "categories": [],
     "license": "mit",
     "marketingUrl": "https://lnbits.com/",
     "packageRepo": "https://github.com/Start9Labs/lnbits-startos",
-    "published": "2026-11-18",
+    "published": "2026-11-22",
     "short": "A Bitcoin Lightning wallet and accounts system.",
     "title": "LNbits",
     "upstreamRepo": "https://github.com/lnbits/lnbits",
-    "version": "1.7.1:1"
+    "version": "1.7.1:2"
   },
   "lnd": {
     "categories": [],
     "license": "MIT",
     "marketingUrl": "https://lightning.engineering/",
     "packageRepo": "https://github.com/Start9Labs/lnd-startos",
-    "published": "2026-11-19",
+    "published": "2026-11-23",
     "short": "A complete implementation of a Lightning Network node by Lightning Labs",
     "title": "LND",
     "upstreamRepo": "https://github.com/lightningnetwork/lnd",
-    "version": "0.21.8-beta:2"
+    "version": "0.21.8-beta:4"
   },
   "mattermost": {
     "categories": [],
@@ -533,33 +544,33 @@
     "license": "MIT",
     "marketingUrl": "https://usememos.com/",
     "packageRepo": "https://github.com/Start9Labs/memos-startos",
-    "published": "2026-11-17",
+    "published": "2026-11-22",
     "short": "Self-hosted, lightweight note-taking service. Markdown-native, SQLite-backed, and fully yours.",
     "title": "Memos",
     "upstreamRepo": "https://github.com/usememos/memos",
-    "version": "26.11.1:0"
+    "version": "26.11.2:0"
   },
   "mempool": {
     "categories": [],
     "license": "AGPL",
     "marketingUrl": "https://mempool.space/",
     "packageRepo": "https://github.com/Start9Labs/mempool-startos",
-    "published": "2026-11-20",
+    "published": "2026-11-22",
     "short": "Be your own explorer® with The Mempool Open Source Project®",
     "title": "Mempool",
     "upstreamRepo": "https://github.com/mempool/mempool",
-    "version": "3.3.2:8"
+    "version": "3.3.2:9"
   },
   "minecraft": {
     "categories": [],
     "license": "Apache-2.0",
     "marketingUrl": "https://www.minecraft.net/",
     "packageRepo": "https://github.com/Start9Labs/minecraft-startos",
-    "published": "2026-11-18",
+    "published": "2026-11-21",
     "short": "Java Edition Minecraft server with web-based management",
     "title": "Minecraft Server",
     "upstreamRepo": "https://github.com/itzg/docker-minecraft-server",
-    "version": "26.3:3"
+    "version": "26.3:4"
   },
   "miniflux": {
     "categories": [],
@@ -577,11 +588,11 @@
     "license": "Sustainable Use License",
     "marketingUrl": "https://n8n.io/",
     "packageRepo": "https://github.com/Start9Labs/n8n-startos",
-    "published": "2026-11-20",
+    "published": "2026-11-23",
     "short": "Self-hosted workflow automation with AI",
     "title": "n8n",
     "upstreamRepo": "https://github.com/n8n-io/n8n",
-    "version": "2.48.7:0"
+    "version": "2.48.8:0"
   },
   "navidrome": {
     "categories": [],
@@ -599,22 +610,22 @@
     "license": "gpl",
     "marketingUrl": "https://nextcloud.com/",
     "packageRepo": "https://github.com/Start9Labs/nextcloud-startos",
-    "published": "2026-11-18",
+    "published": "2026-11-23",
     "short": "A safe home for all your data",
     "title": "Nextcloud",
     "upstreamRepo": "https://github.com/nextcloud/docker",
-    "version": "35.0.3:3"
+    "version": "35.0.3:4"
   },
   "nextcloud-talk-hpb": {
     "categories": [],
     "license": "AGPL-3.0",
     "marketingUrl": "https://nextcloud-talk.readthedocs.io/en/latest/quick-install/",
     "packageRepo": "https://github.com/Start9Labs/nextcloud-talk-hpb-startos",
-    "published": "2026-11-19",
+    "published": "2026-11-21",
     "short": "Group video calls for Nextcloud Talk",
     "title": "Nextcloud Talk HPB",
     "upstreamRepo": "https://github.com/strukturag/nextcloud-spreed-signaling",
-    "version": "2.2.0:1"
+    "version": "2.2.0:2"
   },
   "nextexplorer": {
     "categories": [],
@@ -709,11 +720,11 @@
     "license": "GPL-2.0-or-later",
     "marketingUrl": "https://owntracks.org/",
     "packageRepo": "https://github.com/Start9Labs/owntracks-recorder-startos",
-    "published": "2026-11-19",
+    "published": "2026-11-21",
     "short": "Self-hosted location tracking for the OwnTracks apps",
     "title": "OwnTracks Recorder",
     "upstreamRepo": "https://github.com/owntracks/recorder",
-    "version": "1.0.7:0"
+    "version": "1.0.7:1"
   },
   "paperless-ngx": {
     "categories": [],
@@ -907,11 +918,11 @@
     "license": "GPL-3.0",
     "marketingUrl": "https://sonarr.tv/",
     "packageRepo": "https://github.com/Start9Labs/sonarr-startos",
-    "published": "2026-11-20",
+    "published": "2026-11-23",
     "short": "Automatically find, download, and organize TV shows",
     "title": "Sonarr",
     "upstreamRepo": "https://github.com/Sonarr/Sonarr",
-    "version": "4.0.20.3014:10"
+    "version": "4.0.20.3014:11"
   },
   "spliit": {
     "categories": [],
@@ -929,22 +940,22 @@
     "license": "AGPL-3.0",
     "marketingUrl": "https://stalw.art/",
     "packageRepo": "https://github.com/Start9Labs/stalwart-startos",
-    "published": "2026-11-16",
+    "published": "2026-11-22",
     "short": "All-in-one mail and collaboration server",
     "title": "Stalwart",
     "upstreamRepo": "https://github.com/stalwartlabs/stalwart",
-    "version": "1.1.1:0"
+    "version": "1.1.1:1"
   },
   "start9-pages": {
     "categories": [],
     "license": "mit",
     "marketingUrl": "https://github.com/Start9Labs/start9-pages-startos",
     "packageRepo": "https://github.com/Start9Labs/start9-pages-startos",
-    "published": "2026-11-09",
+    "published": "2026-11-22",
     "short": "Self-host static websites",
     "title": "Start9 Pages",
     "upstreamRepo": "https://github.com/Start9Labs/start9-pages-startos",
-    "version": "1.1.0:2"
+    "version": "1.1.0:3"
   },
   "startos-registry": {
     "categories": [],
@@ -962,11 +973,11 @@
     "license": "MIT AND LicenseRef-Stirling-PDF-User-License",
     "marketingUrl": "https://stirlingpdf.com/",
     "packageRepo": "https://github.com/Start9Labs/stirling-pdf-startos",
-    "published": "2026-11-19",
+    "published": "2026-11-22",
     "short": "Self-hosted tools to edit, convert, and OCR your PDFs",
     "title": "Stirling PDF",
     "upstreamRepo": "https://github.com/Stirling-Tools/Stirling-PDF",
-    "version": "3.4.0:0"
+    "version": "3.5.0:0"
   },
   "stratum-v2": {
     "categories": [],
@@ -1006,11 +1017,11 @@
     "license": "BSD-3-Clause",
     "marketingUrl": "https://www.torproject.org/",
     "packageRepo": "https://github.com/Start9Labs/tor-startos",
-    "published": "2026-11-18",
+    "published": "2026-11-22",
     "short": "Anonymity network for onion services and private browsing",
     "title": "Tor",
     "upstreamRepo": "https://gitlab.torproject.org/tpo/core/tor",
-    "version": "0.4.9.17:1"
+    "version": "0.4.9.17:2"
   },
   "tor-relay": {
     "categories": [],

@@ -146,11 +146,11 @@
     "license": "MIT",
     "marketingUrl": "https://rbitcoin.space/",
     "packageRepo": "https://github.com/remcoros/rbitcoin-space-startos",
-    "published": "2026-11-19",
+    "published": "2026-11-22",
     "short": "Explore mainnet through your rbitcoin node",
     "title": "rbitcoin.space",
     "upstreamRepo": "https://github.com/smolcars/rbitcoin-space",
-    "version": "0.4.0:0"
+    "version": "0.5.0:0"
   },
   "sparrow-webtop": {
     "categories": [

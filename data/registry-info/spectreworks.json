@@ -1,0 +1,6 @@
+{
+  "description": "Curated StartOS packages for the Bitcoin (XBT) network, maintained by SPECTRE WORKS.",
+  "icon": "spectreworks.png",
+  "name": "SPECTRE WORKS XBT Registry",
+  "signers": []
+}
