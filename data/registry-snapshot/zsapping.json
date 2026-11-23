@@ -16,10 +16,10 @@
     "license": "MIT",
     "marketingUrl": "https://github.com/vrtmrz/obsidian-livesync",
     "packageRepo": "https://github.com/ok/obsidian-livesync-startos",
-    "published": "2026-11-16",
+    "published": "2026-11-22",
     "short": "Sync server for the Obsidian Self-hosted LiveSync plugin",
     "title": "Obsidian LiveSync",
     "upstreamRepo": "https://github.com/vrtmrz/obsidian-livesync",
-    "version": "1.0.50:0"
+    "version": "1.0.52:0"
   }
 }

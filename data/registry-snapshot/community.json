@@ -56,11 +56,11 @@
     "license": "MIT",
     "marketingUrl": "https://github.com/alexbosworth/balanceofsatoshis",
     "packageRepo": "https://github.com/Start9-Community/balanceofsatoshis-startos",
-    "published": "2026-11-09",
+    "published": "2026-11-22",
     "short": "A command-line tool for working with the balance of your satoshis on LND",
     "title": "Balance of Satoshis",
     "upstreamRepo": "https://github.com/alexbosworth/balanceofsatoshis",
-    "version": "25.0.0:3"
+    "version": "25.0.0:4"
   },
   "bch-asicseer": {
     "categories": [
@@ -69,11 +69,11 @@
     "license": "GPL-3.0",
     "marketingUrl": "https://github.com/cculianu/asicseer-pool",
     "packageRepo": "https://github.com/Start9-Community/bch-asicseer-startos",
-    "published": "2026-11-10",
+    "published": "2026-11-23",
     "short": "A Bitcoin Cash mining pool you run yourself.",
     "title": "ASICSeer",
     "upstreamRepo": "https://github.com/cculianu/asicseer-pool",
-    "version": "1.5.4:28"
+    "version": "1.5.4:30"
   },
   "bch-elopool": {
     "categories": [
@@ -82,11 +82,11 @@
     "license": "GPL-3.0",
     "marketingUrl": "https://elopool.bch.sx/",
     "packageRepo": "https://github.com/Start9-Community/bch-elopool-startos",
-    "published": "2026-11-10",
+    "published": "2026-11-22",
     "short": "A Bitcoin Cash mining pool you run yourself.",
     "title": "EloPool",
     "upstreamRepo": "https://github.com/skaisser/ckpool",
-    "version": "1.3.0:1"
+    "version": "1.3.0:2"
   },
   "bch-explorer": {
     "categories": [
@@ -108,11 +108,11 @@
     "license": "ISC",
     "marketingUrl": "https://bchd.cash/",
     "packageRepo": "https://github.com/Start9-Community/bitcoin-cash-daemon-startos",
-    "published": "2026-11-10",
+    "published": "2026-11-22",
     "short": "BCHD — Go-based Bitcoin Cash full node with gRPC and Neutrino",
     "title": "Bitcoin Cash Daemon",
     "upstreamRepo": "https://github.com/gcash/bchd",
-    "version": "0.22.2:6"
+    "version": "0.22.2:7"
   },
   "bisq": {
     "categories": [
@@ -122,11 +122,11 @@
     "license": "AGPL-3.0",
     "marketingUrl": "https://bisq.network/",
     "packageRepo": "https://github.com/Start9-Community/bisq-startos",
-    "published": "2026-11-18",
+    "published": "2026-11-21",
     "short": "Decentralized Bitcoin exchange",
     "title": "Bisq",
     "upstreamRepo": "https://github.com/bisq-network/bisq",
-    "version": "1.10.11:2"
+    "version": "1.10.12:0"
   },
   "bisq2-node": {
     "categories": [
@@ -161,11 +161,11 @@
     "license": "BlueOak-1.0.0",
     "marketingUrl": "https://github.com/wahidsaleemi/bitcoin-family-dashboard",
     "packageRepo": "https://github.com/Start9-Community/bitcoin-family-dashboard-startos",
-    "published": "2026-11-03",
+    "published": "2026-11-22",
     "short": "Track your family's bitcoin holdings and the live price",
     "title": "Bitcoin Family Dashboard",
     "upstreamRepo": "https://github.com/wahidsaleemi/bitcoin-family-dashboard",
-    "version": "0.2.2:6"
+    "version": "0.2.2:7"
   },
   "bitcoincashd": {
     "categories": [
@@ -174,11 +174,11 @@
     "license": "MIT",
     "marketingUrl": "https://bitcoincashnode.org/",
     "packageRepo": "https://github.com/Start9-Community/bitcoin-cash-node-startos",
-    "published": "2026-10-30",
+    "published": "2026-11-21",
     "short": "Bitcoin Cash full node — BCHN reference implementation",
     "title": "Bitcoin Cash Node (BCHN)",
     "upstreamRepo": "https://gitlab.com/bitcoin-cash-node/bitcoin-cash-node",
-    "version": "29.0.0:15"
+    "version": "29.0.0:16"
   },
   "bitcoind": {
     "categories": [
@@ -239,11 +239,11 @@
     "license": "mit",
     "marketingUrl": "https://github.com/Alex71btc/lndk-pay",
     "packageRepo": "https://github.com/Start9-Community/bolt12-pay-startos",
-    "published": "2026-11-20",
+    "published": "2026-11-23",
     "short": "Self-hosted Lightning payment server with BOLT12 support",
     "title": "BOLT12 Pay",
     "upstreamRepo": "https://github.com/Alex71btc/lndk-pay",
-    "version": "0.3.28:0"
+    "version": "0.3.30:0"
   },
   "btctx": {
     "categories": [
@@ -331,11 +331,11 @@
     "license": "MIT",
     "marketingUrl": "https://github.com/accumulator/charge-lnd",
     "packageRepo": "https://github.com/Start9-Community/charge-lnd-startos",
-    "published": "2026-11-09",
+    "published": "2026-11-22",
     "short": "Policy-based fee manager for LND",
     "title": "Charge LND",
     "upstreamRepo": "https://github.com/accumulator/charge-lnd",
-    "version": "0.3.1:10"
+    "version": "0.3.1:11"
   },
   "clams-remote": {
     "categories": [
@@ -423,11 +423,11 @@
     "license": "MIT",
     "marketingUrl": "https://cronicle.net/",
     "packageRepo": "https://github.com/Start9-Community/cronicle-startos",
-    "published": "2026-11-18",
+    "published": "2026-11-22",
     "short": "A self-hosted task scheduler and runner with a web UI",
     "title": "Cronicle",
     "upstreamRepo": "https://github.com/jhuckaby/Cronicle",
-    "version": "0.9.135:5"
+    "version": "0.9.135:6"
   },
   "deepseek-harness": {
     "categories": [
@@ -436,7 +436,7 @@
     "license": "MIT",
     "marketingUrl": "https://paufont.cat/",
     "packageRepo": "https://github.com/Start9-Community/DeepseekHarnessStart9",
-    "published": "2026-11-15",
+    "published": "2026-11-23",
     "short": "Self-hosted DeepSeek Harness coding agent with a browser interface",
     "title": "DeepSeek Harness",
     "upstreamRepo": "https://github.com/deepseek-ai/deepseek-harness",
@@ -449,11 +449,11 @@
     "license": "AGPL-3.0",
     "marketingUrl": "https://dojo-osp.org/",
     "packageRepo": "https://github.com/Start9-Community/dojo-startos",
-    "published": "2026-11-20",
+    "published": "2026-11-23",
     "short": "Private backend for Ashigaru, Samourai and other light wallets",
     "title": "Dojo",
     "upstreamRepo": "https://github.com/Dojo-Open-Source-Project/samourai-dojo",
-    "version": "1.29.2:9"
+    "version": "1.29.3:0"
   },
   "fedimint-gatewayd": {
     "categories": [
@@ -488,11 +488,11 @@
     "license": "GPL-3.0",
     "marketingUrl": "https://flowee.org/",
     "packageRepo": "https://github.com/Start9-Community/flowee-the-hub-startos",
-    "published": "2026-10-30",
+    "published": "2026-11-22",
     "short": "Fast, fully validating Bitcoin Cash node with a built-in indexer",
     "title": "Flowee the Hub",
     "upstreamRepo": "https://codeberg.org/Flowee/thehub",
-    "version": "2026.5.2:17"
+    "version": "2026.5.2:18"
   },
   "frigate": {
     "categories": [
@@ -527,11 +527,11 @@
     "license": "GPL-3.0",
     "marketingUrl": "https://qu.ai/",
     "packageRepo": "https://github.com/Start9-Community/go-quai-startos",
-    "published": "2026-11-10",
+    "published": "2026-11-22",
     "short": "Quai Network node with built-in solo mining stratum (SHA-256, Scrypt, KawPoW)",
     "title": "Quai Network",
     "upstreamRepo": "https://github.com/dominant-strategies/go-quai",
-    "version": "0.56.1:1"
+    "version": "0.56.1:2"
   },
   "gods-eye-view": {
     "categories": [
@@ -566,11 +566,11 @@
     "license": "MIT",
     "marketingUrl": "https://podcastindex.org/",
     "packageRepo": "https://github.com/Start9-Community/helipad-startos",
-    "published": "2026-11-09",
+    "published": "2026-11-22",
     "short": "View boosts & boostagrams from Podcasting 2.0 apps",
     "title": "Helipad",
     "upstreamRepo": "https://github.com/Podcastindex-org/helipad",
-    "version": "0.2.2:12"
+    "version": "0.2.2:13"
   },
   "hermes-agent": {
     "categories": [
@@ -592,11 +592,11 @@
     "license": "GPL-V3",
     "marketingUrl": "https://holesail.io/",
     "packageRepo": "https://github.com/Start9-Community/holesail-startos",
-    "published": "2026-10-09",
+    "published": "2026-11-22",
     "short": "P2P Tunnels for instant access",
     "title": "Holesail",
     "upstreamRepo": "https://github.com/holesail/holesail-docker",
-    "version": "2.4.1:12"
+    "version": "2.4.1:13"
   },
   "hoseki-sentinel": {
     "categories": [
@@ -671,11 +671,11 @@
     "license": "MIT",
     "marketingUrl": "https://privkey.io/",
     "packageRepo": "https://github.com/Start9-Community/keep-startos",
-    "published": "2026-10-24",
+    "published": "2026-11-22",
     "short": "Always-on FROST threshold co-signer for Nostr and Bitcoin",
     "title": "Keep",
     "upstreamRepo": "https://github.com/privkeyio/keep",
-    "version": "0.12.2:0"
+    "version": "0.14.1:0"
   },
   "kimai": {
     "categories": [
@@ -775,11 +775,11 @@
     "license": "MIT",
     "marketingUrl": "https://manifold.fedi.xyz/",
     "packageRepo": "https://github.com/Start9-Community/manifold-fedimint-guardian-startos",
-    "published": "2026-11-20",
+    "published": "2026-11-23",
     "short": "Operate Fedimint guardian seats for multiple Fedimint federations and earn fees from a single node.",
     "title": "Manifold Fedimint Guardian",
     "upstreamRepo": "https://github.com/fedibtc/manifold",
-    "version": "0.1.18:1"
+    "version": "0.1.19:0"
   },
   "maple-proxy": {
     "categories": [
@@ -866,22 +866,22 @@
     "license": "MIT",
     "marketingUrl": "https://www.namecoin.org/",
     "packageRepo": "https://github.com/Start9-Community/namecoin-core-startos",
-    "published": "2026-11-10",
+    "published": "2026-11-22",
     "short": "A Namecoin Full Node by Namecoin Core",
     "title": "Namecoin Core",
     "upstreamRepo": "https://github.com/namecoin/namecoin-core",
-    "version": "32.1:1"
+    "version": "32.1:2"
   },
   "nitter": {
     "categories": [],
     "license": "AGPL-3.0",
     "marketingUrl": "https://github.com/zedeus/nitter",
     "packageRepo": "https://github.com/Start9-Community/nitter-startos",
-    "published": "2026-10-30",
+    "published": "2026-11-23",
     "short": "Privacy-respecting front-end for X (Twitter)",
     "title": "Nitter",
     "upstreamRepo": "https://github.com/zedeus/nitter",
-    "version": "2026.8.24:3"
+    "version": "2026.8.24:4"
   },
   "nomadnet": {
     "categories": [
@@ -890,11 +890,11 @@
     "license": "GPL-3.0",
     "marketingUrl": "https://reticulum.network/",
     "packageRepo": "https://github.com/Start9-Community/nomadnet-startos",
-    "published": "2026-11-11",
+    "published": "2026-11-23",
     "short": "Encrypted, off-grid mesh messaging and pages over Reticulum",
     "title": "Nomad Network",
     "upstreamRepo": "https://github.com/markqvist/NomadNet",
-    "version": "1.5.0:0"
+    "version": "1.5.0:1"
   },
   "nostr-vpn": {
     "categories": [
@@ -904,11 +904,11 @@
     "license": "MIT",
     "marketingUrl": "https://github.com/mmalmi/nostr-vpn",
     "packageRepo": "https://github.com/Start9-Community/nostr-vpn",
-    "published": "2026-10-24",
+    "published": "2026-11-23",
     "short": "Private mesh VPN over Nostr",
     "title": "Nostr VPN",
     "upstreamRepo": "https://github.com/mmalmi/nostr-vpn",
-    "version": "4.1.18:0"
+    "version": "4.1.18:1"
   },
   "onlyoffice-docs": {
     "categories": [
@@ -969,11 +969,11 @@
     "license": "GPL-3.0",
     "marketingUrl": "https://p2pool.io/",
     "packageRepo": "https://github.com/Start9-Community/p2pool-startos",
-    "published": "2026-11-15",
+    "published": "2026-11-23",
     "short": "A decentralized, permissionless, 0%-fee Monero mining pool",
     "title": "P2Pool",
     "upstreamRepo": "https://github.com/SChernykh/p2pool",
-    "version": "4.18.1:3"
+    "version": "4.18.1:4"
   },
   "pactd": {
     "categories": [
@@ -1013,6 +1013,19 @@
     "title": "phoenixd",
     "upstreamRepo": "https://github.com/ACINQ/phoenixd",
     "version": "0.9.2:4"
+  },
+  "pogolo": {
+    "categories": [
+      "Bitcoin"
+    ],
+    "license": "AGPL-3.0",
+    "marketingUrl": "https://github.com/0xf0xx0/pogolo",
+    "packageRepo": "https://github.com/Start9-Community/pogolo-startos",
+    "published": "2026-11-23",
+    "short": "Solo, db-less Bitcoin mining pool for your LAN",
+    "title": "pogolo",
+    "upstreamRepo": "https://github.com/0xf0xx0/pogolo",
+    "version": "1.1.7:0"
   },
   "ppq-private-mode": {
     "categories": [
@@ -1073,11 +1086,11 @@
     "license": "MIT",
     "marketingUrl": "https://reticulum.network/",
     "packageRepo": "https://github.com/Start9-Community/reticulum-meshchat-startos",
-    "published": "2026-10-12",
+    "published": "2026-11-23",
     "short": "Encrypted mesh messaging over Reticulum — no servers, no accounts",
     "title": "Reticulum MeshChat",
     "upstreamRepo": "https://github.com/liamcottle/reticulum-meshchat",
-    "version": "2.4.0:4"
+    "version": "2.4.0:6"
   },
   "robosats": {
     "categories": [
@@ -1107,6 +1120,17 @@
     "upstreamRepo": "https://github.com/rommapp/romm",
     "version": "5.4.1:2"
   },
+  "route96": {
+    "categories": [],
+    "license": "other",
+    "marketingUrl": "https://github.com/v0l/route96",
+    "packageRepo": "https://github.com/Start9-Community/route96-startos",
+    "published": "2026-11-21",
+    "short": "Blossom media server for Nostr",
+    "title": "route96 (Blossom)",
+    "upstreamRepo": "https://github.com/v0l/route96",
+    "version": "0.8.0:0"
+  },
   "s-watcher": {
     "categories": [
       "Bitcoin"
@@ -1127,11 +1151,24 @@
     "license": "MIT",
     "marketingUrl": "https://github.com/kwadde-cmyk/scriptwerk-startos",
     "packageRepo": "https://github.com/Start9-Community/scriptwerk-startos",
-    "published": "2026-10-22",
+    "published": "2026-11-22",
     "short": "Design Bitcoin miniscript policies, then build and send",
     "title": "Scriptwerk",
     "upstreamRepo": "https://github.com/kwadde-cmyk/scriptwerk-startos",
-    "version": "0.1.73:1"
+    "version": "0.1.73:2"
+  },
+  "seerr": {
+    "categories": [
+      "Media"
+    ],
+    "license": "MIT",
+    "marketingUrl": "https://seerr.dev/",
+    "packageRepo": "https://github.com/Start9-Community/seerr-startos",
+    "published": "2026-11-23",
+    "short": "Media discovery and requests for Jellyfin",
+    "title": "Seerr",
+    "upstreamRepo": "https://github.com/seerr-team/seerr",
+    "version": "3.5.2:0"
   },
   "signal-messenger-bridge": {
     "categories": [
@@ -1200,15 +1237,17 @@
     "version": "1.0.1:6"
   },
   "strata": {
-    "categories": [],
+    "categories": [
+      "AI"
+    ],
     "license": "MIT",
     "marketingUrl": "https://github.com/Niko1221/Strata",
     "packageRepo": "https://github.com/Start9-Community/strata-startos",
-    "published": "2026-11-15",
+    "published": "2026-11-23",
     "short": "Run Qwen3.8-Flash-Next on your own NVIDIA GPU",
     "title": "Strata",
     "upstreamRepo": "https://github.com/Niko1221/Strata",
-    "version": "0.2.13:0"
+    "version": "0.2.17:0"
   },
   "tailscale": {
     "categories": [

@@ -9,11 +9,11 @@
     "license": "MIT",
     "marketingUrl": "https://bitcoinknots.org/",
     "packageRepo": "https://github.com/horizon-btc/knots-startos",
-    "published": "2026-11-20",
+    "published": "2026-11-21",
     "short": "A Bitcoin Full Node by Bitcoin Knots",
     "title": "Bitcoin Knots",
     "upstreamRepo": "https://github.com/bitcoinknots/bitcoin",
-    "version": "#knots:29.5.0:6"
+    "version": "#knots:29.5.1:2"
   },
   "c-lightning": {
     "categories": [],
@@ -84,6 +84,17 @@
     "title": "Mempool Guide",
     "upstreamRepo": "https://github.com/mempool/mempool",
     "version": "#mpg:3.4:10"
+  },
+  "sift": {
+    "categories": [],
+    "license": "mit",
+    "marketingUrl": "https://github.com/Maveth/filter_sidecar",
+    "packageRepo": "https://github.com/Maveth/filter_sidecar",
+    "published": "2026-11-23",
+    "short": "Mark mempool transactions so Knots leaves them out of the block",
+    "title": "Sift",
+    "upstreamRepo": "https://github.com/Maveth/filter_sidecar",
+    "version": "#sift:0.1.1:0"
   },
   "umbrel-bitcoin-ui": {
     "categories": [],

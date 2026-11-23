@@ -71,11 +71,11 @@
     "license": "GPL-3.0",
     "marketingUrl": "https://github.com/cculianu/asicseer-pool",
     "packageRepo": "https://github.com/Start9-Community/bch-asicseer-startos",
-    "published": "2026-11-20",
+    "published": "2026-11-22",
     "short": "A Bitcoin Cash mining pool you run yourself.",
     "title": "ASICSeer",
     "upstreamRepo": "https://github.com/cculianu/asicseer-pool",
-    "version": "1.5.4:29"
+    "version": "1.5.4:30"
   },
   "bch-elopool": {
     "categories": [],
@@ -214,11 +214,11 @@
     "license": "mit",
     "marketingUrl": "https://github.com/Alex71btc/lndk-pay",
     "packageRepo": "https://github.com/Start9-Community/bolt12-pay-startos",
-    "published": "2026-11-20",
+    "published": "2026-11-23",
     "short": "Self-hosted Lightning payment server with BOLT12 support",
     "title": "BOLT12 Pay",
     "upstreamRepo": "https://github.com/Alex71btc/lndk-pay",
-    "version": "0.3.28:0"
+    "version": "0.3.30:0"
   },
   "btctx": {
     "categories": [],
@@ -379,7 +379,7 @@
     "license": "MIT",
     "marketingUrl": "https://paufont.cat/",
     "packageRepo": "https://github.com/Start9-Community/DeepseekHarnessStart9",
-    "published": "2026-11-15",
+    "published": "2026-11-23",
     "short": "Self-hosted DeepSeek Harness coding agent with a browser interface",
     "title": "DeepSeek Harness",
     "upstreamRepo": "https://github.com/deepseek-ai/deepseek-harness",
@@ -390,11 +390,11 @@
     "license": "AGPL-3.0",
     "marketingUrl": "https://dojo-osp.org/",
     "packageRepo": "https://github.com/Start9-Community/dojo-startos",
-    "published": "2026-11-20",
+    "published": "2026-11-23",
     "short": "Private backend for Ashigaru, Samourai and other light wallets",
     "title": "Dojo",
     "upstreamRepo": "https://github.com/Dojo-Open-Source-Project/samourai-dojo",
-    "version": "1.29.2:9"
+    "version": "1.29.3:0"
   },
   "ekko-studio": {
     "categories": [],
@@ -687,11 +687,11 @@
     "license": "MIT",
     "marketingUrl": "https://manifold.fedi.xyz/",
     "packageRepo": "https://github.com/Start9-Community/manifold-fedimint-guardian-startos",
-    "published": "2026-11-20",
+    "published": "2026-11-23",
     "short": "Operate Fedimint guardian seats for multiple Fedimint federations and earn fees from a single node.",
     "title": "Manifold Fedimint Guardian",
     "upstreamRepo": "https://github.com/fedibtc/manifold",
-    "version": "0.1.18:1"
+    "version": "0.1.19:0"
   },
   "maple-proxy": {
     "categories": [],
@@ -786,33 +786,33 @@
     "license": "AGPL-3.0",
     "marketingUrl": "https://github.com/zedeus/nitter",
     "packageRepo": "https://github.com/Start9-Community/nitter-startos",
-    "published": "2026-10-30",
+    "published": "2026-11-23",
     "short": "Privacy-respecting front-end for X (Twitter)",
     "title": "Nitter",
     "upstreamRepo": "https://github.com/zedeus/nitter",
-    "version": "2026.8.24:3"
+    "version": "2026.8.24:4"
   },
   "nomadnet": {
     "categories": [],
     "license": "GPL-3.0",
     "marketingUrl": "https://reticulum.network/",
     "packageRepo": "https://github.com/Start9-Community/nomadnet-startos",
-    "published": "2026-11-11",
+    "published": "2026-11-23",
     "short": "Encrypted, off-grid mesh messaging and pages over Reticulum",
     "title": "Nomad Network",
     "upstreamRepo": "https://github.com/markqvist/NomadNet",
-    "version": "1.5.0:0"
+    "version": "1.5.0:1"
   },
   "nostr-vpn": {
     "categories": [],
     "license": "MIT",
     "marketingUrl": "https://github.com/mmalmi/nostr-vpn",
     "packageRepo": "https://github.com/Start9-Community/nostr-vpn",
-    "published": "2026-10-24",
+    "published": "2026-11-23",
     "short": "Private mesh VPN over Nostr",
     "title": "Nostr VPN",
     "upstreamRepo": "https://github.com/mmalmi/nostr-vpn",
-    "version": "4.1.18:0"
+    "version": "4.1.18:1"
   },
   "onlyoffice-docs": {
     "categories": [],
@@ -863,11 +863,11 @@
     "license": "GPL-3.0",
     "marketingUrl": "https://p2pool.io/",
     "packageRepo": "https://github.com/Start9-Community/p2pool-startos",
-    "published": "2026-11-15",
+    "published": "2026-11-23",
     "short": "A decentralized, permissionless, 0%-fee Monero mining pool",
     "title": "P2Pool",
     "upstreamRepo": "https://github.com/SChernykh/p2pool",
-    "version": "4.18.1:3"
+    "version": "4.18.1:4"
   },
   "pactd": {
     "categories": [],
@@ -907,11 +907,11 @@
     "license": "AGPL-3.0",
     "marketingUrl": "https://github.com/0xf0xx0/pogolo",
     "packageRepo": "https://github.com/Start9-Community/pogolo-startos",
-    "published": "2026-11-10",
+    "published": "2026-11-23",
     "short": "Solo, db-less Bitcoin mining pool for your LAN",
     "title": "pogolo",
     "upstreamRepo": "https://github.com/0xf0xx0/pogolo",
-    "version": "1.1.6:0"
+    "version": "1.1.7:0"
   },
   "ppq-private-mode": {
     "categories": [],
@@ -962,11 +962,11 @@
     "license": "MIT",
     "marketingUrl": "https://reticulum.network/",
     "packageRepo": "https://github.com/Start9-Community/reticulum-meshchat-startos",
-    "published": "2026-10-12",
+    "published": "2026-11-22",
     "short": "Encrypted mesh messaging over Reticulum — no servers, no accounts",
     "title": "Reticulum MeshChat",
     "upstreamRepo": "https://github.com/liamcottle/reticulum-meshchat",
-    "version": "2.4.0:4"
+    "version": "2.4.0:6"
   },
   "robosats": {
     "categories": [],
@@ -1094,11 +1094,11 @@
     "license": "MIT",
     "marketingUrl": "https://github.com/Niko1221/Strata",
     "packageRepo": "https://github.com/Start9-Community/strata-startos",
-    "published": "2026-11-14",
+    "published": "2026-11-23",
     "short": "Run Qwen3.8-Flash-Next on your own NVIDIA GPU",
     "title": "Strata",
     "upstreamRepo": "https://github.com/Niko1221/Strata",
-    "version": "0.2.13:0"
+    "version": "0.2.17:0"
   },
   "tailscale": {
     "categories": [],
