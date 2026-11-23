@@ -67,3 +67,9 @@ slug = "sdbitcoiners"
 name = "SD Bitcoiners Registry"
 url = "https://registry.sdbitcoiners.com/"
 operator = "3rdParty"
+
+[[registry]]
+slug = "spectreworks"
+name = "SPECTRE WORKS XBT Registry"
+url = "https://startos-registry.spectreworks.io/"
+operator = "3rdParty"
