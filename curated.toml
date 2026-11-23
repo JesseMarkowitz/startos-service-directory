@@ -1269,3 +1269,18 @@ replaces = "—"
 
 [rrc-hub]
 replaces = "—"
+
+[mealie]
+replaces = "Paprika"
+
+[openhamclock]
+replaces = "—"
+
+[outcrop]
+replaces = "ChatGPT"
+
+[sift]
+replaces = "—"
+
+[ups-watch]
+replaces = "—"

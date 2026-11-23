@@ -4729,6 +4729,7 @@
         "https://github.com/homebrew-gh/mealie-startos"
       ],
       "registries": {},
+      "replaces": "Paprika",
       "short": "A StartOS package for Mealie.",
       "title": "Mealie",
       "updated": "2026-11-23",
@@ -5655,6 +5656,7 @@
         "https://github.com/The-Cryptosquid/openhamclock-startos"
       ],
       "registries": {},
+      "replaces": "—",
       "short": "StartOS package for OpenHamClock, a real-time amateur radio dashboard",
       "title": "OpenHamClock",
       "updated": "2026-11-22",
@@ -5715,6 +5717,7 @@
       "registries": {
         "paulscode": "0.1.0:0"
       },
+      "replaces": "ChatGPT",
       "short": "A capable LLM on budget, upgradable hardware",
       "title": "Outcrop",
       "updated": "2026-11-23",
@@ -7022,6 +7025,7 @@
       "registries": {
         "mempool-guide": "#sift:0.1.1:0"
       },
+      "replaces": "—",
       "short": "Mark mempool transactions so Knots leaves them out of the block",
       "title": "Sift",
       "updated": "2026-11-23",
@@ -8059,6 +8063,7 @@
         "https://github.com/JesseMarkowitz/ups-watch-startos"
       ],
       "registries": {},
+      "replaces": "—",
       "short": "UPS Watch for StartOS: history charts and power alerts for the UPS your server monitors",
       "title": "UPS Watch",
       "updated": "2026-11-23",
