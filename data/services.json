@@ -94,6 +94,7 @@
         "https://github.com/gStart9/3x-ui-startos"
       ],
       "registries": {},
+      "replaces": "—",
       "short": "3X-UI (Xray web panel) packaged for StartOS",
       "title": "3X-UI",
       "updated": "2026-11-24",
@@ -252,6 +253,7 @@
         "https://github.com/frnandu/allod-startos"
       ],
       "registries": {},
+      "replaces": "—",
       "short": null,
       "title": "Allod",
       "updated": "2026-11-26",
@@ -1522,6 +1524,7 @@
         "https://github.com/gStart9/celerity-startos"
       ],
       "registries": {},
+      "replaces": "—",
       "short": null,
       "title": "C³ CELERITY",
       "updated": "2026-11-25",
@@ -2349,6 +2352,7 @@
         "https://github.com/gStart9/echoip-startos"
       ],
       "registries": {},
+      "replaces": "ipinfo.io",
       "short": "StartOS package for echoip, the program behind ifconfig.co",
       "title": "echoip",
       "updated": "2026-11-24",
@@ -3368,6 +3372,7 @@
         "https://github.com/aldum/headscale-startos"
       ],
       "registries": {},
+      "replaces": "Tailscale",
       "short": null,
       "title": "Headscale",
       "updated": "2026-11-27",
@@ -3527,6 +3532,7 @@
         "https://github.com/gStart9/hiddify-manager-startos"
       ],
       "registries": {},
+      "replaces": "—",
       "short": null,
       "title": "Hiddify Manager",
       "updated": "2026-11-25",
@@ -3884,6 +3890,7 @@
         "https://github.com/sudocarlos/jam-startos"
       ],
       "registries": {},
+      "replaces": "—",
       "short": null,
       "title": "JoinMarket NG",
       "updated": "2026-11-28",
@@ -5004,6 +5011,7 @@
         "https://github.com/gStart9/mkp224o-web-startos"
       ],
       "registries": {},
+      "replaces": "—",
       "short": "StartOS package for mkp224o-web, a web front end for the mkp224o vanity onion address generator.",
       "title": "mkp224o Web",
       "updated": "2026-11-25",
@@ -5271,6 +5279,7 @@
         "https://github.com/Scott-Sanderson/nethermind-startos"
       ],
       "registries": {},
+      "replaces": "—",
       "short": "Nethermind Ethereum execution client package for StartOS",
       "title": "Nethermind",
       "updated": "2026-11-24",
@@ -5385,6 +5394,7 @@
         "https://github.com/Scott-Sanderson/nimbus-startos"
       ],
       "registries": {},
+      "replaces": "—",
       "short": "Nimbus Ethereum consensus client package for StartOS",
       "title": "Nimbus",
       "updated": "2026-11-28",
@@ -5526,6 +5536,7 @@
         "https://github.com/btcforplebs/nostr-vault-startos"
       ],
       "registries": {},
+      "replaces": "—",
       "short": "Nostr Vault packaged for StartOS",
       "title": "Nostr Vault",
       "updated": "2026-11-28",
@@ -5816,6 +5827,7 @@
       "registries": {
         "community-beta": "2.4.1:2"
       },
+      "replaces": "Claude Code, Cursor",
       "short": "Self-hosted AI coding agent with a web interface",
       "title": "OpenCode",
       "updated": "2026-11-25",
@@ -7283,6 +7295,7 @@
         "https://github.com/silent-suite/silentsuite-startos"
       ],
       "registries": {},
+      "replaces": "iCloud, Google Calendar",
       "short": "StartOS package for SilentSuite, end-to-end encrypted calendar, contacts, tasks and notes",
       "title": "SilentSuite",
       "updated": "2026-11-27",
@@ -7341,6 +7354,7 @@
         "https://github.com/gStart9/slipgate-startos"
       ],
       "registries": {},
+      "replaces": "—",
       "short": "SlipGate (DNS tunnels and HTTPS proxies for the SlipNet app) packaged for StartOS",
       "title": "SlipGate",
       "updated": "2026-11-24",
@@ -8158,6 +8172,7 @@
         "https://github.com/stupleb/trek-startos"
       ],
       "registries": {},
+      "replaces": "TripIt, Wanderlog",
       "short": "TREK packaged for StartOS",
       "title": "TREK",
       "updated": "2026-11-26",
@@ -8298,6 +8313,7 @@
       "registries": {
         "start9-beta": "0.4.1:0"
       },
+      "replaces": "—",
       "short": "Optimise your media library by transcoding it automatically",
       "title": "Unmanic",
       "updated": "2026-11-24",

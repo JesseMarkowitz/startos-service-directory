@@ -1284,3 +1284,51 @@ replaces = "—"
 
 [ups-watch]
 replaces = "—"
+
+[3x-ui]
+replaces = "—"
+
+[allod]
+replaces = "—"
+
+[celerity]
+replaces = "—"
+
+[echoip]
+replaces = "ipinfo.io"
+
+[headscale]
+replaces = "Tailscale"
+
+[hiddify-manager]
+replaces = "—"
+
+[joinmarket-ng]
+replaces = "—"
+
+[mkp224o-web]
+replaces = "—"
+
+[nethermind]
+replaces = "—"
+
+[nimbus]
+replaces = "—"
+
+[nostr-vault]
+replaces = "—"
+
+[opencode]
+replaces = "Claude Code, Cursor"
+
+[silentsuite]
+replaces = "iCloud, Google Calendar"
+
+[slipgate]
+replaces = "—"
+
+[trek]
+replaces = "TripIt, Wanderlog"
+
+[unmanic]
+replaces = "—"
