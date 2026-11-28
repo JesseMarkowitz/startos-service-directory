@@ -5,21 +5,21 @@
     "license": "MIT",
     "marketingUrl": "https://github.com/spacesops/atfindme",
     "packageRepo": "https://github.com/spacesops/findme-startos",
-    "published": "2026-11-11",
+    "published": "2026-11-25",
     "short": "Look up Spaces protocol handles from your own server",
     "title": "FindMe",
     "upstreamRepo": "https://github.com/spacesops/atfindme",
-    "version": "0.1.1:1"
+    "version": "0.1.2:0"
   },
   "spaces": {
     "categories": [],
     "license": "MIT",
     "marketingUrl": "https://spacesprotocol.org/",
     "packageRepo": "https://github.com/horologger/spaces-startos",
-    "published": "2026-11-11",
+    "published": "2026-11-25",
     "short": "Sovereign Bitcoin identities.",
     "title": "Spaces",
     "upstreamRepo": "https://github.com/spacesops/spaced",
-    "version": "0.5.0:3"
+    "version": "0.5.0:4"
   }
 }

@@ -31,11 +31,11 @@
     "license": "MIT",
     "marketingUrl": "https://github.com/paulscode/knots-sha256",
     "packageRepo": "https://github.com/paulscode/knots-sha256-startos",
-    "published": "2026-11-20",
+    "published": "2026-11-23",
     "short": "Bitcoin Knots for the SHA256 chain: a Bitcoin full node with Knots' policy controls, consensus-identical to Bitcoin Core",
     "title": "Bitcoin Knots (SHA256)",
     "upstreamRepo": "https://github.com/paulscode/knots-sha256",
-    "version": "#knotssha:31.2:2"
+    "version": "#knotssha:32.1:2"
   },
   "cesspool-pruned": {
     "categories": [
@@ -44,11 +44,11 @@
     "license": "MIT",
     "marketingUrl": "https://cesspool.lol/",
     "packageRepo": "https://github.com/paulscode/cesspool-pruned-startos",
-    "published": "2026-11-13",
+    "published": "2026-11-24",
     "short": "Bitcoin water quality, block by block: every block graded for spam, from your own node",
     "title": "Cesspool Pruned",
     "upstreamRepo": "https://github.com/jasonsopko/cesspool",
-    "version": "0.1.0:0"
+    "version": "0.1.0:1"
   },
   "datum": {
     "categories": [],
@@ -94,11 +94,11 @@
     "license": "MIT",
     "marketingUrl": "https://github.com/romanz/electrs/",
     "packageRepo": "https://github.com/paulscode/electrs-pruned-startos",
-    "published": "2026-10-27",
+    "published": "2026-11-24",
     "short": "An efficient re-implementation of Electrum Server in Rust, for pruned Bitcoin nodes",
     "title": "Electrs Pruned",
     "upstreamRepo": "https://github.com/romanz/electrs",
-    "version": "0.11.1:48"
+    "version": "0.11.1:49"
   },
   "frigate-blake2b-companion": {
     "categories": [
@@ -107,11 +107,11 @@
     "license": "Apache-2.0",
     "marketingUrl": "https://github.com/sparrowwallet/frigate",
     "packageRepo": "https://github.com/paulscode/frigate-blake2b-companion-startos",
-    "published": "2026-11-09",
+    "published": "2026-11-24",
     "short": "Silent Payments Electrum server that runs on a pruned node",
     "title": "Frigate Electrum Server (BLAKE2b) Companion",
     "upstreamRepo": "https://github.com/sparrowwallet/frigate",
-    "version": "1.6.1:0"
+    "version": "1.6.1:1"
   },
   "frigate-sha256-companion": {
     "categories": [
@@ -120,11 +120,11 @@
     "license": "Apache-2.0",
     "marketingUrl": "https://github.com/sparrowwallet/frigate",
     "packageRepo": "https://github.com/paulscode/frigate-sha256-companion-startos",
-    "published": "2026-11-09",
+    "published": "2026-11-24",
     "short": "Silent Payments Electrum server that runs on a pruned node",
     "title": "Frigate Electrum Server (SHA256) Companion",
     "upstreamRepo": "https://github.com/sparrowwallet/frigate",
-    "version": "1.6.1:0"
+    "version": "1.6.1:1"
   },
   "fulcrum-pruned": {
     "categories": [
@@ -133,11 +133,11 @@
     "license": "GPL-3.0",
     "marketingUrl": "https://github.com/cculianu/Fulcrum",
     "packageRepo": "https://github.com/paulscode/fulcrum-pruned",
-    "published": "2026-11-09",
+    "published": "2026-11-24",
     "short": "A fast Electrum server for a pruned node, on the SHA256 or the BLAKE2b chain.",
     "title": "Fulcrum Pruned",
     "upstreamRepo": "https://github.com/cculianu/Fulcrum",
-    "version": "2.1.4:1"
+    "version": "2.1.4:2"
   },
   "gitlab": {
     "categories": [
@@ -228,11 +228,11 @@
     "license": "MIT",
     "marketingUrl": "https://github.com/paulscode/knots-sha256",
     "packageRepo": "https://github.com/paulscode/knots-prerdts-startos",
-    "published": "2026-11-05",
+    "published": "2026-11-23",
     "short": "A pruned Bitcoin Knots node for the SHA256 chain, to run beside your main node",
     "title": "Bitcoin Knots (SHA256) Companion",
     "upstreamRepo": "https://github.com/paulscode/knots-sha256",
-    "version": "#knotsprerdts:31.2:0"
+    "version": "#knotsprerdts:32.1:1"
   },
   "lightning-fork": {
     "categories": [
@@ -256,11 +256,11 @@
     "license": "AGPL",
     "marketingUrl": "https://mempool.space/",
     "packageRepo": "https://github.com/paulscode/mempool-pruned-startos",
-    "published": "2026-11-23",
+    "published": "2026-11-24",
     "short": "Be your own explorer® with The Mempool Open Source Project®",
     "title": "Mempool Pruned",
     "upstreamRepo": "https://github.com/mempool/mempool",
-    "version": "3.3.2:2"
+    "version": "3.3.2:3"
   },
   "outcrop": {
     "categories": [
@@ -270,11 +270,11 @@
     "license": "MIT",
     "marketingUrl": "https://github.com/paulscode/outcrop",
     "packageRepo": "https://github.com/paulscode/outcrop",
-    "published": "2026-11-23",
+    "published": "2026-11-24",
     "short": "A capable LLM on budget, upgradable hardware",
     "title": "Outcrop",
     "upstreamRepo": "https://github.com/paulscode/outcrop",
-    "version": "0.1.0:0"
+    "version": "0.1.0:2"
   },
   "pickhash": {
     "categories": [

@@ -39,11 +39,11 @@
     "license": "MIT",
     "marketingUrl": "https://bitcoincore.org/",
     "packageRepo": "https://github.com/remcoros/bitcoind-testnet4-startos",
-    "published": "2026-11-20",
+    "published": "2026-11-24",
     "short": "A Bitcoin testnet4 Full Node by Bitcoin Core",
     "title": "Bitcoin Core (testnet4)",
     "upstreamRepo": "https://github.com/bitcoin/bitcoin",
-    "version": "31.2:1"
+    "version": "32.1:0"
   },
   "chaingraph": {
     "categories": [
@@ -106,11 +106,11 @@
     "license": "GPL",
     "marketingUrl": "https://web.public-pool.io/",
     "packageRepo": "https://github.com/remcoros/public-pool-startos",
-    "published": "2026-11-17",
+    "published": "2026-11-24",
     "short": "Open source Bitcoin mining pool.",
     "title": "Public Pool",
     "upstreamRepo": "https://github.com/benjamin-wilson/public-pool",
-    "version": "#rbitcoin:0.2.5:27"
+    "version": "#rbitcoin:0.2.5:28"
   },
   "pushtx": {
     "categories": [
@@ -157,14 +157,14 @@
       "Bitcoin",
       "Wallets"
     ],
-    "license": "GPL-3.0-only",
+    "license": "Apache-2.0",
     "marketingUrl": "https://sparrowwallet.com/",
     "packageRepo": "https://github.com/remcoros/sparrow-webtop-startos",
-    "published": "2026-10-29",
+    "published": "2026-11-25",
     "short": "Sparrow - Desktop Wallet In Your Browser",
     "title": "Sparrow",
     "upstreamRepo": "https://github.com/sparrowwallet/sparrow",
-    "version": "2.5.6:0"
+    "version": "2.5.7:0"
   },
   "wasabi-coordinator": {
     "categories": [],

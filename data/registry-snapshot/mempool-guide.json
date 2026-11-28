@@ -20,11 +20,11 @@
     "license": "mit",
     "marketingUrl": "https://github.com/privkeyio/lightning",
     "packageRepo": "https://github.com/privkeyio/cln-startos",
-    "published": "2026-11-06",
+    "published": "2026-11-27",
     "short": "An implementation of the Lightning Network protocol that follows Bitcoin's BLAKE2b proof of work.",
     "title": "Core Lightning",
     "upstreamRepo": "https://github.com/privkeyio/lightning",
-    "version": "#blake:26.6.10:0"
+    "version": "#blake:26.6.10:3"
   },
   "canary": {
     "categories": [],
@@ -101,10 +101,10 @@
     "license": "PolyForm Noncommercial License 1.0.0",
     "marketingUrl": "https://github.com/Retropex/umbrel-bitcoin.git",
     "packageRepo": "https://github.com/Retropex/umbrel-bitcoin-ui-startos",
-    "published": "2026-10-22",
+    "published": "2026-11-28",
     "short": "User interface for Bitcoin Knots.",
     "title": "Umbrel Bitcoin UI",
     "upstreamRepo": "https://github.com/Retropex/umbrel-bitcoin",
-    "version": "1.1.0:8"
+    "version": "#blake:1.2.0:1"
   }
 }

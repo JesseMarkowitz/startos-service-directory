@@ -16,11 +16,11 @@
     "license": "Apache-2.0",
     "marketingUrl": "https://albyhub.com/",
     "packageRepo": "https://github.com/Start9Labs/albyhub-startos",
-    "published": "2026-11-19",
+    "published": "2026-11-24",
     "short": "Self-custodial Lightning wallet with integrated node",
     "title": "Alby Hub",
     "upstreamRepo": "https://github.com/getAlby/hub",
-    "version": "1.24.8:0"
+    "version": "1.24.8:1"
   },
   "am-i-exposed": {
     "categories": [],
@@ -32,6 +32,17 @@
     "title": "Am I Exposed?",
     "upstreamRepo": "https://github.com/Copexit/am-i-exposed",
     "version": "0.43.3:0"
+  },
+  "archivebox": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://archivebox.io/",
+    "packageRepo": "https://github.com/Start9Labs/archivebox-startos",
+    "published": "2026-11-26",
+    "short": "Self-hosted internet archive for personal use",
+    "title": "ArchiveBox",
+    "upstreamRepo": "https://github.com/ArchiveBox/ArchiveBox",
+    "version": "0.9.77:0"
   },
   "audiobookshelf": {
     "categories": [],
@@ -55,38 +66,38 @@
     "upstreamRepo": "https://gitlab.com/ark-bitcoin/bark-web",
     "version": "0.12.0:1"
   },
-  "beszel": {
-    "categories": [],
-    "license": "MIT",
-    "marketingUrl": "https://beszel.dev/",
-    "packageRepo": "https://github.com/Start9Labs/beszel-startos",
-    "published": "2026-11-22",
-    "short": "Lightweight server monitoring with Docker stats, historical data, and alerts.",
-    "title": "Beszel",
-    "upstreamRepo": "https://github.com/henrygd/beszel",
-    "version": "0.21.2:1"
-  },
   "bitcoind": {
     "categories": [],
     "license": "MIT",
     "marketingUrl": "https://bitcoincore.org/",
     "packageRepo": "https://github.com/Start9Labs/bitcoin-core-startos",
-    "published": "2026-11-22",
+    "published": "2026-11-27",
     "short": "A Bitcoin Full Node by Bitcoin Core",
     "title": "Bitcoin Core",
     "upstreamRepo": "https://github.com/bitcoin/bitcoin",
-    "version": "32.1:2"
+    "version": "32.1:5"
+  },
+  "blockstream-blind-oracle": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://blockstream.com/jade/",
+    "packageRepo": "https://github.com/Start9Labs/blockstream-blind-oracle-startos",
+    "published": "2026-11-26",
+    "short": "Your own blind PIN oracle for a Blockstream Jade hardware wallet",
+    "title": "Blockstream Blind Oracle",
+    "upstreamRepo": "https://github.com/Blockstream/blind_pin_server",
+    "version": "0.1.0:5"
   },
   "btcpayserver": {
     "categories": [],
     "license": "MIT",
     "marketingUrl": "https://btcpayserver.org/",
     "packageRepo": "https://github.com/Start9Labs/btcpayserver-startos",
-    "published": "2026-11-19",
+    "published": "2026-11-27",
     "short": "Bitcoin and cryptocurrency payment processor and POS system.",
     "title": "BTCPay Server",
     "upstreamRepo": "https://github.com/btcpayserver/btcpayserver",
-    "version": "2.4.7:5"
+    "version": "2.4.7:6"
   },
   "byparr": {
     "categories": [],
@@ -104,11 +115,11 @@
     "license": "mit",
     "marketingUrl": "https://blockstream.com/lightning",
     "packageRepo": "https://github.com/Start9Labs/cln-startos",
-    "published": "2026-11-22",
+    "published": "2026-11-27",
     "short": "An implementation of the Lightning Network protocol by Blockstream.",
     "title": "Core Lightning",
     "upstreamRepo": "https://github.com/ElementsProject/lightning",
-    "version": "26.6.10:9"
+    "version": "26.6.10:13"
   },
   "cal-diy": {
     "categories": [],
@@ -143,6 +154,17 @@
     "upstreamRepo": "https://github.com/CollaboraOnline/online",
     "version": "26.4.6.2.1:0"
   },
+  "copyparty": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://github.com/9001/copyparty",
+    "packageRepo": "https://github.com/Start9Labs/copyparty-startos",
+    "published": "2026-11-27",
+    "short": "File server with resumable uploads and WebDAV",
+    "title": "copyparty",
+    "upstreamRepo": "https://github.com/9001/copyparty",
+    "version": "1.20.28:0"
+  },
   "coturn": {
     "categories": [],
     "license": "BSD-3-Clause",
@@ -170,22 +192,22 @@
     "license": "mit",
     "marketingUrl": "https://ocean.xyz/",
     "packageRepo": "https://github.com/Start9Labs/datum-gateway-startos",
-    "published": "2026-11-19",
+    "published": "2026-11-25",
     "short": "Make block templates and issue work to your miners",
     "title": "Datum Gateway",
     "upstreamRepo": "https://github.com/ocean-xyz/datum-gateway",
-    "version": "0.5.1-beta:2"
+    "version": "0.5.1-beta:3"
   },
   "discourse": {
     "categories": [],
     "license": "GPL-2.0",
     "marketingUrl": "https://www.discourse.org/",
     "packageRepo": "https://github.com/Start9Labs/discourse-startos",
-    "published": "2026-11-20",
+    "published": "2026-11-25",
     "short": "Forum and community discussion platform",
     "title": "Discourse",
     "upstreamRepo": "https://github.com/discourse/discourse",
-    "version": "2026.11.0-latest.1:0"
+    "version": "2026.12.0-latest:0"
   },
   "documenso": {
     "categories": [],
@@ -225,22 +247,22 @@
     "license": "Apache-2.0",
     "marketingUrl": "https://acinq.co/",
     "packageRepo": "https://github.com/Start9Labs/eclair-startos",
-    "published": "2026-11-19",
+    "published": "2026-11-24",
     "short": "A Scala implementation of the Lightning Network",
     "title": "Eclair",
     "upstreamRepo": "https://github.com/ACINQ/eclair",
-    "version": "0.14.6:5"
+    "version": "0.14.6:7"
   },
   "electrs": {
     "categories": [],
     "license": "MIT",
     "marketingUrl": "https://github.com/romanz/electrs/",
     "packageRepo": "https://github.com/Start9Labs/electrs-startos",
-    "published": "2026-11-20",
+    "published": "2026-11-27",
     "short": "An efficient re-implementation of Electrum Server in Rust",
     "title": "Electrs",
     "upstreamRepo": "https://github.com/romanz/electrs",
-    "version": "0.12.1:2"
+    "version": "0.12.1:3"
   },
   "element-web": {
     "categories": [],
@@ -258,18 +280,18 @@
     "license": "GPL-3.0",
     "marketingUrl": "https://frappe.io/erpnext",
     "packageRepo": "https://github.com/Start9Labs/erpnext-startos",
-    "published": "2026-11-19",
+    "published": "2026-11-27",
     "short": "Accounting and business management for small companies",
     "title": "ERPNext",
     "upstreamRepo": "https://github.com/frappe/erpnext",
-    "version": "16.60.0:0"
+    "version": "16.61.0:0"
   },
   "filebrowser": {
     "categories": [],
     "license": "Apache-2.0",
     "marketingUrl": "https://filebrowser.org/",
     "packageRepo": "https://github.com/Start9Labs/filebrowser-startos",
-    "published": "2026-11-14",
+    "published": "2026-11-25",
     "short": "No longer maintained. Cloud data storage and sharing",
     "title": "File Browser (unsupported)",
     "upstreamRepo": "https://github.com/filebrowser/filebrowser",
@@ -280,11 +302,11 @@
     "license": "AGPL-3.0",
     "marketingUrl": "https://firefly-iii.org/",
     "packageRepo": "https://github.com/Start9Labs/firefly-iii-startos",
-    "published": "2026-10-21",
+    "published": "2026-11-27",
     "short": "Double-entry personal finance manager",
     "title": "Firefly III",
     "upstreamRepo": "https://github.com/firefly-iii/firefly-iii",
-    "version": "6.7.9:2"
+    "version": "6.7.12:0"
   },
   "fmd-server": {
     "categories": [],
@@ -324,11 +346,11 @@
     "license": "AGPL-3.0",
     "marketingUrl": "https://frappe.io/helpdesk",
     "packageRepo": "https://github.com/Start9Labs/frappe-helpdesk-startos",
-    "published": "2026-11-20",
+    "published": "2026-11-27",
     "short": "Customer support ticketing with an email inbox and knowledge base",
     "title": "Frappe Helpdesk",
     "upstreamRepo": "https://github.com/frappe/helpdesk",
-    "version": "16.2.1:0"
+    "version": "16.2.2:0"
   },
   "fulcrum": {
     "categories": [],
@@ -346,22 +368,22 @@
     "license": "AGPL-3.0",
     "marketingUrl": "https://garagehq.deuxfleurs.fr/",
     "packageRepo": "https://github.com/Start9Labs/garage-startos",
-    "published": "2026-10-27",
+    "published": "2026-11-25",
     "short": "S3-compatible object storage for self-hosted deployments",
     "title": "Garage",
     "upstreamRepo": "https://git.deuxfleurs.fr/Deuxfleurs/garage",
-    "version": "2.5.0:0"
+    "version": "2.6.0:0"
   },
   "ghost": {
     "categories": [],
     "license": "MIT",
     "marketingUrl": "https://ghost.org/",
     "packageRepo": "https://github.com/Start9Labs/ghost-startos",
-    "published": "2026-11-18",
+    "published": "2026-11-25",
     "short": "A self-hosted blogging platform",
     "title": "Ghost",
     "upstreamRepo": "https://github.com/TryGhost/ghost",
-    "version": "6.78.0:0"
+    "version": "6.79.0:0"
   },
   "gitea": {
     "categories": [],
@@ -390,33 +412,44 @@
     "license": "Apache-2.0",
     "marketingUrl": "https://homeassistant.io/",
     "packageRepo": "https://github.com/Start9Labs/home-assistant-startos",
-    "published": "2026-11-17",
+    "published": "2026-11-24",
     "short": "Open source home automation that puts local control and privacy first",
     "title": "Home Assistant",
     "upstreamRepo": "https://github.com/home-assistant/core",
-    "version": "2026.11.2:0"
+    "version": "2026.11.3:0"
   },
   "i2pd": {
     "categories": [],
     "license": "BSD-3-Clause",
     "marketingUrl": "https://i2pd.website/",
     "packageRepo": "https://github.com/Start9Labs/i2pd-startos",
-    "published": "2026-11-10",
+    "published": "2026-11-25",
     "short": "Peer-to-peer network for I2P services and decentralized applications",
     "title": "I2Pd",
     "upstreamRepo": "https://github.com/PurpleI2P/i2pd",
-    "version": "3.0.0:1"
+    "version": "3.0.0:2"
   },
   "immich": {
     "categories": [],
     "license": "AGPL-3.0",
     "marketingUrl": "https://immich.app/",
     "packageRepo": "https://github.com/Start9Labs/immich-startos",
-    "published": "2026-11-21",
+    "published": "2026-11-24",
     "short": "High-performance self-hosted photo and video management",
     "title": "Immich",
     "upstreamRepo": "https://github.com/immich-app/immich",
-    "version": "3.4.1:1"
+    "version": "3.4.1:2"
+  },
+  "ipfs": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://ipfs.tech/",
+    "packageRepo": "https://github.com/Start9Labs/ipfs-startos",
+    "published": "2026-11-25",
+    "short": "InterPlanetary File System",
+    "title": "IPFS",
+    "upstreamRepo": "https://github.com/ipfs/kubo",
+    "version": "0.43.2:0"
   },
   "jam-v2": {
     "categories": [],
@@ -434,18 +467,18 @@
     "license": "MIT",
     "marketingUrl": "https://jellyfin.org/",
     "packageRepo": "https://github.com/Start9Labs/jellyfin-startos",
-    "published": "2026-11-18",
+    "published": "2026-11-24",
     "short": "The Free Software Media System",
     "title": "Jellyfin",
     "upstreamRepo": "https://github.com/jellyfin/jellyfin",
-    "version": "12.4:5"
+    "version": "12.4:6"
   },
   "jitsi": {
     "categories": [],
     "license": "Apache-2.0",
     "marketingUrl": "https://jitsi.org/",
     "packageRepo": "https://github.com/Start9Labs/jitsi-startos",
-    "published": "2026-11-21",
+    "published": "2026-11-25",
     "short": "Self-hosted video conferencing with Jitsi Meet",
     "title": "Jitsi Meet",
     "upstreamRepo": "https://github.com/jitsi/docker-jitsi-meet",
@@ -456,11 +489,11 @@
     "license": "AGPL-3.0",
     "marketingUrl": "https://karakeep.com/",
     "packageRepo": "https://github.com/Start9Labs/karakeep-startos",
-    "published": "2026-11-23",
+    "published": "2026-11-24",
     "short": "A self-hostable bookmark-everything app",
     "title": "Karakeep",
     "upstreamRepo": "https://github.com/karakeep-app/karakeep",
-    "version": "0.35.0:2"
+    "version": "0.35.0:3"
   },
   "lidarr": {
     "categories": [],
@@ -478,11 +511,11 @@
     "license": "mit",
     "marketingUrl": "https://lightning.engineering/",
     "packageRepo": "https://github.com/Start9Labs/lightning-terminal-startos",
-    "published": "2026-11-12",
+    "published": "2026-11-27",
     "short": "Your home for Lightning liquidity",
     "title": "Lightning Terminal",
     "upstreamRepo": "https://github.com/lightninglabs/lightning-terminal",
-    "version": "0.17.11:0"
+    "version": "0.17.12:1"
   },
   "linkwarden": {
     "categories": [],
@@ -511,22 +544,22 @@
     "license": "mit",
     "marketingUrl": "https://lnbits.com/",
     "packageRepo": "https://github.com/Start9Labs/lnbits-startos",
-    "published": "2026-11-22",
+    "published": "2026-11-24",
     "short": "A Bitcoin Lightning wallet and accounts system.",
     "title": "LNbits",
     "upstreamRepo": "https://github.com/lnbits/lnbits",
-    "version": "1.7.1:2"
+    "version": "1.7.1:3"
   },
   "lnd": {
     "categories": [],
     "license": "MIT",
     "marketingUrl": "https://lightning.engineering/",
     "packageRepo": "https://github.com/Start9Labs/lnd-startos",
-    "published": "2026-11-23",
+    "published": "2026-11-24",
     "short": "A complete implementation of a Lightning Network node by Lightning Labs",
     "title": "LND",
     "upstreamRepo": "https://github.com/lightningnetwork/lnd",
-    "version": "0.21.8-beta:4"
+    "version": "0.21.8-beta:6"
   },
   "mattermost": {
     "categories": [],
@@ -588,11 +621,11 @@
     "license": "Sustainable Use License",
     "marketingUrl": "https://n8n.io/",
     "packageRepo": "https://github.com/Start9Labs/n8n-startos",
-    "published": "2026-11-23",
+    "published": "2026-11-27",
     "short": "Self-hosted workflow automation with AI",
     "title": "n8n",
     "upstreamRepo": "https://github.com/n8n-io/n8n",
-    "version": "2.48.8:0"
+    "version": "2.49.8:0"
   },
   "navidrome": {
     "categories": [],
@@ -610,11 +643,11 @@
     "license": "gpl",
     "marketingUrl": "https://nextcloud.com/",
     "packageRepo": "https://github.com/Start9Labs/nextcloud-startos",
-    "published": "2026-11-23",
+    "published": "2026-11-24",
     "short": "A safe home for all your data",
     "title": "Nextcloud",
     "upstreamRepo": "https://github.com/nextcloud/docker",
-    "version": "35.0.3:4"
+    "version": "35.0.3:5"
   },
   "nextcloud-talk-hpb": {
     "categories": [],
@@ -665,11 +698,11 @@
     "license": "Apache-2.0",
     "marketingUrl": "https://ntfy.sh/",
     "packageRepo": "https://github.com/Start9Labs/ntfy-startos",
-    "published": "2026-11-16",
+    "published": "2026-11-25",
     "short": "Self-hosted push notification service",
     "title": "NTFY",
     "upstreamRepo": "https://github.com/binwiederhier/ntfy",
-    "version": "2.38.1:0"
+    "version": "2.38.2:1"
   },
   "nzbget": {
     "categories": [],
@@ -687,22 +720,22 @@
     "license": "MIT",
     "marketingUrl": "https://ollama.com/",
     "packageRepo": "https://github.com/Start9Labs/ollama-startos",
-    "published": "2026-11-17",
+    "published": "2026-11-24",
     "short": "Chat & build with open models",
     "title": "Ollama",
     "upstreamRepo": "https://github.com/ollama/ollama",
-    "version": "0.40.16:0"
+    "version": "0.40.18:0"
   },
   "open-webui": {
     "categories": [],
     "license": "custom",
     "marketingUrl": "https://docs.openwebui.com/",
     "packageRepo": "https://github.com/Start9Labs/open-webui-startos",
-    "published": "2026-11-18",
+    "published": "2026-11-25",
     "short": "Self-hosted AI platform designed to operate entirely offline",
     "title": "Open WebUI",
     "upstreamRepo": "https://github.com/open-webui/open-webui",
-    "version": "0.13.4:1"
+    "version": "0.13.5:0"
   },
   "owncast": {
     "categories": [],
@@ -731,11 +764,11 @@
     "license": "GPL-3.0",
     "marketingUrl": "https://docs.paperless-ngx.com/",
     "packageRepo": "https://github.com/Start9Labs/paperless-ngx-startos",
-    "published": "2026-11-18",
+    "published": "2026-11-24",
     "short": "Self-hosted document management system",
     "title": "Paperless-ngx",
     "upstreamRepo": "https://github.com/paperless-ngx/paperless-ngx",
-    "version": "3.5.1:0"
+    "version": "3.5.1:1"
   },
   "papra": {
     "categories": [],
@@ -797,11 +830,11 @@
     "license": "GPL-3.0",
     "marketingUrl": "https://prowlarr.com/",
     "packageRepo": "https://github.com/Start9Labs/prowlarr-startos",
-    "published": "2026-11-19",
+    "published": "2026-11-24",
     "short": "Indexer manager for Sonarr, Radarr and other media apps",
     "title": "Prowlarr",
     "upstreamRepo": "https://github.com/Prowlarr/Prowlarr",
-    "version": "3.0.2.5780:1"
+    "version": "3.1.0.5799:0"
   },
   "public-pool": {
     "categories": [],
@@ -819,11 +852,11 @@
     "license": "GPL-2.0",
     "marketingUrl": "https://www.qbittorrent.org/",
     "packageRepo": "https://github.com/Start9Labs/qbittorrent-startos",
-    "published": "2026-11-18",
+    "published": "2026-11-25",
     "short": "BitTorrent client with a web interface",
     "title": "qBittorrent",
     "upstreamRepo": "https://github.com/qbittorrent/qBittorrent",
-    "version": "5.3.0:7"
+    "version": "5.3.1:0"
   },
   "radarr": {
     "categories": [],
@@ -940,11 +973,11 @@
     "license": "AGPL-3.0",
     "marketingUrl": "https://stalw.art/",
     "packageRepo": "https://github.com/Start9Labs/stalwart-startos",
-    "published": "2026-11-22",
+    "published": "2026-11-27",
     "short": "All-in-one mail and collaboration server",
     "title": "Stalwart",
     "upstreamRepo": "https://github.com/stalwartlabs/stalwart",
-    "version": "1.1.1:1"
+    "version": "1.2.1:0"
   },
   "start9-pages": {
     "categories": [],
@@ -962,11 +995,11 @@
     "license": "MIT",
     "marketingUrl": "https://github.com/Start9Labs/start-technologies/",
     "packageRepo": "https://github.com/Start9Labs/startos-registry-startos",
-    "published": "2026-11-15",
+    "published": "2026-11-27",
     "short": "Host independent StartOS package registries",
     "title": "StartOS Registry",
     "upstreamRepo": "https://github.com/Start9Labs/start-technologies",
-    "version": "1.6.0:0"
+    "version": "1.6.0:1"
   },
   "stirling-pdf": {
     "categories": [],
@@ -1006,22 +1039,33 @@
     "license": "AGPL-3.0",
     "marketingUrl": "https://matrix.org/",
     "packageRepo": "https://github.com/Start9Labs/synapse-startos",
-    "published": "2026-11-11",
+    "published": "2026-11-25",
     "short": "A battle-tested implementation of Matrix, the killer of all messaging apps.",
     "title": "Synapse",
     "upstreamRepo": "https://github.com/element-hq/synapse",
-    "version": "1.165.0:0"
+    "version": "1.166.0:0"
+  },
+  "thunderhub": {
+    "categories": [],
+    "license": "MIT",
+    "marketingUrl": "https://www.thunderhub.io/",
+    "packageRepo": "https://github.com/Start9Labs/thunderhub-startos",
+    "published": "2026-11-25",
+    "short": "LND Lightning Node Manager in your browser",
+    "title": "ThunderHub",
+    "upstreamRepo": "https://github.com/apotdevin/thunderhub",
+    "version": "0.19.1:2"
   },
   "tor": {
     "categories": [],
     "license": "BSD-3-Clause",
     "marketingUrl": "https://www.torproject.org/",
     "packageRepo": "https://github.com/Start9Labs/tor-startos",
-    "published": "2026-11-22",
+    "published": "2026-11-27",
     "short": "Anonymity network for onion services and private browsing",
     "title": "Tor",
     "upstreamRepo": "https://gitlab.torproject.org/tpo/core/tor",
-    "version": "0.4.9.17:2"
+    "version": "0.4.9.17:4"
   },
   "tor-relay": {
     "categories": [],
@@ -1033,6 +1077,17 @@
     "title": "Tor Relay",
     "upstreamRepo": "https://gitlab.torproject.org/tpo/core/tor",
     "version": "0.4.9.17:2"
+  },
+  "unmanic": {
+    "categories": [],
+    "license": "GPL-3.0",
+    "marketingUrl": "https://docs.unmanic.app/",
+    "packageRepo": "https://github.com/Start9Labs/unmanic-startos",
+    "published": "2026-11-24",
+    "short": "Optimise your media library by transcoding it automatically",
+    "title": "Unmanic",
+    "upstreamRepo": "https://github.com/Unmanic/unmanic",
+    "version": "0.4.1:0"
   },
   "uptime-kuma": {
     "categories": [],
@@ -1050,11 +1105,11 @@
     "license": "MIT",
     "marketingUrl": "https://github.com/dani-garcia/vaultwarden/",
     "packageRepo": "https://github.com/Start9Labs/vaultwarden-startos",
-    "published": "2026-11-10",
+    "published": "2026-11-24",
     "short": "Secure password management",
     "title": "Vaultwarden",
     "upstreamRepo": "https://github.com/dani-garcia/vaultwarden",
-    "version": "1.37.5:1"
+    "version": "1.37.5:2"
   },
   "vikunja": {
     "categories": [],
