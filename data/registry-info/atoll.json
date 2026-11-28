@@ -2,5 +2,7 @@
   "description": null,
   "icon": "atoll.png",
   "name": "Atoll Registry",
-  "signers": []
+  "signers": [
+    "Dread"
+  ]
 }

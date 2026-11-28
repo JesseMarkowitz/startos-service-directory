@@ -19,7 +19,7 @@
       "title": "God's Eye View",
       "upstreamRepo": "https://github.com/bilawalsidhu/gods-eye-view"
     },
-    "pushedAt": "2026-11-01T15:19:05Z",
+    "pushedAt": "2026-11-27T21:58:31Z",
     "url": "https://github.com/13Homer13/gods-eye-view-startos"
   },
   "github.com/4rkad/catapult-startos": {
@@ -87,7 +87,7 @@
       "title": "BOLT12 Pay",
       "upstreamRepo": "https://github.com/Alex71btc/lndk-pay"
     },
-    "pushedAt": "2026-11-22T20:20:00Z",
+    "pushedAt": "2026-11-27T07:22:01Z",
     "url": "https://github.com/Alex71btc/bolt12-pay-startos"
   },
   "github.com/Alex71btc/lnd-startos-bolt12": {
@@ -313,7 +313,7 @@
       "title": "Knuth",
       "upstreamRepo": "https://github.com/k-nuth/kth"
     },
-    "pushedAt": "2026-11-20T13:29:16Z",
+    "pushedAt": "2026-11-27T17:22:30Z",
     "url": "https://github.com/BitcoinCash1/knuth-bch-startos"
   },
   "github.com/BitcoinMechanic/btc-cln-startos": {
@@ -351,7 +351,7 @@
       "title": "Swap Controller",
       "upstreamRepo": "https://github.com/BitcoinMechanic/lightning"
     },
-    "pushedAt": "2026-11-15T06:33:19Z",
+    "pushedAt": "2026-11-27T04:16:48Z",
     "url": "https://github.com/BitcoinMechanic/swap-controller-startos"
   },
   "github.com/BrashRatel/splayed-startos": {
@@ -381,7 +381,7 @@
       "title": "Bitcart",
       "upstreamRepo": "https://github.com/bitcart/bitcart"
     },
-    "pushedAt": "2026-11-20T13:12:53Z",
+    "pushedAt": "2026-11-25T20:17:29Z",
     "url": "https://github.com/CyberAshven/bitcart-startos"
   },
   "github.com/DeGrandis/proof-of-basis-startos": {
@@ -519,12 +519,27 @@
     "pushedAt": "2026-06-13T01:32:35Z",
     "url": "https://github.com/GyroJack/routstrd-startos"
   },
+  "github.com/Horizon-btc/umbrel-bitcoin-ui-startos": {
+    "description": "Umbrel UI for startos",
+    "forge": "GitHub",
+    "fullName": "Horizon-btc/umbrel-bitcoin-ui-startos",
+    "kind": "v04",
+    "manifest": {
+      "id": "umbrel-bitcoin-ui",
+      "license": "PolyForm Noncommercial License 1.0.0",
+      "packageRepo": "https://github.com/Retropex/umbrel-bitcoin-ui-startos",
+      "title": "Umbrel Bitcoin UI",
+      "upstreamRepo": "https://github.com/Retropex/umbrel-bitcoin"
+    },
+    "pushedAt": "2026-11-28T13:29:32Z",
+    "url": "https://github.com/Horizon-btc/umbrel-bitcoin-ui-startos"
+  },
   "github.com/JesseMarkowitz/admintools-startos": {
     "description": "Interactive admin menu for StartOS servers, run over SSH: system details, scheduled backups, notification forwarding and alerts",
     "forge": "GitHub",
     "fullName": "JesseMarkowitz/admintools-startos",
     "kind": "other",
-    "pushedAt": "2026-11-22T21:11:14Z",
+    "pushedAt": "2026-11-26T05:39:41Z",
     "url": "https://github.com/JesseMarkowitz/admintools-startos"
   },
   "github.com/JesseMarkowitz/cryptpad-startos": {
@@ -614,7 +629,7 @@
       "title": "UPS Watch",
       "upstreamRepo": "https://github.com/grafana/grafana"
     },
-    "pushedAt": "2026-11-23T02:15:53Z",
+    "pushedAt": "2026-11-28T03:51:36Z",
     "url": "https://github.com/JesseMarkowitz/ups-watch-startos"
   },
   "github.com/JesseMarkowitz/vikunja-startos": {
@@ -734,7 +749,7 @@
       "title": "Multi-Scrobbler",
       "upstreamRepo": "https://github.com/FoxxMD/multi-scrobbler"
     },
-    "pushedAt": "2026-11-19T15:21:03Z",
+    "pushedAt": "2026-11-26T01:20:04Z",
     "url": "https://github.com/Jolls/multi-scrobbler-startos"
   },
   "github.com/Jolls/navidrome-startos": {
@@ -749,7 +764,7 @@
       "title": "Navidrome",
       "upstreamRepo": "https://github.com/navidrome/navidrome"
     },
-    "pushedAt": "2026-11-16T16:43:51Z",
+    "pushedAt": "2026-11-26T00:53:34Z",
     "url": "https://github.com/Jolls/navidrome-startos"
   },
   "github.com/Jolls/siftstr-startos": {
@@ -810,7 +825,7 @@
       "title": "JoinBlaket",
       "upstreamRepo": "https://github.com/Kilombino/joinblaket"
     },
-    "pushedAt": "2026-11-16T23:10:47Z",
+    "pushedAt": "2026-11-24T12:51:56Z",
     "url": "https://github.com/Kilombino/jam-xbt-startos"
   },
   "github.com/Kilombino/kilojoin-startos": {
@@ -840,7 +855,7 @@
       "title": "Kilowallet",
       "upstreamRepo": "https://github.com/Kilombino/kilowallet-server"
     },
-    "pushedAt": "2026-11-14T18:04:21Z",
+    "pushedAt": "2026-11-24T15:47:20Z",
     "url": "https://github.com/Kilombino/kilowallet-startos"
   },
   "github.com/Kilombino/lightning-stream-startos": {
@@ -878,7 +893,7 @@
       "title": "MRR Command Center",
       "upstreamRepo": "https://github.com/Kilombino/mrr-command-center"
     },
-    "pushedAt": "2026-11-23T18:06:51Z",
+    "pushedAt": "2026-11-26T22:28:23Z",
     "url": "https://github.com/Kilombino/mrr-command-center-startos"
   },
   "github.com/Kilombino/roblosats-coordinator-startos": {
@@ -893,7 +908,7 @@
       "title": "Roblosats Coordinator",
       "upstreamRepo": "https://github.com/Kilombino/roblosats"
     },
-    "pushedAt": "2026-11-21T20:24:05Z",
+    "pushedAt": "2026-11-26T21:57:05Z",
     "url": "https://github.com/Kilombino/roblosats-coordinator-startos"
   },
   "github.com/Kilombino/roblosats-startos": {
@@ -908,7 +923,7 @@
       "title": "Roblosats",
       "upstreamRepo": "https://github.com/Kilombino/roblosats"
     },
-    "pushedAt": "2026-11-21T21:17:07Z",
+    "pushedAt": "2026-11-26T21:56:43Z",
     "url": "https://github.com/Kilombino/roblosats-startos"
   },
   "github.com/Kilombino/thunderhub-xbt-startos": {
@@ -1066,7 +1081,7 @@
       "title": "Mostro",
       "upstreamRepo": "https://github.com/MostroP2P/mostro"
     },
-    "pushedAt": "2026-10-22T17:18:21Z",
+    "pushedAt": "2026-11-25T22:41:03Z",
     "url": "https://github.com/MostroP2P/mostro-startos"
   },
   "github.com/Neo-Colonial/reticulum-startos": {
@@ -1131,21 +1146,6 @@
     "pushedAt": "2026-03-23T13:45:03Z",
     "url": "https://github.com/Retropex/DeepSea-startos"
   },
-  "github.com/Retropex/umbrel-bitcoin-ui-startos": {
-    "description": "Umbrel UI for startos",
-    "forge": "GitHub",
-    "fullName": "Retropex/umbrel-bitcoin-ui-startos",
-    "kind": "v04",
-    "manifest": {
-      "id": "umbrel-bitcoin-ui",
-      "license": "PolyForm Noncommercial License 1.0.0",
-      "packageRepo": "https://github.com/Retropex/umbrel-bitcoin-ui-startos",
-      "title": "Umbrel Bitcoin UI",
-      "upstreamRepo": "https://github.com/Retropex/umbrel-bitcoin"
-    },
-    "pushedAt": "2026-06-02T16:37:22Z",
-    "url": "https://github.com/Retropex/umbrel-bitcoin-ui-startos"
-  },
   "github.com/Scott-Sanderson/minecraft-startos-java-security": {
     "description": "minecraft server package for StartOS",
     "forge": "GitHub",
@@ -1160,6 +1160,36 @@
     },
     "pushedAt": "2026-11-21T02:33:38Z",
     "url": "https://github.com/Scott-Sanderson/minecraft-startos-java-security"
+  },
+  "github.com/Scott-Sanderson/nethermind-startos": {
+    "description": "Nethermind Ethereum execution client package for StartOS",
+    "forge": "GitHub",
+    "fullName": "Scott-Sanderson/nethermind-startos",
+    "kind": "v04",
+    "manifest": {
+      "id": "nethermind",
+      "license": "LGPL-3.0-only",
+      "packageRepo": "https://github.com/Scott-Sanderson/nethermind-startos",
+      "title": "Nethermind",
+      "upstreamRepo": "https://github.com/NethermindEth/nethermind"
+    },
+    "pushedAt": "2026-11-24T16:09:18Z",
+    "url": "https://github.com/Scott-Sanderson/nethermind-startos"
+  },
+  "github.com/Scott-Sanderson/nimbus-startos": {
+    "description": "Nimbus Ethereum consensus client package for StartOS",
+    "forge": "GitHub",
+    "fullName": "Scott-Sanderson/nimbus-startos",
+    "kind": "v04",
+    "manifest": {
+      "id": "nimbus",
+      "license": "MIT OR Apache-2.0",
+      "packageRepo": "https://github.com/Scott-Sanderson/nimbus-startos",
+      "title": "Nimbus",
+      "upstreamRepo": "https://github.com/status-im/nimbus-eth2"
+    },
+    "pushedAt": "2026-11-28T02:04:16Z",
+    "url": "https://github.com/Scott-Sanderson/nimbus-startos"
   },
   "github.com/Spectre-Works/spectreworks-startos-registry": {
     "description": "Management, deployment configuration, and upstream release monitoring for the SPECTRE WORKS XBT StartOS registry.",
@@ -1177,21 +1207,6 @@
     "pushedAt": "2026-11-22T15:56:24Z",
     "url": "https://github.com/Start9-Community/alertmanager-startos"
   },
-  "github.com/Start9-Community/archivebox-startos": {
-    "description": "ArchiveBox for StartOS",
-    "forge": "GitHub",
-    "fullName": "Start9-Community/archivebox-startos",
-    "kind": "v04",
-    "manifest": {
-      "id": "archivebox",
-      "license": "MIT",
-      "packageRepo": "https://github.com/Start9-Community/archivebox-startos",
-      "title": "ArchiveBox",
-      "upstreamRepo": "https://github.com/ArchiveBox/ArchiveBox"
-    },
-    "pushedAt": "2026-10-24T04:52:27Z",
-    "url": "https://github.com/Start9-Community/archivebox-startos"
-  },
   "github.com/Start9-Community/bisq-startos": {
     "description": "Bisq for StartOS",
     "forge": "GitHub",
@@ -1204,7 +1219,7 @@
       "title": "Bisq",
       "upstreamRepo": "https://github.com/bisq-network/bisq"
     },
-    "pushedAt": "2026-11-20T04:57:44Z",
+    "pushedAt": "2026-11-27T16:06:42Z",
     "url": "https://github.com/Start9-Community/bisq-startos"
   },
   "github.com/Start9-Community/bitcoin-explorer-startos": {
@@ -1219,23 +1234,8 @@
       "title": "Bitcoin Explorer",
       "upstreamRepo": "https://github.com/janoside/btc-rpc-explorer"
     },
-    "pushedAt": "2026-11-20T20:18:37Z",
+    "pushedAt": "2026-11-27T15:54:08Z",
     "url": "https://github.com/Start9-Community/bitcoin-explorer-startos"
-  },
-  "github.com/Start9-Community/blockstream-blind-oracle-startos": {
-    "description": "Blockstream Jade Blind PIN Oracle packaged for StartOS",
-    "forge": "GitHub",
-    "fullName": "Start9-Community/blockstream-blind-oracle-startos",
-    "kind": "v04",
-    "manifest": {
-      "id": "blockstream-blind-oracle",
-      "license": "MIT",
-      "packageRepo": "https://github.com/Start9-Community/blockstream-blind-oracle-startos",
-      "title": "Blockstream Blind Oracle",
-      "upstreamRepo": "https://github.com/Blockstream/blind_pin_server"
-    },
-    "pushedAt": "2026-11-04T20:25:55Z",
-    "url": "https://github.com/Start9-Community/blockstream-blind-oracle-startos"
   },
   "github.com/Start9-Community/bunker46-startos": {
     "description": "Bunker46 for StartOS",
@@ -1249,7 +1249,7 @@
       "title": "Bunker46",
       "upstreamRepo": "https://github.com/dsbaars/bunker46"
     },
-    "pushedAt": "2026-11-06T23:25:53Z",
+    "pushedAt": "2026-11-26T15:20:00Z",
     "url": "https://github.com/Start9-Community/bunker46-startos"
   },
   "github.com/Start9-Community/buzz-relay-startos": {
@@ -1279,23 +1279,8 @@
       "title": "Chama",
       "upstreamRepo": "https://github.com/jesuspirate/chama"
     },
-    "pushedAt": "2026-11-20T18:11:15Z",
+    "pushedAt": "2026-11-25T18:08:01Z",
     "url": "https://github.com/Start9-Community/chama-startos"
-  },
-  "github.com/Start9-Community/copyparty-startos": {
-    "description": "copyparty packaged for StartOS",
-    "forge": "GitHub",
-    "fullName": "Start9-Community/copyparty-startos",
-    "kind": "v04",
-    "manifest": {
-      "id": "copyparty",
-      "license": "MIT",
-      "packageRepo": "https://github.com/Start9-Community/copyparty-startos",
-      "title": "copyparty",
-      "upstreamRepo": "https://github.com/9001/copyparty"
-    },
-    "pushedAt": "2026-11-04T17:22:13Z",
-    "url": "https://github.com/Start9-Community/copyparty-startos"
   },
   "github.com/Start9-Community/cronicle-startos": {
     "description": " Cronicle for StartOS ",
@@ -1309,7 +1294,7 @@
       "title": "Cronicle",
       "upstreamRepo": "https://github.com/jhuckaby/Cronicle"
     },
-    "pushedAt": "2026-11-20T19:27:45Z",
+    "pushedAt": "2026-11-24T16:47:50Z",
     "url": "https://github.com/Start9-Community/cronicle-startos"
   },
   "github.com/Start9-Community/fedimint-gateway-startos": {
@@ -1324,7 +1309,7 @@
       "title": "Fedimint Gateway",
       "upstreamRepo": "https://github.com/fedimint/fedimint"
     },
-    "pushedAt": "2026-11-20T20:52:21Z",
+    "pushedAt": "2026-11-27T16:10:18Z",
     "url": "https://github.com/Start9-Community/fedimint-gateway-startos"
   },
   "github.com/Start9-Community/fedimint-guardian-startos": {
@@ -1339,7 +1324,7 @@
       "title": "Fedimint Guardian",
       "upstreamRepo": "https://github.com/fedimint/fedimint"
     },
-    "pushedAt": "2026-11-20T20:32:39Z",
+    "pushedAt": "2026-11-27T16:10:22Z",
     "url": "https://github.com/Start9-Community/fedimint-guardian-startos"
   },
   "github.com/Start9-Community/hashrate-autopilot-startos": {
@@ -1354,7 +1339,7 @@
       "title": "Hashrate Autopilot",
       "upstreamRepo": "https://github.com/rdouma/hashrate-autopilot"
     },
-    "pushedAt": "2026-11-20T20:32:38Z",
+    "pushedAt": "2026-11-27T16:10:36Z",
     "url": "https://github.com/Start9-Community/hashrate-autopilot-startos"
   },
   "github.com/Start9-Community/hermes-agent-startos": {
@@ -1384,7 +1369,7 @@
       "title": "Holesail",
       "upstreamRepo": "https://github.com/holesail/holesail-docker"
     },
-    "pushedAt": "2026-11-20T19:27:07Z",
+    "pushedAt": "2026-11-25T18:08:17Z",
     "url": "https://github.com/Start9-Community/holesail-startos"
   },
   "github.com/Start9-Community/metube-startos": {
@@ -1399,7 +1384,7 @@
       "title": "MeTube",
       "upstreamRepo": "https://github.com/alexta69/metube"
     },
-    "pushedAt": "2026-11-09T18:42:08Z",
+    "pushedAt": "2026-11-26T00:19:58Z",
     "url": "https://github.com/Start9-Community/metube-startos"
   },
   "github.com/Start9-Community/myspeed-startos": {
@@ -1527,23 +1512,8 @@
       "title": "Strata",
       "upstreamRepo": "https://github.com/Niko1221/Strata"
     },
-    "pushedAt": "2026-11-23T15:49:42Z",
+    "pushedAt": "2026-11-27T21:47:55Z",
     "url": "https://github.com/Start9-Community/strata-startos"
-  },
-  "github.com/Start9-Community/thunderhub-startos": {
-    "description": null,
-    "forge": "GitHub",
-    "fullName": "Start9-Community/thunderhub-startos",
-    "kind": "v04",
-    "manifest": {
-      "id": "thunderhub",
-      "license": "MIT",
-      "packageRepo": "https://github.com/Start9-Community/thunderhub-startos",
-      "title": "ThunderHub",
-      "upstreamRepo": "https://github.com/apotdevin/thunderhub"
-    },
-    "pushedAt": "2026-11-09T04:28:50Z",
-    "url": "https://github.com/Start9-Community/thunderhub-startos"
   },
   "github.com/Start9Labs/am-i-exposed-startos": {
     "description": "Am I Exposed for StartOS",
@@ -1559,6 +1529,21 @@
     },
     "pushedAt": "2026-11-20T15:29:08Z",
     "url": "https://github.com/Start9Labs/am-i-exposed-startos"
+  },
+  "github.com/Start9Labs/archivebox-startos": {
+    "description": "ArchiveBox for StartOS",
+    "forge": "GitHub",
+    "fullName": "Start9Labs/archivebox-startos",
+    "kind": "v04",
+    "manifest": {
+      "id": "archivebox",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/archivebox-startos",
+      "title": "ArchiveBox",
+      "upstreamRepo": "https://github.com/ArchiveBox/ArchiveBox"
+    },
+    "pushedAt": "2026-11-26T01:03:10Z",
+    "url": "https://github.com/Start9Labs/archivebox-startos"
   },
   "github.com/Start9Labs/audiobookshelf-startos": {
     "description": "audiobookshelf for StartOS",
@@ -1617,8 +1602,23 @@
       "title": "Bitcoin Core",
       "upstreamRepo": "https://github.com/bitcoin/bitcoin"
     },
-    "pushedAt": "2026-11-22T17:03:51Z",
+    "pushedAt": "2026-11-26T16:49:32Z",
     "url": "https://github.com/Start9Labs/bitcoin-core-startos"
+  },
+  "github.com/Start9Labs/blockstream-blind-oracle-startos": {
+    "description": "Blockstream Jade Blind PIN Oracle packaged for StartOS",
+    "forge": "GitHub",
+    "fullName": "Start9Labs/blockstream-blind-oracle-startos",
+    "kind": "v04",
+    "manifest": {
+      "id": "blockstream-blind-oracle",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/blockstream-blind-oracle-startos",
+      "title": "Blockstream Blind Oracle",
+      "upstreamRepo": "https://github.com/Blockstream/blind_pin_server"
+    },
+    "pushedAt": "2026-11-26T02:43:45Z",
+    "url": "https://github.com/Start9Labs/blockstream-blind-oracle-startos"
   },
   "github.com/Start9Labs/btcpayserver-startos": {
     "description": "BTCPay Server for StartOS",
@@ -1632,7 +1632,7 @@
       "title": "BTCPay Server",
       "upstreamRepo": "https://github.com/btcpayserver/btcpayserver"
     },
-    "pushedAt": "2026-11-18T23:08:13Z",
+    "pushedAt": "2026-11-27T15:56:24Z",
     "url": "https://github.com/Start9Labs/btcpayserver-startos"
   },
   "github.com/Start9Labs/byparr-startos": {
@@ -1662,7 +1662,7 @@
       "title": "Cal.diy",
       "upstreamRepo": "https://github.com/calcom/cal.diy"
     },
-    "pushedAt": "2026-11-09T18:35:07Z",
+    "pushedAt": "2026-11-25T17:18:30Z",
     "url": "https://github.com/Start9Labs/cal-diy-startos"
   },
   "github.com/Start9Labs/cert-warden-startos": {
@@ -1707,7 +1707,7 @@
       "title": "Core Lightning",
       "upstreamRepo": "https://github.com/ElementsProject/lightning"
     },
-    "pushedAt": "2026-11-22T17:03:54Z",
+    "pushedAt": "2026-11-27T15:47:01Z",
     "url": "https://github.com/Start9Labs/cln-startos"
   },
   "github.com/Start9Labs/collabora-online-startos": {
@@ -1724,6 +1724,21 @@
     },
     "pushedAt": "2026-11-22T17:03:53Z",
     "url": "https://github.com/Start9Labs/collabora-online-startos"
+  },
+  "github.com/Start9Labs/copyparty-startos": {
+    "description": "copyparty packaged for StartOS",
+    "forge": "GitHub",
+    "fullName": "Start9Labs/copyparty-startos",
+    "kind": "v04",
+    "manifest": {
+      "id": "copyparty",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/copyparty-startos",
+      "title": "copyparty",
+      "upstreamRepo": "https://github.com/9001/copyparty"
+    },
+    "pushedAt": "2026-11-26T18:09:19Z",
+    "url": "https://github.com/Start9Labs/copyparty-startos"
   },
   "github.com/Start9Labs/coturn-startos": {
     "description": "Coturn TURN/STUN relay server for StartOS",
@@ -1752,7 +1767,7 @@
       "title": "Discourse",
       "upstreamRepo": "https://github.com/discourse/discourse"
     },
-    "pushedAt": "2026-11-20T16:45:52Z",
+    "pushedAt": "2026-11-25T16:34:29Z",
     "url": "https://github.com/Start9Labs/discourse-startos"
   },
   "github.com/Start9Labs/documenso-startos": {
@@ -1812,7 +1827,7 @@
       "title": "Eclair",
       "upstreamRepo": "https://github.com/ACINQ/eclair"
     },
-    "pushedAt": "2026-11-18T23:05:57Z",
+    "pushedAt": "2026-11-27T15:56:32Z",
     "url": "https://github.com/Start9Labs/eclair-startos"
   },
   "github.com/Start9Labs/element-web-startos": {
@@ -1842,7 +1857,7 @@
       "title": "ERPNext",
       "upstreamRepo": "https://github.com/frappe/erpnext"
     },
-    "pushedAt": "2026-11-19T17:29:02Z",
+    "pushedAt": "2026-11-26T18:09:22Z",
     "url": "https://github.com/Start9Labs/erpnext-startos"
   },
   "github.com/Start9Labs/filebrowser-quantum-startos": {
@@ -1857,7 +1872,7 @@
       "title": "FileBrowser Quantum",
       "upstreamRepo": "https://github.com/gtsteffaniak/filebrowser"
     },
-    "pushedAt": "2026-11-23T20:22:55Z",
+    "pushedAt": "2026-11-25T16:33:45Z",
     "url": "https://github.com/Start9Labs/filebrowser-quantum-startos"
   },
   "github.com/Start9Labs/filebrowser-startos": {
@@ -1887,7 +1902,7 @@
       "title": "Firefly III",
       "upstreamRepo": "https://github.com/firefly-iii/firefly-iii"
     },
-    "pushedAt": "2026-11-04T19:38:27Z",
+    "pushedAt": "2026-11-27T15:19:33Z",
     "url": "https://github.com/Start9Labs/firefly-iii-startos"
   },
   "github.com/Start9Labs/fmd-server-startos": {
@@ -1917,7 +1932,7 @@
       "title": "Forgejo Runner",
       "upstreamRepo": "https://code.forgejo.org/forgejo/runner"
     },
-    "pushedAt": "2026-11-23T20:21:48Z",
+    "pushedAt": "2026-11-23T22:52:34Z",
     "url": "https://github.com/Start9Labs/forgejo-runner-startos"
   },
   "github.com/Start9Labs/frappe-helpdesk-startos": {
@@ -1932,7 +1947,7 @@
       "title": "Frappe Helpdesk",
       "upstreamRepo": "https://github.com/frappe/helpdesk"
     },
-    "pushedAt": "2026-11-20T16:46:07Z",
+    "pushedAt": "2026-11-26T18:09:06Z",
     "url": "https://github.com/Start9Labs/frappe-helpdesk-startos"
   },
   "github.com/Start9Labs/ghost-startos": {
@@ -1947,7 +1962,7 @@
       "title": "Ghost",
       "upstreamRepo": "https://github.com/TryGhost/ghost"
     },
-    "pushedAt": "2026-11-18T15:47:54Z",
+    "pushedAt": "2026-11-25T16:34:50Z",
     "url": "https://github.com/Start9Labs/ghost-startos"
   },
   "github.com/Start9Labs/gitea-runner-startos": {
@@ -1962,7 +1977,7 @@
       "title": "Gitea Runner",
       "upstreamRepo": "https://gitea.com/gitea/runner"
     },
-    "pushedAt": "2026-11-20T16:45:54Z",
+    "pushedAt": "2026-11-28T15:30:49Z",
     "url": "https://github.com/Start9Labs/gitea-runner-startos"
   },
   "github.com/Start9Labs/helix-home-startos": {
@@ -2007,7 +2022,7 @@
       "title": "Home Assistant",
       "upstreamRepo": "https://github.com/home-assistant/core"
     },
-    "pushedAt": "2026-11-17T17:03:01Z",
+    "pushedAt": "2026-11-24T16:12:34Z",
     "url": "https://github.com/Start9Labs/home-assistant-startos"
   },
   "github.com/Start9Labs/jam-v2-startos": {
@@ -2022,7 +2037,7 @@
       "title": "Jam V2",
       "upstreamRepo": "https://github.com/joinmarket-webui/jam"
     },
-    "pushedAt": "2026-11-18T23:08:31Z",
+    "pushedAt": "2026-11-27T15:56:37Z",
     "url": "https://github.com/Start9Labs/jam-v2-startos"
   },
   "github.com/Start9Labs/jellyfin-startos": {
@@ -2037,7 +2052,7 @@
       "title": "Jellyfin",
       "upstreamRepo": "https://github.com/jellyfin/jellyfin"
     },
-    "pushedAt": "2026-11-20T19:45:21Z",
+    "pushedAt": "2026-11-24T16:42:19Z",
     "url": "https://github.com/Start9Labs/jellyfin-startos"
   },
   "github.com/Start9Labs/jitsi-startos": {
@@ -2052,7 +2067,7 @@
       "title": "Jitsi Meet",
       "upstreamRepo": "https://github.com/jitsi/docker-jitsi-meet"
     },
-    "pushedAt": "2026-11-20T23:22:16Z",
+    "pushedAt": "2026-11-27T23:38:57Z",
     "url": "https://github.com/Start9Labs/jitsi-startos"
   },
   "github.com/Start9Labs/joplin-server-startos": {
@@ -2097,7 +2112,7 @@
       "title": "Lightning Terminal",
       "upstreamRepo": "https://github.com/lightninglabs/lightning-terminal"
     },
-    "pushedAt": "2026-11-12T16:06:48Z",
+    "pushedAt": "2026-11-26T15:07:48Z",
     "url": "https://github.com/Start9Labs/lightning-terminal-startos"
   },
   "github.com/Start9Labs/llama-cpp-startos": {
@@ -2127,7 +2142,7 @@
       "title": "LNbits",
       "upstreamRepo": "https://github.com/lnbits/lnbits"
     },
-    "pushedAt": "2026-11-22T17:03:05Z",
+    "pushedAt": "2026-11-27T15:56:41Z",
     "url": "https://github.com/Start9Labs/lnbits-startos"
   },
   "github.com/Start9Labs/lnd-startos": {
@@ -2142,7 +2157,7 @@
       "title": "LND",
       "upstreamRepo": "https://github.com/lightningnetwork/lnd"
     },
-    "pushedAt": "2026-11-23T20:11:20Z",
+    "pushedAt": "2026-11-27T15:49:40Z",
     "url": "https://github.com/Start9Labs/lnd-startos"
   },
   "github.com/Start9Labs/mattermost-startos": {
@@ -2172,7 +2187,7 @@
       "title": "Mempool",
       "upstreamRepo": "https://github.com/mempool/mempool"
     },
-    "pushedAt": "2026-11-22T17:03:59Z",
+    "pushedAt": "2026-11-27T15:51:53Z",
     "url": "https://github.com/Start9Labs/mempool-startos"
   },
   "github.com/Start9Labs/nextcloud-startos": {
@@ -2187,7 +2202,7 @@
       "title": "Nextcloud",
       "upstreamRepo": "https://github.com/nextcloud/docker"
     },
-    "pushedAt": "2026-11-23T16:08:10Z",
+    "pushedAt": "2026-11-24T05:53:03Z",
     "url": "https://github.com/Start9Labs/nextcloud-startos"
   },
   "github.com/Start9Labs/nextcloud-talk-hpb-startos": {
@@ -2277,7 +2292,7 @@
       "title": "Ollama",
       "upstreamRepo": "https://github.com/ollama/ollama"
     },
-    "pushedAt": "2026-11-17T17:04:05Z",
+    "pushedAt": "2026-11-24T16:12:06Z",
     "url": "https://github.com/Start9Labs/ollama-startos"
   },
   "github.com/Start9Labs/open-webui-startos": {
@@ -2292,7 +2307,7 @@
       "title": "Open WebUI",
       "upstreamRepo": "https://github.com/open-webui/open-webui"
     },
-    "pushedAt": "2026-11-18T15:20:09Z",
+    "pushedAt": "2026-11-25T16:34:03Z",
     "url": "https://github.com/Start9Labs/open-webui-startos"
   },
   "github.com/Start9Labs/owncast-startos": {
@@ -2352,7 +2367,7 @@
       "title": "PeerTube",
       "upstreamRepo": "https://github.com/Chocobozzz/PeerTube"
     },
-    "pushedAt": "2026-11-13T17:43:14Z",
+    "pushedAt": "2026-11-25T17:18:29Z",
     "url": "https://github.com/Start9Labs/peertube-startos"
   },
   "github.com/Start9Labs/pocket-id-startos": {
@@ -2412,7 +2427,7 @@
       "title": "Prowlarr",
       "upstreamRepo": "https://github.com/Prowlarr/Prowlarr"
     },
-    "pushedAt": "2026-11-19T00:23:38Z",
+    "pushedAt": "2026-11-24T16:11:43Z",
     "url": "https://github.com/Start9Labs/prowlarr-startos"
   },
   "github.com/Start9Labs/qbittorrent-startos": {
@@ -2427,7 +2442,7 @@
       "title": "qBittorrent",
       "upstreamRepo": "https://github.com/qbittorrent/qBittorrent"
     },
-    "pushedAt": "2026-11-23T20:32:43Z",
+    "pushedAt": "2026-11-25T18:07:20Z",
     "url": "https://github.com/Start9Labs/qbittorrent-startos"
   },
   "github.com/Start9Labs/radarr-startos": {
@@ -2517,7 +2532,7 @@
       "title": "Sonarr",
       "upstreamRepo": "https://github.com/Sonarr/Sonarr"
     },
-    "pushedAt": "2026-11-23T16:14:24Z",
+    "pushedAt": "2026-11-28T15:20:55Z",
     "url": "https://github.com/Start9Labs/sonarr-startos"
   },
   "github.com/Start9Labs/stalwart-startos": {
@@ -2532,7 +2547,7 @@
       "title": "Stalwart",
       "upstreamRepo": "https://github.com/stalwartlabs/stalwart"
     },
-    "pushedAt": "2026-11-22T17:03:59Z",
+    "pushedAt": "2026-11-26T18:08:51Z",
     "url": "https://github.com/Start9Labs/stalwart-startos"
   },
   "github.com/Start9Labs/start9-pages-startos": {
@@ -2562,7 +2577,7 @@
       "title": "StartOS Registry",
       "upstreamRepo": "https://github.com/Start9Labs/start-technologies"
     },
-    "pushedAt": "2026-11-15T15:28:16Z",
+    "pushedAt": "2026-11-27T15:13:45Z",
     "url": "https://github.com/Start9Labs/startos-registry-startos"
   },
   "github.com/Start9Labs/stratum-v2-pool-startos": {
@@ -2577,7 +2592,7 @@
       "title": "Stratum V2 Pool",
       "upstreamRepo": "https://github.com/stratum-mining/sv2-apps"
     },
-    "pushedAt": "2026-11-09T23:46:09Z",
+    "pushedAt": "2026-11-27T15:56:54Z",
     "url": "https://github.com/Start9Labs/stratum-v2-pool-startos"
   },
   "github.com/Start9Labs/stratum-v2-startos": {
@@ -2592,7 +2607,7 @@
       "title": "Stratum V2",
       "upstreamRepo": "https://github.com/stratum-mining/sv2-apps"
     },
-    "pushedAt": "2026-11-20T04:47:51Z",
+    "pushedAt": "2026-11-27T15:57:04Z",
     "url": "https://github.com/Start9Labs/stratum-v2-startos"
   },
   "github.com/Start9Labs/synapse-startos": {
@@ -2607,8 +2622,23 @@
       "title": "Synapse",
       "upstreamRepo": "https://github.com/element-hq/synapse"
     },
-    "pushedAt": "2026-11-11T17:37:35Z",
+    "pushedAt": "2026-11-25T16:34:09Z",
     "url": "https://github.com/Start9Labs/synapse-startos"
+  },
+  "github.com/Start9Labs/thunderhub-startos": {
+    "description": null,
+    "forge": "GitHub",
+    "fullName": "Start9Labs/thunderhub-startos",
+    "kind": "v04",
+    "manifest": {
+      "id": "thunderhub",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9Labs/thunderhub-startos",
+      "title": "ThunderHub",
+      "upstreamRepo": "https://github.com/apotdevin/thunderhub"
+    },
+    "pushedAt": "2026-11-25T23:20:32Z",
+    "url": "https://github.com/Start9Labs/thunderhub-startos"
   },
   "github.com/Start9Labs/tor-startos": {
     "description": "StartOS package for tor",
@@ -2622,15 +2652,22 @@
       "title": "Tor",
       "upstreamRepo": "https://gitlab.torproject.org/tpo/core/tor"
     },
-    "pushedAt": "2026-11-22T17:04:04Z",
+    "pushedAt": "2026-11-26T16:39:54Z",
     "url": "https://github.com/Start9Labs/tor-startos"
   },
   "github.com/Start9Labs/unmanic-startos": {
     "description": "Unmanic for StartOS",
     "forge": "GitHub",
     "fullName": "Start9Labs/unmanic-startos",
-    "kind": "other",
-    "pushedAt": "2026-11-20T19:27:16Z",
+    "kind": "v04",
+    "manifest": {
+      "id": "unmanic",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/Start9Labs/unmanic-startos",
+      "title": "Unmanic",
+      "upstreamRepo": "https://github.com/Unmanic/unmanic"
+    },
+    "pushedAt": "2026-11-24T19:16:36Z",
     "url": "https://github.com/Start9Labs/unmanic-startos"
   },
   "github.com/Start9Labs/vaultwarden-startos": {
@@ -2645,7 +2682,7 @@
       "title": "Vaultwarden",
       "upstreamRepo": "https://github.com/dani-garcia/vaultwarden"
     },
-    "pushedAt": "2026-11-10T00:21:39Z",
+    "pushedAt": "2026-11-24T05:52:54Z",
     "url": "https://github.com/Start9Labs/vaultwarden-startos"
   },
   "github.com/Start9Labs/vllm-startos": {
@@ -2720,7 +2757,7 @@
       "title": "Keila",
       "upstreamRepo": "https://github.com/pentacent/keila"
     },
-    "pushedAt": "2026-11-22T23:00:57Z",
+    "pushedAt": "2026-11-27T01:13:07Z",
     "url": "https://github.com/The-Cryptosquid/keila-startos"
   },
   "github.com/The-Cryptosquid/nomadnet-startos": {
@@ -2780,7 +2817,7 @@
       "title": "TunnelSats",
       "upstreamRepo": "https://github.com/Tunnelsats/tunnelsats"
     },
-    "pushedAt": "2026-11-23T08:13:30Z",
+    "pushedAt": "2026-11-23T21:02:04Z",
     "url": "https://github.com/Tunnelsats/tunnelsats-startos"
   },
   "github.com/TwentyOneLife/shulcrum-startos": {
@@ -2888,6 +2925,21 @@
     "pushedAt": "2025-12-09T17:11:27Z",
     "url": "https://github.com/aldum/bewcloud-startos"
   },
+  "github.com/aldum/headscale-startos": {
+    "description": null,
+    "forge": "GitHub",
+    "fullName": "aldum/headscale-startos",
+    "kind": "v04",
+    "manifest": {
+      "id": "headscale",
+      "license": "BSD-3-Clause",
+      "packageRepo": "https://github.com/aldum/headscale-startos",
+      "title": "Headscale",
+      "upstreamRepo": "https://github.com/juanfont/headscale"
+    },
+    "pushedAt": "2026-11-27T10:11:42Z",
+    "url": "https://github.com/aldum/headscale-startos"
+  },
   "github.com/aldum/immich-startos": {
     "description": null,
     "forge": "GitHub",
@@ -2960,7 +3012,7 @@
       "title": "Dev Workspace Desktop",
       "upstreamRepo": "https://github.com/linuxserver/docker-baseimage-selkies"
     },
-    "pushedAt": "2026-11-20T03:07:03Z",
+    "pushedAt": "2026-11-25T03:59:40Z",
     "url": "https://github.com/alextab93/dev-workspace-desktop-startos"
   },
   "github.com/alextab93/dev-workspace-startos": {
@@ -2975,7 +3027,7 @@
       "title": "Dev Workspace",
       "upstreamRepo": "https://github.com/openssh/openssh-portable"
     },
-    "pushedAt": "2026-11-20T03:07:00Z",
+    "pushedAt": "2026-11-25T19:37:36Z",
     "url": "https://github.com/alextab93/dev-workspace-startos"
   },
   "github.com/alextab93/inbucket-startos": {
@@ -3065,7 +3117,7 @@
       "title": "route96 (Blossom)",
       "upstreamRepo": "https://github.com/v0l/route96"
     },
-    "pushedAt": "2026-11-21T07:44:19Z",
+    "pushedAt": "2026-11-27T16:05:34Z",
     "url": "https://github.com/alru78/route96-startos"
   },
   "github.com/alru78/tor-node-startos": {
@@ -3202,7 +3254,7 @@
       "title": "HyperFrames",
       "upstreamRepo": "https://github.com/heygen-com/hyperframes"
     },
-    "pushedAt": "2026-11-04T23:23:55Z",
+    "pushedAt": "2026-11-27T05:57:10Z",
     "url": "https://github.com/bitcoinRph/hyperframes-startos"
   },
   "github.com/bitcoinRph/openwhispr-startos": {
@@ -3277,7 +3329,7 @@
       "title": "Payment Name",
       "upstreamRepo": "https://github.com/bitsagarob/payment-name-startos"
     },
-    "pushedAt": "2026-09-02T22:15:40Z",
+    "pushedAt": "2026-11-26T12:46:40Z",
     "url": "https://github.com/bitsagarob/payment-name-startos"
   },
   "github.com/bitsagarob/spcommit-checkpoint-startos": {
@@ -3295,6 +3347,14 @@
     "pushedAt": "2026-09-02T11:32:53Z",
     "url": "https://github.com/bitsagarob/spcommit-checkpoint-startos"
   },
+  "github.com/bobodread876/balanceofsatoshis-startos": {
+    "description": null,
+    "forge": "GitHub",
+    "fullName": "bobodread876/balanceofsatoshis-startos",
+    "kind": "v03",
+    "pushedAt": "2026-11-26T04:50:31Z",
+    "url": "https://github.com/bobodread876/balanceofsatoshis-startos"
+  },
   "github.com/bobodread876/fedimintcard-till-startos": {
     "description": "fedimintcard till as a StartOS service",
     "forge": "GitHub",
@@ -3304,10 +3364,10 @@
       "id": "fedimintcard-till",
       "license": "MIT",
       "packageRepo": "https://github.com/bobodread876/fedimintcard-till-startos",
-      "title": "Fedimint Card Till",
+      "title": "Fedimint Card 4.0 Till",
       "upstreamRepo": "https://github.com/fedimintcard/fedimintcard"
     },
-    "pushedAt": "2026-11-21T16:06:22Z",
+    "pushedAt": "2026-11-26T01:53:02Z",
     "url": "https://github.com/bobodread876/fedimintcard-till-startos"
   },
   "github.com/bobodread876/kathreftestr-startos": {
@@ -3325,6 +3385,14 @@
     "pushedAt": "2026-10-24T19:54:48Z",
     "url": "https://github.com/bobodread876/kathreftestr-startos"
   },
+  "github.com/bobodread876/lightning-jet-startos": {
+    "description": null,
+    "forge": "GitHub",
+    "fullName": "bobodread876/lightning-jet-startos",
+    "kind": "v03",
+    "pushedAt": "2026-11-26T17:27:22Z",
+    "url": "https://github.com/bobodread876/lightning-jet-startos"
+  },
   "github.com/bobodread876/lndg-startos": {
     "description": "wrapper for building lndg.s9pk ",
     "forge": "GitHub",
@@ -3337,7 +3405,7 @@
       "title": "LNDg",
       "upstreamRepo": "https://github.com/cryptosharks131/lndg"
     },
-    "pushedAt": "2026-10-24T19:55:00Z",
+    "pushedAt": "2026-11-26T02:07:26Z",
     "url": "https://github.com/bobodread876/lndg-startos"
   },
   "github.com/bobodread876/maple-proxy-startos": {
@@ -3352,7 +3420,7 @@
       "title": "Maple Proxy",
       "upstreamRepo": "https://github.com/OpenSecretCloud/maple-proxy"
     },
-    "pushedAt": "2026-10-24T19:55:04Z",
+    "pushedAt": "2026-11-26T03:27:48Z",
     "url": "https://github.com/bobodread876/maple-proxy-startos"
   },
   "github.com/bobodread876/pact-startos": {
@@ -3382,7 +3450,7 @@
       "title": "Paseo",
       "upstreamRepo": "https://github.com/getpaseo/paseo"
     },
-    "pushedAt": "2026-10-24T19:55:15Z",
+    "pushedAt": "2026-11-26T23:34:57Z",
     "url": "https://github.com/bobodread876/paseo-startos"
   },
   "github.com/bobodread876/phoenixd-startos": {
@@ -3422,6 +3490,21 @@
     },
     "pushedAt": "2026-08-27T02:19:44Z",
     "url": "https://github.com/brendio/peerswap-startos"
+  },
+  "github.com/btcforplebs/nostr-vault-startos": {
+    "description": "Nostr Vault packaged for StartOS",
+    "forge": "GitHub",
+    "fullName": "btcforplebs/nostr-vault-startos",
+    "kind": "v04",
+    "manifest": {
+      "id": "nostr-vault",
+      "license": "MIT",
+      "packageRepo": "https://github.com/btcforplebs/nostr-vault-startos",
+      "title": "Nostr Vault",
+      "upstreamRepo": "https://github.com/btcforplebs/nostr-vault"
+    },
+    "pushedAt": "2026-11-28T15:09:58Z",
+    "url": "https://github.com/btcforplebs/nostr-vault-startos"
   },
   "github.com/bytedevil/freellmapi-startos": {
     "description": null,
@@ -3512,7 +3595,7 @@
       "title": "Paperclip Wallet Beta",
       "upstreamRepo": "https://github.com/connorslab/paperclip-wallet-app"
     },
-    "pushedAt": "2026-11-20T21:47:10Z",
+    "pushedAt": "2026-11-26T17:08:18Z",
     "url": "https://github.com/connorslab/paperclip-wallet-startos"
   },
   "github.com/crissuper20/mcserver-startos": {
@@ -3557,7 +3640,7 @@
       "title": "LIJOX Adapter",
       "upstreamRepo": "https://github.com/dav1dpgit/lijox-lnd-adapter"
     },
-    "pushedAt": "2026-11-19T11:32:36Z",
+    "pushedAt": "2026-11-26T03:57:10Z",
     "url": "https://github.com/dav1dpgit/lijox-adapter-startos"
   },
   "github.com/dav1dpgit/lnd-startos-terminus": {
@@ -3572,7 +3655,7 @@
       "title": "LND (Terminus)",
       "upstreamRepo": "https://github.com/lightningnetwork/lnd"
     },
-    "pushedAt": "2026-11-19T11:32:37Z",
+    "pushedAt": "2026-11-26T09:04:30Z",
     "url": "https://github.com/dav1dpgit/lnd-startos-terminus"
   },
   "github.com/davelund110/lightning-fork-regtest-startos": {
@@ -3597,13 +3680,13 @@
     "fullName": "dennisreimann/kindle-display-startos",
     "kind": "v04",
     "manifest": {
-      "id": "kindle-display",
+      "id": "kindle-bitcoin-display",
       "license": "MIT",
-      "packageRepo": "https://github.com/dennisreimann/kindle-display-startos",
-      "title": "Kindle Display",
+      "packageRepo": "https://github.com/Start9-Community/kindle-bitcoin-display-startos",
+      "title": "Kindle Bitcoin Display",
       "upstreamRepo": "https://github.com/dennisreimann/kindle-display"
     },
-    "pushedAt": "2026-11-15T14:57:43Z",
+    "pushedAt": "2026-11-26T16:45:51Z",
     "url": "https://github.com/dennisreimann/kindle-display-startos"
   },
   "github.com/dr-bonez/actual-budget-startos": {
@@ -3708,7 +3791,7 @@
       "title": "Fleet Manager",
       "upstreamRepo": "https://github.com/fedibtc/manifold"
     },
-    "pushedAt": "2026-11-21T02:02:59Z",
+    "pushedAt": "2026-11-28T02:41:01Z",
     "url": "https://github.com/elsiribot/manifold-startos"
   },
   "github.com/epochbtc/satd-startos": {
@@ -3783,8 +3866,113 @@
       "title": "Manifold Fedimint Guardian",
       "upstreamRepo": "https://github.com/fedibtc/manifold"
     },
-    "pushedAt": "2026-11-23T16:51:10Z",
+    "pushedAt": "2026-11-24T16:38:54Z",
     "url": "https://github.com/fedibtc/manifold-fedimint-guardian-startos"
+  },
+  "github.com/frnandu/allod-startos": {
+    "description": null,
+    "forge": "GitHub",
+    "fullName": "frnandu/allod-startos",
+    "kind": "v04",
+    "manifest": {
+      "id": "allod",
+      "license": "MIT",
+      "packageRepo": "https://github.com/frnandu/allod-startos",
+      "title": "Allod",
+      "upstreamRepo": "https://github.com/frnandu/allod"
+    },
+    "pushedAt": "2026-11-26T21:21:20Z",
+    "url": "https://github.com/frnandu/allod-startos"
+  },
+  "github.com/gStart9/3x-ui-startos": {
+    "description": "3X-UI (Xray web panel) packaged for StartOS",
+    "forge": "GitHub",
+    "fullName": "gStart9/3x-ui-startos",
+    "kind": "v04",
+    "manifest": {
+      "id": "3x-ui",
+      "license": "GPL-3.0",
+      "packageRepo": "https://github.com/gStart9/3x-ui-startos",
+      "title": "3X-UI",
+      "upstreamRepo": "https://github.com/MHSanaei/3x-ui"
+    },
+    "pushedAt": "2026-11-24T01:36:49Z",
+    "url": "https://github.com/gStart9/3x-ui-startos"
+  },
+  "github.com/gStart9/celerity-startos": {
+    "description": null,
+    "forge": "GitHub",
+    "fullName": "gStart9/celerity-startos",
+    "kind": "v04",
+    "manifest": {
+      "id": "celerity",
+      "license": "MIT",
+      "packageRepo": "https://github.com/gStart9/celerity-startos",
+      "title": "C³ CELERITY",
+      "upstreamRepo": "https://github.com/ClickDevTech/CELERITY-panel"
+    },
+    "pushedAt": "2026-11-25T07:21:55Z",
+    "url": "https://github.com/gStart9/celerity-startos"
+  },
+  "github.com/gStart9/echoip-startos": {
+    "description": "StartOS package for echoip, the program behind ifconfig.co",
+    "forge": "GitHub",
+    "fullName": "gStart9/echoip-startos",
+    "kind": "v04",
+    "manifest": {
+      "id": "echoip",
+      "license": "BSD-3-Clause",
+      "packageRepo": "https://github.com/gStart9/echoip-startos",
+      "title": "echoip",
+      "upstreamRepo": "https://github.com/gStart9/echoip"
+    },
+    "pushedAt": "2026-11-24T19:48:39Z",
+    "url": "https://github.com/gStart9/echoip-startos"
+  },
+  "github.com/gStart9/hiddify-manager-startos": {
+    "description": null,
+    "forge": "GitHub",
+    "fullName": "gStart9/hiddify-manager-startos",
+    "kind": "v04",
+    "manifest": {
+      "id": "hiddify-manager",
+      "license": "CC-BY-NC-SA-4.0",
+      "packageRepo": "https://github.com/gStart9/hiddify-manager-startos",
+      "title": "Hiddify Manager",
+      "upstreamRepo": "https://github.com/hiddify/Hiddify-Manager"
+    },
+    "pushedAt": "2026-11-25T07:22:12Z",
+    "url": "https://github.com/gStart9/hiddify-manager-startos"
+  },
+  "github.com/gStart9/mkp224o-web-startos": {
+    "description": "StartOS package for mkp224o-web, a web front end for the mkp224o vanity onion address generator.",
+    "forge": "GitHub",
+    "fullName": "gStart9/mkp224o-web-startos",
+    "kind": "v04",
+    "manifest": {
+      "id": "mkp224o-web",
+      "license": "MIT",
+      "packageRepo": "https://github.com/gStart9/mkp224o-web-startos",
+      "title": "mkp224o Web",
+      "upstreamRepo": "https://github.com/gStart9/mkp224o-web"
+    },
+    "pushedAt": "2026-11-25T08:25:02Z",
+    "url": "https://github.com/gStart9/mkp224o-web-startos"
+  },
+  "github.com/gStart9/slipgate-startos": {
+    "description": "SlipGate (DNS tunnels and HTTPS proxies for the SlipNet app) packaged for StartOS",
+    "forge": "GitHub",
+    "fullName": "gStart9/slipgate-startos",
+    "kind": "v04",
+    "manifest": {
+      "id": "slipgate",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/gStart9/slipgate-startos",
+      "title": "SlipGate",
+      "upstreamRepo": "https://github.com/anonvector/slipgate"
+    },
+    "pushedAt": "2026-11-24T01:34:31Z",
+    "url": "https://github.com/gStart9/slipgate-startos"
   },
   "github.com/gStart9/veilid-startos": {
     "description": "Veilid node packaged for StartOS",
@@ -3798,7 +3986,7 @@
       "title": "Veilid",
       "upstreamRepo": "https://gitlab.com/veilid/veilid"
     },
-    "pushedAt": "2026-11-22T04:00:32Z",
+    "pushedAt": "2026-11-25T07:13:43Z",
     "url": "https://github.com/gStart9/veilid-startos"
   },
   "github.com/gjbrr/blake-swap-startos": {
@@ -3813,7 +4001,7 @@
       "title": "XBT/BTC Atomic Swap",
       "upstreamRepo": "https://github.com/gjbrr/blake-swap"
     },
-    "pushedAt": "2026-10-22T14:28:43Z",
+    "pushedAt": "2026-11-27T06:33:37Z",
     "url": "https://github.com/gjbrr/blake-swap-startos"
   },
   "github.com/glowleaf/hermes-agent-startos": {
@@ -3888,7 +4076,7 @@
       "title": "Blisspoint",
       "upstreamRepo": "https://github.com/heatpunk/blisspoint"
     },
-    "pushedAt": "2026-11-19T22:51:28Z",
+    "pushedAt": "2026-11-27T12:24:10Z",
     "url": "https://github.com/heatpunk/blisspoint-startos"
   },
   "github.com/hodlmateo/aubieeternal-startos": {
@@ -3900,7 +4088,7 @@
     "url": "https://github.com/hodlmateo/aubieeternal-startos"
   },
   "github.com/homebrew-gh/mealie-startos": {
-    "description": "A StartOS package for Mealie.",
+    "description": "Mealie on StartOS 0.4 — self-hosted recipe manager, meal planner, and shopping list with an optional built-in OAuth MCP connector",
     "forge": "GitHub",
     "fullName": "homebrew-gh/mealie-startos",
     "kind": "v04",
@@ -3911,7 +4099,7 @@
       "title": "Mealie",
       "upstreamRepo": "https://github.com/mealie-recipes/mealie"
     },
-    "pushedAt": "2026-11-23T18:43:11Z",
+    "pushedAt": "2026-11-26T16:59:43Z",
     "url": "https://github.com/homebrew-gh/mealie-startos"
   },
   "github.com/horologger/bitnet-startos": {
@@ -4010,7 +4198,7 @@
       "title": "Bitcoin Control Center",
       "upstreamRepo": "https://github.com/hoseki-inc/bitcoin-control-center"
     },
-    "pushedAt": "2026-11-17T01:43:41Z",
+    "pushedAt": "2026-11-27T19:10:14Z",
     "url": "https://github.com/hoseki-inc/hoseki-sentinel-startos"
   },
   "github.com/hzrd149/nostrudel-startos": {
@@ -4033,7 +4221,7 @@
       "title": "Atoll Recovery",
       "upstreamRepo": "https://github.com/lnflash/cashu-card"
     },
-    "pushedAt": "2026-10-24T19:55:30Z",
+    "pushedAt": "2026-11-27T01:12:01Z",
     "url": "https://github.com/islandbitcoin/atoll-recovery-startos"
   },
   "github.com/islandbitcoin/beszel-startos": {
@@ -4089,11 +4277,11 @@
     "manifest": {
       "id": "kathreftestr",
       "license": "MIT",
-      "packageRepo": "https://github.com/bobodread876/kathreftestr",
+      "packageRepo": "https://github.com/islandbitcoin/kathreftestr-startos",
       "title": "Kathreftestr",
       "upstreamRepo": "https://github.com/bobodread876/kathreftestr"
     },
-    "pushedAt": "2026-10-24T19:55:58Z",
+    "pushedAt": "2026-11-26T22:24:27Z",
     "url": "https://github.com/islandbitcoin/kathreftestr-startos"
   },
   "github.com/islandbitcoin/lightning-server-startos": {
@@ -4108,7 +4296,7 @@
       "title": "Lightning Server",
       "upstreamRepo": "https://github.com/dplusplus1024/lightning-server"
     },
-    "pushedAt": "2026-10-24T19:56:03Z",
+    "pushedAt": "2026-11-26T22:23:11Z",
     "url": "https://github.com/islandbitcoin/lightning-server-startos"
   },
   "github.com/islandbitcoin/maple-proxy-startos": {
@@ -4171,6 +4359,21 @@
     "kind": "empty",
     "pushedAt": "2026-07-13T18:10:27Z",
     "url": "https://github.com/joinstr-startos/joinstr-startos"
+  },
+  "github.com/jonbotx/opencode-startos": {
+    "description": "OpenCode for StartOS — self-hosted AI coding agent with a web interface",
+    "forge": "GitHub",
+    "fullName": "jonbotx/opencode-startos",
+    "kind": "v04",
+    "manifest": {
+      "id": "opencode",
+      "license": "MIT",
+      "packageRepo": "https://github.com/Start9-Community/opencode-startos",
+      "title": "OpenCode",
+      "upstreamRepo": "https://github.com/anomalyco/opencode"
+    },
+    "pushedAt": "2026-11-27T03:56:17Z",
+    "url": "https://github.com/jonbotx/opencode-startos"
   },
   "github.com/kenDilemma/crawl4ai-startos": {
     "description": null,
@@ -4298,7 +4501,7 @@
     "forge": "GitHub",
     "fullName": "kwadde-cmyk/scriptwerk-startos",
     "kind": "other",
-    "pushedAt": "2026-10-23T22:11:36Z",
+    "pushedAt": "2026-11-25T11:05:59Z",
     "url": "https://github.com/kwadde-cmyk/scriptwerk-startos"
   },
   "github.com/kwsantiago/azerothcore-startos": {
@@ -4351,7 +4554,7 @@
       "title": "LaWallet NWC",
       "upstreamRepo": "https://github.com/lawalletio/lawallet-nwc"
     },
-    "pushedAt": "2026-11-06T16:01:37Z",
+    "pushedAt": "2026-11-24T14:05:51Z",
     "url": "https://github.com/lawalletio/lawallet-startos"
   },
   "github.com/linkinparkrulz/ashigaru-desktop-startos": {
@@ -4411,7 +4614,7 @@
       "title": "Lightning Control Center",
       "upstreamRepo": "https://github.com/lioranecho-cpu/lightning-control-center"
     },
-    "pushedAt": "2026-10-09T14:20:37Z",
+    "pushedAt": "2026-11-26T21:03:36Z",
     "url": "https://github.com/lioranecho-cpu/lightning-control-center-startos"
   },
   "github.com/localaiguyy/authentik-startos": {
@@ -4482,11 +4685,11 @@
     "manifest": {
       "id": "public-pool-web",
       "license": "MIT",
-      "packageRepo": "https://github.com/martinbarilik/public-pool-web",
+      "packageRepo": "https://github.com/Start9-Community/public-pool-web-startos",
       "title": "Public Pool's Web",
-      "upstreamRepo": "https://github.com/martinbarilik/public-pool-web-startos"
+      "upstreamRepo": "https://github.com/martinbarilik/public-pool-web"
     },
-    "pushedAt": "2026-06-30T16:56:12Z",
+    "pushedAt": "2026-11-26T10:26:02Z",
     "url": "https://github.com/martinbarilik/public-pool-web-startos"
   },
   "github.com/martinbarilik/scoredrop-startos": {
@@ -4847,7 +5050,7 @@
       "title": "Cesspool Pruned",
       "upstreamRepo": "https://github.com/jasonsopko/cesspool"
     },
-    "pushedAt": "2026-11-13T06:34:24Z",
+    "pushedAt": "2026-11-24T03:13:37Z",
     "url": "https://github.com/paulscode/cesspool-pruned-startos"
   },
   "github.com/paulscode/datum-blake2b-startos": {
@@ -4937,7 +5140,7 @@
       "title": "Electrs Pruned",
       "upstreamRepo": "https://github.com/romanz/electrs"
     },
-    "pushedAt": "2026-10-27T20:06:46Z",
+    "pushedAt": "2026-11-24T03:12:25Z",
     "url": "https://github.com/paulscode/electrs-pruned-startos"
   },
   "github.com/paulscode/frigate-blake2b-companion-startos": {
@@ -4952,7 +5155,7 @@
       "title": null,
       "upstreamRepo": "https://github.com/sparrowwallet/frigate"
     },
-    "pushedAt": "2026-11-09T20:25:03Z",
+    "pushedAt": "2026-11-24T03:14:25Z",
     "url": "https://github.com/paulscode/frigate-blake2b-companion-startos"
   },
   "github.com/paulscode/frigate-sha256-companion-startos": {
@@ -4967,7 +5170,7 @@
       "title": null,
       "upstreamRepo": "https://github.com/sparrowwallet/frigate"
     },
-    "pushedAt": "2026-11-09T20:24:30Z",
+    "pushedAt": "2026-11-24T03:14:03Z",
     "url": "https://github.com/paulscode/frigate-sha256-companion-startos"
   },
   "github.com/paulscode/garbageman-nm-startos": {
@@ -5035,7 +5238,7 @@
       "title": "Bitcoin Knots (SHA256) Companion",
       "upstreamRepo": "https://github.com/paulscode/knots-sha256"
     },
-    "pushedAt": "2026-11-15T06:19:51Z",
+    "pushedAt": "2026-11-23T21:11:27Z",
     "url": "https://github.com/paulscode/knots-prerdts-startos"
   },
   "github.com/paulscode/knots-sha256-startos": {
@@ -5050,7 +5253,7 @@
       "title": "Bitcoin Knots (SHA256)",
       "upstreamRepo": "https://github.com/paulscode/knots-sha256"
     },
-    "pushedAt": "2026-11-20T10:36:10Z",
+    "pushedAt": "2026-11-23T22:29:22Z",
     "url": "https://github.com/paulscode/knots-sha256-startos"
   },
   "github.com/paulscode/lnd-startos-variants": {
@@ -5073,7 +5276,7 @@
       "title": "Mempool Pruned",
       "upstreamRepo": "https://github.com/mempool/mempool"
     },
-    "pushedAt": "2026-11-23T14:40:14Z",
+    "pushedAt": "2026-11-24T03:13:25Z",
     "url": "https://github.com/paulscode/mempool-pruned-startos"
   },
   "github.com/paulscode/searxng-api-startos": {
@@ -5182,11 +5385,11 @@
     "manifest": {
       "id": "cloud-print-bridge",
       "license": "AGPL-3.0-only",
-      "packageRepo": "https://github.com/purely-reclining/cloud-print-bridge-startos",
+      "packageRepo": "https://github.com/Start9-Community/cloud-print-bridge-startos",
       "title": "Cloud Print Bridge",
       "upstreamRepo": "https://github.com/purely-reclining/cloud-print-bridge-startos"
     },
-    "pushedAt": "2026-08-26T12:29:17Z",
+    "pushedAt": "2026-11-28T13:48:44Z",
     "url": "https://github.com/purely-reclining/cloud-print-bridge-startos"
   },
   "github.com/rabbitholiness/evolu-relay-startos": {
@@ -5269,7 +5472,7 @@
       "title": "Cloudflare Tunnel",
       "upstreamRepo": "https://github.com/cloudflare/cloudflared"
     },
-    "pushedAt": "2026-11-13T06:58:55Z",
+    "pushedAt": "2026-11-28T13:12:36Z",
     "url": "https://github.com/remcoros/cloudflared-startos"
   },
   "github.com/remcoros/frigate-startos": {
@@ -5284,7 +5487,7 @@
       "title": "Frigate Electrum Server",
       "upstreamRepo": "https://github.com/sparrowwallet/frigate"
     },
-    "pushedAt": "2026-11-21T07:27:45Z",
+    "pushedAt": "2026-11-27T18:19:11Z",
     "url": "https://github.com/remcoros/frigate-startos"
   },
   "github.com/remcoros/public-pool-startos": {
@@ -5299,7 +5502,7 @@
       "title": "Public Pool",
       "upstreamRepo": "https://github.com/benjamin-wilson/public-pool"
     },
-    "pushedAt": "2026-11-17T15:26:06Z",
+    "pushedAt": "2026-11-24T14:53:54Z",
     "url": "https://github.com/remcoros/public-pool-startos"
   },
   "github.com/remcoros/pushtx-startos": {
@@ -5354,12 +5557,12 @@
     "kind": "v04",
     "manifest": {
       "id": "sparrow-webtop",
-      "license": "GPL-3.0-only",
+      "license": "Apache-2.0",
       "packageRepo": "https://github.com/remcoros/sparrow-webtop-startos",
       "title": "Sparrow",
       "upstreamRepo": "https://github.com/sparrowwallet/sparrow"
     },
-    "pushedAt": "2026-10-29T14:03:16Z",
+    "pushedAt": "2026-11-25T13:08:30Z",
     "url": "https://github.com/remcoros/sparrow-webtop-startos"
   },
   "github.com/remcoros/uptime-kuma-startos": {
@@ -5397,7 +5600,7 @@
       "title": "Wasabi Wallet",
       "upstreamRepo": "https://github.com/WalletWasabi/WalletWasabi"
     },
-    "pushedAt": "2026-11-21T07:27:58Z",
+    "pushedAt": "2026-11-27T18:19:17Z",
     "url": "https://github.com/remcoros/wasabi-webtop-startos"
   },
   "github.com/remcoros/wireguard-startos": {
@@ -5578,7 +5781,7 @@
       "title": "Canary",
       "upstreamRepo": "https://github.com/schjonhaug/canary"
     },
-    "pushedAt": "2026-11-17T13:36:11Z",
+    "pushedAt": "2026-11-27T10:26:04Z",
     "url": "https://github.com/schjonhaug/canary-startos"
   },
   "github.com/serverstick/hermes-bridge-startos": {
@@ -5610,6 +5813,21 @@
     },
     "pushedAt": "2026-08-12T10:15:37Z",
     "url": "https://github.com/serverstick/newt-startos"
+  },
+  "github.com/silent-suite/silentsuite-startos": {
+    "description": "StartOS package for SilentSuite, end-to-end encrypted calendar, contacts, tasks and notes",
+    "forge": "GitHub",
+    "fullName": "silent-suite/silentsuite-startos",
+    "kind": "v04",
+    "manifest": {
+      "id": "silentsuite",
+      "license": "AGPL-3.0-only",
+      "packageRepo": "https://github.com/silent-suite/silentsuite",
+      "title": "SilentSuite",
+      "upstreamRepo": "https://github.com/silent-suite/silentsuite"
+    },
+    "pushedAt": "2026-11-27T17:04:54Z",
+    "url": "https://github.com/silent-suite/silentsuite-startos"
   },
   "github.com/snapetech-org/bookshelfng-startos": {
     "description": "StartOS wrapper for BookshelfNG",
@@ -5668,7 +5886,7 @@
       "title": "AdGuard Home",
       "upstreamRepo": "https://github.com/AdguardTeam/AdGuardHome"
     },
-    "pushedAt": "2026-11-13T17:49:25Z",
+    "pushedAt": "2026-11-24T21:20:41Z",
     "url": "https://github.com/sovsender/adguard-home-startos"
   },
   "github.com/sovsender/lidarr-startos": {
@@ -5698,7 +5916,7 @@
       "title": "MakeMKV",
       "upstreamRepo": "https://github.com/jlesage/docker-makemkv"
     },
-    "pushedAt": "2026-11-23T14:33:51Z",
+    "pushedAt": "2026-11-24T14:52:44Z",
     "url": "https://github.com/sovsender/makemkv-startos"
   },
   "github.com/sovsender/pia-startos": {
@@ -5833,7 +6051,7 @@
       "title": "Blossom Server",
       "upstreamRepo": "https://github.com/hzrd149/blossom-server"
     },
-    "pushedAt": "2026-11-15T17:55:19Z",
+    "pushedAt": "2026-11-24T16:29:38Z",
     "url": "https://github.com/stupleb/blossom-server-startos"
   },
   "github.com/stupleb/cooktrace-startos": {
@@ -5863,7 +6081,7 @@
       "title": "Dawarich",
       "upstreamRepo": "https://github.com/Freika/dawarich"
     },
-    "pushedAt": "2026-11-22T17:25:50Z",
+    "pushedAt": "2026-11-24T18:14:26Z",
     "url": "https://github.com/stupleb/dawarich-startos"
   },
   "github.com/stupleb/drawio-startos": {
@@ -5878,7 +6096,7 @@
       "title": "draw.io",
       "upstreamRepo": "https://github.com/jgraph/drawio"
     },
-    "pushedAt": "2026-11-23T17:20:15Z",
+    "pushedAt": "2026-11-26T13:31:59Z",
     "url": "https://github.com/stupleb/drawio-startos"
   },
   "github.com/stupleb/heyform-startos": {
@@ -5893,7 +6111,7 @@
       "title": "HeyForm",
       "upstreamRepo": "https://github.com/heyform/heyform"
     },
-    "pushedAt": "2026-11-16T15:58:31Z",
+    "pushedAt": "2026-11-24T11:37:46Z",
     "url": "https://github.com/stupleb/heyform-startos"
   },
   "github.com/stupleb/imgcompress-startos": {
@@ -5938,7 +6156,7 @@
       "title": "Invidious",
       "upstreamRepo": "https://github.com/iv-org/invidious"
     },
-    "pushedAt": "2026-11-14T20:37:24Z",
+    "pushedAt": "2026-11-24T12:07:36Z",
     "url": "https://github.com/stupleb/invidious-startos"
   },
   "github.com/stupleb/jumble-startos": {
@@ -5953,7 +6171,7 @@
       "title": "Jumble",
       "upstreamRepo": "https://github.com/CodyTseng/jumble"
     },
-    "pushedAt": "2026-11-20T16:38:40Z",
+    "pushedAt": "2026-11-23T21:44:11Z",
     "url": "https://github.com/stupleb/jumble-startos"
   },
   "github.com/stupleb/lifttrace-startos": {
@@ -6013,7 +6231,7 @@
       "title": "Penpot",
       "upstreamRepo": "https://github.com/penpot/penpot"
     },
-    "pushedAt": "2026-11-23T17:23:49Z",
+    "pushedAt": "2026-11-26T14:46:46Z",
     "url": "https://github.com/stupleb/penpot-startos"
   },
   "github.com/stupleb/photon-startos": {
@@ -6088,7 +6306,7 @@
       "title": "strfry",
       "upstreamRepo": "https://github.com/hoytech/strfry"
     },
-    "pushedAt": "2026-11-20T18:57:58Z",
+    "pushedAt": "2026-11-27T14:17:02Z",
     "url": "https://github.com/stupleb/strfry-startos"
   },
   "github.com/stupleb/teapot-startos": {
@@ -6105,6 +6323,21 @@
     },
     "pushedAt": "2026-11-23T14:51:31Z",
     "url": "https://github.com/stupleb/teapot-startos"
+  },
+  "github.com/stupleb/trek-startos": {
+    "description": "TREK packaged for StartOS",
+    "forge": "GitHub",
+    "fullName": "stupleb/trek-startos",
+    "kind": "v04",
+    "manifest": {
+      "id": "trek",
+      "license": "AGPL-3.0",
+      "packageRepo": "https://github.com/stupleb/trek-startos",
+      "title": "TREK",
+      "upstreamRepo": "https://github.com/liketrek/TREK"
+    },
+    "pushedAt": "2026-11-26T14:37:01Z",
+    "url": "https://github.com/stupleb/trek-startos"
   },
   "github.com/stupleb/umami-startos": {
     "description": "Umami, privacy-focused web analytics, packaged for StartOS",
@@ -6133,7 +6366,7 @@
       "title": "YTPTube",
       "upstreamRepo": "https://github.com/arabcoders/ytptube"
     },
-    "pushedAt": "2026-11-23T15:43:48Z",
+    "pushedAt": "2026-11-26T13:37:06Z",
     "url": "https://github.com/stupleb/ytptube-startos"
   },
   "github.com/sudo-bakar/camofox-browser-startos": {
@@ -6163,7 +6396,7 @@
       "title": "Crawl4AI",
       "upstreamRepo": "https://github.com/unclecode/crawl4ai"
     },
-    "pushedAt": "2026-09-30T14:45:00Z",
+    "pushedAt": "2026-11-27T21:10:01Z",
     "url": "https://github.com/sudo-bakar/crawl4ai-startos"
   },
   "github.com/sudo-bakar/linkwarden-startos": {
@@ -6208,8 +6441,23 @@
       "title": "OpenSERP",
       "upstreamRepo": "https://github.com/karust/openserp"
     },
-    "pushedAt": "2026-09-10T22:42:58Z",
+    "pushedAt": "2026-11-27T06:30:17Z",
     "url": "https://github.com/sudo-bakar/openserp-startos"
+  },
+  "github.com/sudocarlos/jam-startos": {
+    "description": null,
+    "forge": "GitHub",
+    "fullName": "sudocarlos/jam-startos",
+    "kind": "v04",
+    "manifest": {
+      "id": "joinmarket-ng",
+      "license": "MIT",
+      "packageRepo": "https://github.com/sudocarlos/jam-startos",
+      "title": "JoinMarket NG",
+      "upstreamRepo": "https://github.com/joinmarket-ng/joinmarket-ng"
+    },
+    "pushedAt": "2026-11-28T15:19:38Z",
+    "url": "https://github.com/sudocarlos/jam-startos"
   },
   "github.com/supersuryaansh/test-startos": {
     "description": null,
@@ -6509,7 +6757,7 @@
       "title": "ArkPool Gateway",
       "upstreamRepo": "https://gitlab.com/arkpool/arkpool-gateway"
     },
-    "pushedAt": "2026-11-19T05:07:39.473Z",
+    "pushedAt": "2026-11-26T01:01:47.627Z",
     "url": "https://gitlab.com/arkpool/arkpool-gateway-startos"
   },
   "gitlab.com/astrolexis-group1/laguz-startos": {
