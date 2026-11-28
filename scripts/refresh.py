@@ -684,7 +684,7 @@ def main():
     write_site(data)
     write_csv(data)
     missing = [s["id"] for s in result["services"].values()
-               if not s.get("exclude") and "replaces" not in s]
+               if not s.get("exclude") and not s.get("replaces")]
     print(f"services: {len(result['services'])}; without a curated 'replaces': {len(missing)}",
           file=sys.stderr)
 
